@@ -1,100 +1,40 @@
-    4024: 07 14 00 94  	bl	0x9040 <_Znwm@plt>
-    41b0: b4 13 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    42c4: 6f 13 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    43a4: 37 13 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    4484: ff 12 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    45c8: ae 12 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    4678: 82 12 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    4764: 47 12 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    47b8: 3a 12 00 14  	b	0x90a0 <_ZdlPv@plt>
-    4860: 08 12 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    4870: 0c 12 00 14  	b	0x90a0 <_ZdlPv@plt>
-    488c: ed 11 00 94  	bl	0x9040 <_Znwm@plt>
-    48b8: fa 11 00 14  	b	0x90a0 <_ZdlPv@plt>
-    48c8: f6 11 00 14  	b	0x90a0 <_ZdlPv@plt>
-    4908: ce 11 00 94  	bl	0x9040 <_Znwm@plt>
-    49d4: 9b 11 00 94  	bl	0x9040 <_Znwm@plt>
-    4aa8: 76 11 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    4b58: 4a 11 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    4d0c: dd 10 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    4e10: 9c 10 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    4f20: 58 10 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    5008: 1e 10 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    5178: c2 0f 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    5254: 8b 0f 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    5324: 57 0f 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    5420: 18 0f 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    55d8: aa 0e 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    56cc: 6d 0e 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    57bc: 31 0e 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    5904: df 0d 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    5a50: 8c 0d 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    5c38: 12 0d 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    5e38: 92 0c 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    5f4c: 4d 0c 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    61ac: b5 0b 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    629c: 79 0b 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    6324: 67 0b 00 94  	bl	0x90c0 <_ZN8ChxUtils6MemcpyEPvPKvm@plt>
-    6480: 00 0b 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    6590: bc 0a 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    66bc: 71 0a 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    66d0: 84 0a 00 14  	b	0x90e0 <_ZNSt3__15mutexD1Ev@plt>
-    66f8: 6a 0a 00 14  	b	0x90a0 <_ZdlPv@plt>
-    68a8: f6 09 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    69b0: b4 09 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    6abc: 71 09 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    6b94: 3b 09 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    6c44: 0f 09 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    6d88: be 08 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    6e64: 87 08 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    6ee8: 66 08 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    7060: 08 08 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    7140: d0 07 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    721c: 99 07 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    72e4: 67 07 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    73d4: 2b 07 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    7478: 02 07 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    7558: ca 06 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    767c: 81 06 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    7718: 5a 06 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    7798: 7e 06 00 94  	bl	0x9190 <_ZNSt3__15mutex4lockEv@plt>
-    7854: 0b 06 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    7914: db 05 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    79d4: ab 05 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    7a88: 7e 05 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    7b68: 46 05 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    7c34: 13 05 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    7d0c: dd 04 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    7dc4: af 04 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    7efc: 61 04 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    8008: 1e 04 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    80e8: e6 03 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    81dc: a9 03 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    82a4: 77 03 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    8360: 48 03 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    8450: 0c 03 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    8544: cf 02 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    8614: 9b 02 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    873c: 99 02 00 94  	bl	0x91a0 <_ZNSt3__15mutex6unlockEv@plt>
-    8888: 42 02 00 94  	bl	0x9190 <_ZNSt3__15mutex4lockEv@plt>
-    8944: cf 01 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    8a00: a0 01 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    8b14: 5b 01 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    8c08: 1e 01 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    8d28: d6 00 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    8f3c: 51 00 00 94  	bl	0x9080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    8f4c: 95 00 00 94  	bl	0x91a0 <_ZNSt3__15mutex6unlockEv@plt>
-0000000000009040 <_Znwm@plt>:
-    9040: 10 00 00 b0  	adrp	x16, 0xa000 <_Znwm@plt+0x4>
-0000000000009080 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>:
-    9080: 10 00 00 b0  	adrp	x16, 0xa000 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt+0x4>
-00000000000090a0 <_ZdlPv@plt>:
-    90a0: 10 00 00 b0  	adrp	x16, 0xa000 <_ZdlPv@plt+0x4>
-00000000000090c0 <_ZN8ChxUtils6MemcpyEPvPKvm@plt>:
-    90c0: 10 00 00 b0  	adrp	x16, 0xa000 <_ZN8ChxUtils6MemcpyEPvPKvm@plt+0x4>
-00000000000090e0 <_ZNSt3__15mutexD1Ev@plt>:
-    90e0: 10 00 00 b0  	adrp	x16, 0xa000 <_ZNSt3__15mutexD1Ev@plt+0x4>
-0000000000009190 <_ZNSt3__15mutex4lockEv@plt>:
-    9190: 10 00 00 b0  	adrp	x16, 0xa000 <_ZNSt3__15mutex4lockEv@plt+0x4>
-00000000000091a0 <_ZNSt3__15mutex6unlockEv@plt>:
-    91a0: 10 00 00 b0  	adrp	x16, 0xa000 <_ZNSt3__15mutex6unlockEv@plt+0x4>
+	bl	0x7270 <_Znwm@plt>
+	bl	0x7270 <_Znwm@plt>
+	bl	0x72c0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x72e0 <_ZdlPv@plt>
+	bl	0x72c0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x72c0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x72c0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x72c0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x72c0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x72c0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x72c0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x72c0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x72c0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x72c0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x72c0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x72c0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x72c0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x72c0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x72c0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x72c0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x72c0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x72c0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x72c0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x7310 <_ZN8ChxUtils6MemcpyEPvPKvm@plt>
+	bl	0x72c0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x72c0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x72c0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	b	0x72e0 <_ZdlPv@plt>
+	b	0x72e0 <_ZdlPv@plt>
+	bl	0x7270 <_Znwm@plt>
+	bl	0x7270 <_Znwm@plt>
+	bl	0x72c0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+
+	adrp	x16, 0x8000 <_Znwm@plt+0x4>
+
+	adrp	x16, 0x8000 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt+0x4>
+
+	adrp	x16, 0x8000 <_ZdlPv@plt+0x4>
+
+	adrp	x16, 0x8000 <_ZN8ChxUtils6MemcpyEPvPKvm@plt+0x4>

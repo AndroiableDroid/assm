@@ -1,20 +1,4 @@
-0000000000001018 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z>:
-    1038: 09 00 00 b0  	adrp	x9, 0x2000 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z+0x24>
-    1068: 21 0d 00 54  	b.ne	0x120c <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z+0x1f4>
-    106c: 17 00 00 d0  	adrp	x23, 0x3000 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z+0x5c>
-    1078: a9 0c 00 b4  	cbz	x9, 0x120c <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z+0x1f4>
-    1080: 6a 0c 00 b4  	cbz	x10, 0x120c <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z+0x1f4>
-    10c8: a0 04 00 b4  	cbz	x0, 0x115c <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z+0x144>
-    10fc: e3 ff ff f0  	adrp	x3, 0x0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z+0xe0>
-    1140: 17 00 00 d0  	adrp	x23, 0x3000 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z+0x130>
-    1150: 3c 00 00 94  	bl	0x1240 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z+0x228>
-    1158: 02 00 00 14  	b	0x1160 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z+0x148>
-    117c: e3 ff ff f0  	adrp	x3, 0x0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z+0x160>
-    11bc: 21 00 00 94  	bl	0x1240 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z+0x228>
-    1218: 21 01 00 54  	b.ne	0x123c <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z+0x224>
-    12d0: a1 00 00 54  	b.ne	0x12e4 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z+0x2cc>
-00000000000012e8 <_ZN6ChiLog19SetOfflineLoggerOpsEP16ChiOfflineLogOps>:
-    12e8: 08 00 00 d0  	adrp	x8, 0x3000 <_ZN6ChiLog19SetOfflineLoggerOpsEP16ChiOfflineLogOps+0x8>
-0000000000001318 <_ZN6ChiLog7DPrintFEiPKcz>:
-    13a0: a1 00 00 54  	b.ne	0x13b4 <_ZN6ChiLog7DPrintFEiPKcz+0x9c>
-0000000000003278 <_ZN6ChiLog16g_asciiLogEnableE>:
+
+
+
+

@@ -1,10 +1,10 @@
-    1104: b7 01 00 94  	bl	0x17e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    11e8: 7e 01 00 94  	bl	0x17e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    1314: 33 01 00 94  	bl	0x17e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    142c: ed 00 00 94  	bl	0x17e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    14e0: c0 00 00 94  	bl	0x17e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    158c: 95 00 00 94  	bl	0x17e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    1670: 5c 00 00 94  	bl	0x17e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    1768: 1e 00 00 94  	bl	0x17e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-00000000000017e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>:
-    17e0: 10 00 00 b0  	adrp	x16, 0x2000 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt+0x4>
+	bl	0x21c0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x21c0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x21c0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x21c0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x21c0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x21c0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x21c0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x21c0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+
+	adrp	x16, 0x3000 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt+0x4>

@@ -1,35 +1,33 @@
-     4d8: 6c 73 31 36  	tbz	w12, #6, 0x3344 <_ZdlPv@plt+0x154>
-    20d4: 37 04 00 94  	bl	0x31b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    216c: 11 04 00 94  	bl	0x31b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    217c: 11 04 00 94  	bl	0x31c0 <_Znwm@plt>
-    22a4: c3 03 00 94  	bl	0x31b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    233c: 9d 03 00 94  	bl	0x31b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    2384: 93 03 00 94  	bl	0x31d0 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo@plt>
-    241c: 65 03 00 94  	bl	0x31b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    24b4: 3f 03 00 94  	bl	0x31b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    259c: 05 03 00 94  	bl	0x31b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    2634: df 02 00 94  	bl	0x31b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    275c: 95 02 00 94  	bl	0x31b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    2860: 54 02 00 94  	bl	0x31b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    28fc: 2d 02 00 94  	bl	0x31b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    2a00: ec 01 00 94  	bl	0x31b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    2ac4: bb 01 00 94  	bl	0x31b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    2b7c: 8d 01 00 94  	bl	0x31b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    2d90: 08 01 00 94  	bl	0x31b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    2ee4: b3 00 00 94  	bl	0x31b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    2fac: 81 00 00 14  	b	0x31b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    2fc4: 87 00 00 14  	b	0x31e0 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj@plt>
-    3090: 48 00 00 94  	bl	0x31b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    3128: 22 00 00 94  	bl	0x31b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    3150: 28 00 00 14  	b	0x31f0 <_ZdlPv@plt>
-00000000000031b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>:
-    31b0: 10 00 00 b0  	adrp	x16, 0x4000 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt+0x4>
-00000000000031c0 <_Znwm@plt>:
-    31c0: 10 00 00 b0  	adrp	x16, 0x4000 <_Znwm@plt+0x4>
-00000000000031d0 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo@plt>:
-    31d0: 10 00 00 b0  	adrp	x16, 0x4000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo@plt+0x4>
-00000000000031e0 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj@plt>:
-    31e0: 10 00 00 b0  	adrp	x16, 0x4000 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj@plt+0x4>
-00000000000031f0 <_ZdlPv@plt>:
-    31f0: 10 00 00 b0  	adrp	x16, 0x4000 <_ZdlPv@plt+0x4>
-     20c: 73 98 11 37  	tbnz	w19, #2, 0x3518 <_ZdlPv@plt+0x328>
+	bl	0x62f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x62f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x6300 <_Znwm@plt>
+	b	0x6310 <_ZdlPv@plt>
+	bl	0x62f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x62f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x6330 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo@plt>
+	bl	0x62f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x62f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x62f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x62f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x62f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x62f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x62f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x62f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x62f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x62f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x62f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x62f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	b	0x62f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	b	0x6360 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj@plt>
+	bl	0x62f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x62f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+
+	adrp	x16, 0x7000 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt+0x4>
+
+	adrp	x16, 0x7000 <_Znwm@plt+0x4>
+
+	adrp	x16, 0x7000 <_ZdlPv@plt+0x4>
+
+	adrp	x16, 0x7000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo@plt+0x4>
+
+	adrp	x16, 0x7000 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj@plt+0x4>
