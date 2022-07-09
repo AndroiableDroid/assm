@@ -1,0 +1,35 @@
+0000000000005ff6 <_ZTSSt12length_error>:
+0000000000006007 <_ZTSSt11logic_error>:
+0000000000006017 <_ZTSSt9exception>:
+   10e14: 2f 02 00 94  	bl	0x116d0 <_ZNSt3__15mutex4lockEv@plt>
+   10e70: 1c 02 00 94  	bl	0x116e0 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>
+   10ec0: 08 02 00 94  	bl	0x116e0 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>
+   10ee0: 04 02 00 94  	bl	0x116f0 <_ZNSt3__15mutex6unlockEv@plt>
+   10f5c: e5 01 00 94  	bl	0x116f0 <_ZNSt3__15mutex6unlockEv@plt>
+   110f0: 8c 01 00 94  	bl	0x11720 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+   1119c: 65 01 00 94  	bl	0x11730 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt>
+   112e8: 1a 01 00 94  	bl	0x11750 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt>
+   11394: 03 01 00 94  	bl	0x117a0 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt>
+0000000000011518 <_Znwm>:
+000000000001151c <_Znam>:
+0000000000011520 <_ZdlPv>:
+0000000000011524 <_ZdaPv>:
+0000000000011528 <_ZN8CdkUtils24GetNanosecondsSinceEpochEv>:
+0000000000011530 <_ZN8CdkUtils11GetThreadIDEv>:
+00000000000116d0 <_ZNSt3__15mutex4lockEv@plt>:
+   116d0: 10 00 00 b0  	adrp	x16, 0x12000 <_ZNSt3__15mutex4lockEv@plt+0x4>
+00000000000116e0 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>:
+   116e0: 10 00 00 b0  	adrp	x16, 0x12000 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt+0x4>
+00000000000116f0 <_ZNSt3__15mutex6unlockEv@plt>:
+   116f0: 10 00 00 b0  	adrp	x16, 0x12000 <_ZNSt3__15mutex6unlockEv@plt+0x4>
+0000000000011720 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>:
+   11720: 10 00 00 b0  	adrp	x16, 0x12000 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt+0x4>
+0000000000011730 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt>:
+   11730: 10 00 00 b0  	adrp	x16, 0x12000 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt+0x4>
+0000000000011750 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt>:
+   11750: 10 00 00 b0  	adrp	x16, 0x12000 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt+0x4>
+00000000000117a0 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt>:
+   117a0: 10 00 00 b0  	adrp	x16, 0x12000 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt+0x4>
+0000000000012008 <_ZTISt12length_error>:
+0000000000012020 <_ZTISt11logic_error>:
+0000000000012038 <_ZTISt9exception>:

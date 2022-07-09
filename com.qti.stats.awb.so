@@ -1,0 +1,84 @@
+000000000000d765 <_ZTSSt12length_error>:
+000000000000d776 <_ZTSSt11logic_error>:
+000000000000d786 <_ZTSSt9exception>:
+   1d974: 8f 72 01 94  	bl	0x7a3b0 <_ZN11ROIPriority13SetTuningDataEPN16statsroipriority29chromatixStatsROIPriorityTypeE@plt>
+   203f8: f2 67 01 14  	b	0x7a3c0 <_ZN11ROIPriorityD1Ev@plt>
+   2042c: e5 67 01 94  	bl	0x7a3c0 <_ZN11ROIPriorityD1Ev@plt>
+   39428: f6 03 01 94  	bl	0x7a400 <_ZN7ROIDataC1Ev@plt>
+   39630: 78 03 01 94  	bl	0x7a410 <_ZNK8ROIsData4SizeEv@plt>
+   3974c: 35 03 01 94  	bl	0x7a420 <_ZNK11ROIPriority16GetDominantIndexEv@plt>
+   39774: 2f 03 01 94  	bl	0x7a430 <_ZNK8ROIsData15GetNormalizeROIEj@plt>
+   39828: 06 03 01 94  	bl	0x7a440 <_ZNK8ROIsData21GetNormalizeROIInCropEj@plt>
+   5dd30: dc 71 00 94  	bl	0x7a4a0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   60728: 5e 67 00 94  	bl	0x7a4a0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   6088c: 05 67 00 94  	bl	0x7a4a0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   61e28: aa 61 00 94  	bl	0x7a4d0 <_ZN8ROIsData18SetImageResolutionEff@plt>
+   625fc: b9 5f 00 94  	bl	0x7a4e0 <_ZN11ROIPriority13UpdateROIDataEPK26UnstabilizedROIInformation@plt>
+   62648: aa 5f 00 94  	bl	0x7a4f0 <_ZN8ROIsData13SetCropWindowEffff@plt>
+   73548: d6 1b 00 94  	bl	0x7a4a0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   73f20: 60 19 00 94  	bl	0x7a4a0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   742b0: 7c 18 00 94  	bl	0x7a4a0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   74554: d3 17 00 94  	bl	0x7a4a0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   7487c: 09 17 00 94  	bl	0x7a4a0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   74b10: 64 16 00 94  	bl	0x7a4a0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   74dcc: b5 15 00 94  	bl	0x7a4a0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   78678: aa 07 00 94  	bl	0x7a520 <_ZN11ROIPriorityC1Ev@plt>
+   786b0: a0 07 00 94  	bl	0x7a530 <_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>
+   7979c: 6d 03 00 94  	bl	0x7a550 <_ZNSt3__15mutex4lockEv@plt>
+   797f8: 5a 03 00 94  	bl	0x7a560 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>
+   79848: 46 03 00 94  	bl	0x7a560 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>
+   79868: 42 03 00 94  	bl	0x7a570 <_ZNSt3__15mutex6unlockEv@plt>
+   798e4: 23 03 00 94  	bl	0x7a570 <_ZNSt3__15mutex6unlockEv@plt>
+   79a78: c6 02 00 94  	bl	0x7a590 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+   79b28: 9e 02 00 94  	bl	0x7a5a0 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt>
+   79c78: 56 02 00 94  	bl	0x7a5d0 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt>
+   79d24: 3f 02 00 94  	bl	0x7a620 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt>
+000000000007a1f8 <_Znwm>:
+000000000007a1fc <_Znam>:
+000000000007a200 <_ZdlPv>:
+000000000007a204 <_ZdaPv>:
+000000000007a208 <_ZN8CdkUtils24GetNanosecondsSinceEpochEv>:
+000000000007a210 <_ZN8CdkUtils11GetThreadIDEv>:
+000000000007a3b0 <_ZN11ROIPriority13SetTuningDataEPN16statsroipriority29chromatixStatsROIPriorityTypeE@plt>:
+   7a3b0: 10 00 00 d0  	adrp	x16, 0x7c000 <_ZN11ROIPriority13SetTuningDataEPN16statsroipriority29chromatixStatsROIPriorityTypeE@plt+0x8>
+000000000007a3c0 <_ZN11ROIPriorityD1Ev@plt>:
+   7a3c0: 10 00 00 d0  	adrp	x16, 0x7c000 <_ZN11ROIPriorityD1Ev@plt+0x8>
+000000000007a400 <_ZN7ROIDataC1Ev@plt>:
+   7a400: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZN7ROIDataC1Ev@plt+0xc>
+000000000007a410 <_ZNK8ROIsData4SizeEv@plt>:
+   7a410: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZNK8ROIsData4SizeEv@plt+0xc>
+000000000007a420 <_ZNK11ROIPriority16GetDominantIndexEv@plt>:
+   7a420: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZNK11ROIPriority16GetDominantIndexEv@plt+0xc>
+000000000007a430 <_ZNK8ROIsData15GetNormalizeROIEj@plt>:
+   7a430: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZNK8ROIsData15GetNormalizeROIEj@plt+0xc>
+000000000007a440 <_ZNK8ROIsData21GetNormalizeROIInCropEj@plt>:
+   7a440: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZNK8ROIsData21GetNormalizeROIInCropEj@plt+0xc>
+000000000007a4a0 <_ZNSt3__16chrono12system_clock3nowEv@plt>:
+   7a4a0: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZNSt3__16chrono12system_clock3nowEv@plt+0xc>
+000000000007a4d0 <_ZN8ROIsData18SetImageResolutionEff@plt>:
+   7a4d0: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZN8ROIsData18SetImageResolutionEff@plt+0xc>
+000000000007a4e0 <_ZN11ROIPriority13UpdateROIDataEPK26UnstabilizedROIInformation@plt>:
+   7a4e0: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZN11ROIPriority13UpdateROIDataEPK26UnstabilizedROIInformation@plt+0xc>
+000000000007a4f0 <_ZN8ROIsData13SetCropWindowEffff@plt>:
+   7a4f0: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZN8ROIsData13SetCropWindowEffff@plt+0xc>
+000000000007a520 <_ZN11ROIPriorityC1Ev@plt>:
+   7a520: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZN11ROIPriorityC1Ev@plt+0xc>
+000000000007a530 <_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>:
+   7a530: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt+0xc>
+000000000007a550 <_ZNSt3__15mutex4lockEv@plt>:
+   7a550: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZNSt3__15mutex4lockEv@plt+0xc>
+000000000007a560 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>:
+   7a560: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt+0xc>
+000000000007a570 <_ZNSt3__15mutex6unlockEv@plt>:
+   7a570: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZNSt3__15mutex6unlockEv@plt+0xc>
+000000000007a590 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>:
+   7a590: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt+0xc>
+000000000007a5a0 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt>:
+   7a5a0: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt+0xc>
+000000000007a5d0 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt>:
+   7a5d0: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt+0xc>
+000000000007a620 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt>:
+   7a620: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt+0xc>
+000000000007b290 <_ZTISt12length_error>:
+000000000007b2a8 <_ZTISt11logic_error>:
+000000000007b2c0 <_ZTISt9exception>:

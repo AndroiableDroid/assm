@@ -1,0 +1,37 @@
+    39fc: 55 0a 00 94  	bl	0x6350 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    3aac: 29 0a 00 94  	bl	0x6350 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    3ac8: 26 0a 00 14  	b	0x6360 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo@plt>
+    3b94: ef 09 00 94  	bl	0x6350 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    3c4c: c1 09 00 94  	bl	0x6350 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    3c5c: c5 09 00 94  	bl	0x6370 <_Znwm@plt>
+    3ca0: b8 09 00 14  	b	0x6380 <_ZdlPv@plt>
+    3dd4: 5f 09 00 94  	bl	0x6350 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    3e84: 33 09 00 94  	bl	0x6350 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    3f60: 10 09 00 94  	bl	0x63a0 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo@plt>
+    4020: cc 08 00 94  	bl	0x6350 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    40d0: a0 08 00 94  	bl	0x6350 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    4258: 3e 08 00 94  	bl	0x6350 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    4308: 12 08 00 94  	bl	0x6350 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    4418: e6 07 00 94  	bl	0x63b0 <_ZN12ChiNodeUtils11GetMetaDataEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt>
+    4638: 46 07 00 94  	bl	0x6350 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    4b0c: 11 06 00 94  	bl	0x6350 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    4bbc: e5 05 00 94  	bl	0x6350 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    4fa4: eb 04 00 94  	bl	0x6350 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    5080: b4 04 00 14  	b	0x6350 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    50a0: dc 04 00 14  	b	0x6410 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj@plt>
+00000000000062a0 <_ZN12ChiNodeUtils14AlignGeneric32Ejj>:
+0000000000006350 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>:
+    6350: 10 00 00 b0  	adrp	x16, 0x7000 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt+0x4>
+0000000000006360 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo@plt>:
+    6360: 10 00 00 b0  	adrp	x16, 0x7000 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo@plt+0x4>
+0000000000006370 <_Znwm@plt>:
+    6370: 10 00 00 b0  	adrp	x16, 0x7000 <_Znwm@plt+0x4>
+0000000000006380 <_ZdlPv@plt>:
+    6380: 10 00 00 b0  	adrp	x16, 0x7000 <_ZdlPv@plt+0x4>
+00000000000063a0 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo@plt>:
+    63a0: 10 00 00 b0  	adrp	x16, 0x7000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo@plt+0x4>
+00000000000063b0 <_ZN12ChiNodeUtils11GetMetaDataEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt>:
+    63b0: 10 00 00 b0  	adrp	x16, 0x7000 <_ZN12ChiNodeUtils11GetMetaDataEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt+0x4>
+0000000000006410 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj@plt>:
+    6410: 10 00 00 b0  	adrp	x16, 0x7000 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj@plt+0x4>
+     5dc: fe 28 c3 36  	tbz	w30, #24, 0x6af8 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj@plt+0x6e8>

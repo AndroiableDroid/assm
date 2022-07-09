@@ -1,0 +1,50 @@
+00000000000046c8 <_ZTSSt12length_error>:
+00000000000046d9 <_ZTSSt11logic_error>:
+00000000000046e9 <_ZTSSt9exception>:
+    8cc0: 58 4d 00 94  	bl	0x1c220 <_ZSt9terminatev@plt>
+    d0cc: 79 3c 00 94  	bl	0x1c2b0 <_ZNSt3__15mutex4lockEv@plt>
+    d128: 66 3c 00 94  	bl	0x1c2c0 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>
+    d178: 52 3c 00 94  	bl	0x1c2c0 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>
+    d198: 4e 3c 00 94  	bl	0x1c2d0 <_ZNSt3__15mutex6unlockEv@plt>
+    d214: 2f 3c 00 94  	bl	0x1c2d0 <_ZNSt3__15mutex6unlockEv@plt>
+    d3a8: d6 3b 00 94  	bl	0x1c300 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+    d458: ae 3b 00 94  	bl	0x1c310 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt>
+    d5a8: 66 3b 00 94  	bl	0x1c340 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt>
+    d65c: 4d 3b 00 94  	bl	0x1c390 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt>
+000000000001bf50 <_ZN4CamX13SWIQInterface27SWIQSettingModuleInitializeEPNS_18SWIQLibInitialDataE>:
+000000000001bf54 <_ZN4CamX13SWIQInterface29SWIQSettingModuleUninitializeEPNS_18SWIQLibInitialDataE>:
+000000000001bf58 <_ZN4CamX13SWIQInterface20SWIQSetupTriggerDataEPNS_14SWISPInputDataE>:
+000000000001bf60 <_ZN4CamX13SWIQInterface17SWIQGetADRCParamsEPNS_14SWISPInputDataEPiPf>:
+000000000001bf68 <_ZN4CamX14SWAIDenoiser1018CreateSWAIDenoiserEPNS_23CHINodeModuleCreateDataE>:
+000000000001bf6c <_ZN4CamX12SWDemuxBLS1414CreateDemuxBLSEPNS_23CHINodeModuleCreateDataE>:
+000000000001bf70 <_ZN4CamX10SWFusion1114CreateSWFusionEPNS_23CHINodeModuleCreateDataE>:
+000000000001bf74 <_ZN4CamX8SWMCTF1012CreateSWMCTFEPNS_23CHINodeModuleCreateDataE>:
+000000000001bf78 <_ZN4CamX8SWMCTF2012CreateSWMCTFEPNS_23CHINodeModuleCreateDataE>:
+000000000001bf7c <_ZN4CamX8SWMFNR2012CreateSWMFNREPNS_23CHINodeModuleCreateDataE>:
+000000000001bf80 <_ZN4CamX8SWMFNR3012CreateSWMFNREPNS_23CHINodeModuleCreateDataE>:
+000000000001bf84 <_ZN4CamX7SWLSC3511CreateSWLSCEPNS_23CHINodeModuleCreateDataE>:
+000000000001bf88 <_Znwm>:
+000000000001bf8c <_Znam>:
+000000000001bf90 <_ZdlPv>:
+000000000001bf94 <_ZdaPv>:
+000000000001bf98 <_ZN8CdkUtils24GetNanosecondsSinceEpochEv>:
+000000000001bfa0 <_ZN8CdkUtils11GetThreadIDEv>:
+000000000001c220 <_ZSt9terminatev@plt>:
+   1c220: 10 00 00 b0  	adrp	x16, 0x1d000 <_ZSt9terminatev@plt+0x4>
+000000000001c2b0 <_ZNSt3__15mutex4lockEv@plt>:
+   1c2b0: 10 00 00 b0  	adrp	x16, 0x1d000 <_ZNSt3__15mutex4lockEv@plt+0x4>
+000000000001c2c0 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>:
+   1c2c0: 10 00 00 b0  	adrp	x16, 0x1d000 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt+0x4>
+000000000001c2d0 <_ZNSt3__15mutex6unlockEv@plt>:
+   1c2d0: 10 00 00 b0  	adrp	x16, 0x1d000 <_ZNSt3__15mutex6unlockEv@plt+0x4>
+000000000001c300 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>:
+   1c300: 10 00 00 b0  	adrp	x16, 0x1d000 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt+0x4>
+000000000001c310 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt>:
+   1c310: 10 00 00 b0  	adrp	x16, 0x1d000 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt+0x4>
+000000000001c340 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt>:
+   1c340: 10 00 00 b0  	adrp	x16, 0x1d000 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt+0x4>
+000000000001c390 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt>:
+   1c390: 10 00 00 b0  	adrp	x16, 0x1d000 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt+0x4>
+000000000001d008 <_ZTISt12length_error>:
+000000000001d020 <_ZTISt11logic_error>:
+000000000001d038 <_ZTISt9exception>:

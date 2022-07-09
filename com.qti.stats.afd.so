@@ -1,0 +1,45 @@
+0000000000007480 <_ZTSSt12length_error>:
+0000000000007491 <_ZTSSt11logic_error>:
+00000000000074a1 <_ZTSSt9exception>:
+    d2a0: ac 5e 00 94  	bl	0x24d50 <_ZSt9terminatev@plt>
+   11050: 54 4f 00 94  	bl	0x24da0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   1ba60: d0 24 00 94  	bl	0x24da0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   1c8cc: 35 21 00 94  	bl	0x24da0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   1ef88: 86 17 00 94  	bl	0x24da0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   202e0: b0 12 00 94  	bl	0x24da0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   24264: 1b 03 00 94  	bl	0x24ed0 <_ZNSt3__15mutex4lockEv@plt>
+   242c0: 08 03 00 94  	bl	0x24ee0 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>
+   24310: f4 02 00 94  	bl	0x24ee0 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>
+   24330: f0 02 00 94  	bl	0x24ef0 <_ZNSt3__15mutex6unlockEv@plt>
+   243ac: d1 02 00 94  	bl	0x24ef0 <_ZNSt3__15mutex6unlockEv@plt>
+   24540: 70 02 00 94  	bl	0x24f00 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+   245f0: 48 02 00 94  	bl	0x24f10 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt>
+   24740: fc 01 00 94  	bl	0x24f30 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt>
+   247ec: e5 01 00 94  	bl	0x24f80 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt>
+0000000000024be8 <_Znwm>:
+0000000000024bec <_Znam>:
+0000000000024bf0 <_ZdlPv>:
+0000000000024bf4 <_ZdaPv>:
+0000000000024bf8 <_ZN8CdkUtils24GetNanosecondsSinceEpochEv>:
+0000000000024c00 <_ZN8CdkUtils11GetThreadIDEv>:
+0000000000024d50 <_ZSt9terminatev@plt>:
+   24d50: 10 00 00 b0  	adrp	x16, 0x25000 <_ZSt9terminatev@plt+0x4>
+0000000000024da0 <_ZNSt3__16chrono12system_clock3nowEv@plt>:
+   24da0: 10 00 00 b0  	adrp	x16, 0x25000 <_ZNSt3__16chrono12system_clock3nowEv@plt+0x4>
+0000000000024ed0 <_ZNSt3__15mutex4lockEv@plt>:
+   24ed0: 10 00 00 b0  	adrp	x16, 0x25000 <_ZNSt3__15mutex4lockEv@plt+0x4>
+0000000000024ee0 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>:
+   24ee0: 10 00 00 b0  	adrp	x16, 0x25000 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt+0x4>
+0000000000024ef0 <_ZNSt3__15mutex6unlockEv@plt>:
+   24ef0: 10 00 00 b0  	adrp	x16, 0x25000 <_ZNSt3__15mutex6unlockEv@plt+0x4>
+0000000000024f00 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>:
+   24f00: 10 00 00 b0  	adrp	x16, 0x25000 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt+0x4>
+0000000000024f10 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt>:
+   24f10: 10 00 00 b0  	adrp	x16, 0x25000 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt+0x4>
+0000000000024f30 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt>:
+   24f30: 10 00 00 b0  	adrp	x16, 0x25000 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt+0x4>
+0000000000024f80 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt>:
+   24f80: 10 00 00 b0  	adrp	x16, 0x25000 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt+0x4>
+0000000000025008 <_ZTISt12length_error>:
+0000000000025020 <_ZTISt11logic_error>:
+0000000000025038 <_ZTISt9exception>:

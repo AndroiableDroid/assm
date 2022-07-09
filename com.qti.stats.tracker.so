@@ -1,0 +1,48 @@
+0000000000003286 <_ZTSSt12length_error>:
+0000000000003297 <_ZTSSt11logic_error>:
+00000000000032a7 <_ZTSSt9exception>:
+    569c: 49 0a 00 94  	bl	0x7fc0 <_ZN4SCVE13ObjectTracker14deleteInstanceEPS0_@plt>
+    56b8: 46 0a 00 94  	bl	0x7fd0 <_ZN4SCVE7Context14deleteInstanceEPS0_@plt>
+    61fc: 79 07 00 94  	bl	0x7fe0 <_ZN4SCVE7Context11newInstanceENS_13OperationModeE@plt>
+    6534: af 06 00 94  	bl	0x7ff0 <_ZN4SCVE13ObjectTracker11newInstanceEPNS_7ContextENS_15_ImageDimensionENS_11ColorFormatEPFviPNS_19ObjectTrackerResultEjPvS7_EPFvijS7_S7_ENS_23ObjectTracker_PrecisionES7_@plt>
+    65b8: 86 06 00 94  	bl	0x7fd0 <_ZN4SCVE7Context14deleteInstanceEPS0_@plt>
+    752c: d5 02 00 94  	bl	0x8080 <_ZNSt3__15mutex4lockEv@plt>
+    7588: c2 02 00 94  	bl	0x8090 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>
+    75d8: ae 02 00 94  	bl	0x8090 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>
+    75f8: aa 02 00 94  	bl	0x80a0 <_ZNSt3__15mutex6unlockEv@plt>
+    7674: 8b 02 00 94  	bl	0x80a0 <_ZNSt3__15mutex6unlockEv@plt>
+    7808: 32 02 00 94  	bl	0x80d0 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+    78b8: 0a 02 00 94  	bl	0x80e0 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt>
+    79cc: d1 01 00 94  	bl	0x8110 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt>
+    7a7c: b9 01 00 94  	bl	0x8160 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt>
+0000000000007e78 <_Znwm>:
+0000000000007e7c <_Znam>:
+0000000000007e80 <_ZdlPv>:
+0000000000007e84 <_ZdaPv>:
+0000000000007e88 <_ZN8CdkUtils24GetNanosecondsSinceEpochEv>:
+0000000000007e90 <_ZN8CdkUtils11GetThreadIDEv>:
+0000000000007fc0 <_ZN4SCVE13ObjectTracker14deleteInstanceEPS0_@plt>:
+    7fc0: 10 00 00 d0  	adrp	x16, 0x9000 <_ZN4SCVE13ObjectTracker14deleteInstanceEPS0_@plt+0x8>
+0000000000007fd0 <_ZN4SCVE7Context14deleteInstanceEPS0_@plt>:
+    7fd0: 10 00 00 d0  	adrp	x16, 0x9000 <_ZN4SCVE7Context14deleteInstanceEPS0_@plt+0x8>
+0000000000007fe0 <_ZN4SCVE7Context11newInstanceENS_13OperationModeE@plt>:
+    7fe0: 10 00 00 d0  	adrp	x16, 0x9000 <_ZN4SCVE7Context11newInstanceENS_13OperationModeE@plt+0x8>
+0000000000007ff0 <_ZN4SCVE13ObjectTracker11newInstanceEPNS_7ContextENS_15_ImageDimensionENS_11ColorFormatEPFviPNS_19ObjectTrackerResultEjPvS7_EPFvijS7_S7_ENS_23ObjectTracker_PrecisionES7_@plt>:
+    7ff0: 10 00 00 d0  	adrp	x16, 0x9000 <_ZN4SCVE13ObjectTracker11newInstanceEPNS_7ContextENS_15_ImageDimensionENS_11ColorFormatEPFviPNS_19ObjectTrackerResultEjPvS7_EPFvijS7_S7_ENS_23ObjectTracker_PrecisionES7_@plt+0x8>
+0000000000008080 <_ZNSt3__15mutex4lockEv@plt>:
+    8080: 10 00 00 b0  	adrp	x16, 0x9000 <_ZNSt3__15mutex4lockEv@plt+0x4>
+0000000000008090 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>:
+    8090: 10 00 00 b0  	adrp	x16, 0x9000 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt+0x4>
+00000000000080a0 <_ZNSt3__15mutex6unlockEv@plt>:
+    80a0: 10 00 00 b0  	adrp	x16, 0x9000 <_ZNSt3__15mutex6unlockEv@plt+0x4>
+00000000000080d0 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>:
+    80d0: 10 00 00 b0  	adrp	x16, 0x9000 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt+0x4>
+00000000000080e0 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt>:
+    80e0: 10 00 00 b0  	adrp	x16, 0x9000 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt+0x4>
+0000000000008110 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt>:
+    8110: 10 00 00 b0  	adrp	x16, 0x9000 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt+0x4>
+0000000000008160 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt>:
+    8160: 10 00 00 b0  	adrp	x16, 0x9000 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt+0x4>
+0000000000009008 <_ZTISt12length_error>:
+0000000000009020 <_ZTISt11logic_error>:
+0000000000009038 <_ZTISt9exception>:

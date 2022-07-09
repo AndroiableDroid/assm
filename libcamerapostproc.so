@@ -1,0 +1,988 @@
+    8940: e0 37 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    8980: d0 37 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    89ac: c5 37 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    89d8: ba 37 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    8a04: af 37 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    8a30: a4 37 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    8a5c: 99 37 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    8a88: 8e 37 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    8ab4: 83 37 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    8ae0: 78 37 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    8b0c: 6d 37 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    8b38: 62 37 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    8b64: 57 37 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    8b90: 4c 37 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    8bbc: 41 37 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    8be8: 36 37 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    8c14: 2b 37 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    8c40: 20 37 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    8c6c: 15 37 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    8c98: 0a 37 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    8cc4: ff 36 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    8ce4: ff 36 00 94  	bl	0x168e0 <_Znwm@plt>
+    8d40: e8 36 00 94  	bl	0x168e0 <_Znwm@plt>
+    8d84: d7 36 00 94  	bl	0x168e0 <_Znwm@plt>
+    8dd8: c2 36 00 94  	bl	0x168e0 <_Znwm@plt>
+    8e1c: b1 36 00 94  	bl	0x168e0 <_Znwm@plt>
+    8e60: a0 36 00 94  	bl	0x168e0 <_Znwm@plt>
+    8eb4: 8b 36 00 94  	bl	0x168e0 <_Znwm@plt>
+    8ef8: 7a 36 00 94  	bl	0x168e0 <_Znwm@plt>
+    8f3c: 69 36 00 94  	bl	0x168e0 <_Znwm@plt>
+    8f80: 58 36 00 94  	bl	0x168e0 <_Znwm@plt>
+    8fe0: 40 36 00 94  	bl	0x168e0 <_Znwm@plt>
+    902c: 2d 36 00 94  	bl	0x168e0 <_Znwm@plt>
+    9078: 1a 36 00 94  	bl	0x168e0 <_Znwm@plt>
+    90c8: 06 36 00 94  	bl	0x168e0 <_Znwm@plt>
+    9118: f2 35 00 94  	bl	0x168e0 <_Znwm@plt>
+    9168: de 35 00 94  	bl	0x168e0 <_Znwm@plt>
+    91b8: ca 35 00 94  	bl	0x168e0 <_Znwm@plt>
+    9248: aa 35 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    9274: 9f 35 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    92a0: 94 35 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    92cc: 89 35 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    92f8: 7e 35 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    9324: 73 35 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    9350: 68 35 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    937c: 5d 35 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    93a8: 52 35 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    93d4: 47 35 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    9400: 3c 35 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    942c: 31 35 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    9458: 26 35 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    9484: 1b 35 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    94b0: 10 35 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    94dc: 05 35 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    9508: fa 34 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    9534: ef 34 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    9560: e4 34 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    958c: d9 34 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    95b8: ce 34 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    95e4: c3 34 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    9610: b8 34 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    963c: ad 34 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    9668: a2 34 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    9694: 97 34 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    96bc: 91 34 00 94  	bl	0x16900 <_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_@plt>
+    96e8: 86 34 00 94  	bl	0x16900 <_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_@plt>
+    9714: 7b 34 00 94  	bl	0x16900 <_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_@plt>
+    9740: 70 34 00 94  	bl	0x16900 <_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_@plt>
+    9760: 60 34 00 94  	bl	0x168e0 <_Znwm@plt>
+    9788: 56 34 00 94  	bl	0x168e0 <_Znwm@plt>
+    97c8: 46 34 00 94  	bl	0x168e0 <_Znwm@plt>
+    97e8: 3e 34 00 94  	bl	0x168e0 <_Znwm@plt>
+    9828: 2e 34 00 94  	bl	0x168e0 <_Znwm@plt>
+    9840: 28 34 00 94  	bl	0x168e0 <_Znwm@plt>
+    986c: 1d 34 00 94  	bl	0x168e0 <_Znwm@plt>
+    988c: 15 34 00 94  	bl	0x168e0 <_Znwm@plt>
+    98b8: 0a 34 00 94  	bl	0x168e0 <_Znwm@plt>
+    98d8: 02 34 00 94  	bl	0x168e0 <_Znwm@plt>
+    9904: f7 33 00 94  	bl	0x168e0 <_Znwm@plt>
+    9924: ef 33 00 94  	bl	0x168e0 <_Znwm@plt>
+    9954: e3 33 00 94  	bl	0x168e0 <_Znwm@plt>
+    9978: da 33 00 94  	bl	0x168e0 <_Znwm@plt>
+    99a8: ce 33 00 94  	bl	0x168e0 <_Znwm@plt>
+    99cc: c5 33 00 94  	bl	0x168e0 <_Znwm@plt>
+    9a14: b3 33 00 94  	bl	0x168e0 <_Znwm@plt>
+    9a44: a7 33 00 94  	bl	0x168e0 <_Znwm@plt>
+    9a78: 9a 33 00 94  	bl	0x168e0 <_Znwm@plt>
+    9a9c: 91 33 00 94  	bl	0x168e0 <_Znwm@plt>
+    9ad8: 82 33 00 94  	bl	0x168e0 <_Znwm@plt>
+    9b08: 76 33 00 94  	bl	0x168e0 <_Znwm@plt>
+    9b48: 66 33 00 94  	bl	0x168e0 <_Znwm@plt>
+    9b6c: 5d 33 00 94  	bl	0x168e0 <_Znwm@plt>
+    9b98: 52 33 00 94  	bl	0x168e0 <_Znwm@plt>
+    9bc8: 46 33 00 94  	bl	0x168e0 <_Znwm@plt>
+    9c18: 32 33 00 94  	bl	0x168e0 <_Znwm@plt>
+    9c48: 26 33 00 94  	bl	0x168e0 <_Znwm@plt>
+    9c7c: 19 33 00 94  	bl	0x168e0 <_Znwm@plt>
+    9ca0: 10 33 00 94  	bl	0x168e0 <_Znwm@plt>
+    9cd0: 04 33 00 94  	bl	0x168e0 <_Znwm@plt>
+    9d00: f8 32 00 94  	bl	0x168e0 <_Znwm@plt>
+    9d30: ec 32 00 94  	bl	0x168e0 <_Znwm@plt>
+    9d64: df 32 00 94  	bl	0x168e0 <_Znwm@plt>
+    9da0: d0 32 00 94  	bl	0x168e0 <_Znwm@plt>
+    9dc4: c7 32 00 94  	bl	0x168e0 <_Znwm@plt>
+    9df4: bb 32 00 94  	bl	0x168e0 <_Znwm@plt>
+    9e18: b2 32 00 94  	bl	0x168e0 <_Znwm@plt>
+    9e44: a7 32 00 94  	bl	0x168e0 <_Znwm@plt>
+    9e68: 9e 32 00 94  	bl	0x168e0 <_Znwm@plt>
+    9e9c: 91 32 00 94  	bl	0x168e0 <_Znwm@plt>
+    9ec0: 88 32 00 94  	bl	0x168e0 <_Znwm@plt>
+    9eec: 7d 32 00 94  	bl	0x168e0 <_Znwm@plt>
+    9f1c: 71 32 00 94  	bl	0x168e0 <_Znwm@plt>
+    9f50: 64 32 00 94  	bl	0x168e0 <_Znwm@plt>
+    9f74: 5b 32 00 94  	bl	0x168e0 <_Znwm@plt>
+    9fa0: 50 32 00 94  	bl	0x168e0 <_Znwm@plt>
+    9fd0: 44 32 00 94  	bl	0x168e0 <_Znwm@plt>
+    a018: 32 32 00 94  	bl	0x168e0 <_Znwm@plt>
+    a048: 26 32 00 94  	bl	0x168e0 <_Znwm@plt>
+    a084: 17 32 00 94  	bl	0x168e0 <_Znwm@plt>
+    a0b4: 0b 32 00 94  	bl	0x168e0 <_Znwm@plt>
+    a0ec: fd 31 00 94  	bl	0x168e0 <_Znwm@plt>
+    a11c: f1 31 00 94  	bl	0x168e0 <_Znwm@plt>
+    a154: e3 31 00 94  	bl	0x168e0 <_Znwm@plt>
+    a178: da 31 00 94  	bl	0x168e0 <_Znwm@plt>
+    a1ac: cd 31 00 94  	bl	0x168e0 <_Znwm@plt>
+    a1e0: c0 31 00 94  	bl	0x168e0 <_Znwm@plt>
+    a214: b3 31 00 94  	bl	0x168e0 <_Znwm@plt>
+    a238: aa 31 00 94  	bl	0x168e0 <_Znwm@plt>
+    a268: 9e 31 00 94  	bl	0x168e0 <_Znwm@plt>
+    a284: 97 31 00 94  	bl	0x168e0 <_Znwm@plt>
+    a2b8: 8a 31 00 94  	bl	0x168e0 <_Znwm@plt>
+    a2d4: 83 31 00 94  	bl	0x168e0 <_Znwm@plt>
+    a304: 77 31 00 94  	bl	0x168e0 <_Znwm@plt>
+    a32c: 6d 31 00 94  	bl	0x168e0 <_Znwm@plt>
+    a360: 60 31 00 94  	bl	0x168e0 <_Znwm@plt>
+    a388: 56 31 00 94  	bl	0x168e0 <_Znwm@plt>
+    a3b8: 4a 31 00 94  	bl	0x168e0 <_Znwm@plt>
+    a3dc: 41 31 00 94  	bl	0x168e0 <_Znwm@plt>
+    a40c: 35 31 00 94  	bl	0x168e0 <_Znwm@plt>
+    a430: 2c 31 00 94  	bl	0x168e0 <_Znwm@plt>
+    a468: 1e 31 00 94  	bl	0x168e0 <_Znwm@plt>
+    a48c: 15 31 00 94  	bl	0x168e0 <_Znwm@plt>
+    a4c0: 08 31 00 94  	bl	0x168e0 <_Znwm@plt>
+    a4e4: ff 30 00 94  	bl	0x168e0 <_Znwm@plt>
+    a518: f2 30 00 94  	bl	0x168e0 <_Znwm@plt>
+    a53c: e9 30 00 94  	bl	0x168e0 <_Znwm@plt>
+    a570: dc 30 00 94  	bl	0x168e0 <_Znwm@plt>
+    a594: d3 30 00 94  	bl	0x168e0 <_Znwm@plt>
+    a5c4: c7 30 00 94  	bl	0x168e0 <_Znwm@plt>
+    a5ec: bd 30 00 94  	bl	0x168e0 <_Znwm@plt>
+    a634: ab 30 00 94  	bl	0x168e0 <_Znwm@plt>
+    a658: a2 30 00 94  	bl	0x168e0 <_Znwm@plt>
+    a690: 94 30 00 94  	bl	0x168e0 <_Znwm@plt>
+    a6b4: 8b 30 00 94  	bl	0x168e0 <_Znwm@plt>
+    a6ec: 7d 30 00 94  	bl	0x168e0 <_Znwm@plt>
+    a710: 74 30 00 94  	bl	0x168e0 <_Znwm@plt>
+    a744: 67 30 00 94  	bl	0x168e0 <_Znwm@plt>
+    a788: 56 30 00 94  	bl	0x168e0 <_Znwm@plt>
+    a7c4: 47 30 00 94  	bl	0x168e0 <_Znwm@plt>
+    a7e8: 3e 30 00 94  	bl	0x168e0 <_Znwm@plt>
+    a818: 32 30 00 94  	bl	0x168e0 <_Znwm@plt>
+    a83c: 29 30 00 94  	bl	0x168e0 <_Znwm@plt>
+    a86c: 1d 30 00 94  	bl	0x168e0 <_Znwm@plt>
+    a890: 14 30 00 94  	bl	0x168e0 <_Znwm@plt>
+    a8bc: 09 30 00 94  	bl	0x168e0 <_Znwm@plt>
+    a8e0: 00 30 00 94  	bl	0x168e0 <_Znwm@plt>
+    a90c: f5 2f 00 94  	bl	0x168e0 <_Znwm@plt>
+    a930: ec 2f 00 94  	bl	0x168e0 <_Znwm@plt>
+    a964: df 2f 00 94  	bl	0x168e0 <_Znwm@plt>
+    a988: d6 2f 00 94  	bl	0x168e0 <_Znwm@plt>
+    a9bc: c9 2f 00 94  	bl	0x168e0 <_Znwm@plt>
+    a9e0: c0 2f 00 94  	bl	0x168e0 <_Znwm@plt>
+    aa10: b4 2f 00 94  	bl	0x168e0 <_Znwm@plt>
+    aa34: ab 2f 00 94  	bl	0x168e0 <_Znwm@plt>
+    aa6c: 9d 2f 00 94  	bl	0x168e0 <_Znwm@plt>
+    aa90: 94 2f 00 94  	bl	0x168e0 <_Znwm@plt>
+    aabc: 89 2f 00 94  	bl	0x168e0 <_Znwm@plt>
+    aae0: 80 2f 00 94  	bl	0x168e0 <_Znwm@plt>
+    ab18: 72 2f 00 94  	bl	0x168e0 <_Znwm@plt>
+    ab3c: 69 2f 00 94  	bl	0x168e0 <_Znwm@plt>
+    ab78: 5a 2f 00 94  	bl	0x168e0 <_Znwm@plt>
+    ab9c: 51 2f 00 94  	bl	0x168e0 <_Znwm@plt>
+    abd0: 44 2f 00 94  	bl	0x168e0 <_Znwm@plt>
+    abf4: 3b 2f 00 94  	bl	0x168e0 <_Znwm@plt>
+    ac24: 2f 2f 00 94  	bl	0x168e0 <_Znwm@plt>
+    ac48: 26 2f 00 94  	bl	0x168e0 <_Znwm@plt>
+    ac78: 1a 2f 00 94  	bl	0x168e0 <_Znwm@plt>
+    ac9c: 11 2f 00 94  	bl	0x168e0 <_Znwm@plt>
+    acd0: 04 2f 00 94  	bl	0x168e0 <_Znwm@plt>
+    acf4: fb 2e 00 94  	bl	0x168e0 <_Znwm@plt>
+    ad20: f0 2e 00 94  	bl	0x168e0 <_Znwm@plt>
+    ad50: e4 2e 00 94  	bl	0x168e0 <_Znwm@plt>
+    ad88: d6 2e 00 94  	bl	0x168e0 <_Znwm@plt>
+    adb8: ca 2e 00 94  	bl	0x168e0 <_Znwm@plt>
+    adf0: bc 2e 00 94  	bl	0x168e0 <_Znwm@plt>
+    ae14: b3 2e 00 94  	bl	0x168e0 <_Znwm@plt>
+    ae50: a4 2e 00 94  	bl	0x168e0 <_Znwm@plt>
+    ae80: 98 2e 00 94  	bl	0x168e0 <_Znwm@plt>
+    aeb4: 8b 2e 00 94  	bl	0x168e0 <_Znwm@plt>
+    aee4: 7f 2e 00 94  	bl	0x168e0 <_Znwm@plt>
+    af10: 74 2e 00 94  	bl	0x168e0 <_Znwm@plt>
+    af44: 67 2e 00 94  	bl	0x168e0 <_Znwm@plt>
+    af74: 5b 2e 00 94  	bl	0x168e0 <_Znwm@plt>
+    afa8: 4e 2e 00 94  	bl	0x168e0 <_Znwm@plt>
+    afe0: 40 2e 00 94  	bl	0x168e0 <_Znwm@plt>
+    b010: 34 2e 00 94  	bl	0x168e0 <_Znwm@plt>
+    b03c: 29 2e 00 94  	bl	0x168e0 <_Znwm@plt>
+    b06c: 1d 2e 00 94  	bl	0x168e0 <_Znwm@plt>
+    b09c: 11 2e 00 94  	bl	0x168e0 <_Znwm@plt>
+    b0c0: 08 2e 00 94  	bl	0x168e0 <_Znwm@plt>
+    b168: ea 2d 00 94  	bl	0x16910 <_ZdlPv@plt>
+    b18c: e1 2d 00 94  	bl	0x16910 <_ZdlPv@plt>
+    b1d4: cf 2d 00 94  	bl	0x16910 <_ZdlPv@plt>
+    b1f8: c6 2d 00 94  	bl	0x16910 <_ZdlPv@plt>
+    b21c: bd 2d 00 94  	bl	0x16910 <_ZdlPv@plt>
+    b240: b4 2d 00 94  	bl	0x16910 <_ZdlPv@plt>
+    b264: ab 2d 00 94  	bl	0x16910 <_ZdlPv@plt>
+    b288: a2 2d 00 94  	bl	0x16910 <_ZdlPv@plt>
+    b2ac: 99 2d 00 94  	bl	0x16910 <_ZdlPv@plt>
+    b2d0: 90 2d 00 94  	bl	0x16910 <_ZdlPv@plt>
+    b2f4: 87 2d 00 94  	bl	0x16910 <_ZdlPv@plt>
+    b318: 7e 2d 00 94  	bl	0x16910 <_ZdlPv@plt>
+    b380: 50 2d 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    b3c0: 40 2d 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    b3ec: 35 2d 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    b418: 2a 2d 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    b444: 1f 2d 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    b470: 14 2d 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    b49c: 09 2d 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    b4c8: fe 2c 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    b4f4: f3 2c 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    b520: e8 2c 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    b54c: dd 2c 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    b578: d2 2c 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    b5a4: c7 2c 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    b5d0: bc 2c 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    b5fc: b1 2c 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    b628: a6 2c 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    b654: 9b 2c 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    b680: 90 2c 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    b6ac: 85 2c 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    b6d8: 7a 2c 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    b704: 6f 2c 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    b724: 6f 2c 00 94  	bl	0x168e0 <_Znwm@plt>
+    b780: 58 2c 00 94  	bl	0x168e0 <_Znwm@plt>
+    b7c4: 47 2c 00 94  	bl	0x168e0 <_Znwm@plt>
+    b818: 32 2c 00 94  	bl	0x168e0 <_Znwm@plt>
+    b85c: 21 2c 00 94  	bl	0x168e0 <_Znwm@plt>
+    b8a0: 10 2c 00 94  	bl	0x168e0 <_Znwm@plt>
+    b8f4: fb 2b 00 94  	bl	0x168e0 <_Znwm@plt>
+    b938: ea 2b 00 94  	bl	0x168e0 <_Znwm@plt>
+    b97c: d9 2b 00 94  	bl	0x168e0 <_Znwm@plt>
+    b9c0: c8 2b 00 94  	bl	0x168e0 <_Znwm@plt>
+    ba20: b0 2b 00 94  	bl	0x168e0 <_Znwm@plt>
+    ba6c: 9d 2b 00 94  	bl	0x168e0 <_Znwm@plt>
+    bab8: 8a 2b 00 94  	bl	0x168e0 <_Znwm@plt>
+    bb08: 76 2b 00 94  	bl	0x168e0 <_Znwm@plt>
+    bb58: 62 2b 00 94  	bl	0x168e0 <_Znwm@plt>
+    bba8: 4e 2b 00 94  	bl	0x168e0 <_Znwm@plt>
+    bbf8: 3a 2b 00 94  	bl	0x168e0 <_Znwm@plt>
+    bc88: 1a 2b 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    bcb4: 0f 2b 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    bce0: 04 2b 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    bd0c: f9 2a 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    bd38: ee 2a 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    bd64: e3 2a 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    bd90: d8 2a 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    bdbc: cd 2a 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    bde8: c2 2a 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    be14: b7 2a 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    be40: ac 2a 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    be6c: a1 2a 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    be98: 96 2a 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    bec4: 8b 2a 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    bef0: 80 2a 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    bf1c: 75 2a 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    bf48: 6a 2a 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    bf74: 5f 2a 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    bfa0: 54 2a 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    bfcc: 49 2a 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    bff8: 3e 2a 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    c024: 33 2a 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    c050: 28 2a 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    c07c: 1d 2a 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    c0a8: 12 2a 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    c0d4: 07 2a 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    c0fc: 01 2a 00 94  	bl	0x16900 <_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_@plt>
+    c128: f6 29 00 94  	bl	0x16900 <_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_@plt>
+    c154: eb 29 00 94  	bl	0x16900 <_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_@plt>
+    c180: e0 29 00 94  	bl	0x16900 <_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_@plt>
+    c1a0: d0 29 00 94  	bl	0x168e0 <_Znwm@plt>
+    c1c8: c6 29 00 94  	bl	0x168e0 <_Znwm@plt>
+    c208: b6 29 00 94  	bl	0x168e0 <_Znwm@plt>
+    c228: ae 29 00 94  	bl	0x168e0 <_Znwm@plt>
+    c268: 9e 29 00 94  	bl	0x168e0 <_Znwm@plt>
+    c280: 98 29 00 94  	bl	0x168e0 <_Znwm@plt>
+    c2ac: 8d 29 00 94  	bl	0x168e0 <_Znwm@plt>
+    c2cc: 85 29 00 94  	bl	0x168e0 <_Znwm@plt>
+    c2f8: 7a 29 00 94  	bl	0x168e0 <_Znwm@plt>
+    c318: 72 29 00 94  	bl	0x168e0 <_Znwm@plt>
+    c344: 67 29 00 94  	bl	0x168e0 <_Znwm@plt>
+    c364: 5f 29 00 94  	bl	0x168e0 <_Znwm@plt>
+    c394: 53 29 00 94  	bl	0x168e0 <_Znwm@plt>
+    c3b8: 4a 29 00 94  	bl	0x168e0 <_Znwm@plt>
+    c3e8: 3e 29 00 94  	bl	0x168e0 <_Znwm@plt>
+    c40c: 35 29 00 94  	bl	0x168e0 <_Znwm@plt>
+    c454: 23 29 00 94  	bl	0x168e0 <_Znwm@plt>
+    c484: 17 29 00 94  	bl	0x168e0 <_Znwm@plt>
+    c4b8: 0a 29 00 94  	bl	0x168e0 <_Znwm@plt>
+    c4dc: 01 29 00 94  	bl	0x168e0 <_Znwm@plt>
+    c518: f2 28 00 94  	bl	0x168e0 <_Znwm@plt>
+    c548: e6 28 00 94  	bl	0x168e0 <_Znwm@plt>
+    c588: d6 28 00 94  	bl	0x168e0 <_Znwm@plt>
+    c5ac: cd 28 00 94  	bl	0x168e0 <_Znwm@plt>
+    c5d8: c2 28 00 94  	bl	0x168e0 <_Znwm@plt>
+    c608: b6 28 00 94  	bl	0x168e0 <_Znwm@plt>
+    c658: a2 28 00 94  	bl	0x168e0 <_Znwm@plt>
+    c688: 96 28 00 94  	bl	0x168e0 <_Znwm@plt>
+    c6bc: 89 28 00 94  	bl	0x168e0 <_Znwm@plt>
+    c6e0: 80 28 00 94  	bl	0x168e0 <_Znwm@plt>
+    c710: 74 28 00 94  	bl	0x168e0 <_Znwm@plt>
+    c740: 68 28 00 94  	bl	0x168e0 <_Znwm@plt>
+    c770: 5c 28 00 94  	bl	0x168e0 <_Znwm@plt>
+    c7a4: 4f 28 00 94  	bl	0x168e0 <_Znwm@plt>
+    c7e0: 40 28 00 94  	bl	0x168e0 <_Znwm@plt>
+    c804: 37 28 00 94  	bl	0x168e0 <_Znwm@plt>
+    c834: 2b 28 00 94  	bl	0x168e0 <_Znwm@plt>
+    c858: 22 28 00 94  	bl	0x168e0 <_Znwm@plt>
+    c884: 17 28 00 94  	bl	0x168e0 <_Znwm@plt>
+    c8a8: 0e 28 00 94  	bl	0x168e0 <_Znwm@plt>
+    c8dc: 01 28 00 94  	bl	0x168e0 <_Znwm@plt>
+    c900: f8 27 00 94  	bl	0x168e0 <_Znwm@plt>
+    c92c: ed 27 00 94  	bl	0x168e0 <_Znwm@plt>
+    c95c: e1 27 00 94  	bl	0x168e0 <_Znwm@plt>
+    c990: d4 27 00 94  	bl	0x168e0 <_Znwm@plt>
+    c9b4: cb 27 00 94  	bl	0x168e0 <_Znwm@plt>
+    c9e0: c0 27 00 94  	bl	0x168e0 <_Znwm@plt>
+    ca10: b4 27 00 94  	bl	0x168e0 <_Znwm@plt>
+    ca58: a2 27 00 94  	bl	0x168e0 <_Znwm@plt>
+    ca88: 96 27 00 94  	bl	0x168e0 <_Znwm@plt>
+    cac4: 87 27 00 94  	bl	0x168e0 <_Znwm@plt>
+    caf4: 7b 27 00 94  	bl	0x168e0 <_Znwm@plt>
+    cb2c: 6d 27 00 94  	bl	0x168e0 <_Znwm@plt>
+    cb5c: 61 27 00 94  	bl	0x168e0 <_Znwm@plt>
+    cb94: 53 27 00 94  	bl	0x168e0 <_Znwm@plt>
+    cbb8: 4a 27 00 94  	bl	0x168e0 <_Znwm@plt>
+    cbec: 3d 27 00 94  	bl	0x168e0 <_Znwm@plt>
+    cc20: 30 27 00 94  	bl	0x168e0 <_Znwm@plt>
+    cc54: 23 27 00 94  	bl	0x168e0 <_Znwm@plt>
+    cc78: 1a 27 00 94  	bl	0x168e0 <_Znwm@plt>
+    cca8: 0e 27 00 94  	bl	0x168e0 <_Znwm@plt>
+    ccc4: 07 27 00 94  	bl	0x168e0 <_Znwm@plt>
+    ccf8: fa 26 00 94  	bl	0x168e0 <_Znwm@plt>
+    cd14: f3 26 00 94  	bl	0x168e0 <_Znwm@plt>
+    cd44: e7 26 00 94  	bl	0x168e0 <_Znwm@plt>
+    cd6c: dd 26 00 94  	bl	0x168e0 <_Znwm@plt>
+    cda0: d0 26 00 94  	bl	0x168e0 <_Znwm@plt>
+    cdc8: c6 26 00 94  	bl	0x168e0 <_Znwm@plt>
+    cdf8: ba 26 00 94  	bl	0x168e0 <_Znwm@plt>
+    ce1c: b1 26 00 94  	bl	0x168e0 <_Znwm@plt>
+    ce4c: a5 26 00 94  	bl	0x168e0 <_Znwm@plt>
+    ce70: 9c 26 00 94  	bl	0x168e0 <_Znwm@plt>
+    cea8: 8e 26 00 94  	bl	0x168e0 <_Znwm@plt>
+    cecc: 85 26 00 94  	bl	0x168e0 <_Znwm@plt>
+    cf00: 78 26 00 94  	bl	0x168e0 <_Znwm@plt>
+    cf24: 6f 26 00 94  	bl	0x168e0 <_Znwm@plt>
+    cf58: 62 26 00 94  	bl	0x168e0 <_Znwm@plt>
+    cf7c: 59 26 00 94  	bl	0x168e0 <_Znwm@plt>
+    cfb0: 4c 26 00 94  	bl	0x168e0 <_Znwm@plt>
+    cfd4: 43 26 00 94  	bl	0x168e0 <_Znwm@plt>
+    d004: 37 26 00 94  	bl	0x168e0 <_Znwm@plt>
+    d02c: 2d 26 00 94  	bl	0x168e0 <_Znwm@plt>
+    d074: 1b 26 00 94  	bl	0x168e0 <_Znwm@plt>
+    d098: 12 26 00 94  	bl	0x168e0 <_Znwm@plt>
+    d0d0: 04 26 00 94  	bl	0x168e0 <_Znwm@plt>
+    d0f4: fb 25 00 94  	bl	0x168e0 <_Znwm@plt>
+    d12c: ed 25 00 94  	bl	0x168e0 <_Znwm@plt>
+    d150: e4 25 00 94  	bl	0x168e0 <_Znwm@plt>
+    d184: d7 25 00 94  	bl	0x168e0 <_Znwm@plt>
+    d1c8: c6 25 00 94  	bl	0x168e0 <_Znwm@plt>
+    d204: b7 25 00 94  	bl	0x168e0 <_Znwm@plt>
+    d228: ae 25 00 94  	bl	0x168e0 <_Znwm@plt>
+    d258: a2 25 00 94  	bl	0x168e0 <_Znwm@plt>
+    d27c: 99 25 00 94  	bl	0x168e0 <_Znwm@plt>
+    d2ac: 8d 25 00 94  	bl	0x168e0 <_Znwm@plt>
+    d2d0: 84 25 00 94  	bl	0x168e0 <_Znwm@plt>
+    d2fc: 79 25 00 94  	bl	0x168e0 <_Znwm@plt>
+    d320: 70 25 00 94  	bl	0x168e0 <_Znwm@plt>
+    d34c: 65 25 00 94  	bl	0x168e0 <_Znwm@plt>
+    d370: 5c 25 00 94  	bl	0x168e0 <_Znwm@plt>
+    d3a4: 4f 25 00 94  	bl	0x168e0 <_Znwm@plt>
+    d3c8: 46 25 00 94  	bl	0x168e0 <_Znwm@plt>
+    d3fc: 39 25 00 94  	bl	0x168e0 <_Znwm@plt>
+    d420: 30 25 00 94  	bl	0x168e0 <_Znwm@plt>
+    d450: 24 25 00 94  	bl	0x168e0 <_Znwm@plt>
+    d474: 1b 25 00 94  	bl	0x168e0 <_Znwm@plt>
+    d4ac: 0d 25 00 94  	bl	0x168e0 <_Znwm@plt>
+    d4d0: 04 25 00 94  	bl	0x168e0 <_Znwm@plt>
+    d4fc: f9 24 00 94  	bl	0x168e0 <_Znwm@plt>
+    d520: f0 24 00 94  	bl	0x168e0 <_Znwm@plt>
+    d558: e2 24 00 94  	bl	0x168e0 <_Znwm@plt>
+    d57c: d9 24 00 94  	bl	0x168e0 <_Znwm@plt>
+    d5b8: ca 24 00 94  	bl	0x168e0 <_Znwm@plt>
+    d5dc: c1 24 00 94  	bl	0x168e0 <_Znwm@plt>
+    d610: b4 24 00 94  	bl	0x168e0 <_Znwm@plt>
+    d634: ab 24 00 94  	bl	0x168e0 <_Znwm@plt>
+    d664: 9f 24 00 94  	bl	0x168e0 <_Znwm@plt>
+    d688: 96 24 00 94  	bl	0x168e0 <_Znwm@plt>
+    d6b8: 8a 24 00 94  	bl	0x168e0 <_Znwm@plt>
+    d6dc: 81 24 00 94  	bl	0x168e0 <_Znwm@plt>
+    d710: 74 24 00 94  	bl	0x168e0 <_Znwm@plt>
+    d734: 6b 24 00 94  	bl	0x168e0 <_Znwm@plt>
+    d760: 60 24 00 94  	bl	0x168e0 <_Znwm@plt>
+    d790: 54 24 00 94  	bl	0x168e0 <_Znwm@plt>
+    d7c8: 46 24 00 94  	bl	0x168e0 <_Znwm@plt>
+    d7f8: 3a 24 00 94  	bl	0x168e0 <_Znwm@plt>
+    d830: 2c 24 00 94  	bl	0x168e0 <_Znwm@plt>
+    d854: 23 24 00 94  	bl	0x168e0 <_Znwm@plt>
+    d890: 14 24 00 94  	bl	0x168e0 <_Znwm@plt>
+    d8c0: 08 24 00 94  	bl	0x168e0 <_Znwm@plt>
+    d8f4: fb 23 00 94  	bl	0x168e0 <_Znwm@plt>
+    d924: ef 23 00 94  	bl	0x168e0 <_Znwm@plt>
+    d950: e4 23 00 94  	bl	0x168e0 <_Znwm@plt>
+    d984: d7 23 00 94  	bl	0x168e0 <_Znwm@plt>
+    d9b4: cb 23 00 94  	bl	0x168e0 <_Znwm@plt>
+    d9e8: be 23 00 94  	bl	0x168e0 <_Znwm@plt>
+    da20: b0 23 00 94  	bl	0x168e0 <_Znwm@plt>
+    da50: a4 23 00 94  	bl	0x168e0 <_Znwm@plt>
+    da7c: 99 23 00 94  	bl	0x168e0 <_Znwm@plt>
+    daac: 8d 23 00 94  	bl	0x168e0 <_Znwm@plt>
+    dadc: 81 23 00 94  	bl	0x168e0 <_Znwm@plt>
+    db00: 78 23 00 94  	bl	0x168e0 <_Znwm@plt>
+    dba8: 5a 23 00 94  	bl	0x16910 <_ZdlPv@plt>
+    dbcc: 51 23 00 94  	bl	0x16910 <_ZdlPv@plt>
+    dc14: 3f 23 00 94  	bl	0x16910 <_ZdlPv@plt>
+    dc38: 36 23 00 94  	bl	0x16910 <_ZdlPv@plt>
+    dc5c: 2d 23 00 94  	bl	0x16910 <_ZdlPv@plt>
+    dc80: 24 23 00 94  	bl	0x16910 <_ZdlPv@plt>
+    dca4: 1b 23 00 94  	bl	0x16910 <_ZdlPv@plt>
+    dcc8: 12 23 00 94  	bl	0x16910 <_ZdlPv@plt>
+    dcec: 09 23 00 94  	bl	0x16910 <_ZdlPv@plt>
+    dd10: 00 23 00 94  	bl	0x16910 <_ZdlPv@plt>
+    dd34: f7 22 00 94  	bl	0x16910 <_ZdlPv@plt>
+    dd58: ee 22 00 94  	bl	0x16910 <_ZdlPv@plt>
+    ddc0: c0 22 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    de00: b0 22 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    de2c: a5 22 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    de58: 9a 22 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    de84: 8f 22 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    deb0: 84 22 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    dedc: 79 22 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    df08: 6e 22 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    df34: 63 22 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    df60: 58 22 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    df8c: 4d 22 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    dfb8: 42 22 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    dfe4: 37 22 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    e010: 2c 22 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    e03c: 21 22 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    e068: 16 22 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    e094: 0b 22 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    e0c0: 00 22 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    e0ec: f5 21 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    e118: ea 21 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    e144: df 21 00 94  	bl	0x168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>
+    e164: df 21 00 94  	bl	0x168e0 <_Znwm@plt>
+    e1c0: c8 21 00 94  	bl	0x168e0 <_Znwm@plt>
+    e204: b7 21 00 94  	bl	0x168e0 <_Znwm@plt>
+    e258: a2 21 00 94  	bl	0x168e0 <_Znwm@plt>
+    e29c: 91 21 00 94  	bl	0x168e0 <_Znwm@plt>
+    e2e0: 80 21 00 94  	bl	0x168e0 <_Znwm@plt>
+    e334: 6b 21 00 94  	bl	0x168e0 <_Znwm@plt>
+    e378: 5a 21 00 94  	bl	0x168e0 <_Znwm@plt>
+    e3bc: 49 21 00 94  	bl	0x168e0 <_Znwm@plt>
+    e400: 38 21 00 94  	bl	0x168e0 <_Znwm@plt>
+    e460: 20 21 00 94  	bl	0x168e0 <_Znwm@plt>
+    e4ac: 0d 21 00 94  	bl	0x168e0 <_Znwm@plt>
+    e4f8: fa 20 00 94  	bl	0x168e0 <_Znwm@plt>
+    e548: e6 20 00 94  	bl	0x168e0 <_Znwm@plt>
+    e598: d2 20 00 94  	bl	0x168e0 <_Znwm@plt>
+    e5e8: be 20 00 94  	bl	0x168e0 <_Znwm@plt>
+    e638: aa 20 00 94  	bl	0x168e0 <_Znwm@plt>
+    e6c8: 8a 20 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    e6f4: 7f 20 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    e720: 74 20 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    e74c: 69 20 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    e778: 5e 20 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    e7a4: 53 20 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    e7d0: 48 20 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    e7fc: 3d 20 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    e828: 32 20 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    e854: 27 20 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    e880: 1c 20 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    e8ac: 11 20 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    e8d8: 06 20 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    e904: fb 1f 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    e930: f0 1f 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    e95c: e5 1f 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    e988: da 1f 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    e9b4: cf 1f 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    e9e0: c4 1f 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    ea0c: b9 1f 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    ea38: ae 1f 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    ea64: a3 1f 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    ea90: 98 1f 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    eabc: 8d 1f 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    eae8: 82 1f 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    eb14: 77 1f 00 94  	bl	0x168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>
+    eb3c: 71 1f 00 94  	bl	0x16900 <_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_@plt>
+    eb68: 66 1f 00 94  	bl	0x16900 <_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_@plt>
+    eb94: 5b 1f 00 94  	bl	0x16900 <_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_@plt>
+    ebc0: 50 1f 00 94  	bl	0x16900 <_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_@plt>
+    ebe0: 40 1f 00 94  	bl	0x168e0 <_Znwm@plt>
+    ec08: 36 1f 00 94  	bl	0x168e0 <_Znwm@plt>
+    ec48: 26 1f 00 94  	bl	0x168e0 <_Znwm@plt>
+    ec68: 1e 1f 00 94  	bl	0x168e0 <_Znwm@plt>
+    eca8: 0e 1f 00 94  	bl	0x168e0 <_Znwm@plt>
+    ecc0: 08 1f 00 94  	bl	0x168e0 <_Znwm@plt>
+    ecec: fd 1e 00 94  	bl	0x168e0 <_Znwm@plt>
+    ed0c: f5 1e 00 94  	bl	0x168e0 <_Znwm@plt>
+    ed38: ea 1e 00 94  	bl	0x168e0 <_Znwm@plt>
+    ed58: e2 1e 00 94  	bl	0x168e0 <_Znwm@plt>
+    ed84: d7 1e 00 94  	bl	0x168e0 <_Znwm@plt>
+    eda4: cf 1e 00 94  	bl	0x168e0 <_Znwm@plt>
+    edd4: c3 1e 00 94  	bl	0x168e0 <_Znwm@plt>
+    edf8: ba 1e 00 94  	bl	0x168e0 <_Znwm@plt>
+    ee28: ae 1e 00 94  	bl	0x168e0 <_Znwm@plt>
+    ee4c: a5 1e 00 94  	bl	0x168e0 <_Znwm@plt>
+    ee94: 93 1e 00 94  	bl	0x168e0 <_Znwm@plt>
+    eec4: 87 1e 00 94  	bl	0x168e0 <_Znwm@plt>
+    eef8: 7a 1e 00 94  	bl	0x168e0 <_Znwm@plt>
+    ef1c: 71 1e 00 94  	bl	0x168e0 <_Znwm@plt>
+    ef58: 62 1e 00 94  	bl	0x168e0 <_Znwm@plt>
+    ef88: 56 1e 00 94  	bl	0x168e0 <_Znwm@plt>
+    efc8: 46 1e 00 94  	bl	0x168e0 <_Znwm@plt>
+    efec: 3d 1e 00 94  	bl	0x168e0 <_Znwm@plt>
+    f018: 32 1e 00 94  	bl	0x168e0 <_Znwm@plt>
+    f048: 26 1e 00 94  	bl	0x168e0 <_Znwm@plt>
+    f098: 12 1e 00 94  	bl	0x168e0 <_Znwm@plt>
+    f0c8: 06 1e 00 94  	bl	0x168e0 <_Znwm@plt>
+    f0fc: f9 1d 00 94  	bl	0x168e0 <_Znwm@plt>
+    f120: f0 1d 00 94  	bl	0x168e0 <_Znwm@plt>
+    f150: e4 1d 00 94  	bl	0x168e0 <_Znwm@plt>
+    f180: d8 1d 00 94  	bl	0x168e0 <_Znwm@plt>
+    f1b0: cc 1d 00 94  	bl	0x168e0 <_Znwm@plt>
+    f1e4: bf 1d 00 94  	bl	0x168e0 <_Znwm@plt>
+    f220: b0 1d 00 94  	bl	0x168e0 <_Znwm@plt>
+    f244: a7 1d 00 94  	bl	0x168e0 <_Znwm@plt>
+    f274: 9b 1d 00 94  	bl	0x168e0 <_Znwm@plt>
+    f298: 92 1d 00 94  	bl	0x168e0 <_Znwm@plt>
+    f2c4: 87 1d 00 94  	bl	0x168e0 <_Znwm@plt>
+    f2e8: 7e 1d 00 94  	bl	0x168e0 <_Znwm@plt>
+    f31c: 71 1d 00 94  	bl	0x168e0 <_Znwm@plt>
+    f340: 68 1d 00 94  	bl	0x168e0 <_Znwm@plt>
+    f36c: 5d 1d 00 94  	bl	0x168e0 <_Znwm@plt>
+    f39c: 51 1d 00 94  	bl	0x168e0 <_Znwm@plt>
+    f3d0: 44 1d 00 94  	bl	0x168e0 <_Znwm@plt>
+    f3f4: 3b 1d 00 94  	bl	0x168e0 <_Znwm@plt>
+    f420: 30 1d 00 94  	bl	0x168e0 <_Znwm@plt>
+    f450: 24 1d 00 94  	bl	0x168e0 <_Znwm@plt>
+    f498: 12 1d 00 94  	bl	0x168e0 <_Znwm@plt>
+    f4c8: 06 1d 00 94  	bl	0x168e0 <_Znwm@plt>
+    f504: f7 1c 00 94  	bl	0x168e0 <_Znwm@plt>
+    f534: eb 1c 00 94  	bl	0x168e0 <_Znwm@plt>
+    f56c: dd 1c 00 94  	bl	0x168e0 <_Znwm@plt>
+    f59c: d1 1c 00 94  	bl	0x168e0 <_Znwm@plt>
+    f5d4: c3 1c 00 94  	bl	0x168e0 <_Znwm@plt>
+    f5f8: ba 1c 00 94  	bl	0x168e0 <_Znwm@plt>
+    f62c: ad 1c 00 94  	bl	0x168e0 <_Znwm@plt>
+    f660: a0 1c 00 94  	bl	0x168e0 <_Znwm@plt>
+    f694: 93 1c 00 94  	bl	0x168e0 <_Znwm@plt>
+    f6b8: 8a 1c 00 94  	bl	0x168e0 <_Znwm@plt>
+    f6e8: 7e 1c 00 94  	bl	0x168e0 <_Znwm@plt>
+    f704: 77 1c 00 94  	bl	0x168e0 <_Znwm@plt>
+    f738: 6a 1c 00 94  	bl	0x168e0 <_Znwm@plt>
+    f754: 63 1c 00 94  	bl	0x168e0 <_Znwm@plt>
+    f784: 57 1c 00 94  	bl	0x168e0 <_Znwm@plt>
+    f7ac: 4d 1c 00 94  	bl	0x168e0 <_Znwm@plt>
+    f7e0: 40 1c 00 94  	bl	0x168e0 <_Znwm@plt>
+    f808: 36 1c 00 94  	bl	0x168e0 <_Znwm@plt>
+    f838: 2a 1c 00 94  	bl	0x168e0 <_Znwm@plt>
+    f85c: 21 1c 00 94  	bl	0x168e0 <_Znwm@plt>
+    f88c: 15 1c 00 94  	bl	0x168e0 <_Znwm@plt>
+    f8b0: 0c 1c 00 94  	bl	0x168e0 <_Znwm@plt>
+    f8e8: fe 1b 00 94  	bl	0x168e0 <_Znwm@plt>
+    f90c: f5 1b 00 94  	bl	0x168e0 <_Znwm@plt>
+    f940: e8 1b 00 94  	bl	0x168e0 <_Znwm@plt>
+    f964: df 1b 00 94  	bl	0x168e0 <_Znwm@plt>
+    f998: d2 1b 00 94  	bl	0x168e0 <_Znwm@plt>
+    f9bc: c9 1b 00 94  	bl	0x168e0 <_Znwm@plt>
+    f9f0: bc 1b 00 94  	bl	0x168e0 <_Znwm@plt>
+    fa14: b3 1b 00 94  	bl	0x168e0 <_Znwm@plt>
+    fa44: a7 1b 00 94  	bl	0x168e0 <_Znwm@plt>
+    fa6c: 9d 1b 00 94  	bl	0x168e0 <_Znwm@plt>
+    fab4: 8b 1b 00 94  	bl	0x168e0 <_Znwm@plt>
+    fad8: 82 1b 00 94  	bl	0x168e0 <_Znwm@plt>
+    fb10: 74 1b 00 94  	bl	0x168e0 <_Znwm@plt>
+    fb34: 6b 1b 00 94  	bl	0x168e0 <_Znwm@plt>
+    fb6c: 5d 1b 00 94  	bl	0x168e0 <_Znwm@plt>
+    fb90: 54 1b 00 94  	bl	0x168e0 <_Znwm@plt>
+    fbc4: 47 1b 00 94  	bl	0x168e0 <_Znwm@plt>
+    fc08: 36 1b 00 94  	bl	0x168e0 <_Znwm@plt>
+    fc44: 27 1b 00 94  	bl	0x168e0 <_Znwm@plt>
+    fc68: 1e 1b 00 94  	bl	0x168e0 <_Znwm@plt>
+    fc98: 12 1b 00 94  	bl	0x168e0 <_Znwm@plt>
+    fcbc: 09 1b 00 94  	bl	0x168e0 <_Znwm@plt>
+    fcec: fd 1a 00 94  	bl	0x168e0 <_Znwm@plt>
+    fd10: f4 1a 00 94  	bl	0x168e0 <_Znwm@plt>
+    fd3c: e9 1a 00 94  	bl	0x168e0 <_Znwm@plt>
+    fd60: e0 1a 00 94  	bl	0x168e0 <_Znwm@plt>
+    fd8c: d5 1a 00 94  	bl	0x168e0 <_Znwm@plt>
+    fdb0: cc 1a 00 94  	bl	0x168e0 <_Znwm@plt>
+    fde4: bf 1a 00 94  	bl	0x168e0 <_Znwm@plt>
+    fe08: b6 1a 00 94  	bl	0x168e0 <_Znwm@plt>
+    fe3c: a9 1a 00 94  	bl	0x168e0 <_Znwm@plt>
+    fe60: a0 1a 00 94  	bl	0x168e0 <_Znwm@plt>
+    fe90: 94 1a 00 94  	bl	0x168e0 <_Znwm@plt>
+    feb4: 8b 1a 00 94  	bl	0x168e0 <_Znwm@plt>
+    feec: 7d 1a 00 94  	bl	0x168e0 <_Znwm@plt>
+    ff10: 74 1a 00 94  	bl	0x168e0 <_Znwm@plt>
+    ff3c: 69 1a 00 94  	bl	0x168e0 <_Znwm@plt>
+    ff60: 60 1a 00 94  	bl	0x168e0 <_Znwm@plt>
+    ff98: 52 1a 00 94  	bl	0x168e0 <_Znwm@plt>
+    ffbc: 49 1a 00 94  	bl	0x168e0 <_Znwm@plt>
+    fff8: 3a 1a 00 94  	bl	0x168e0 <_Znwm@plt>
+   1001c: 31 1a 00 94  	bl	0x168e0 <_Znwm@plt>
+   10050: 24 1a 00 94  	bl	0x168e0 <_Znwm@plt>
+   10074: 1b 1a 00 94  	bl	0x168e0 <_Znwm@plt>
+   100a4: 0f 1a 00 94  	bl	0x168e0 <_Znwm@plt>
+   100c8: 06 1a 00 94  	bl	0x168e0 <_Znwm@plt>
+   100f8: fa 19 00 94  	bl	0x168e0 <_Znwm@plt>
+   1011c: f1 19 00 94  	bl	0x168e0 <_Znwm@plt>
+   10150: e4 19 00 94  	bl	0x168e0 <_Znwm@plt>
+   10174: db 19 00 94  	bl	0x168e0 <_Znwm@plt>
+   101a0: d0 19 00 94  	bl	0x168e0 <_Znwm@plt>
+   101d0: c4 19 00 94  	bl	0x168e0 <_Znwm@plt>
+   10208: b6 19 00 94  	bl	0x168e0 <_Znwm@plt>
+   10238: aa 19 00 94  	bl	0x168e0 <_Znwm@plt>
+   10270: 9c 19 00 94  	bl	0x168e0 <_Znwm@plt>
+   10294: 93 19 00 94  	bl	0x168e0 <_Znwm@plt>
+   102d0: 84 19 00 94  	bl	0x168e0 <_Znwm@plt>
+   10300: 78 19 00 94  	bl	0x168e0 <_Znwm@plt>
+   10334: 6b 19 00 94  	bl	0x168e0 <_Znwm@plt>
+   10364: 5f 19 00 94  	bl	0x168e0 <_Znwm@plt>
+   10390: 54 19 00 94  	bl	0x168e0 <_Znwm@plt>
+   103c4: 47 19 00 94  	bl	0x168e0 <_Znwm@plt>
+   103f4: 3b 19 00 94  	bl	0x168e0 <_Znwm@plt>
+   10428: 2e 19 00 94  	bl	0x168e0 <_Znwm@plt>
+   10460: 20 19 00 94  	bl	0x168e0 <_Znwm@plt>
+   10490: 14 19 00 94  	bl	0x168e0 <_Znwm@plt>
+   104bc: 09 19 00 94  	bl	0x168e0 <_Znwm@plt>
+   104ec: fd 18 00 94  	bl	0x168e0 <_Znwm@plt>
+   1051c: f1 18 00 94  	bl	0x168e0 <_Znwm@plt>
+   10540: e8 18 00 94  	bl	0x168e0 <_Znwm@plt>
+   105e8: ca 18 00 94  	bl	0x16910 <_ZdlPv@plt>
+   1060c: c1 18 00 94  	bl	0x16910 <_ZdlPv@plt>
+   10654: af 18 00 94  	bl	0x16910 <_ZdlPv@plt>
+   10678: a6 18 00 94  	bl	0x16910 <_ZdlPv@plt>
+   1069c: 9d 18 00 94  	bl	0x16910 <_ZdlPv@plt>
+   106c0: 94 18 00 94  	bl	0x16910 <_ZdlPv@plt>
+   106e4: 8b 18 00 94  	bl	0x16910 <_ZdlPv@plt>
+   10708: 82 18 00 94  	bl	0x16910 <_ZdlPv@plt>
+   1072c: 79 18 00 94  	bl	0x16910 <_ZdlPv@plt>
+   10750: 70 18 00 94  	bl	0x16910 <_ZdlPv@plt>
+   10774: 67 18 00 94  	bl	0x16910 <_ZdlPv@plt>
+   10798: 5e 18 00 94  	bl	0x16910 <_ZdlPv@plt>
+   107c8: 52 18 00 14  	b	0x16910 <_ZdlPv@plt>
+   107d0: 58 18 00 14  	b	0x16930 <_ZN7android8hardware11hidl_stringD1Ev@plt>
+   10818: 4a 18 00 94  	bl	0x16940 <_ZN22CHITargetBufferManager7DestroyEv@plt>
+   10828: 46 18 00 94  	bl	0x16940 <_ZN22CHITargetBufferManager7DestroyEv@plt>
+   10838: 42 18 00 94  	bl	0x16940 <_ZN22CHITargetBufferManager7DestroyEv@plt>
+   10870: 28 18 00 94  	bl	0x16910 <_ZdlPv@plt>
+   10b14: 9f 17 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   10b48: 9a 17 00 94  	bl	0x169b0 <_ZdaPv@plt>
+   10c70: 48 17 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   10cd4: 37 17 00 94  	bl	0x169b0 <_ZdaPv@plt>
+   10d48: 1e 17 00 94  	bl	0x169c0 <_ZN8ChxUtils6MemsetEPvim@plt>
+   10d58: 1a 17 00 94  	bl	0x169c0 <_ZN8ChxUtils6MemsetEPvim@plt>
+   10da8: 0a 17 00 94  	bl	0x169d0 <_ZN18ChiMetadataManager3GetEjj@plt>
+   10dbc: 09 17 00 94  	bl	0x169e0 <_ZN11ChiMetadata18SetAndroidMetadataEPK15camera_metadata@plt>
+   10de0: 04 17 00 94  	bl	0x169f0 <_ZN11ChiMetadata25TranslateToCameraMetadataEP15camera_metadatabbjPj@plt>
+   10e98: be 16 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   10ef4: c7 16 00 94  	bl	0x16a10 <_ZN11ChiMetadata6SetTagEPKcS1_PKvjj@plt>
+   10f28: ba 16 00 94  	bl	0x16a10 <_ZN11ChiMetadata6SetTagEPKcS1_PKvjj@plt>
+   10f44: ab 16 00 94  	bl	0x169f0 <_ZN11ChiMetadata25TranslateToCameraMetadataEP15camera_metadatabbjPj@plt>
+   1101c: 5d 16 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   1103c: 79 16 00 94  	bl	0x16a20 <_ZN15ExtensionModule11GetInstanceEv@plt>
+   11048: 76 16 00 94  	bl	0x16a20 <_ZN15ExtensionModule11GetInstanceEv@plt>
+   11088: 6a 16 00 94  	bl	0x16a30 <_ZN8ChxUtils15AndroidMetadata17SetVendorTagValueEPv9VendorTagjS1_@plt>
+   11094: 47 16 00 94  	bl	0x169b0 <_ZdaPv@plt>
+   11100: 48 16 00 94  	bl	0x16a20 <_ZN15ExtensionModule11GetInstanceEv@plt>
+   11108: 4e 16 00 94  	bl	0x16a40 <_ZN15ExtensionModule15GetVendorTagOpsEP16ChiVendorTagsOps@plt>
+   11144: 43 16 00 94  	bl	0x16a50 <_ZN11ChiMetadata6GetTagEjj@plt>
+   11168: 3e 16 00 94  	bl	0x16a60 <_Znam@plt>
+   11178: 3e 16 00 94  	bl	0x16a70 <_ZN8ChxUtils6MemcpyEPvPKvm@plt>
+   11198: 26 16 00 94  	bl	0x16a30 <_ZN8ChxUtils15AndroidMetadata17SetVendorTagValueEPv9VendorTagjS1_@plt>
+   11248: d2 15 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   11310: a0 15 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   1138c: 8d 15 00 94  	bl	0x169c0 <_ZN8ChxUtils6MemsetEPvim@plt>
+   1141c: 99 15 00 94  	bl	0x16a80 <_ZN5Mutex4LockEv@plt>
+   114dc: 2d 15 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   114e4: 6b 15 00 94  	bl	0x16a90 <_ZN24ChiFeature2RequestObject7DestroyEv@plt>
+   11508: 66 15 00 94  	bl	0x16aa0 <_ZN5Mutex6UnlockEv@plt>
+   11520: 2c 15 00 94  	bl	0x169d0 <_ZN18ChiMetadataManager3GetEjj@plt>
+   11590: 48 15 00 94  	bl	0x16ab0 <_ZN15ChiFeature2Base14ProcessRequestEP24ChiFeature2RequestObject26ChiFeature2RequestCommands@plt>
+   11600: e4 14 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   11608: 26 15 00 94  	bl	0x16aa0 <_ZN5Mutex6UnlockEv@plt>
+   11614: 2b 15 00 94  	bl	0x16ac0 <_ZNK24ChiFeature2RequestObject18GetCurRequestStateEh@plt>
+   11628: 16 15 00 94  	bl	0x16a80 <_ZN5Mutex4LockEv@plt>
+   116c8: b2 14 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   116d4: ff 14 00 94  	bl	0x16ad0 <_ZN5Mutex15GetNativeHandleEv@plt>
+   116e4: ff 14 00 94  	bl	0x16ae0 <_ZN9Condition9TimedWaitEP15pthread_mutex_tj@plt>
+   117ec: 69 14 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   11814: 3f 14 00 94  	bl	0x16910 <_ZdlPv@plt>
+   11a54: af 13 00 94  	bl	0x16910 <_ZdlPv@plt>
+   11a78: a6 13 00 94  	bl	0x16910 <_ZdlPv@plt>
+   11abc: 95 13 00 14  	b	0x16910 <_ZdlPv@plt>
+   11af0: 88 13 00 14  	b	0x16910 <_ZdlPv@plt>
+   11c50: 50 13 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   11cdc: 2d 13 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   11cfc: 81 13 00 94  	bl	0x16b00 <_ZN24ChiFeature2RequestObject24SetOutputNotifiedForPortE21ChiFeature2Identifierh@plt>
+   11d44: 73 13 00 94  	bl	0x16b10 <_ZNK24ChiFeature2RequestObject26GetFinalBufferMetadataInfoE21ChiFeature2IdentifierPP29ChiFeature2BufferMetadataInfoh@plt>
+   11d58: 72 13 00 94  	bl	0x16b20 <_ZN22CHITargetBufferManager22GetTargetBufferManagerEPv@plt>
+   11d70: 70 13 00 94  	bl	0x16b30 <_ZN22CHITargetBufferManager9GetTargetEPvm@plt>
+   11d94: 6b 13 00 94  	bl	0x16b40 <_ZN22CHITargetBufferManager12UpdateTargetEjmPv15ChiTargetStatusPS0_@plt>
+   11e68: ca 12 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   11f2c: 99 12 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   12068: 4a 12 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   1211c: 8d 12 00 94  	bl	0x16b50 <_ZN8ChxUtils6MemMapEimm@plt>
+   12220: dc 11 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   12380: 84 11 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   1238c: f5 11 00 94  	bl	0x16b60 <_ZN8ChxUtils8MemUnmapEPvm@plt>
+   1245c: 4d 11 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   1251c: 1d 11 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   12680: c4 10 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   1273c: 95 10 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   127e8: 6a 10 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   128c8: 32 10 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   12934: 8f 10 00 94  	bl	0x16b70 <_ZN22CHITargetBufferManager19ReleaseTargetBufferEPv@plt>
+   12a00: e4 0f 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   12ac4: b3 0f 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   12b3c: a5 0f 00 94  	bl	0x169d0 <_ZN18ChiMetadataManager3GetEjj@plt>
+   12bf8: 66 0f 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   12c78: 46 0f 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   12d58: 0e 0f 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   12d80: 80 0f 00 94  	bl	0x16b80 <_ZN22CHITargetBufferManager26ImportExternalTargetBufferEjmPv@plt>
+   12e1c: dd 0e 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   12ec8: b2 0e 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   12ee0: c0 0e 00 94  	bl	0x169e0 <_ZN11ChiMetadata18SetAndroidMetadataEPK15camera_metadata@plt>
+   12ef4: 23 0f 00 94  	bl	0x16b80 <_ZN22CHITargetBufferManager26ImportExternalTargetBufferEjmPv@plt>
+   12f90: 80 0e 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   13040: 54 0e 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   130dc: 2d 0e 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   130f4: a7 0e 00 94  	bl	0x16b90 <_ZN22CHITargetBufferManager17SetupTargetBufferEj@plt>
+   13118: 8a 0e 00 94  	bl	0x16b40 <_ZN22CHITargetBufferManager12UpdateTargetEjmPv15ChiTargetStatusPS0_@plt>
+   131c8: f2 0d 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   131dc: 6d 0e 00 94  	bl	0x16b90 <_ZN22CHITargetBufferManager17SetupTargetBufferEj@plt>
+   13200: 50 0e 00 94  	bl	0x16b40 <_ZN22CHITargetBufferManager12UpdateTargetEjmPv15ChiTargetStatusPS0_@plt>
+   1322c: 5d 0e 00 94  	bl	0x16ba0 <_ZN24ChiFeature2RequestObject13SetBufferInfoE31ChiFeature2RequestObjectOpsTypePK21ChiFeature2IdentifierPvmihh@plt>
+   13338: 96 0d 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   13474: 33 0d 00 94  	bl	0x16940 <_ZN22CHITargetBufferManager7DestroyEv@plt>
+   13480: 30 0d 00 94  	bl	0x16940 <_ZN22CHITargetBufferManager7DestroyEv@plt>
+   1348c: 2d 0d 00 94  	bl	0x16940 <_ZN22CHITargetBufferManager7DestroyEv@plt>
+   134b8: c2 0d 00 94  	bl	0x16bc0 <_ZN22CHITargetBufferManager6CreateEP32ChiTargetBufferManagerCreateData@plt>
+   134e4: b7 0d 00 94  	bl	0x16bc0 <_ZN22CHITargetBufferManager6CreateEP32ChiTargetBufferManagerCreateData@plt>
+   1354c: 9d 0d 00 94  	bl	0x16bc0 <_ZN22CHITargetBufferManager6CreateEP32ChiTargetBufferManagerCreateData@plt>
+   13604: e3 0c 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   136b0: b8 0c 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   137fc: 65 0c 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   13888: 16 0c 00 94  	bl	0x168e0 <_Znwm@plt>
+   138b4: c7 0c 00 94  	bl	0x16bd0 <_ZN15UsecaseSelector30GetValueFromUsecasepChiUsecaseEv@plt>
+   13ad8: ae 0b 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   13bc0: 08 0c 00 94  	bl	0x16be0 <_ZN31ChiFeature2UsecaseRequestObject6CreateEPK46ChiFeature2UsecaseRequestObjectCreateInputInfo@plt>
+   13c24: f3 0b 00 94  	bl	0x16bf0 <_ZN15ChiFeature2Base27GetExternalGlobalPortIdListEv@plt>
+   13c80: 78 0b 00 94  	bl	0x16a60 <_Znam@plt>
+   13c8c: 15 0b 00 94  	bl	0x168e0 <_Znwm@plt>
+   13cc8: 06 0b 00 94  	bl	0x168e0 <_Znwm@plt>
+   13cd4: 03 0b 00 94  	bl	0x168e0 <_Znwm@plt>
+   13d20: b8 0b 00 94  	bl	0x16c00 <_ZN24ChiFeature2RequestObject6CreateEPK39ChiFeature2RequestObjectCreateInputInfo@plt>
+   13dc4: 93 0b 00 94  	bl	0x16c10 <_ZNK15ChiFeature2Base27GetPortDescriptorFromPortIdEPK21ChiFeature2Identifier@plt>
+   13f38: 96 0a 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   13f78: 02 0b 00 94  	bl	0x16b80 <_ZN22CHITargetBufferManager26ImportExternalTargetBufferEjmPv@plt>
+   14038: 56 0a 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   14050: d0 0a 00 94  	bl	0x16b90 <_ZN22CHITargetBufferManager17SetupTargetBufferEj@plt>
+   14150: 10 0a 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   14248: d2 09 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   14278: 6e 0a 00 94  	bl	0x16c30 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+   142a4: 9b 09 00 94  	bl	0x16910 <_ZdlPv@plt>
+   142c8: 92 09 00 94  	bl	0x16910 <_ZdlPv@plt>
+   142ec: 89 09 00 94  	bl	0x16910 <_ZdlPv@plt>
+   14340: 3c 0a 00 94  	bl	0x16c30 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+   14374: 67 09 00 94  	bl	0x16910 <_ZdlPv@plt>
+   143c8: 1e 0a 00 94  	bl	0x16c40 <_ZN18ChiFeature2Generic6CreateEP26ChiFeature2CreateInputInfo@plt>
+   14400: 14 0a 00 94  	bl	0x16c50 <_ZN15ChiFeature2Base16ConfigureFeatureERKNSt3__16vectorI27ChiFeatureBufferOptionsDataNS0_9allocatorIS2_EEEE@plt>
+   14420: 3c 09 00 94  	bl	0x16910 <_ZdlPv@plt>
+   14454: 2f 09 00 94  	bl	0x16910 <_ZdlPv@plt>
+   144b8: 16 09 00 94  	bl	0x16910 <_ZdlPv@plt>
+   144e8: de 09 00 94  	bl	0x16c60 <_ZN15ChiFeature2Base22FinalizeInitializationERKNSt3__16vectorI31ChiFeatureFinalizedBufferOptionNS0_9allocatorIS2_EEEERS5_@plt>
+   1451c: fd 08 00 94  	bl	0x16910 <_ZdlPv@plt>
+   1457c: e5 08 00 14  	b	0x16910 <_ZdlPv@plt>
+   145c0: ac 09 00 94  	bl	0x16c70 <_ZNSt3__119__shared_weak_countD2Ev@plt>
+   145d0: d0 08 00 14  	b	0x16910 <_ZdlPv@plt>
+   145e0: cc 08 00 14  	b	0x16910 <_ZdlPv@plt>
+   145e8: ca 08 00 14  	b	0x16910 <_ZdlPv@plt>
+   14600: 9c 09 00 94  	bl	0x16c70 <_ZNSt3__119__shared_weak_countD2Ev@plt>
+   14610: c0 08 00 14  	b	0x16910 <_ZdlPv@plt>
+   14620: bc 08 00 14  	b	0x16910 <_ZdlPv@plt>
+   14628: ba 08 00 14  	b	0x16910 <_ZdlPv@plt>
+   14670: a8 08 00 14  	b	0x16910 <_ZdlPv@plt>
+   146b0: 98 08 00 14  	b	0x16910 <_ZdlPv@plt>
+   146e0: b8 08 00 94  	bl	0x169c0 <_ZN8ChxUtils6MemsetEPvim@plt>
+   146f0: b4 08 00 94  	bl	0x169c0 <_ZN8ChxUtils6MemsetEPvim@plt>
+   152f0: 64 06 00 94  	bl	0x16c80 <_ZN8ChxUtils6LibMapEPKc@plt>
+   15300: 64 06 00 94  	bl	0x16c90 <_ZN8ChxUtils10LibGetAddrEPvPKc@plt>
+   15394: 43 06 00 94  	bl	0x16ca0 <_ZN18ChiMetadataManager6CreateEjj@plt>
+   153bc: 3d 06 00 94  	bl	0x16cb0 <_ZN18ChiMetadataManager14RegisterClientEiPjjjj16ChiMetadataUsage@plt>
+   15470: 48 05 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   15484: 0f 06 00 94  	bl	0x16cc0 <_ZN16CHIThreadManager6CreateEPPS_PKcj@plt>
+   15534: 17 05 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   156b0: b8 04 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   15758: 8e 04 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   15764: 5b 05 00 94  	bl	0x16cd0 <_ZN5Mutex6CreateEv@plt>
+   1576c: 59 05 00 94  	bl	0x16cd0 <_ZN5Mutex6CreateEv@plt>
+   15774: 5b 05 00 94  	bl	0x16ce0 <_ZN9Condition6CreateEv@plt>
+   157d8: ae 04 00 94  	bl	0x16a90 <_ZN24ChiFeature2RequestObject7DestroyEv@plt>
+   15838: 5e 04 00 94  	bl	0x169b0 <_ZdaPv@plt>
+   15848: 2a 05 00 94  	bl	0x16cf0 <_ZN16CHIThreadManager7DestroyEv@plt>
+   15858: 2a 05 00 94  	bl	0x16d00 <_ZN18ChiMetadataManager7DestroyEv@plt>
+   15868: 2a 05 00 94  	bl	0x16d10 <_ZN5Mutex7DestroyEv@plt>
+   15878: 26 05 00 94  	bl	0x16d10 <_ZN5Mutex7DestroyEv@plt>
+   15888: 26 05 00 94  	bl	0x16d20 <_ZN9Condition7DestroyEv@plt>
+   15914: 07 05 00 94  	bl	0x16d30 <_ZN15ChiFeature2Base10DeactivateEv@plt>
+   1592c: 05 05 00 94  	bl	0x16d40 <_ZN15ChiFeature2Base16AsyncDestroyJobsEv@plt>
+   15a1c: dd 03 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   15a28: 1a 04 00 94  	bl	0x16a90 <_ZN24ChiFeature2RequestObject7DestroyEv@plt>
+   15ac4: a3 04 00 94  	bl	0x16d50 <_ZNK24ChiFeature2RequestObject19GetGraphPrivateDataEPPv@plt>
+   15b08: de 03 00 94  	bl	0x16a80 <_ZN5Mutex4LockEv@plt>
+   15b5c: d9 03 00 94  	bl	0x16ac0 <_ZNK24ChiFeature2RequestObject18GetCurRequestStateEh@plt>
+   15c08: 62 03 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   15d04: 23 03 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   15dc4: f3 02 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   15e7c: c5 02 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   15ec8: fa 02 00 94  	bl	0x16ab0 <_ZN15ChiFeature2Base14ProcessRequestEP24ChiFeature2RequestObject26ChiFeature2RequestCommands@plt>
+   15ee0: d0 02 00 94  	bl	0x16a20 <_ZN15ExtensionModule11GetInstanceEv@plt>
+   15eec: 9d 03 00 94  	bl	0x16d60 <_ZN15ExtensionModule13SubmitRequestEP18ChiPipelineRequest@plt>
+   15fa0: 7c 02 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   16054: 4f 02 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   16140: 14 02 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   16148: 0a 03 00 94  	bl	0x16d70 <_ZN9Condition6SignalEv@plt>
+   1616c: 4d 02 00 94  	bl	0x16aa0 <_ZN5Mutex6UnlockEv@plt>
+   16354: 8f 01 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+   16360: 60 01 00 94  	bl	0x168e0 <_Znwm@plt>
+   16408: 6e 01 00 94  	bl	0x169c0 <_ZN8ChxUtils6MemsetEPvim@plt>
+   1641c: 69 01 00 94  	bl	0x169c0 <_ZN8ChxUtils6MemsetEPvim@plt>
+   16430: 64 01 00 94  	bl	0x169c0 <_ZN8ChxUtils6MemsetEPvim@plt>
+   16440: 60 01 00 94  	bl	0x169c0 <_ZN8ChxUtils6MemsetEPvim@plt>
+   165a0: fc 00 00 94  	bl	0x16990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+0000000000016828 <_ZN8CdkUtils6StrCmpEPKcS1_>:
+00000000000168c0 <_ZN7android8hardware11hidl_stringC1EPKc@plt>:
+   168c0: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN7android8hardware11hidl_stringC1EPKc@plt+0x4>
+00000000000168e0 <_Znwm@plt>:
+   168e0: 10 00 00 b0  	adrp	x16, 0x17000 <_Znwm@plt+0x4>
+00000000000168f0 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt>:
+   168f0: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN7android8hardware11hidl_stringC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE@plt+0x4>
+0000000000016900 <_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_@plt>:
+   16900: 10 00 00 b0  	adrp	x16, 0x17000 <_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_@plt+0x4>
+0000000000016910 <_ZdlPv@plt>:
+   16910: 10 00 00 b0  	adrp	x16, 0x17000 <_ZdlPv@plt+0x4>
+0000000000016930 <_ZN7android8hardware11hidl_stringD1Ev@plt>:
+   16930: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN7android8hardware11hidl_stringD1Ev@plt+0x4>
+0000000000016940 <_ZN22CHITargetBufferManager7DestroyEv@plt>:
+   16940: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN22CHITargetBufferManager7DestroyEv@plt+0x4>
+0000000000016990 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>:
+   16990: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt+0x4>
+00000000000169b0 <_ZdaPv@plt>:
+   169b0: 10 00 00 b0  	adrp	x16, 0x17000 <_ZdaPv@plt+0x4>
+00000000000169c0 <_ZN8ChxUtils6MemsetEPvim@plt>:
+   169c0: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN8ChxUtils6MemsetEPvim@plt+0x4>
+00000000000169d0 <_ZN18ChiMetadataManager3GetEjj@plt>:
+   169d0: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN18ChiMetadataManager3GetEjj@plt+0x4>
+00000000000169e0 <_ZN11ChiMetadata18SetAndroidMetadataEPK15camera_metadata@plt>:
+   169e0: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN11ChiMetadata18SetAndroidMetadataEPK15camera_metadata@plt+0x4>
+00000000000169f0 <_ZN11ChiMetadata25TranslateToCameraMetadataEP15camera_metadatabbjPj@plt>:
+   169f0: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN11ChiMetadata25TranslateToCameraMetadataEP15camera_metadatabbjPj@plt+0x4>
+0000000000016a10 <_ZN11ChiMetadata6SetTagEPKcS1_PKvjj@plt>:
+   16a10: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN11ChiMetadata6SetTagEPKcS1_PKvjj@plt+0x4>
+0000000000016a20 <_ZN15ExtensionModule11GetInstanceEv@plt>:
+   16a20: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN15ExtensionModule11GetInstanceEv@plt+0x4>
+0000000000016a30 <_ZN8ChxUtils15AndroidMetadata17SetVendorTagValueEPv9VendorTagjS1_@plt>:
+   16a30: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN8ChxUtils15AndroidMetadata17SetVendorTagValueEPv9VendorTagjS1_@plt+0x4>
+0000000000016a40 <_ZN15ExtensionModule15GetVendorTagOpsEP16ChiVendorTagsOps@plt>:
+   16a40: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN15ExtensionModule15GetVendorTagOpsEP16ChiVendorTagsOps@plt+0x4>
+0000000000016a50 <_ZN11ChiMetadata6GetTagEjj@plt>:
+   16a50: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN11ChiMetadata6GetTagEjj@plt+0x4>
+0000000000016a60 <_Znam@plt>:
+   16a60: 10 00 00 b0  	adrp	x16, 0x17000 <_Znam@plt+0x4>
+0000000000016a70 <_ZN8ChxUtils6MemcpyEPvPKvm@plt>:
+   16a70: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN8ChxUtils6MemcpyEPvPKvm@plt+0x4>
+0000000000016a80 <_ZN5Mutex4LockEv@plt>:
+   16a80: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN5Mutex4LockEv@plt+0x4>
+0000000000016a90 <_ZN24ChiFeature2RequestObject7DestroyEv@plt>:
+   16a90: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN24ChiFeature2RequestObject7DestroyEv@plt+0x4>
+0000000000016aa0 <_ZN5Mutex6UnlockEv@plt>:
+   16aa0: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN5Mutex6UnlockEv@plt+0x4>
+0000000000016ab0 <_ZN15ChiFeature2Base14ProcessRequestEP24ChiFeature2RequestObject26ChiFeature2RequestCommands@plt>:
+   16ab0: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN15ChiFeature2Base14ProcessRequestEP24ChiFeature2RequestObject26ChiFeature2RequestCommands@plt+0x4>
+0000000000016ac0 <_ZNK24ChiFeature2RequestObject18GetCurRequestStateEh@plt>:
+   16ac0: 10 00 00 b0  	adrp	x16, 0x17000 <_ZNK24ChiFeature2RequestObject18GetCurRequestStateEh@plt+0x4>
+0000000000016ad0 <_ZN5Mutex15GetNativeHandleEv@plt>:
+   16ad0: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN5Mutex15GetNativeHandleEv@plt+0x4>
+0000000000016ae0 <_ZN9Condition9TimedWaitEP15pthread_mutex_tj@plt>:
+   16ae0: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN9Condition9TimedWaitEP15pthread_mutex_tj@plt+0x4>
+0000000000016b00 <_ZN24ChiFeature2RequestObject24SetOutputNotifiedForPortE21ChiFeature2Identifierh@plt>:
+   16b00: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN24ChiFeature2RequestObject24SetOutputNotifiedForPortE21ChiFeature2Identifierh@plt+0x4>
+0000000000016b10 <_ZNK24ChiFeature2RequestObject26GetFinalBufferMetadataInfoE21ChiFeature2IdentifierPP29ChiFeature2BufferMetadataInfoh@plt>:
+   16b10: 10 00 00 b0  	adrp	x16, 0x17000 <_ZNK24ChiFeature2RequestObject26GetFinalBufferMetadataInfoE21ChiFeature2IdentifierPP29ChiFeature2BufferMetadataInfoh@plt+0x4>
+0000000000016b20 <_ZN22CHITargetBufferManager22GetTargetBufferManagerEPv@plt>:
+   16b20: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN22CHITargetBufferManager22GetTargetBufferManagerEPv@plt+0x4>
+0000000000016b30 <_ZN22CHITargetBufferManager9GetTargetEPvm@plt>:
+   16b30: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN22CHITargetBufferManager9GetTargetEPvm@plt+0x4>
+0000000000016b40 <_ZN22CHITargetBufferManager12UpdateTargetEjmPv15ChiTargetStatusPS0_@plt>:
+   16b40: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN22CHITargetBufferManager12UpdateTargetEjmPv15ChiTargetStatusPS0_@plt+0x4>
+0000000000016b50 <_ZN8ChxUtils6MemMapEimm@plt>:
+   16b50: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN8ChxUtils6MemMapEimm@plt+0x4>
+0000000000016b60 <_ZN8ChxUtils8MemUnmapEPvm@plt>:
+   16b60: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN8ChxUtils8MemUnmapEPvm@plt+0x4>
+0000000000016b70 <_ZN22CHITargetBufferManager19ReleaseTargetBufferEPv@plt>:
+   16b70: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN22CHITargetBufferManager19ReleaseTargetBufferEPv@plt+0x4>
+0000000000016b80 <_ZN22CHITargetBufferManager26ImportExternalTargetBufferEjmPv@plt>:
+   16b80: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN22CHITargetBufferManager26ImportExternalTargetBufferEjmPv@plt+0x4>
+0000000000016b90 <_ZN22CHITargetBufferManager17SetupTargetBufferEj@plt>:
+   16b90: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN22CHITargetBufferManager17SetupTargetBufferEj@plt+0x4>
+0000000000016ba0 <_ZN24ChiFeature2RequestObject13SetBufferInfoE31ChiFeature2RequestObjectOpsTypePK21ChiFeature2IdentifierPvmihh@plt>:
+   16ba0: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN24ChiFeature2RequestObject13SetBufferInfoE31ChiFeature2RequestObjectOpsTypePK21ChiFeature2IdentifierPvmihh@plt+0x4>
+0000000000016bc0 <_ZN22CHITargetBufferManager6CreateEP32ChiTargetBufferManagerCreateData@plt>:
+   16bc0: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN22CHITargetBufferManager6CreateEP32ChiTargetBufferManagerCreateData@plt+0x4>
+0000000000016bd0 <_ZN15UsecaseSelector30GetValueFromUsecasepChiUsecaseEv@plt>:
+   16bd0: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN15UsecaseSelector30GetValueFromUsecasepChiUsecaseEv@plt+0x4>
+0000000000016be0 <_ZN31ChiFeature2UsecaseRequestObject6CreateEPK46ChiFeature2UsecaseRequestObjectCreateInputInfo@plt>:
+   16be0: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN31ChiFeature2UsecaseRequestObject6CreateEPK46ChiFeature2UsecaseRequestObjectCreateInputInfo@plt+0x4>
+0000000000016bf0 <_ZN15ChiFeature2Base27GetExternalGlobalPortIdListEv@plt>:
+   16bf0: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN15ChiFeature2Base27GetExternalGlobalPortIdListEv@plt+0x4>
+0000000000016c00 <_ZN24ChiFeature2RequestObject6CreateEPK39ChiFeature2RequestObjectCreateInputInfo@plt>:
+   16c00: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN24ChiFeature2RequestObject6CreateEPK39ChiFeature2RequestObjectCreateInputInfo@plt+0x4>
+0000000000016c10 <_ZNK15ChiFeature2Base27GetPortDescriptorFromPortIdEPK21ChiFeature2Identifier@plt>:
+   16c10: 10 00 00 b0  	adrp	x16, 0x17000 <_ZNK15ChiFeature2Base27GetPortDescriptorFromPortIdEPK21ChiFeature2Identifier@plt+0x4>
+0000000000016c30 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>:
+   16c30: 10 00 00 b0  	adrp	x16, 0x17000 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt+0x4>
+0000000000016c40 <_ZN18ChiFeature2Generic6CreateEP26ChiFeature2CreateInputInfo@plt>:
+   16c40: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN18ChiFeature2Generic6CreateEP26ChiFeature2CreateInputInfo@plt+0x4>
+0000000000016c50 <_ZN15ChiFeature2Base16ConfigureFeatureERKNSt3__16vectorI27ChiFeatureBufferOptionsDataNS0_9allocatorIS2_EEEE@plt>:
+   16c50: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN15ChiFeature2Base16ConfigureFeatureERKNSt3__16vectorI27ChiFeatureBufferOptionsDataNS0_9allocatorIS2_EEEE@plt+0x4>
+0000000000016c60 <_ZN15ChiFeature2Base22FinalizeInitializationERKNSt3__16vectorI31ChiFeatureFinalizedBufferOptionNS0_9allocatorIS2_EEEERS5_@plt>:
+   16c60: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN15ChiFeature2Base22FinalizeInitializationERKNSt3__16vectorI31ChiFeatureFinalizedBufferOptionNS0_9allocatorIS2_EEEERS5_@plt+0x4>
+0000000000016c70 <_ZNSt3__119__shared_weak_countD2Ev@plt>:
+   16c70: 10 00 00 b0  	adrp	x16, 0x17000 <_ZNSt3__119__shared_weak_countD2Ev@plt+0x4>
+0000000000016c80 <_ZN8ChxUtils6LibMapEPKc@plt>:
+   16c80: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN8ChxUtils6LibMapEPKc@plt+0x4>
+0000000000016c90 <_ZN8ChxUtils10LibGetAddrEPvPKc@plt>:
+   16c90: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN8ChxUtils10LibGetAddrEPvPKc@plt+0x4>
+0000000000016ca0 <_ZN18ChiMetadataManager6CreateEjj@plt>:
+   16ca0: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN18ChiMetadataManager6CreateEjj@plt+0x4>
+0000000000016cb0 <_ZN18ChiMetadataManager14RegisterClientEiPjjjj16ChiMetadataUsage@plt>:
+   16cb0: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN18ChiMetadataManager14RegisterClientEiPjjjj16ChiMetadataUsage@plt+0x4>
+0000000000016cc0 <_ZN16CHIThreadManager6CreateEPPS_PKcj@plt>:
+   16cc0: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN16CHIThreadManager6CreateEPPS_PKcj@plt+0x4>
+0000000000016cd0 <_ZN5Mutex6CreateEv@plt>:
+   16cd0: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN5Mutex6CreateEv@plt+0x4>
+0000000000016ce0 <_ZN9Condition6CreateEv@plt>:
+   16ce0: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN9Condition6CreateEv@plt+0x4>
+0000000000016cf0 <_ZN16CHIThreadManager7DestroyEv@plt>:
+   16cf0: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN16CHIThreadManager7DestroyEv@plt+0x4>
+0000000000016d00 <_ZN18ChiMetadataManager7DestroyEv@plt>:
+   16d00: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN18ChiMetadataManager7DestroyEv@plt+0x4>
+0000000000016d10 <_ZN5Mutex7DestroyEv@plt>:
+   16d10: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN5Mutex7DestroyEv@plt+0x4>
+0000000000016d20 <_ZN9Condition7DestroyEv@plt>:
+   16d20: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN9Condition7DestroyEv@plt+0x4>
+0000000000016d30 <_ZN15ChiFeature2Base10DeactivateEv@plt>:
+   16d30: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN15ChiFeature2Base10DeactivateEv@plt+0x4>
+0000000000016d40 <_ZN15ChiFeature2Base16AsyncDestroyJobsEv@plt>:
+   16d40: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN15ChiFeature2Base16AsyncDestroyJobsEv@plt+0x4>
+0000000000016d50 <_ZNK24ChiFeature2RequestObject19GetGraphPrivateDataEPPv@plt>:
+   16d50: 10 00 00 b0  	adrp	x16, 0x17000 <_ZNK24ChiFeature2RequestObject19GetGraphPrivateDataEPPv@plt+0x4>
+0000000000016d60 <_ZN15ExtensionModule13SubmitRequestEP18ChiPipelineRequest@plt>:
+   16d60: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN15ExtensionModule13SubmitRequestEP18ChiPipelineRequest@plt+0x4>
+0000000000016d70 <_ZN9Condition6SignalEv@plt>:
+   16d70: 10 00 00 b0  	adrp	x16, 0x17000 <_ZN9Condition6SignalEv@plt+0x4>

@@ -1,0 +1,59 @@
+    5a84: 5b 0f 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    609c: d5 0d 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    6144: ab 0d 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    626c: 61 0d 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    632c: 31 0d 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    63dc: 05 0d 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    64f8: be 0c 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    69dc: 85 0b 00 14  	b	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    6a84: 5b 0b 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    6ce8: c2 0a 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    6d54: a7 0a 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    6eb8: 62 0a 00 94  	bl	0x9840 <_ZN12ChiNodeUtils8SNPrintFEPcmPKcz@plt>
+    6f7c: 1d 0a 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    7024: f3 09 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    71ec: 81 09 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    7294: 57 09 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    7380: 1c 09 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    785c: e5 07 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    7ad0: 48 07 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    7ba0: 14 07 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    8070: e0 05 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    827c: 5d 05 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+0000000000009658 <_ZN12ChiNodeUtils16GetVendorTagBaseEPKcS1_P16ChiNodeInterface>:
+0000000000009660 <_ZN12ChiNodeUtils11GetMetaDataEmj15ChiMetadataTypeP16ChiNodeInterfacePvj>:
+0000000000009664 <_ZN12ChiNodeUtils11GetDataListEmj15ChiMetadataTypeP16ChiNodeInterfacePvj>:
+0000000000009668 <_ZN12ChiNodeUtils29GetMulticamDynamicMetaByCamIdEmj15ChiMetadataTypeP16ChiNodeInterfacePvjj>:
+0000000000009670 <_ZN12ChiNodeUtils13GetPSMetaDataEmjjP16ChiNodeInterfacePv>:
+0000000000009678 <_ZN12ChiNodeUtils17GetStaticMetaDataEjjP16ChiNodeInterfacePv>:
+0000000000009680 <_ZN12ChiNodeUtils31ForceDRQtoRemoveAllDependenciesEP16ChiNodeInterfacePv>:
+0000000000009688 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj>:
+0000000000009690 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo>:
+0000000000009698 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo>:
+00000000000096a0 <_ZN12ChiNodeUtils9VSNPrintFEPcmPKcSt9__va_list>:
+00000000000096a8 <_ZN12ChiNodeUtils6LibMapEPKcS1_>:
+00000000000096b0 <_ZN12ChiNodeUtils8SNPrintFEPcmPKcz>:
+00000000000096b8 <_ZN12ChiNodeUtils14LibMapFullNameEPKc>:
+00000000000096c0 <_ZN12ChiNodeUtils8LibUnmapEPv>:
+00000000000096c8 <_ZN12ChiNodeUtils10LibGetAddrEPvPKc>:
+00000000000096d0 <_ZN12ChiNodeUtils5FOpenEPKcS1_>:
+00000000000096d8 <_ZN12ChiNodeUtils7FPrintFEP7__sFILEPKcz>:
+00000000000096e0 <_ZN12ChiNodeUtils5FSeekEP7__sFILEli>:
+00000000000096e8 <_ZN12ChiNodeUtils5FTellEP7__sFILE>:
+00000000000096f0 <_ZN12ChiNodeUtils5FReadEPvmmmP7__sFILE>:
+00000000000096f8 <_ZN12ChiNodeUtils6FWriteEPKvmmP7__sFILE>:
+0000000000009700 <_ZN12ChiNodeUtils6FCloseEP7__sFILE>:
+0000000000009704 <_ZN12ChiNodeUtils6FFlushEP7__sFILE>:
+0000000000009708 <_ZN12ChiNodeUtils11FloatToHalfEf>:
+0000000000009710 <_ZN12ChiNodeUtils11GetDateTimeEP11CHIDateTime>:
+0000000000009718 <_ZN12ChiNodeUtils8StrStripEPcS0_m>:
+0000000000009720 <_ZN12ChiNodeUtils15StrTokReentrantEPcPKcPS0_>:
+0000000000009728 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_>:
+0000000000009730 <_ZN12ChiNodeUtils18RemoveMarginPixelsEP12CHIDimensionff>:
+0000000000009738 <_ZN12ChiNodeUtils21GetCameraRunningOnBPSEP16ChiNodeInterfacePv>:
+0000000000009740 <_ZN12ChiNodeUtils16GetVendorTagBaseEPKcS1_P16ChiNodeInterfaceP20ChiVendorTagBaseInfo>:
+0000000000009748 <_ZN12ChiNodeUtils17SleepMicrosecondsEj>:
+00000000000097f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>:
+    97f0: 10 00 00 b0  	adrp	x16, 0xa000 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt+0x4>
+0000000000009840 <_ZN12ChiNodeUtils8SNPrintFEPcmPKcz@plt>:
+    9840: 10 00 00 b0  	adrp	x16, 0xa000 <_ZN12ChiNodeUtils8SNPrintFEPcmPKcz@plt+0x4>

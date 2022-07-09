@@ -1,0 +1,99 @@
+    f064: 36 36 00 36  	tbz	w22, #0, 0xf728 <_ZTSSt9exception+0x37a>
+000000000000f38d <_ZTSSt12length_error>:
+000000000000f39e <_ZTSSt11logic_error>:
+000000000000f3ae <_ZTSSt9exception>:
+    f3be: 00 00 00 90  	adrp	x0, 0xf000 <_ZTSSt9exception+0x10>
+    f3c2: 00 00 00 f0  	adrp	x0, 0x12000 <_ZTSSt9exception+0x20>
+    f712: 00 00 00 98  	ldrsw	x0, 0xf712 <_ZTSSt9exception+0x364>
+    f782: 00 00 00 54  	b.eq	0xf782 <_ZTSSt9exception+0x3d4>
+    f7e2: 00 00 00 54  	b.eq	0xf7e2 <_ZTSSt9exception+0x434>
+    f802: 00 00 00 90  	adrp	x0, 0xf000 <_ZTSSt9exception+0x454>
+    f86a: 00 00 00 34  	cbz	w0, 0xf86a <_ZTSSt9exception+0x4bc>
+    f872: 00 00 00 34  	cbz	w0, 0xf872 <_ZTSSt9exception+0x4c4>
+    f882: 00 00 00 34  	cbz	w0, 0xf882 <_ZTSSt9exception+0x4d4>
+    f88a: 00 00 00 34  	cbz	w0, 0xf88a <_ZTSSt9exception+0x4dc>
+    f94a: 00 00 00 54  	b.eq	0xf94a <_ZTSSt9exception+0x59c>
+    f96a: 00 00 00 5c  	ldr	d0, 0xf96a <_ZTSSt9exception+0x5bc>
+   16130: 88 2a 01 94  	bl	0x60b50 <_ZSt9terminatev@plt>
+   19c14: db 1b 01 14  	b	0x60b80 <_ZNSt3__15mutexD1Ev@plt>
+   1af94: 03 17 01 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   1b128: 9e 16 01 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   1b3b8: fa 15 01 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   1b45c: d1 15 01 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   1b6ac: 3d 15 01 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   1baf0: 2c 14 01 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   1c2e8: 2e 12 01 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   1c334: 1b 12 01 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   1c50c: a5 11 01 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   1c738: 1a 11 01 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   1cd38: 9a 0f 01 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   1cdc8: 76 0f 01 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   1d120: a0 0e 01 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   1d7b0: 0c 0d 01 94  	bl	0x60be0 <_ZdlPvRKSt9nothrow_t@plt>
+   1d968: 9e 0c 01 94  	bl	0x60be0 <_ZdlPvRKSt9nothrow_t@plt>
+   1d998: 92 0c 01 94  	bl	0x60be0 <_ZdlPvRKSt9nothrow_t@plt>
+   1d9b4: 8b 0c 01 94  	bl	0x60be0 <_ZdlPvRKSt9nothrow_t@plt>
+   1f228: 5e 06 01 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   20048: d6 02 01 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   20158: 92 02 01 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   20b08: 26 00 01 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   20e5c: 51 ff 00 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   20e90: 44 ff 00 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   222b4: 4b fa 00 94  	bl	0x60be0 <_ZdlPvRKSt9nothrow_t@plt>
+   22324: 2f fa 00 94  	bl	0x60be0 <_ZdlPvRKSt9nothrow_t@plt>
+   24b44: 17 f0 00 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   24c18: e2 ef 00 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   26024: df ea 00 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   36760: 54 a9 00 94  	bl	0x60cb0 <_ZNSt3__15mutex4lockEv@plt>
+   3678c: 4d a9 00 94  	bl	0x60cc0 <_ZNSt3__15mutex6unlockEv@plt>
+   3cdb4: c7 8f 00 94  	bl	0x60cd0 <_ZNSt3__18__rs_getEv@plt>
+   3ce68: 9e 8f 00 94  	bl	0x60ce0 <_ZNSt3__112__rs_defaultD1Ev@plt>
+   3cea8: 8e 8f 00 94  	bl	0x60ce0 <_ZNSt3__112__rs_defaultD1Ev@plt>
+   3cfc4: 4b 8f 00 94  	bl	0x60cf0 <_ZNSt3__112__rs_defaultclEv@plt>
+   3d004: 3b 8f 00 94  	bl	0x60cf0 <_ZNSt3__112__rs_defaultclEv@plt>
+   4057c: 89 81 00 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   409dc: 81 80 00 94  	bl	0x60be0 <_ZdlPvRKSt9nothrow_t@plt>
+   4362c: 5d 75 00 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   43728: 1e 75 00 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   43848: d6 74 00 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   43e40: 58 73 00 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   43f58: 12 73 00 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   44044: d7 72 00 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   444ec: bd 71 00 94  	bl	0x60be0 <_ZdlPvRKSt9nothrow_t@plt>
+   445e4: 7f 71 00 94  	bl	0x60be0 <_ZdlPvRKSt9nothrow_t@plt>
+   4477c: 09 71 00 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   44820: f0 70 00 94  	bl	0x60be0 <_ZdlPvRKSt9nothrow_t@plt>
+   4487c: c9 70 00 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   449dc: 81 70 00 94  	bl	0x60be0 <_ZdlPvRKSt9nothrow_t@plt>
+   44a2c: 5d 70 00 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   44b88: 16 70 00 94  	bl	0x60be0 <_ZdlPvRKSt9nothrow_t@plt>
+   49f50: 14 5b 00 94  	bl	0x60ba0 <_ZnwmRKSt9nothrow_t@plt>
+   49fe0: 00 5b 00 94  	bl	0x60be0 <_ZdlPvRKSt9nothrow_t@plt>
+0000000000060a10 <_Znwm>:
+0000000000060a14 <_Znam>:
+0000000000060a18 <_ZdlPv>:
+0000000000060a1c <_ZdaPv>:
+0000000000060a20 <_ZN8CdkUtils24GetNanosecondsSinceEpochEv>:
+0000000000060a28 <_ZN8CdkUtils11GetThreadIDEv>:
+0000000000060a38 <_Z17PrintNcLibVersionv>:
+0000000000060b50 <_ZSt9terminatev@plt>:
+   60b50: 10 00 00 b0  	adrp	x16, 0x61000 <_ZSt9terminatev@plt+0x4>
+0000000000060b80 <_ZNSt3__15mutexD1Ev@plt>:
+   60b80: 10 00 00 b0  	adrp	x16, 0x61000 <_ZNSt3__15mutexD1Ev@plt+0x4>
+0000000000060ba0 <_ZnwmRKSt9nothrow_t@plt>:
+   60ba0: 10 00 00 b0  	adrp	x16, 0x61000 <_ZnwmRKSt9nothrow_t@plt+0x4>
+0000000000060be0 <_ZdlPvRKSt9nothrow_t@plt>:
+   60be0: 10 00 00 b0  	adrp	x16, 0x61000 <_ZdlPvRKSt9nothrow_t@plt+0x4>
+0000000000060cb0 <_ZNSt3__15mutex4lockEv@plt>:
+   60cb0: 10 00 00 b0  	adrp	x16, 0x61000 <_ZNSt3__15mutex4lockEv@plt+0x4>
+0000000000060cc0 <_ZNSt3__15mutex6unlockEv@plt>:
+   60cc0: 10 00 00 b0  	adrp	x16, 0x61000 <_ZNSt3__15mutex6unlockEv@plt+0x4>
+0000000000060cd0 <_ZNSt3__18__rs_getEv@plt>:
+   60cd0: 10 00 00 b0  	adrp	x16, 0x61000 <_ZNSt3__18__rs_getEv@plt+0x4>
+0000000000060ce0 <_ZNSt3__112__rs_defaultD1Ev@plt>:
+   60ce0: 10 00 00 b0  	adrp	x16, 0x61000 <_ZNSt3__112__rs_defaultD1Ev@plt+0x4>
+0000000000060cf0 <_ZNSt3__112__rs_defaultclEv@plt>:
+   60cf0: 10 00 00 b0  	adrp	x16, 0x61000 <_ZNSt3__112__rs_defaultclEv@plt+0x4>
+0000000000061008 <_ZTISt9exception>:
+0000000000061018 <_ZTISt11logic_error>:
+0000000000061030 <_ZTISt12length_error>:
