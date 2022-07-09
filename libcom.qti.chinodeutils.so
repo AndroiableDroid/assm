@@ -1,59 +1,466 @@
-    5a84: 5b 0f 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    609c: d5 0d 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    6144: ab 0d 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    626c: 61 0d 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    632c: 31 0d 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    63dc: 05 0d 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    64f8: be 0c 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    69dc: 85 0b 00 14  	b	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    6a84: 5b 0b 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    6ce8: c2 0a 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    6d54: a7 0a 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    6eb8: 62 0a 00 94  	bl	0x9840 <_ZN12ChiNodeUtils8SNPrintFEPcmPKcz@plt>
-    6f7c: 1d 0a 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    7024: f3 09 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    71ec: 81 09 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    7294: 57 09 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    7380: 1c 09 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    785c: e5 07 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    7ad0: 48 07 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    7ba0: 14 07 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    8070: e0 05 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-    827c: 5d 05 00 94  	bl	0x97f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-0000000000009658 <_ZN12ChiNodeUtils16GetVendorTagBaseEPKcS1_P16ChiNodeInterface>:
-0000000000009660 <_ZN12ChiNodeUtils11GetMetaDataEmj15ChiMetadataTypeP16ChiNodeInterfacePvj>:
-0000000000009664 <_ZN12ChiNodeUtils11GetDataListEmj15ChiMetadataTypeP16ChiNodeInterfacePvj>:
-0000000000009668 <_ZN12ChiNodeUtils29GetMulticamDynamicMetaByCamIdEmj15ChiMetadataTypeP16ChiNodeInterfacePvjj>:
-0000000000009670 <_ZN12ChiNodeUtils13GetPSMetaDataEmjjP16ChiNodeInterfacePv>:
-0000000000009678 <_ZN12ChiNodeUtils17GetStaticMetaDataEjjP16ChiNodeInterfacePv>:
-0000000000009680 <_ZN12ChiNodeUtils31ForceDRQtoRemoveAllDependenciesEP16ChiNodeInterfacePv>:
-0000000000009688 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj>:
-0000000000009690 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo>:
-0000000000009698 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo>:
-00000000000096a0 <_ZN12ChiNodeUtils9VSNPrintFEPcmPKcSt9__va_list>:
-00000000000096a8 <_ZN12ChiNodeUtils6LibMapEPKcS1_>:
-00000000000096b0 <_ZN12ChiNodeUtils8SNPrintFEPcmPKcz>:
-00000000000096b8 <_ZN12ChiNodeUtils14LibMapFullNameEPKc>:
-00000000000096c0 <_ZN12ChiNodeUtils8LibUnmapEPv>:
-00000000000096c8 <_ZN12ChiNodeUtils10LibGetAddrEPvPKc>:
-00000000000096d0 <_ZN12ChiNodeUtils5FOpenEPKcS1_>:
-00000000000096d8 <_ZN12ChiNodeUtils7FPrintFEP7__sFILEPKcz>:
-00000000000096e0 <_ZN12ChiNodeUtils5FSeekEP7__sFILEli>:
-00000000000096e8 <_ZN12ChiNodeUtils5FTellEP7__sFILE>:
-00000000000096f0 <_ZN12ChiNodeUtils5FReadEPvmmmP7__sFILE>:
-00000000000096f8 <_ZN12ChiNodeUtils6FWriteEPKvmmP7__sFILE>:
-0000000000009700 <_ZN12ChiNodeUtils6FCloseEP7__sFILE>:
-0000000000009704 <_ZN12ChiNodeUtils6FFlushEP7__sFILE>:
-0000000000009708 <_ZN12ChiNodeUtils11FloatToHalfEf>:
-0000000000009710 <_ZN12ChiNodeUtils11GetDateTimeEP11CHIDateTime>:
-0000000000009718 <_ZN12ChiNodeUtils8StrStripEPcS0_m>:
-0000000000009720 <_ZN12ChiNodeUtils15StrTokReentrantEPcPKcPS0_>:
-0000000000009728 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_>:
-0000000000009730 <_ZN12ChiNodeUtils18RemoveMarginPixelsEP12CHIDimensionff>:
-0000000000009738 <_ZN12ChiNodeUtils21GetCameraRunningOnBPSEP16ChiNodeInterfacePv>:
-0000000000009740 <_ZN12ChiNodeUtils16GetVendorTagBaseEPKcS1_P16ChiNodeInterfaceP20ChiVendorTagBaseInfo>:
-0000000000009748 <_ZN12ChiNodeUtils17SleepMicrosecondsEj>:
-00000000000097f0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>:
-    97f0: 10 00 00 b0  	adrp	x16, 0xa000 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt+0x4>
-0000000000009840 <_ZN12ChiNodeUtils8SNPrintFEPcmPKcz@plt>:
-    9840: 10 00 00 b0  	adrp	x16, 0xa000 <_ZN12ChiNodeUtils8SNPrintFEPcmPKcz@plt+0x4>
+     8d4: 6e 65 8a b7  	tbnz	x14, #49, 0x5580 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xa28>
+     b0c: 6c 73 31 37  	tbnz	w12, #6, 0x3978 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo+0x1f0>
+     b6c: 45 50 31 36  	tbz	w5, #6, 0x3574 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj+0x84>
+     be4: 45 50 31 37  	tbnz	w5, #6, 0x35ec <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj+0xfc>
+     bf8: 67 50 31 36  	tbz	w7, #6, 0x3604 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj+0x114>
+0000000000003018 <_ZN12ChiNodeUtils16GetVendorTagBaseEPKcS1_P16ChiNodeInterface>:
+    305c: 40 01 00 b4  	cbz	x0, 0x3084 <_ZN12ChiNodeUtils16GetVendorTagBaseEPKcS1_P16ChiNodeInterface+0x6c>
+    3060: 33 01 00 b4  	cbz	x19, 0x3084 <_ZN12ChiNodeUtils16GetVendorTagBaseEPKcS1_P16ChiNodeInterface+0x6c>
+    3080: 00 08 00 34  	cbz	w0, 0x3180 <_ZN12ChiNodeUtils16GetVendorTagBaseEPKcS1_P16ChiNodeInterface+0x168>
+    3084: f9 ff ff d0  	adrp	x25, 0x1000 <_ZN12ChiNodeUtils16GetVendorTagBaseEPKcS1_P16ChiNodeInterface+0x64>
+    30a4: ea ff ff d0  	adrp	x10, 0x1000 <_ZN12ChiNodeUtils16GetVendorTagBaseEPKcS1_P16ChiNodeInterface+0x84>
+    30b8: eb ff ff d0  	adrp	x11, 0x1000 <_ZN12ChiNodeUtils16GetVendorTagBaseEPKcS1_P16ChiNodeInterface+0x98>
+    30c8: e1 ff ff d0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils16GetVendorTagBaseEPKcS1_P16ChiNodeInterface+0xa8>
+    30d0: f5 ff ff d0  	adrp	x21, 0x1000 <_ZN12ChiNodeUtils16GetVendorTagBaseEPKcS1_P16ChiNodeInterface+0xb0>
+    30d4: e2 ff ff d0  	adrp	x2, 0x1000 <_ZN12ChiNodeUtils16GetVendorTagBaseEPKcS1_P16ChiNodeInterface+0xb4>
+    3118: e1 ff ff d0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils16GetVendorTagBaseEPKcS1_P16ChiNodeInterface+0xf8>
+    3120: e0 ff ff d0  	adrp	x0, 0x1000 <_ZN12ChiNodeUtils16GetVendorTagBaseEPKcS1_P16ChiNodeInterface+0x100>
+    3124: e5 ff ff d0  	adrp	x5, 0x1000 <_ZN12ChiNodeUtils16GetVendorTagBaseEPKcS1_P16ChiNodeInterface+0x104>
+    3148: b6 0a 00 94  	bl	0x5c20 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    315c: c1 01 00 54  	b.ne	0x3194 <_ZN12ChiNodeUtils16GetVendorTagBaseEPKcS1_P16ChiNodeInterface+0x17c>
+    3190: 80 fe ff 54  	b.eq	0x3160 <_ZN12ChiNodeUtils16GetVendorTagBaseEPKcS1_P16ChiNodeInterface+0x148>
+0000000000003198 <_ZN12ChiNodeUtils11GetMetaDataEmj15ChiMetadataTypeP16ChiNodeInterfacePvj>:
+    3220: a1 00 00 54  	b.ne	0x3234 <_ZN12ChiNodeUtils11GetMetaDataEmj15ChiMetadataTypeP16ChiNodeInterfacePvj+0x9c>
+0000000000003238 <_ZN12ChiNodeUtils11GetDataListEmj15ChiMetadataTypeP16ChiNodeInterfacePvj>:
+    32b0: 48 01 00 b4  	cbz	x8, 0x32d8 <_ZN12ChiNodeUtils11GetDataListEmj15ChiMetadataTypeP16ChiNodeInterfacePvj+0xa0>
+    32c4: 41 01 00 54  	b.ne	0x32ec <_ZN12ChiNodeUtils11GetDataListEmj15ChiMetadataTypeP16ChiNodeInterfacePvj+0xb4>
+    32e8: 00 ff ff 54  	b.eq	0x32c8 <_ZN12ChiNodeUtils11GetDataListEmj15ChiMetadataTypeP16ChiNodeInterfacePvj+0x90>
+00000000000032f0 <_ZN12ChiNodeUtils29GetMulticamDynamicMetaByCamIdEmj15ChiMetadataTypeP16ChiNodeInterfacePvjj>:
+    336c: 48 01 00 b4  	cbz	x8, 0x3394 <_ZN12ChiNodeUtils29GetMulticamDynamicMetaByCamIdEmj15ChiMetadataTypeP16ChiNodeInterfacePvjj+0xa4>
+    3380: 41 01 00 54  	b.ne	0x33a8 <_ZN12ChiNodeUtils29GetMulticamDynamicMetaByCamIdEmj15ChiMetadataTypeP16ChiNodeInterfacePvjj+0xb8>
+    33a4: 00 ff ff 54  	b.eq	0x3384 <_ZN12ChiNodeUtils29GetMulticamDynamicMetaByCamIdEmj15ChiMetadataTypeP16ChiNodeInterfacePvjj+0x94>
+00000000000033b0 <_ZN12ChiNodeUtils13GetPSMetaDataEmjjP16ChiNodeInterfacePv>:
+    3424: a1 00 00 54  	b.ne	0x3438 <_ZN12ChiNodeUtils13GetPSMetaDataEmjjP16ChiNodeInterfacePv+0x88>
+0000000000003440 <_ZN12ChiNodeUtils17GetStaticMetaDataEjjP16ChiNodeInterfacePv>:
+    34c0: a1 00 00 54  	b.ne	0x34d4 <_ZN12ChiNodeUtils17GetStaticMetaDataEjjP16ChiNodeInterfacePv+0x94>
+00000000000034d8 <_ZN12ChiNodeUtils31ForceDRQtoRemoveAllDependenciesEP16ChiNodeInterfacePv>:
+    34d8: 81 00 00 b4  	cbz	x1, 0x34e8 <_ZN12ChiNodeUtils31ForceDRQtoRemoveAllDependenciesEP16ChiNodeInterfacePv+0x10>
+00000000000034f0 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj>:
+    3514: c0 07 00 b4  	cbz	x0, 0x360c <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj+0x11c>
+    3520: a3 0c 00 54  	b.lo	0x36b4 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj+0x1c4>
+    35d0: 03 0d 00 b4  	cbz	x3, 0x3770 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj+0x280>
+    35ec: e0 0a 00 35  	cbnz	w0, 0x3748 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj+0x258>
+    3604: a0 0a 00 54  	b.eq	0x3758 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj+0x268>
+    3608: 5f 00 00 14  	b	0x3784 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj+0x294>
+    360c: f5 ff ff d0  	adrp	x21, 0x1000 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj+0x114>
+    362c: f6 ff ff d0  	adrp	x22, 0x1000 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj+0x134>
+    3634: e1 ff ff d0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj+0x13c>
+    3638: e2 ff ff d0  	adrp	x2, 0x1000 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj+0x140>
+    3674: e1 ff ff d0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj+0x17c>
+    367c: e0 ff ff d0  	adrp	x0, 0x1000 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj+0x184>
+    3680: e5 ff ff d0  	adrp	x5, 0x1000 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj+0x188>
+    3698: 62 09 00 94  	bl	0x5c20 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    36ac: 60 05 00 54  	b.eq	0x3758 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj+0x268>
+    36b0: 35 00 00 14  	b	0x3784 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj+0x294>
+    36b4: f5 ff ff d0  	adrp	x21, 0x1000 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj+0x1bc>
+    36d4: f6 ff ff d0  	adrp	x22, 0x1000 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj+0x1dc>
+    36dc: e1 ff ff d0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj+0x1e4>
+    36e0: e2 ff ff d0  	adrp	x2, 0x1000 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj+0x1e8>
+    371c: e1 ff ff d0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj+0x224>
+    3724: e0 ff ff d0  	adrp	x0, 0x1000 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj+0x22c>
+    3728: e5 ff ff d0  	adrp	x5, 0x1000 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj+0x230>
+    3740: 38 09 00 94  	bl	0x5c20 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    3754: 81 01 00 54  	b.ne	0x3784 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj+0x294>
+    3780: c0 fe ff 54  	b.eq	0x3758 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj+0x268>
+0000000000003788 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo>:
+    37a8: 40 01 00 b4  	cbz	x0, 0x37d0 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo+0x48>
+    37b0: d4 05 00 b4  	cbz	x20, 0x3868 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo+0xe0>
+    37b4: 00 0f 00 35  	cbnz	w0, 0x3994 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo+0x20c>
+    37c0: 03 0a 00 54  	b.lo	0x3900 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo+0x178>
+    37cc: 72 00 00 14  	b	0x3994 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo+0x20c>
+    37d0: f7 ff ff d0  	adrp	x23, 0x1000 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo+0x40>
+    37f0: f8 ff ff d0  	adrp	x24, 0x1000 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo+0x60>
+    37f8: e1 ff ff d0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo+0x68>
+    37fc: e2 ff ff d0  	adrp	x2, 0x1000 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo+0x6c>
+    3838: e1 ff ff d0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo+0xa8>
+    3840: e0 ff ff d0  	adrp	x0, 0x1000 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo+0xb0>
+    3844: e5 ff ff d0  	adrp	x5, 0x1000 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo+0xb4>
+    385c: f1 08 00 94  	bl	0x5c20 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    3864: 94 fa ff b5  	cbnz	x20, 0x37b4 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo+0x2c>
+    3868: f5 ff ff d0  	adrp	x21, 0x1000 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo+0xd8>
+    3888: f7 ff ff d0  	adrp	x23, 0x1000 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo+0xf8>
+    3890: e1 ff ff d0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo+0x100>
+    3894: e2 ff ff d0  	adrp	x2, 0x1000 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo+0x104>
+    38d0: e1 ff ff d0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo+0x140>
+    38d8: e0 ff ff d0  	adrp	x0, 0x1000 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo+0x148>
+    38dc: e5 ff ff d0  	adrp	x5, 0x1000 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo+0x14c>
+    38f4: cb 08 00 94  	bl	0x5c20 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    38fc: 26 00 00 14  	b	0x3994 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo+0x20c>
+    3900: f4 ff ff d0  	adrp	x20, 0x1000 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo+0x170>
+    3920: f5 ff ff d0  	adrp	x21, 0x1000 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo+0x190>
+    3928: e1 ff ff d0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo+0x198>
+    392c: e2 ff ff d0  	adrp	x2, 0x1000 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo+0x19c>
+    3968: e1 ff ff d0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo+0x1d8>
+    3970: e0 ff ff d0  	adrp	x0, 0x1000 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo+0x1e0>
+    3974: e5 ff ff d0  	adrp	x5, 0x1000 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo+0x1e4>
+    398c: a5 08 00 94  	bl	0x5c20 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+00000000000039b0 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo>:
+    39d0: fc ff ff d0  	adrp	x28, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x18>
+    39d8: 60 24 00 b4  	cbz	x0, 0x3e64 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x4b4>
+    39e8: 29 29 00 34  	cbz	w9, 0x3f0c <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x55c>
+    3a10: 84 00 00 14  	b	0x3c20 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x270>
+    3a7c: f6 ff ff d0  	adrp	x22, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0xc4>
+    3ad4: ec ff ff d0  	adrp	x12, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x11c>
+    3ae4: e1 ff ff d0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x12c>
+    3af0: e2 ff ff d0  	adrp	x2, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x138>
+    3b38: e5 ff ff d0  	adrp	x5, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x180>
+    3b58: e0 ff ff d0  	adrp	x0, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x1a0>
+    3b70: eb ff ff d0  	adrp	x11, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x1b8>
+    3b88: e0 ff ff d0  	adrp	x0, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x1d0>
+    3b90: e1 ff ff d0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x1d8>
+    3b94: e3 ff ff d0  	adrp	x3, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x1dc>
+    3b98: e5 ff ff d0  	adrp	x5, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x1e0>
+    3c00: 08 08 00 94  	bl	0x5c20 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    3c1c: 02 10 00 54  	b.hs	0x3e1c <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x46c>
+    3c38: e2 ee ff 34  	cbz	w2, 0x3a14 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x64>
+    3c4c: 22 01 00 54  	b.hs	0x3c70 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x2c0>
+    3c6c: 54 00 00 14  	b	0x3dbc <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x40c>
+    3d70: 61 f9 ff 54  	b.ne	0x3c9c <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x2ec>
+    3db8: ab e3 ff b4  	cbz	x11, 0x3a2c <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x7c>
+    3e14: cb fd ff 54  	b.lt	0x3dcc <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x41c>
+    3e18: 05 ff ff 17  	b	0x3a2c <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x7c>
+    3e1c: 4a 01 00 34  	cbz	w10, 0x3e44 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x494>
+    3e30: 50 08 08 37  	tbnz	w16, #1, 0x3f38 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x588>
+    3e40: 61 ff ff 54  	b.ne	0x3e2c <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x47c>
+    3e5c: cc 0c 00 35  	cbnz	w12, 0x3ff4 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x644>
+    3e60: 97 00 00 14  	b	0x40bc <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x70c>
+    3e7c: f4 ff ff d0  	adrp	x20, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x4c4>
+    3e84: e1 ff ff d0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x4cc>
+    3e88: e2 ff ff d0  	adrp	x2, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x4d0>
+    3ee8: e8 ff ff d0  	adrp	x8, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x530>
+    3eec: e1 ff ff d0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x534>
+    3ef4: e5 ff ff d0  	adrp	x5, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x53c>
+    3f08: 46 07 00 14  	b	0x5c20 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    3f30: 2c 06 00 35  	cbnz	w12, 0x3ff4 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x644>
+    3f34: 62 00 00 14  	b	0x40bc <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x70c>
+    3f38: f7 ff ff d0  	adrp	x23, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x580>
+    3f58: fc ff ff d0  	adrp	x28, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x5a0>
+    3f60: e1 ff ff d0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x5a8>
+    3f64: e2 ff ff d0  	adrp	x2, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x5ac>
+    3fa0: e1 ff ff d0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x5e8>
+    3fa8: e0 ff ff d0  	adrp	x0, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x5f0>
+    3fac: e5 ff ff d0  	adrp	x5, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x5f4>
+    3fc8: 16 07 00 94  	bl	0x5c20 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    3ff0: 6c 06 00 34  	cbz	w12, 0x40bc <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x70c>
+    3ff8: 61 00 00 54  	b.ne	0x4004 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x654>
+    4000: 2a 00 00 14  	b	0x40a8 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x6f8>
+    4008: 69 03 00 54  	b.ls	0x4074 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x6c4>
+    4060: 01 fe ff 54  	b.ne	0x4020 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x670>
+    4064: d0 02 00 b4  	cbz	x16, 0x40bc <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x70c>
+    406c: e0 01 00 54  	b.eq	0x40a8 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x6f8>
+    4070: 02 00 00 14  	b	0x4078 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x6c8>
+    40a4: ca 00 00 54  	b.ge	0x40bc <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x70c>
+    40c0: 68 13 00 34  	cbz	w8, 0x432c <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x97c>
+    40c4: cc 0a 00 34  	cbz	w12, 0x421c <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x86c>
+    40cc: f8 ff ff b0  	adrp	x24, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x710>
+    40d0: fa ff ff b0  	adrp	x26, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x714>
+    40f0: 07 00 00 14  	b	0x410c <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x75c>
+    4108: 22 11 00 54  	b.hs	0x432c <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x97c>
+    4124: 89 fe ff b4  	cbz	x9, 0x40f4 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x744>
+    4138: 0a 00 00 14  	b	0x4160 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x7b0>
+    4140: 20 02 00 54  	b.eq	0x4184 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x7d4>
+    415c: c9 fc ff 54  	b.ls	0x40f4 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x744>
+    4174: 40 fe ff 54  	b.eq	0x413c <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x78c>
+    4180: 61 ff ff 54  	b.ne	0x416c <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x7bc>
+    419c: e1 ff ff b0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x7e0>
+    41a0: e2 ff ff b0  	adrp	x2, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x7e4>
+    41e0: e0 ff ff b0  	adrp	x0, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x824>
+    41e4: e1 ff ff b0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x828>
+    41e8: e5 ff ff b0  	adrp	x5, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x82c>
+    4204: 87 06 00 94  	bl	0x5c20 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    4214: 68 fa ff 54  	b.hi	0x4160 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x7b0>
+    4218: b7 ff ff 17  	b	0x40f4 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x744>
+    421c: fa ff ff b0  	adrp	x26, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x860>
+    4220: f8 ff ff b0  	adrp	x24, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x864>
+    4240: 04 00 00 14  	b	0x4250 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x8a0>
+    424c: 02 07 00 54  	b.hs	0x432c <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x97c>
+    4260: 2e ff ff b4  	cbz	x14, 0x4244 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x894>
+    4268: f5 ff ff b0  	adrp	x21, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x8ac>
+    429c: e1 ff ff b0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x8e0>
+    42dc: e0 ff ff b0  	adrp	x0, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x920>
+    42e0: e1 ff ff b0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x924>
+    42e4: e5 ff ff b0  	adrp	x5, 0x1000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x928>
+    4300: 48 06 00 94  	bl	0x5c20 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    4314: 48 fb ff 54  	b.hi	0x427c <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x8cc>
+    4328: c7 ff ff 17  	b	0x4244 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo+0x894>
+0000000000004350 <_ZN12ChiNodeUtils9VSNPrintFEPcmPKcSt9__va_list>:
+    4398: a1 00 00 54  	b.ne	0x43ac <_ZN12ChiNodeUtils9VSNPrintFEPcmPKcSt9__va_list+0x5c>
+00000000000043b0 <_ZN12ChiNodeUtils6LibMapEPKcS1_>:
+    43f8: e5 ff ff b0  	adrp	x5, 0x1000 <_ZN12ChiNodeUtils6LibMapEPKcS1_+0x3c>
+    440c: 5f 00 00 94  	bl	0x4588 <_ZN12ChiNodeUtils6LibMapEPKcS1_+0x1d8>
+    4420: 60 09 00 b5  	cbnz	x0, 0x454c <_ZN12ChiNodeUtils6LibMapEPKcS1_+0x19c>
+    4424: f4 ff ff b0  	adrp	x20, 0x1000 <_ZN12ChiNodeUtils6LibMapEPKcS1_+0x68>
+    4444: f8 ff ff b0  	adrp	x24, 0x1000 <_ZN12ChiNodeUtils6LibMapEPKcS1_+0x88>
+    444c: e1 ff ff b0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils6LibMapEPKcS1_+0x90>
+    4450: e2 ff ff b0  	adrp	x2, 0x1000 <_ZN12ChiNodeUtils6LibMapEPKcS1_+0x94>
+    448c: fa ff ff b0  	adrp	x26, 0x1000 <_ZN12ChiNodeUtils6LibMapEPKcS1_+0xd0>
+    4490: fb ff ff b0  	adrp	x27, 0x1000 <_ZN12ChiNodeUtils6LibMapEPKcS1_+0xd4>
+    44a0: e5 ff ff b0  	adrp	x5, 0x1000 <_ZN12ChiNodeUtils6LibMapEPKcS1_+0xe4>
+    44c0: d8 05 00 94  	bl	0x5c20 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    44e0: e2 ff ff b0  	adrp	x2, 0x1000 <_ZN12ChiNodeUtils6LibMapEPKcS1_+0x124>
+    44e8: e1 ff ff b0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils6LibMapEPKcS1_+0x12c>
+    4528: e5 ff ff b0  	adrp	x5, 0x1000 <_ZN12ChiNodeUtils6LibMapEPKcS1_+0x16c>
+    4548: b6 05 00 94  	bl	0x5c20 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    4558: 61 01 00 54  	b.ne	0x4584 <_ZN12ChiNodeUtils6LibMapEPKcS1_+0x1d4>
+    45cc: e2 ff ff b0  	adrp	x2, 0x1000 <_ZN12ChiNodeUtils6LibMapEPKcS1_+0x210>
+    4618: a1 00 00 54  	b.ne	0x462c <_ZN12ChiNodeUtils6LibMapEPKcS1_+0x27c>
+0000000000004630 <_ZN12ChiNodeUtils14LibMapFullNameEPKc>:
+    465c: 60 09 00 b5  	cbnz	x0, 0x4788 <_ZN12ChiNodeUtils14LibMapFullNameEPKc+0x158>
+    4660: f4 ff ff b0  	adrp	x20, 0x1000 <_ZN12ChiNodeUtils14LibMapFullNameEPKc+0x24>
+    4680: f9 ff ff b0  	adrp	x25, 0x1000 <_ZN12ChiNodeUtils14LibMapFullNameEPKc+0x44>
+    4684: f5 ff ff b0  	adrp	x21, 0x1000 <_ZN12ChiNodeUtils14LibMapFullNameEPKc+0x48>
+    4690: e2 ff ff b0  	adrp	x2, 0x1000 <_ZN12ChiNodeUtils14LibMapFullNameEPKc+0x54>
+    46cc: fb ff ff b0  	adrp	x27, 0x1000 <_ZN12ChiNodeUtils14LibMapFullNameEPKc+0x90>
+    46d0: fc ff ff b0  	adrp	x28, 0x1000 <_ZN12ChiNodeUtils14LibMapFullNameEPKc+0x94>
+    46e0: e5 ff ff b0  	adrp	x5, 0x1000 <_ZN12ChiNodeUtils14LibMapFullNameEPKc+0xa4>
+    4700: 48 05 00 94  	bl	0x5c20 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    4720: e2 ff ff b0  	adrp	x2, 0x1000 <_ZN12ChiNodeUtils14LibMapFullNameEPKc+0xe4>
+    4764: e5 ff ff b0  	adrp	x5, 0x1000 <_ZN12ChiNodeUtils14LibMapFullNameEPKc+0x128>
+    4784: 27 05 00 94  	bl	0x5c20 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+00000000000047a8 <_ZN12ChiNodeUtils8LibUnmapEPv>:
+    47bc: a0 00 00 b4  	cbz	x0, 0x47d0 <_ZN12ChiNodeUtils8LibUnmapEPv+0x28>
+    47c4: 60 05 00 34  	cbz	w0, 0x4870 <_ZN12ChiNodeUtils8LibUnmapEPv+0xc8>
+    47cc: 02 00 00 14  	b	0x47d4 <_ZN12ChiNodeUtils8LibUnmapEPv+0x2c>
+    47d4: f6 ff ff b0  	adrp	x22, 0x1000 <_ZN12ChiNodeUtils8LibUnmapEPv+0x20>
+    47f4: f7 ff ff b0  	adrp	x23, 0x1000 <_ZN12ChiNodeUtils8LibUnmapEPv+0x40>
+    47fc: e1 ff ff b0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils8LibUnmapEPv+0x48>
+    4800: e2 ff ff b0  	adrp	x2, 0x1000 <_ZN12ChiNodeUtils8LibUnmapEPv+0x4c>
+    4840: e1 ff ff b0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils8LibUnmapEPv+0x8c>
+    4848: e0 ff ff b0  	adrp	x0, 0x1000 <_ZN12ChiNodeUtils8LibUnmapEPv+0x94>
+    484c: e5 ff ff b0  	adrp	x5, 0x1000 <_ZN12ChiNodeUtils8LibUnmapEPv+0x98>
+    4868: ee 04 00 94  	bl	0x5c20 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    486c: 02 00 00 14  	b	0x4874 <_ZN12ChiNodeUtils8LibUnmapEPv+0xcc>
+0000000000004890 <_ZN12ChiNodeUtils10LibGetAddrEPvPKc>:
+    4890: 40 00 00 b4  	cbz	x0, 0x4898 <_ZN12ChiNodeUtils10LibGetAddrEPvPKc+0x8>
+00000000000048a0 <_ZN12ChiNodeUtils5FOpenEPKcS1_>:
+00000000000048a8 <_ZN12ChiNodeUtils7FPrintFEP7__sFILEPKcz>:
+    4930: a1 00 00 54  	b.ne	0x4944 <_ZN12ChiNodeUtils7FPrintFEP7__sFILEPKcz+0x9c>
+0000000000004948 <_ZN12ChiNodeUtils6FCloseEP7__sFILE>:
+0000000000004968 <_ZN12ChiNodeUtils5FSeekEP7__sFILEli>:
+0000000000004988 <_ZN12ChiNodeUtils5FTellEP7__sFILE>:
+0000000000004990 <_ZN12ChiNodeUtils5FReadEPvmmmP7__sFILE>:
+00000000000049a0 <_ZN12ChiNodeUtils6FWriteEPKvmmP7__sFILE>:
+00000000000049a8 <_ZN12ChiNodeUtils6FFlushEP7__sFILE>:
+00000000000049c8 <_ZN12ChiNodeUtils11FloatToHalfEf>:
+    49d0: e0 01 00 54  	b.eq	0x4a0c <_ZN12ChiNodeUtils11FloatToHalfEf+0x44>
+0000000000004a18 <_ZN12ChiNodeUtils11GetDateTimeEP11CHIDateTime>:
+    4a34: 20 02 00 b4  	cbz	x0, 0x4a78 <_ZN12ChiNodeUtils11GetDateTimeEP11CHIDateTime+0x60>
+    4a4c: 60 01 00 35  	cbnz	w0, 0x4a78 <_ZN12ChiNodeUtils11GetDateTimeEP11CHIDateTime+0x60>
+    4a58: 00 01 00 b4  	cbz	x0, 0x4a78 <_ZN12ChiNodeUtils11GetDateTimeEP11CHIDateTime+0x60>
+    4a84: a1 00 00 54  	b.ne	0x4a98 <_ZN12ChiNodeUtils11GetDateTimeEP11CHIDateTime+0x80>
+0000000000004aa0 <_ZN12ChiNodeUtils8StrStripEPcS0_m>:
+    4ac0: 80 03 00 b4  	cbz	x0, 0x4b30 <_ZN12ChiNodeUtils8StrStripEPcS0_m+0x90>
+    4ac4: 61 03 00 b4  	cbz	x1, 0x4b30 <_ZN12ChiNodeUtils8StrStripEPcS0_m+0x90>
+    4acc: 22 03 00 b4  	cbz	x2, 0x4b30 <_ZN12ChiNodeUtils8StrStripEPcS0_m+0x90>
+    4ad0: e8 ff ff b0  	adrp	x8, 0x1000 <_ZN12ChiNodeUtils8StrStripEPcS0_m+0x24>
+    4af4: e0 01 00 b4  	cbz	x0, 0x4b30 <_ZN12ChiNodeUtils8StrStripEPcS0_m+0x90>
+    4af8: f5 ff ff b0  	adrp	x21, 0x1000 <_ZN12ChiNodeUtils8StrStripEPcS0_m+0x4c>
+    4b08: 48 01 00 34  	cbz	w8, 0x4b30 <_ZN12ChiNodeUtils8StrStripEPcS0_m+0x90>
+    4b2c: c0 fe ff b5  	cbnz	x0, 0x4b04 <_ZN12ChiNodeUtils8StrStripEPcS0_m+0x64>
+    4b3c: c1 00 00 54  	b.ne	0x4b54 <_ZN12ChiNodeUtils8StrStripEPcS0_m+0xb4>
+0000000000004b58 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_>:
+    4b90: 08 10 00 54  	b.hi	0x4d90 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x238>
+    4b94: e8 ff ff b0  	adrp	x8, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x30>
+    4bbc: 74 03 00 34  	cbz	w20, 0x4c28 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xd0>
+    4bd4: 60 00 00 34  	cbz	w0, 0x4be0 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x88>
+    4bdc: 20 ff ff 54  	b.eq	0x4bc0 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x68>
+    4c0c: 61 00 00 34  	cbz	w1, 0x4c18 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xc0>
+    4c14: 20 ff ff 54  	b.eq	0x4bf8 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xa0>
+    4c20: 00 03 00 35  	cbnz	w0, 0x4c80 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x128>
+    4c24: 18 00 00 14  	b	0x4c84 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x12c>
+    4c3c: 60 00 00 34  	cbz	w0, 0x4c48 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xf0>
+    4c44: 20 ff ff 54  	b.eq	0x4c28 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xd0>
+    4c68: 61 00 00 34  	cbz	w1, 0x4c74 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x11c>
+    4c70: 40 ff ff 54  	b.eq	0x4c58 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x100>
+    4c7c: 40 00 00 34  	cbz	w0, 0x4c84 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x12c>
+    4c80: 01 06 00 35  	cbnz	w1, 0x4d40 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x1e8>
+    4c94: fb ff ff b0  	adrp	x27, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x130>
+    4cb0: f6 ff ff b0  	adrp	x22, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x14c>
+    4cb8: e1 ff ff b0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x154>
+    4cbc: e2 ff ff b0  	adrp	x2, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x158>
+    4d00: e1 ff ff b0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x19c>
+    4d08: e0 ff ff b0  	adrp	x0, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x1a4>
+    4d0c: e5 ff ff b0  	adrp	x5, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x1a8>
+    4d3c: b9 03 00 94  	bl	0x5c20 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    4d40: fa ff ff b0  	adrp	x26, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x1dc>
+    4d5c: e1 ff ff b0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x1f8>
+    4d64: e0 ff ff b0  	adrp	x0, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x200>
+    4d68: e3 ff ff b0  	adrp	x3, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x204>
+    4d6c: e5 ff ff b0  	adrp	x5, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x208>
+    4d8c: a5 02 00 14  	b	0x5820 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xcc8>
+    4d90: fa ff ff b0  	adrp	x26, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x22c>
+    4dcc: fb ff ff b0  	adrp	x27, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x268>
+    4dd4: e1 ff ff b0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x270>
+    4dd8: e2 ff ff b0  	adrp	x2, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x274>
+    4e18: e1 ff ff b0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x2b4>
+    4e20: e0 ff ff b0  	adrp	x0, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x2bc>
+    4e24: e5 ff ff b0  	adrp	x5, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x2c0>
+    4e4c: 75 03 00 94  	bl	0x5c20 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    4e58: 5f 02 00 14  	b	0x57d4 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xc7c>
+    4e6c: 74 03 00 34  	cbz	w20, 0x4ed8 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x380>
+    4e84: 60 00 00 34  	cbz	w0, 0x4e90 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x338>
+    4e8c: 20 ff ff 54  	b.eq	0x4e70 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x318>
+    4ebc: 61 00 00 34  	cbz	w1, 0x4ec8 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x370>
+    4ec4: 20 ff ff 54  	b.eq	0x4ea8 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x350>
+    4ed0: 00 03 00 35  	cbnz	w0, 0x4f30 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x3d8>
+    4ed4: 18 00 00 14  	b	0x4f34 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x3dc>
+    4eec: 60 00 00 34  	cbz	w0, 0x4ef8 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x3a0>
+    4ef4: 20 ff ff 54  	b.eq	0x4ed8 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x380>
+    4f18: 61 00 00 34  	cbz	w1, 0x4f24 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x3cc>
+    4f20: 40 ff ff 54  	b.eq	0x4f08 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x3b0>
+    4f2c: 40 00 00 34  	cbz	w0, 0x4f34 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x3dc>
+    4f30: e1 05 00 35  	cbnz	w1, 0x4fec <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x494>
+    4f34: fc ff ff b0  	adrp	x28, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x3d0>
+    4f60: f6 ff ff b0  	adrp	x22, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x3fc>
+    4f68: e1 ff ff b0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x404>
+    4f6c: e2 ff ff b0  	adrp	x2, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x408>
+    4fbc: e1 ff ff b0  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x458>
+    4fc4: e0 ff ff b0  	adrp	x0, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x460>
+    4fc8: e5 ff ff b0  	adrp	x5, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x464>
+    4fe8: 0e 03 00 94  	bl	0x5c20 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    4fec: fa ff ff b0  	adrp	x26, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x488>
+    5008: e1 ff ff 90  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x4a0>
+    5010: e0 ff ff 90  	adrp	x0, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x4a8>
+    5014: e3 ff ff 90  	adrp	x3, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x4ac>
+    5018: e5 ff ff 90  	adrp	x5, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x4b0>
+    5038: fa 01 00 14  	b	0x5820 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xcc8>
+    503c: 94 1a 00 34  	cbz	w20, 0x538c <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x834>
+    5078: 2b 2b 00 54  	b.lt	0x55dc <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xa84>
+    508c: 8b 2a 00 54  	b.lt	0x55dc <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xa84>
+    5098: 2b 2a 00 54  	b.lt	0x55dc <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xa84>
+    50c0: 0d 2e f8 b7  	tbnz	x13, #63, 0x5680 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xb28>
+    50d0: 07 00 00 14  	b	0x50ec <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x594>
+    50e8: ea 2c 00 54  	b.ge	0x5684 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xb2c>
+    50f4: 0c ff ff 54  	b.gt	0x50d4 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x57c>
+    5120: ef ff ff 17  	b	0x50dc <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x584>
+    5134: 74 03 00 34  	cbz	w20, 0x51a0 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x648>
+    514c: 60 00 00 34  	cbz	w0, 0x5158 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x600>
+    5154: 20 ff ff 54  	b.eq	0x5138 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x5e0>
+    5184: 61 00 00 34  	cbz	w1, 0x5190 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x638>
+    518c: 20 ff ff 54  	b.eq	0x5170 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x618>
+    5198: 00 03 00 35  	cbnz	w0, 0x51f8 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x6a0>
+    519c: 18 00 00 14  	b	0x51fc <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x6a4>
+    51b4: 60 00 00 34  	cbz	w0, 0x51c0 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x668>
+    51bc: 20 ff ff 54  	b.eq	0x51a0 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x648>
+    51e0: 61 00 00 34  	cbz	w1, 0x51ec <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x694>
+    51e8: 40 ff ff 54  	b.eq	0x51d0 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x678>
+    51f4: 40 00 00 34  	cbz	w0, 0x51fc <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x6a4>
+    51f8: e1 05 00 35  	cbnz	w1, 0x52b4 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x75c>
+    51fc: f6 ff ff 90  	adrp	x22, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x694>
+    5228: fb ff ff 90  	adrp	x27, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x6c0>
+    5230: e1 ff ff 90  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x6c8>
+    5234: e2 ff ff 90  	adrp	x2, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x6cc>
+    5278: e1 ff ff 90  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x710>
+    5280: e0 ff ff 90  	adrp	x0, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x718>
+    5284: e5 ff ff 90  	adrp	x5, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x71c>
+    52b0: 5c 02 00 94  	bl	0x5c20 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    52b4: fa ff ff 90  	adrp	x26, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x74c>
+    52d0: e1 ff ff 90  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x768>
+    52d8: e0 ff ff 90  	adrp	x0, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x770>
+    52dc: e3 ff ff 90  	adrp	x3, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x774>
+    52e0: e5 ff ff 90  	adrp	x5, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x778>
+    5300: b0 00 00 14  	b	0x55c0 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xa68>
+    5318: 94 0a 00 34  	cbz	w20, 0x5468 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x910>
+    532c: 80 00 00 34  	cbz	w0, 0x533c <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x7e4>
+    5338: 40 ff ff 54  	b.eq	0x5320 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x7c8>
+    5368: 61 00 00 34  	cbz	w1, 0x5374 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x81c>
+    5370: 20 ff ff 54  	b.eq	0x5354 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x7fc>
+    5378: f6 ff ff 90  	adrp	x22, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x810>
+    5384: 20 0a 00 35  	cbnz	w0, 0x54c8 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x970>
+    5388: 51 00 00 14  	b	0x54cc <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x974>
+    53c4: 2b 13 00 54  	b.lt	0x5628 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xad0>
+    53d8: 8b 12 00 54  	b.lt	0x5628 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xad0>
+    53e4: 2b 12 00 54  	b.lt	0x5628 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xad0>
+    5408: 8e 16 f8 b7  	tbnz	x14, #63, 0x56d8 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xb80>
+    5414: 07 00 00 14  	b	0x5430 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x8d8>
+    542c: 6a 15 00 54  	b.ge	0x56d8 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xb80>
+    5438: 0c ff ff 54  	b.gt	0x5418 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x8c0>
+    5464: ef ff ff 17  	b	0x5420 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x8c8>
+    5478: 80 00 00 34  	cbz	w0, 0x5488 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x930>
+    5484: 40 ff ff 54  	b.eq	0x546c <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x914>
+    54a8: 61 00 00 34  	cbz	w1, 0x54b4 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x95c>
+    54b0: 40 ff ff 54  	b.eq	0x5498 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x940>
+    54b8: f6 ff ff 90  	adrp	x22, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x950>
+    54c4: 40 00 00 34  	cbz	w0, 0x54cc <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x974>
+    54c8: a1 05 00 35  	cbnz	w1, 0x557c <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xa24>
+    54f0: fa ff ff 90  	adrp	x26, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x988>
+    54f8: e1 ff ff 90  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x990>
+    54fc: e2 ff ff 90  	adrp	x2, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x994>
+    554c: e1 ff ff 90  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x9e4>
+    5554: e0 ff ff 90  	adrp	x0, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x9ec>
+    5558: e5 ff ff 90  	adrp	x5, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0x9f0>
+    5578: aa 01 00 94  	bl	0x5c20 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    5590: e1 ff ff 90  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xa28>
+    5598: e0 ff ff 90  	adrp	x0, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xa30>
+    559c: e3 ff ff 90  	adrp	x3, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xa34>
+    55a0: e5 ff ff 90  	adrp	x5, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xa38>
+    55cc: 95 01 00 94  	bl	0x5c20 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    55d8: 98 00 00 14  	b	0x5838 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xce0>
+    55e8: 60 04 00 54  	b.eq	0x5674 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xb1c>
+    561c: 40 fe ff 54  	b.eq	0x55e4 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xa8c>
+    5624: 18 00 00 14  	b	0x5684 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xb2c>
+    5634: c0 04 00 54  	b.eq	0x56cc <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xb74>
+    5668: 40 fe ff 54  	b.eq	0x5630 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xad8>
+    5670: 1a 00 00 14  	b	0x56d8 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xb80>
+    567c: 02 00 00 14  	b	0x5684 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xb2c>
+    56b0: 61 00 00 34  	cbz	w1, 0x56bc <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xb64>
+    56b8: 20 ff ff 54  	b.eq	0x569c <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xb44>
+    56c4: 6a 02 00 35  	cbnz	w10, 0x5710 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xbb8>
+    56c8: 13 00 00 14  	b	0x5714 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xbbc>
+    56d4: 01 00 00 14  	b	0x56d8 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xb80>
+    56f8: 61 00 00 34  	cbz	w1, 0x5704 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xbac>
+    5700: 40 ff ff 54  	b.eq	0x56e8 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xb90>
+    570c: 4a 00 00 34  	cbz	w10, 0x5714 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xbbc>
+    5710: 01 06 00 35  	cbnz	w1, 0x57d0 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xc78>
+    5714: f6 ff ff 90  	adrp	x22, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xbac>
+    5740: fb ff ff 90  	adrp	x27, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xbd8>
+    5748: e1 ff ff 90  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xbe0>
+    574c: e2 ff ff 90  	adrp	x2, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xbe4>
+    5790: e1 ff ff 90  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xc28>
+    5798: e0 ff ff 90  	adrp	x0, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xc30>
+    579c: e5 ff ff 90  	adrp	x5, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xc34>
+    57cc: 15 01 00 94  	bl	0x5c20 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    57d4: fa ff ff 90  	adrp	x26, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xc6c>
+    57f0: e1 ff ff 90  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xc88>
+    57f8: e0 ff ff 90  	adrp	x0, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xc90>
+    57fc: e3 ff ff 90  	adrp	x3, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xc94>
+    5800: e5 ff ff 90  	adrp	x5, 0x1000 <_ZN12ChiNodeUtils12GetAlignmentEiij9ChiFormatPiS1_+0xc98>
+    582c: fd 00 00 94  	bl	0x5c20 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+0000000000005858 <_ZN12ChiNodeUtils18RemoveMarginPixelsEP12CHIDimensionff>:
+    58a8: 28 06 00 54  	b.hi	0x596c <_ZN12ChiNodeUtils18RemoveMarginPixelsEP12CHIDimensionff+0x114>
+    58ac: f8 ff ff 90  	adrp	x24, 0x1000 <_ZN12ChiNodeUtils18RemoveMarginPixelsEP12CHIDimensionff+0x44>
+    58cc: f9 ff ff 90  	adrp	x25, 0x1000 <_ZN12ChiNodeUtils18RemoveMarginPixelsEP12CHIDimensionff+0x64>
+    58d8: e1 ff ff 90  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils18RemoveMarginPixelsEP12CHIDimensionff+0x70>
+    58dc: e2 ff ff 90  	adrp	x2, 0x1000 <_ZN12ChiNodeUtils18RemoveMarginPixelsEP12CHIDimensionff+0x74>
+    5928: e1 ff ff 90  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils18RemoveMarginPixelsEP12CHIDimensionff+0xc0>
+    5934: e0 ff ff 90  	adrp	x0, 0x1000 <_ZN12ChiNodeUtils18RemoveMarginPixelsEP12CHIDimensionff+0xcc>
+    5938: e5 ff ff 90  	adrp	x5, 0x1000 <_ZN12ChiNodeUtils18RemoveMarginPixelsEP12CHIDimensionff+0xd0>
+    5960: b0 00 00 94  	bl	0x5c20 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    5968: 04 00 00 14  	b	0x5978 <_ZN12ChiNodeUtils18RemoveMarginPixelsEP12CHIDimensionff+0x120>
+0000000000005998 <_ZN12ChiNodeUtils21GetCameraRunningOnBPSEP16ChiNodeInterfacePv>:
+    59c4: 00 06 00 b4  	cbz	x0, 0x5a84 <_ZN12ChiNodeUtils21GetCameraRunningOnBPSEP16ChiNodeInterfacePv+0xec>
+    59c8: e9 ff ff 90  	adrp	x9, 0x1000 <_ZN12ChiNodeUtils21GetCameraRunningOnBPSEP16ChiNodeInterfacePv+0x20>
+    59cc: ea ff ff 90  	adrp	x10, 0x1000 <_ZN12ChiNodeUtils21GetCameraRunningOnBPSEP16ChiNodeInterfacePv+0x24>
+    59f8: 40 0a 00 34  	cbz	w0, 0x5b40 <_ZN12ChiNodeUtils21GetCameraRunningOnBPSEP16ChiNodeInterfacePv+0x1a8>
+    59fc: f5 ff ff 90  	adrp	x21, 0x1000 <_ZN12ChiNodeUtils21GetCameraRunningOnBPSEP16ChiNodeInterfacePv+0x54>
+    5a1c: f6 ff ff 90  	adrp	x22, 0x1000 <_ZN12ChiNodeUtils21GetCameraRunningOnBPSEP16ChiNodeInterfacePv+0x74>
+    5a24: e1 ff ff 90  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils21GetCameraRunningOnBPSEP16ChiNodeInterfacePv+0x7c>
+    5a28: e2 ff ff 90  	adrp	x2, 0x1000 <_ZN12ChiNodeUtils21GetCameraRunningOnBPSEP16ChiNodeInterfacePv+0x80>
+    5a64: e1 ff ff 90  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils21GetCameraRunningOnBPSEP16ChiNodeInterfacePv+0xbc>
+    5a6c: e0 ff ff 90  	adrp	x0, 0x1000 <_ZN12ChiNodeUtils21GetCameraRunningOnBPSEP16ChiNodeInterfacePv+0xc4>
+    5a70: e5 ff ff 90  	adrp	x5, 0x1000 <_ZN12ChiNodeUtils21GetCameraRunningOnBPSEP16ChiNodeInterfacePv+0xc8>
+    5a80: 22 00 00 14  	b	0x5b08 <_ZN12ChiNodeUtils21GetCameraRunningOnBPSEP16ChiNodeInterfacePv+0x170>
+    5a84: f5 ff ff 90  	adrp	x21, 0x1000 <_ZN12ChiNodeUtils21GetCameraRunningOnBPSEP16ChiNodeInterfacePv+0xdc>
+    5aa4: f6 ff ff 90  	adrp	x22, 0x1000 <_ZN12ChiNodeUtils21GetCameraRunningOnBPSEP16ChiNodeInterfacePv+0xfc>
+    5aac: e1 ff ff 90  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils21GetCameraRunningOnBPSEP16ChiNodeInterfacePv+0x104>
+    5ab0: e2 ff ff 90  	adrp	x2, 0x1000 <_ZN12ChiNodeUtils21GetCameraRunningOnBPSEP16ChiNodeInterfacePv+0x108>
+    5aec: e1 ff ff 90  	adrp	x1, 0x1000 <_ZN12ChiNodeUtils21GetCameraRunningOnBPSEP16ChiNodeInterfacePv+0x144>
+    5af4: e0 ff ff 90  	adrp	x0, 0x1000 <_ZN12ChiNodeUtils21GetCameraRunningOnBPSEP16ChiNodeInterfacePv+0x14c>
+    5af8: e5 ff ff 90  	adrp	x5, 0x1000 <_ZN12ChiNodeUtils21GetCameraRunningOnBPSEP16ChiNodeInterfacePv+0x150>
+    5b10: 44 00 00 94  	bl	0x5c20 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+    5b24: c1 04 00 54  	b.ne	0x5bbc <_ZN12ChiNodeUtils21GetCameraRunningOnBPSEP16ChiNodeInterfacePv+0x224>
+    5ba4: 88 fb ff b4  	cbz	x8, 0x5b14 <_ZN12ChiNodeUtils21GetCameraRunningOnBPSEP16ChiNodeInterfacePv+0x17c>
+    5bb8: 80 fb ff 54  	b.eq	0x5b28 <_ZN12ChiNodeUtils21GetCameraRunningOnBPSEP16ChiNodeInterfacePv+0x190>
+0000000000005bc0 <_ZN12ChiNodeUtils17SleepMicrosecondsEj>:
+0000000000005c20 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>:
+    5c20: 10 00 00 b0  	adrp	x16, 0x6000 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt+0x4>

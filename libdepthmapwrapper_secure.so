@@ -1,41 +1,33 @@
-0000000000003920 <_ZN15DepthMapWrapperC2EiiiiPmPih>:
-    3940: f8 01 00 94  	bl	0x4120 <_Znwm@plt>
-0000000000003968 <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput>:
-    3970: 64 05 00 b4  	cbz	x4, 0x3a1c <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0xb4>
-    3974: 43 05 00 34  	cbz	w3, 0x3a1c <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0xb4>
-    3978: 22 05 00 b4  	cbz	x2, 0x3a1c <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0xb4>
-    3980: e9 04 00 b4  	cbz	x9, 0x3a1c <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0xb4>
-    3984: 23 04 00 34  	cbz	w3, 0x3a08 <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0xa0>
-    3998: 06 00 00 14  	b	0x39b0 <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0x48>
-    39ac: 00 03 00 54  	b.eq	0x3a0c <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0xa4>
-    39b8: 40 01 00 54  	b.eq	0x39e0 <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0x78>
-    39c0: a0 01 00 54  	b.eq	0x39f4 <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0x8c>
-    39c8: a1 fe ff 54  	b.ne	0x399c <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0x34>
-    39d0: 6c fe ff b4  	cbz	x12, 0x399c <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0x34>
-    39d8: 4c fe ff 35  	cbnz	w12, 0x39a0 <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0x38>
-    39dc: f0 ff ff 17  	b	0x399c <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0x34>
-    39e4: ce fd ff b4  	cbz	x14, 0x399c <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0x34>
-    39ec: af fd ff b5  	cbnz	x15, 0x39a0 <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0x38>
-    39f0: eb ff ff 17  	b	0x399c <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0x34>
-    39f8: 2d fd ff b4  	cbz	x13, 0x399c <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0x34>
-    3a00: 0d fd ff 35  	cbnz	w13, 0x39a0 <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0x38>
-    3a04: e6 ff ff 17  	b	0x399c <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0x34>
-0000000000003a20 <_ZN15DepthMapWrapperD2Ev>:
-    3a34: 60 00 00 b4  	cbz	x0, 0x3a40 <_ZN15DepthMapWrapperD2Ev+0x20>
-    3a38: be 01 00 94  	bl	0x4130 <_ZdlPv@plt>
-    3a6c: ad 01 00 94  	bl	0x4120 <_Znwm@plt>
-    3a78: aa 01 00 94  	bl	0x4120 <_Znwm@plt>
-    3aa8: a6 01 00 14  	b	0x4140 <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput@plt>
-    3ab0: 80 01 00 b4  	cbz	x0, 0x3ae0 <_ZN15DepthMapWrapperD2Ev+0xc0>
-    3ac8: 40 00 00 b4  	cbz	x0, 0x3ad0 <_ZN15DepthMapWrapperD2Ev+0xb0>
-    3acc: 99 01 00 94  	bl	0x4130 <_ZdlPv@plt>
-    3adc: 95 01 00 14  	b	0x4130 <_ZdlPv@plt>
-    4098: 6e fe ff 17  	b	0x3a50 <_ZN15DepthMapWrapperD2Ev+0x30>
-    40a0: 82 fe ff 17  	b	0x3aa8 <_ZN15DepthMapWrapperD2Ev+0x88>
-    40a8: 82 fe ff 17  	b	0x3ab0 <_ZN15DepthMapWrapperD2Ev+0x90>
-0000000000004120 <_Znwm@plt>:
-    4120: 10 00 00 b0  	adrp	x16, 0x5000 <_Znwm@plt+0x4>
-0000000000004130 <_ZdlPv@plt>:
-    4130: 10 00 00 b0  	adrp	x16, 0x5000 <_ZdlPv@plt+0x4>
-0000000000004140 <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput@plt>:
-    4140: 10 00 00 b0  	adrp	x16, 0x5000 <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput@plt+0x4>
+0000000000001018 <_ZN15DepthMapWrapperC2EiiiiPmPih>:
+    1038: a2 00 00 94  	bl	0x12c0 <_Znwm@plt>
+0000000000001060 <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput>:
+    1068: 64 05 00 b4  	cbz	x4, 0x1114 <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0xb4>
+    106c: 43 05 00 34  	cbz	w3, 0x1114 <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0xb4>
+    1070: 22 05 00 b4  	cbz	x2, 0x1114 <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0xb4>
+    1078: e9 04 00 b4  	cbz	x9, 0x1114 <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0xb4>
+    107c: 23 04 00 34  	cbz	w3, 0x1100 <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0xa0>
+    1090: 06 00 00 14  	b	0x10a8 <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0x48>
+    10a4: 00 03 00 54  	b.eq	0x1104 <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0xa4>
+    10b0: 40 01 00 54  	b.eq	0x10d8 <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0x78>
+    10b8: a0 01 00 54  	b.eq	0x10ec <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0x8c>
+    10c0: a1 fe ff 54  	b.ne	0x1094 <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0x34>
+    10c8: 6c fe ff b4  	cbz	x12, 0x1094 <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0x34>
+    10d0: 4c fe ff 35  	cbnz	w12, 0x1098 <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0x38>
+    10d4: f0 ff ff 17  	b	0x1094 <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0x34>
+    10dc: ce fd ff b4  	cbz	x14, 0x1094 <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0x34>
+    10e4: af fd ff b5  	cbnz	x15, 0x1098 <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0x38>
+    10e8: eb ff ff 17  	b	0x1094 <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0x34>
+    10f0: 2d fd ff b4  	cbz	x13, 0x1094 <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0x34>
+    10f8: 0d fd ff 35  	cbnz	w13, 0x1098 <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0x38>
+    10fc: e6 ff ff 17  	b	0x1094 <_ZN15DepthMapWrapper12processFrameE17WrapperDepthInputP21WrapperDepthCamConfigjP18WrapperDepthOutput+0x34>
+0000000000001118 <_ZN15DepthMapWrapperD2Ev>:
+    112c: 60 00 00 b4  	cbz	x0, 0x1138 <_ZN15DepthMapWrapperD2Ev+0x20>
+    1130: 68 00 00 94  	bl	0x12d0 <_ZdlPv@plt>
+    1164: 57 00 00 94  	bl	0x12c0 <_Znwm@plt>
+    1170: 54 00 00 94  	bl	0x12c0 <_Znwm@plt>
+    1274: 17 00 00 94  	bl	0x12d0 <_ZdlPv@plt>
+    1284: 13 00 00 14  	b	0x12d0 <_ZdlPv@plt>
+00000000000012c0 <_Znwm@plt>:
+    12c0: 10 00 00 b0  	adrp	x16, 0x2000 <_Znwm@plt+0x4>
+00000000000012d0 <_ZdlPv@plt>:
+    12d0: 10 00 00 b0  	adrp	x16, 0x2000 <_ZdlPv@plt+0x4>

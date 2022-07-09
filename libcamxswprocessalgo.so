@@ -1,35 +1,148 @@
-0000000000002738 <_ZTSSt12length_error>:
-0000000000002749 <_ZTSSt11logic_error>:
-0000000000002759 <_ZTSSt9exception>:
-    62cc: 05 02 00 94  	bl	0x6ae0 <_ZNSt3__15mutex4lockEv@plt>
-    6328: f2 01 00 94  	bl	0x6af0 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>
-    6378: de 01 00 94  	bl	0x6af0 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>
-    6398: da 01 00 94  	bl	0x6b00 <_ZNSt3__15mutex6unlockEv@plt>
-    6414: bb 01 00 94  	bl	0x6b00 <_ZNSt3__15mutex6unlockEv@plt>
-    65a8: 62 01 00 94  	bl	0x6b30 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
-    6654: 3b 01 00 94  	bl	0x6b40 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt>
-    67a0: f4 00 00 94  	bl	0x6b70 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt>
-    684c: dd 00 00 94  	bl	0x6bc0 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt>
-00000000000069a8 <_Znwm>:
-00000000000069ac <_Znam>:
-00000000000069b0 <_ZdlPv>:
-00000000000069b4 <_ZdaPv>:
-00000000000069b8 <_ZN8CdkUtils24GetNanosecondsSinceEpochEv>:
-00000000000069c0 <_ZN8CdkUtils11GetThreadIDEv>:
-0000000000006ae0 <_ZNSt3__15mutex4lockEv@plt>:
-    6ae0: 10 00 00 b0  	adrp	x16, 0x7000 <_ZNSt3__15mutex4lockEv@plt+0x4>
-0000000000006af0 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>:
-    6af0: 10 00 00 b0  	adrp	x16, 0x7000 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt+0x4>
-0000000000006b00 <_ZNSt3__15mutex6unlockEv@plt>:
-    6b00: 10 00 00 b0  	adrp	x16, 0x7000 <_ZNSt3__15mutex6unlockEv@plt+0x4>
-0000000000006b30 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>:
-    6b30: 10 00 00 b0  	adrp	x16, 0x7000 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt+0x4>
-0000000000006b40 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt>:
-    6b40: 10 00 00 b0  	adrp	x16, 0x7000 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt+0x4>
-0000000000006b70 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt>:
-    6b70: 10 00 00 b0  	adrp	x16, 0x7000 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt+0x4>
-0000000000006bc0 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt>:
-    6bc0: 10 00 00 b0  	adrp	x16, 0x7000 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt+0x4>
-0000000000007008 <_ZTISt12length_error>:
-0000000000007020 <_ZTISt11logic_error>:
-0000000000007038 <_ZTISt9exception>:
+000000000000282c <_ZTSSt12length_error>:
+000000000000283d <_ZTSSt11logic_error>:
+000000000000284d <_ZTSSt9exception>:
+    2894: ff ff 01 36  	tbz	wzr, #0, 0x6890 <_ZNSt11logic_errorC2EPKc@plt+0x380>
+    4ad4: 1f 04 00 94  	bl	0x5b50 <_ZdaPv+0xb0>
+    4bb8: e6 03 00 94  	bl	0x5b50 <_ZdaPv+0xb0>
+    4cec: 99 03 00 94  	bl	0x5b50 <_ZdaPv+0xb0>
+    5190: 70 02 00 94  	bl	0x5b50 <_ZdaPv+0xb0>
+    5214: 4f 02 00 94  	bl	0x5b50 <_ZdaPv+0xb0>
+    5668: 3a 01 00 94  	bl	0x5b50 <_ZdaPv+0xb0>
+    57e0: dc 00 00 94  	bl	0x5b50 <_ZdaPv+0xb0>
+    5834: c7 00 00 94  	bl	0x5b50 <_ZdaPv+0xb0>
+    5910: 90 00 00 94  	bl	0x5b50 <_ZdaPv+0xb0>
+0000000000005970 <_Znwm>:
+    5990: 00 01 00 b4  	cbz	x0, 0x59b0 <_Znwm+0x40>
+    59ac: 80 01 00 34  	cbz	w0, 0x59dc <_Znwm+0x6c>
+    59c0: c1 01 00 54  	b.ne	0x59f8 <_Znwm+0x88>
+    59e0: b4 fe ff b4  	cbz	x20, 0x59b4 <_Znwm+0x44>
+    59f4: f0 ff ff 17  	b	0x59b4 <_Znwm+0x44>
+0000000000005a00 <_Znam>:
+    5a20: 00 01 00 b4  	cbz	x0, 0x5a40 <_Znam+0x40>
+    5a3c: 80 01 00 34  	cbz	w0, 0x5a6c <_Znam+0x6c>
+    5a50: c1 01 00 54  	b.ne	0x5a88 <_Znam+0x88>
+    5a70: b4 fe ff b4  	cbz	x20, 0x5a44 <_Znam+0x44>
+    5a84: f0 ff ff 17  	b	0x5a44 <_Znam+0x44>
+0000000000005a90 <_ZdlPv>:
+    5a90: 40 00 00 b4  	cbz	x0, 0x5a98 <_ZdlPv+0x8>
+0000000000005aa0 <_ZdaPv>:
+    5aa0: 40 00 00 b4  	cbz	x0, 0x5aa8 <_ZdaPv+0x8>
+    5b38: a1 00 00 54  	b.ne	0x5b4c <_ZdaPv+0xac>
+    5b74: 1c 00 00 f0  	adrp	x28, 0x8000 <_ZdaPv+0xe0>
+    5b7c: 17 00 00 f0  	adrp	x23, 0x8000 <_ZdaPv+0xe8>
+    5bbc: 6c 06 00 35  	cbnz	w12, 0x5c88 <_ZdaPv+0x1e8>
+    5bc0: 18 00 00 f0  	adrp	x24, 0x8000 <_ZdaPv+0x12c>
+    5bcc: 80 00 00 b5  	cbnz	x0, 0x5bdc <_ZdaPv+0x13c>
+    5bd0: c6 00 00 94  	bl	0x5ee8 <_ZdaPv+0x448>
+    5bd8: 80 05 00 b4  	cbz	x0, 0x5c88 <_ZdaPv+0x1e8>
+    5c08: f6 01 00 94  	bl	0x63e0 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt>
+    5c14: a1 03 00 54  	b.ne	0x5c88 <_ZdaPv+0x1e8>
+    5c20: a0 00 00 b4  	cbz	x0, 0x5c34 <_ZdaPv+0x194>
+    5c30: 02 00 00 14  	b	0x5c38 <_ZdaPv+0x198>
+    5c78: 22 13 00 54  	b.hs	0x5edc <_ZdaPv+0x43c>
+    5c84: 20 11 00 54  	b.eq	0x5ea8 <_ZdaPv+0x408>
+    5c90: c0 00 00 54  	b.eq	0x5ca8 <_ZdaPv+0x208>
+    5c9c: 60 00 00 54  	b.eq	0x5ca8 <_ZdaPv+0x208>
+    5ca4: 2d 10 00 b4  	cbz	x13, 0x5ea8 <_ZdaPv+0x408>
+    5d08: 81 01 00 54  	b.ne	0x5d38 <_ZdaPv+0x298>
+    5d10: a8 00 00 54  	b.hi	0x5d24 <_ZdaPv+0x284>
+    5d14: eb ff ff b0  	adrp	x11, 0x2000 <_ZdaPv+0x268>
+    5d20: 02 00 00 14  	b	0x5d28 <_ZdaPv+0x288>
+    5d28: e1 ff ff b0  	adrp	x1, 0x2000 <_ZdaPv+0x27c>
+    5d40: 61 07 00 54  	b.ne	0x5e2c <_ZdaPv+0x38c>
+    5d54: 17 00 00 f0  	adrp	x23, 0x8000 <_ZdaPv+0x2c0>
+    5d5c: b5 00 00 b5  	cbnz	x21, 0x5d70 <_ZdaPv+0x2d0>
+    5d60: 62 00 00 94  	bl	0x5ee8 <_ZdaPv+0x448>
+    5d6c: 00 06 00 b4  	cbz	x0, 0x5e2c <_ZdaPv+0x38c>
+    5d74: a7 01 00 94  	bl	0x6410 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt>
+    5d78: a0 05 00 34  	cbz	w0, 0x5e2c <_ZdaPv+0x38c>
+    5d94: 80 03 00 b4  	cbz	x0, 0x5e04 <_ZdaPv+0x364>
+    5da4: e6 09 00 54  	b.vs	0x5ee0 <_ZdaPv+0x440>
+    5dc0: e2 ff ff b0  	adrp	x2, 0x2000 <_ZdaPv+0x314>
+    5e00: 07 00 00 14  	b	0x5e1c <_ZdaPv+0x37c>
+    5e04: e2 ff ff b0  	adrp	x2, 0x2000 <_ZdaPv+0x358>
+    5e28: 8e 01 00 94  	bl	0x6460 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt>
+    5e30: cf 03 00 b4  	cbz	x15, 0x5ea8 <_ZdaPv+0x408>
+    5e44: 00 01 00 34  	cbz	w0, 0x5e64 <_ZdaPv+0x3c4>
+    5e60: 0c 00 00 14  	b	0x5e90 <_ZdaPv+0x3f0>
+    5e6c: e0 fe ff b4  	cbz	x0, 0x5e48 <_ZdaPv+0x3a8>
+    5e94: e1 ff ff b0  	adrp	x1, 0x2000 <_ZdaPv+0x3e8>
+    5ea4: 03 ff ff 97  	bl	0x5ab0 <_ZdaPv+0x10>
+    5eb4: 21 01 00 54  	b.ne	0x5ed8 <_ZdaPv+0x438>
+    5efc: 16 00 00 d0  	adrp	x22, 0x7000 <_ZdaPv+0x464>
+    5f08: 15 00 00 d0  	adrp	x21, 0x7000 <_ZdaPv+0x470>
+    5f1c: e8 08 00 35  	cbnz	w8, 0x6038 <_ZdaPv+0x598>
+    5f20: 00 00 00 d0  	adrp	x0, 0x7000 <_ZdaPv+0x488>
+    5f28: 56 01 00 94  	bl	0x6480 <_ZNSt3__15mutex4lockEv@plt>
+    5f30: e9 07 00 35  	cbnz	w9, 0x602c <_ZdaPv+0x58c>
+    5f34: 0a 00 00 d0  	adrp	x10, 0x7000 <_ZdaPv+0x49c>
+    5f58: 60 00 00 34  	cbz	w0, 0x5f64 <_ZdaPv+0x4c4>
+    5f60: 07 00 00 14  	b	0x5f7c <_ZdaPv+0x4dc>
+    5f68: b3 00 00 b4  	cbz	x19, 0x5f7c <_ZdaPv+0x4dc>
+    5f84: 43 01 00 94  	bl	0x6490 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>
+    5f94: c2 00 00 54  	b.hs	0x5fac <_ZdaPv+0x50c>
+    5fa8: 03 00 00 14  	b	0x5fb4 <_ZdaPv+0x514>
+    5fb0: 40 00 00 94  	bl	0x60b0 <_ZdaPv+0x610>
+    5fc8: 60 00 00 34  	cbz	w0, 0x5fd4 <_ZdaPv+0x534>
+    5fd0: 07 00 00 14  	b	0x5fec <_ZdaPv+0x54c>
+    5fd8: b3 00 00 b4  	cbz	x19, 0x5fec <_ZdaPv+0x54c>
+    5ff4: 27 01 00 94  	bl	0x6490 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>
+    6004: c2 00 00 54  	b.hs	0x601c <_ZdaPv+0x57c>
+    6018: 03 00 00 14  	b	0x6024 <_ZdaPv+0x584>
+    6020: 24 00 00 94  	bl	0x60b0 <_ZdaPv+0x610>
+    602c: 00 00 00 b0  	adrp	x0, 0x7000 <_ZdaPv+0x590>
+    6034: 1b 01 00 94  	bl	0x64a0 <_ZNSt3__15mutex6unlockEv@plt>
+    604c: c1 00 00 54  	b.ne	0x6064 <_ZdaPv+0x5c4>
+    6070: 6c 01 00 b4  	cbz	x12, 0x609c <_ZdaPv+0x5fc>
+    6078: 05 00 00 14  	b	0x608c <_ZdaPv+0x5ec>
+    6084: cb 00 00 b4  	cbz	x11, 0x609c <_ZdaPv+0x5fc>
+    6090: 03 00 00 14  	b	0x609c <_ZdaPv+0x5fc>
+    6094: 01 00 00 14  	b	0x6098 <_ZdaPv+0x5f8>
+    609c: 00 00 00 b0  	adrp	x0, 0x7000 <_ZdaPv+0x600>
+    60a4: ff 00 00 94  	bl	0x64a0 <_ZNSt3__15mutex6unlockEv@plt>
+    60d0: 18 00 00 b0  	adrp	x24, 0x7000 <_ZdaPv+0x634>
+    60f4: 02 0a 00 54  	b.hs	0x6234 <_ZdaPv+0x794>
+    60fc: ec 09 00 b5  	cbnz	x12, 0x6238 <_ZdaPv+0x798>
+    6128: 9a 01 00 b4  	cbz	x26, 0x6158 <_ZdaPv+0x6b8>
+    6130: a3 08 00 b5  	cbnz	x3, 0x6244 <_ZdaPv+0x7a4>
+    614c: c0 00 00 34  	cbz	w0, 0x6164 <_ZdaPv+0x6c4>
+    6154: 0a 00 00 14  	b	0x617c <_ZdaPv+0x6dc>
+    6160: 07 00 00 14  	b	0x617c <_ZdaPv+0x6dc>
+    6168: b5 00 00 b4  	cbz	x21, 0x617c <_ZdaPv+0x6dc>
+    6180: 7b 05 f8 b7  	tbnz	x27, #63, 0x622c <_ZdaPv+0x78c>
+    6184: 43 05 00 54  	b.lo	0x622c <_ZdaPv+0x78c>
+    618c: 03 05 00 54  	b.lo	0x622c <_ZdaPv+0x78c>
+    61a0: eb 00 00 54  	b.lt	0x61bc <_ZdaPv+0x71c>
+    61a8: 41 04 00 54  	b.ne	0x6230 <_ZdaPv+0x790>
+    61d0: 40 02 00 b4  	cbz	x0, 0x6218 <_ZdaPv+0x778>
+    61e0: 93 02 00 b5  	cbnz	x19, 0x6230 <_ZdaPv+0x790>
+    61f4: a1 01 00 54  	b.ne	0x6228 <_ZdaPv+0x788>
+    6224: a0 fe ff 54  	b.eq	0x61f8 <_ZdaPv+0x758>
+    6238: 00 00 00 b0  	adrp	x0, 0x7000 <_ZdaPv+0x79c>
+    6240: a4 00 00 94  	bl	0x64d0 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+    6244: 01 00 00 94  	bl	0x6248 <_ZdaPv+0x7a8>
+    6260: 0c 00 00 94  	bl	0x6290 <_ZdaPv+0x7f0>
+    6264: 01 00 00 b0  	adrp	x1, 0x7000 <_ZdaPv+0x7c8>
+    6268: 02 00 00 b0  	adrp	x2, 0x7000 <_ZdaPv+0x7cc>
+    629c: e1 ff ff 90  	adrp	x1, 0x2000 <_ZdaPv+0x7ec>
+    62a8: 9a 00 00 94  	bl	0x6510 <_ZNSt11logic_errorC2EPKc@plt>
+    62ac: 08 00 00 b0  	adrp	x8, 0x7000 <_ZdaPv+0x810>
+00000000000063e0 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt>:
+    63e0: 10 00 00 b0  	adrp	x16, 0x7000 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt+0x4>
+0000000000006410 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt>:
+    6410: 10 00 00 b0  	adrp	x16, 0x7000 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt+0x4>
+0000000000006460 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt>:
+    6460: 10 00 00 b0  	adrp	x16, 0x7000 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt+0x4>
+0000000000006480 <_ZNSt3__15mutex4lockEv@plt>:
+    6480: 10 00 00 b0  	adrp	x16, 0x7000 <_ZNSt3__15mutex4lockEv@plt+0x4>
+0000000000006490 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>:
+    6490: 10 00 00 b0  	adrp	x16, 0x7000 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt+0x4>
+00000000000064a0 <_ZNSt3__15mutex6unlockEv@plt>:
+    64a0: 10 00 00 b0  	adrp	x16, 0x7000 <_ZNSt3__15mutex6unlockEv@plt+0x4>
+00000000000064d0 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>:
+    64d0: 10 00 00 b0  	adrp	x16, 0x7000 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt+0x4>
+0000000000006510 <_ZNSt11logic_errorC2EPKc@plt>:
+    6510: 10 00 00 b0  	adrp	x16, 0x7000 <_ZNSt11logic_errorC2EPKc@plt+0x4>
+0000000000007008 <_ZTISt9exception>:
+0000000000007018 <_ZTISt11logic_error>:
+0000000000007030 <_ZTISt12length_error>:

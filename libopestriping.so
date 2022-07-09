@@ -1,6 +1,6 @@
-    792c: 6d 21 00 94  	bl	0xfee0 <_Znwm@plt>
-    7944: 6b 21 00 14  	b	0xfef0 <_ZdlPv@plt>
-000000000000fee0 <_Znwm@plt>:
-    fee0: 10 00 00 b0  	adrp	x16, 0x10000 <_Znwm@plt+0x4>
-000000000000fef0 <_ZdlPv@plt>:
-    fef0: 10 00 00 b0  	adrp	x16, 0x10000 <_ZdlPv@plt+0x4>
+    7904: 1f 23 00 94  	bl	0x10580 <_Znwm@plt>
+    791c: 1d 23 00 14  	b	0x10590 <_ZdlPv@plt>
+0000000000010580 <_Znwm@plt>:
+   10580: 10 00 00 b0  	adrp	x16, 0x11000 <_Znwm@plt+0x4>
+0000000000010590 <_ZdlPv@plt>:
+   10590: 10 00 00 b0  	adrp	x16, 0x11000 <_ZdlPv@plt+0x4>

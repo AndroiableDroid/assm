@@ -1,84 +1,1085 @@
-000000000000d765 <_ZTSSt12length_error>:
-000000000000d776 <_ZTSSt11logic_error>:
-000000000000d786 <_ZTSSt9exception>:
-   1d974: 8f 72 01 94  	bl	0x7a3b0 <_ZN11ROIPriority13SetTuningDataEPN16statsroipriority29chromatixStatsROIPriorityTypeE@plt>
-   203f8: f2 67 01 14  	b	0x7a3c0 <_ZN11ROIPriorityD1Ev@plt>
-   2042c: e5 67 01 94  	bl	0x7a3c0 <_ZN11ROIPriorityD1Ev@plt>
-   39428: f6 03 01 94  	bl	0x7a400 <_ZN7ROIDataC1Ev@plt>
-   39630: 78 03 01 94  	bl	0x7a410 <_ZNK8ROIsData4SizeEv@plt>
-   3974c: 35 03 01 94  	bl	0x7a420 <_ZNK11ROIPriority16GetDominantIndexEv@plt>
-   39774: 2f 03 01 94  	bl	0x7a430 <_ZNK8ROIsData15GetNormalizeROIEj@plt>
-   39828: 06 03 01 94  	bl	0x7a440 <_ZNK8ROIsData21GetNormalizeROIInCropEj@plt>
-   5dd30: dc 71 00 94  	bl	0x7a4a0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
-   60728: 5e 67 00 94  	bl	0x7a4a0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
-   6088c: 05 67 00 94  	bl	0x7a4a0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
-   61e28: aa 61 00 94  	bl	0x7a4d0 <_ZN8ROIsData18SetImageResolutionEff@plt>
-   625fc: b9 5f 00 94  	bl	0x7a4e0 <_ZN11ROIPriority13UpdateROIDataEPK26UnstabilizedROIInformation@plt>
-   62648: aa 5f 00 94  	bl	0x7a4f0 <_ZN8ROIsData13SetCropWindowEffff@plt>
-   73548: d6 1b 00 94  	bl	0x7a4a0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
-   73f20: 60 19 00 94  	bl	0x7a4a0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
-   742b0: 7c 18 00 94  	bl	0x7a4a0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
-   74554: d3 17 00 94  	bl	0x7a4a0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
-   7487c: 09 17 00 94  	bl	0x7a4a0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
-   74b10: 64 16 00 94  	bl	0x7a4a0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
-   74dcc: b5 15 00 94  	bl	0x7a4a0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
-   78678: aa 07 00 94  	bl	0x7a520 <_ZN11ROIPriorityC1Ev@plt>
-   786b0: a0 07 00 94  	bl	0x7a530 <_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>
-   7979c: 6d 03 00 94  	bl	0x7a550 <_ZNSt3__15mutex4lockEv@plt>
-   797f8: 5a 03 00 94  	bl	0x7a560 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>
-   79848: 46 03 00 94  	bl	0x7a560 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>
-   79868: 42 03 00 94  	bl	0x7a570 <_ZNSt3__15mutex6unlockEv@plt>
-   798e4: 23 03 00 94  	bl	0x7a570 <_ZNSt3__15mutex6unlockEv@plt>
-   79a78: c6 02 00 94  	bl	0x7a590 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
-   79b28: 9e 02 00 94  	bl	0x7a5a0 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt>
-   79c78: 56 02 00 94  	bl	0x7a5d0 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt>
-   79d24: 3f 02 00 94  	bl	0x7a620 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt>
-000000000007a1f8 <_Znwm>:
-000000000007a1fc <_Znam>:
-000000000007a200 <_ZdlPv>:
-000000000007a204 <_ZdaPv>:
-000000000007a208 <_ZN8CdkUtils24GetNanosecondsSinceEpochEv>:
-000000000007a210 <_ZN8CdkUtils11GetThreadIDEv>:
-000000000007a3b0 <_ZN11ROIPriority13SetTuningDataEPN16statsroipriority29chromatixStatsROIPriorityTypeE@plt>:
-   7a3b0: 10 00 00 d0  	adrp	x16, 0x7c000 <_ZN11ROIPriority13SetTuningDataEPN16statsroipriority29chromatixStatsROIPriorityTypeE@plt+0x8>
-000000000007a3c0 <_ZN11ROIPriorityD1Ev@plt>:
-   7a3c0: 10 00 00 d0  	adrp	x16, 0x7c000 <_ZN11ROIPriorityD1Ev@plt+0x8>
-000000000007a400 <_ZN7ROIDataC1Ev@plt>:
-   7a400: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZN7ROIDataC1Ev@plt+0xc>
-000000000007a410 <_ZNK8ROIsData4SizeEv@plt>:
-   7a410: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZNK8ROIsData4SizeEv@plt+0xc>
-000000000007a420 <_ZNK11ROIPriority16GetDominantIndexEv@plt>:
-   7a420: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZNK11ROIPriority16GetDominantIndexEv@plt+0xc>
-000000000007a430 <_ZNK8ROIsData15GetNormalizeROIEj@plt>:
-   7a430: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZNK8ROIsData15GetNormalizeROIEj@plt+0xc>
-000000000007a440 <_ZNK8ROIsData21GetNormalizeROIInCropEj@plt>:
-   7a440: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZNK8ROIsData21GetNormalizeROIInCropEj@plt+0xc>
-000000000007a4a0 <_ZNSt3__16chrono12system_clock3nowEv@plt>:
-   7a4a0: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZNSt3__16chrono12system_clock3nowEv@plt+0xc>
-000000000007a4d0 <_ZN8ROIsData18SetImageResolutionEff@plt>:
-   7a4d0: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZN8ROIsData18SetImageResolutionEff@plt+0xc>
-000000000007a4e0 <_ZN11ROIPriority13UpdateROIDataEPK26UnstabilizedROIInformation@plt>:
-   7a4e0: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZN11ROIPriority13UpdateROIDataEPK26UnstabilizedROIInformation@plt+0xc>
-000000000007a4f0 <_ZN8ROIsData13SetCropWindowEffff@plt>:
-   7a4f0: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZN8ROIsData13SetCropWindowEffff@plt+0xc>
-000000000007a520 <_ZN11ROIPriorityC1Ev@plt>:
-   7a520: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZN11ROIPriorityC1Ev@plt+0xc>
-000000000007a530 <_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>:
-   7a530: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt+0xc>
-000000000007a550 <_ZNSt3__15mutex4lockEv@plt>:
-   7a550: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZNSt3__15mutex4lockEv@plt+0xc>
-000000000007a560 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>:
-   7a560: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt+0xc>
-000000000007a570 <_ZNSt3__15mutex6unlockEv@plt>:
-   7a570: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZNSt3__15mutex6unlockEv@plt+0xc>
-000000000007a590 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>:
-   7a590: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt+0xc>
-000000000007a5a0 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt>:
-   7a5a0: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt+0xc>
-000000000007a5d0 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt>:
-   7a5d0: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt+0xc>
-000000000007a620 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt>:
-   7a620: 10 00 00 f0  	adrp	x16, 0x7d000 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt+0xc>
-000000000007b290 <_ZTISt12length_error>:
-000000000007b2a8 <_ZTISt11logic_error>:
-000000000007b2c0 <_ZTISt9exception>:
+    c1b0: 00 16 34 34  	cbz	w0, 0x74470 <_ZdaPv+0x78>
+    c1b4: 34 34 34 34  	cbz	w20, 0x74838 <_ZdaPv+0x440>
+    c1b8: 34 34 34 34  	cbz	w20, 0x7483c <_ZdaPv+0x444>
+000000000000c630 <_ZTSSt12length_error>:
+000000000000c641 <_ZTSSt11logic_error>:
+000000000000c651 <_ZTSSt9exception>:
+   13258: f2 84 01 94  	bl	0x74620 <_ZdaPv+0x228>
+   13390: a4 84 01 94  	bl	0x74620 <_ZdaPv+0x228>
+   134ac: 5d 84 01 94  	bl	0x74620 <_ZdaPv+0x228>
+   134fc: 49 84 01 94  	bl	0x74620 <_ZdaPv+0x228>
+   13654: f3 83 01 94  	bl	0x74620 <_ZdaPv+0x228>
+   136a4: df 83 01 94  	bl	0x74620 <_ZdaPv+0x228>
+   137ac: 9d 83 01 94  	bl	0x74620 <_ZdaPv+0x228>
+   1382c: 7d 83 01 94  	bl	0x74620 <_ZdaPv+0x228>
+   138c0: 58 83 01 94  	bl	0x74620 <_ZdaPv+0x228>
+   1392c: 3d 83 01 94  	bl	0x74620 <_ZdaPv+0x228>
+   139dc: 11 83 01 94  	bl	0x74620 <_ZdaPv+0x228>
+   13b38: ba 82 01 94  	bl	0x74620 <_ZdaPv+0x228>
+   13c0c: 85 82 01 94  	bl	0x74620 <_ZdaPv+0x228>
+   13c5c: 71 82 01 94  	bl	0x74620 <_ZdaPv+0x228>
+   13cd0: 54 82 01 14  	b	0x74620 <_ZdaPv+0x228>
+   13d08: e8 81 01 94  	bl	0x744a8 <_ZdaPv+0xb0>
+   13d78: 2a 82 01 14  	b	0x74620 <_ZdaPv+0x228>
+   13e6c: ed 81 01 94  	bl	0x74620 <_ZdaPv+0x228>
+   13ed0: d4 81 01 94  	bl	0x74620 <_ZdaPv+0x228>
+   1548c: 83 7e 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   15504: 1b 7e 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   15514: 61 7e 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   1569c: 55 7e 01 94  	bl	0x74ff0 <_ZN11ROIPriorityC1Ev@plt>
+   15828: f6 7d 01 94  	bl	0x75000 <_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>
+   15bf0: aa 7c 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   15c6c: 41 7c 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   15c7c: 87 7c 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   15cb4: 79 7c 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   15d20: 14 7c 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   15d30: 5a 7c 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   15d70: 4a 7c 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   15de0: e4 7b 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   15df0: 2a 7c 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   15e30: 1a 7c 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   15e9c: b5 7b 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   15eac: fb 7b 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   15eec: eb 7b 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   15f58: 86 7b 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   15f68: cc 7b 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   15fa4: bd 7b 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   16010: 58 7b 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   16020: 9e 7b 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   1608c: 83 7b 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   160b4: 79 7b 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   160dc: 6f 7b 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   16104: 65 7b 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   16128: 5c 7b 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   163c4: 13 7b 01 94  	bl	0x75010 <_ZN11ROIPriority13SetTuningDataEPN16statsroipriority29chromatixStatsROIPriorityTypeEi@plt>
+   16dac: 3b 78 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   16e28: d2 77 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   16e38: 18 78 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   16e6c: 0b 78 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   16ed8: a6 77 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   16ee8: ec 77 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   16f1c: df 77 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   16f88: 7a 77 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   16f98: c0 77 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   16fcc: b3 77 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   17034: 4f 77 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   17044: 95 77 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   1708c: 83 77 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   170a8: 7c 77 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   170c4: 75 77 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   190f8: ca 6f 01 14  	b	0x75020 <_ZN11ROIPriorityD1Ev@plt>
+   1912c: bd 6f 01 94  	bl	0x75020 <_ZN11ROIPriorityD1Ev@plt>
+   191d8: 30 6f 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   19250: c8 6e 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   19260: 0e 6f 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   19398: c0 6e 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   19410: 58 6e 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   19420: 9e 6e 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   19ff8: a8 6b 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   1a070: 40 6b 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   1a080: 86 6b 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   1a3a0: be 6a 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   1a418: 56 6a 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   1a428: 9c 6a 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   1a538: 58 6a 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   1a5b0: f0 69 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   1a5c0: 36 6a 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   1aae8: ec 68 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   1ab60: 84 68 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   1ab70: ca 68 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   1b810: a2 65 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   1b888: 3a 65 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   1b898: 80 65 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   1c170: 4a 63 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   1c1e8: e2 62 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   1c1f8: 28 63 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   1c580: 46 62 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   1c5fc: dd 61 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   1c60c: 23 62 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   1c65c: 0f 62 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   1c6d4: a7 61 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   1c6e4: ed 61 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   1cbcc: 95 5e 01 94  	bl	0x74620 <_ZdaPv+0x228>
+   1cc5c: 71 5e 01 94  	bl	0x74620 <_ZdaPv+0x228>
+   1cd5c: 31 5e 01 94  	bl	0x74620 <_ZdaPv+0x228>
+   1cdc8: 16 5e 01 94  	bl	0x74620 <_ZdaPv+0x228>
+   1ce40: f8 5d 01 94  	bl	0x74620 <_ZdaPv+0x228>
+   1d20c: 05 5d 01 94  	bl	0x74620 <_ZdaPv+0x228>
+   1db78: c8 5c 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   1dbf0: 60 5c 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   1dc00: a6 5c 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   1e738: d8 59 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   1e7b0: 70 59 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   1e7c0: b6 59 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   21d78: 48 4c 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   21df0: e0 4b 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   21e00: 26 4c 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   25d68: 4c 3c 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   25de4: e3 3b 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   25df4: 29 3c 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   25e2c: 1b 3c 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   25e94: b7 3b 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   25ea4: fd 3b 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   25eec: eb 3b 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   26258: 10 3b 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   262d0: a8 3a 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   262e0: ee 3a 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   26628: 1c 3a 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   266a0: b4 39 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   266b0: fa 39 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   27380: c6 36 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   273f8: 5e 36 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   27408: a4 36 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   27a80: 06 35 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   27af8: 9e 34 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   27b08: e4 34 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   287d0: b2 31 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   28848: 4a 31 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   28858: 90 31 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   2e7d0: b2 19 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   2e848: 4a 19 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   2e858: 90 19 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   2ef5c: cf 17 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   2efd8: 66 17 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   2efe8: ac 17 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   2f02c: 9b 17 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   2f098: 36 17 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   2f0a8: 7c 17 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   2f0e0: 6e 17 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   2f148: 0a 17 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   2f158: 50 17 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   2f1b0: 3a 17 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   2f1d4: 31 17 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   2ff70: ca 13 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   2ffe8: 62 13 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   2fff8: a8 13 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   30210: 94 13 01 94  	bl	0x75060 <_ZNK8ROIsData4SizeEv@plt>
+   3031c: 55 13 01 94  	bl	0x75070 <_ZNK11ROIPriority16GetDominantIndexEv@plt>
+   30334: 53 13 01 94  	bl	0x75080 <_ZNK8ROIsData21GetNormalizeROIInCropEj@plt>
+   3059c: b1 12 01 94  	bl	0x75060 <_ZNK8ROIsData4SizeEv@plt>
+   33714: e1 05 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   33790: 78 05 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   337a0: be 05 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   337d8: b0 05 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   33840: 4c 05 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   33850: 92 05 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   33898: 80 05 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   34238: 18 03 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   342b0: b0 02 01 94  	bl	0x74d70 <_ZdaPv+0x978>
+   342c0: f6 02 01 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   35bfc: a7 fc 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   35c78: 3e fc 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   35c88: 84 fc 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   367f8: a8 f9 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   36870: 40 f9 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   36880: 86 f9 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   380a0: 7e f3 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   38118: 16 f3 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   38128: 5c f3 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   38660: 0e f2 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   386d8: a6 f1 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   386e8: ec f1 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   398a0: 7e ed 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   39918: 16 ed 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   39928: 5c ed 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   3a6c0: f6 e9 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   3a738: 8e e9 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   3a748: d4 e9 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   3aa84: 05 e9 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   3aafc: 9d e8 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   3ab0c: e3 e8 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   3b2b0: fa e6 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   3b328: 92 e6 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   3b338: d8 e6 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   3b864: 8d e5 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   3b8dc: 25 e5 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   3b8ec: 6b e5 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   3bb20: de e4 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   3bb98: 76 e4 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   3bba8: bc e4 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   3be98: 00 e4 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   3bf10: 98 e3 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   3bf20: de e3 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   3c3b8: b8 e2 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   3c430: 50 e2 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   3c440: 96 e2 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   3c7f0: aa e1 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   3c868: 42 e1 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   3c878: 88 e1 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   3cf18: e0 df 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   3cf90: 78 df 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   3cfa0: be df 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   3d428: 9c de 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   3d4a0: 34 de 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   3d4b0: 7a de 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   3d7d8: b0 dd 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   3d850: 48 dd 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   3d860: 8e dd 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   3dd60: 4e dc 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   3ddd8: e6 db 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   3dde8: 2c dc 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   3e110: 62 db 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   3e188: fa da 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   3e198: 40 db 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   3e4d0: 72 da 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   3e548: 0a da 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   3e558: 50 da 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   3fbb0: ba d4 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   3fc28: 52 d4 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   3fc38: 98 d4 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   3ffc8: b4 d3 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   40040: 4c d3 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   40050: 92 d3 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   41588: 44 ce 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   41600: dc cd 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   41610: 22 ce 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   419e4: 2d cd 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   41a5c: c5 cc 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   41a6c: 0b cd 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   43378: c8 c6 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   433f0: 60 c6 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   43400: a6 c6 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   437ec: ab c5 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   43864: 43 c5 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   43874: 89 c5 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   43a18: 20 c5 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   43a90: b8 c4 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   43aa0: fe c4 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   44400: a6 c2 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   44478: 3e c2 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   44488: 84 c2 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   450bc: 77 bf 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   45134: 0f bf 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   45144: 55 bf 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   45638: 18 be 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   456b0: b0 bd 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   456c0: f6 bd 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   45aa4: fd bc 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   45b20: 94 bc 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   45b30: da bc 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   45b7c: c7 bc 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   45bf4: 5f bc 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   45c04: a5 bc 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   45c78: 88 bc 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   45cf4: 1f bc 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   45d04: 65 bc 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   46264: 0d bb 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   462dc: a5 ba 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   462ec: eb ba 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   46900: 66 b9 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   46978: fe b8 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   46988: 44 b9 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   47000: a6 b7 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   47078: 3e b7 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   47088: 84 b7 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   47b68: cc b4 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   47be0: 64 b4 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   47bf0: aa b4 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   498cc: 73 ad 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   49944: 0b ad 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   49954: 51 ad 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   4a260: 0e ab 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   4a2d8: a6 aa 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   4a2e8: ec aa 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   4a928: 5c a9 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   4a9a0: f4 a8 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   4a9b0: 3a a9 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   4c810: a2 a1 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   4c888: 3a a1 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   4c898: 80 a1 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   4ca54: f3 9e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   4caf4: cb 9e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   4d534: 59 9e 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   4d5a8: f2 9d 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   4d5bc: 37 9e 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   4d5f0: 2a 9e 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   4d658: c6 9d 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   4d66c: 0b 9e 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   4d71c: df 9d 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   4d78c: 79 9d 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   4d7a0: be 9d 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   4d864: 8d 9d 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   4e260: 0e 9b 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   4e2dc: a5 9a 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   4e2ec: eb 9a 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   50458: 90 92 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   504d0: 28 92 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   504e0: 6e 92 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   50640: a4 92 00 94  	bl	0x750d0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   50800: 34 92 00 94  	bl	0x750d0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   5098c: 43 91 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   509fc: dd 90 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   50a10: 22 91 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   51010: 30 90 00 94  	bl	0x750d0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   510b0: 5c 8d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   51144: 37 8d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   511a4: 1f 8d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   51204: 07 8d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   51254: f3 8c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   518ac: 5d 8b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   519ac: 3b 8d 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   51a24: d3 8c 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   51a34: 19 8d 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   51acc: d5 8a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   51b54: b3 8a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   51d38: e6 8c 00 94  	bl	0x750d0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   51d8c: d1 8c 00 94  	bl	0x750d0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   51e88: 92 8c 00 94  	bl	0x750d0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   52be8: 4a 89 00 94  	bl	0x75110 <_ZN8ROIsData18SetImageResolutionEff@plt>
+   53238: ba 87 00 94  	bl	0x75120 <_ZN11ROIPriority13UpdateROIDataEPK26UnstabilizedROIInformation@plt>
+   53280: ac 87 00 94  	bl	0x75130 <_ZN8ROIsData13SetCropWindowEffff@plt>
+   5364c: f5 83 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   536c8: d6 83 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   53728: be 83 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   53780: a8 83 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   537e4: 8f 83 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5383c: 79 83 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   53894: 63 83 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   538f4: 4b 83 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5394c: 35 83 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   539a4: 1f 83 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   539fc: 09 83 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   53ce0: 6e 84 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   53d54: 07 84 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   53d64: 4d 84 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   53d9c: 3f 84 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   53e08: da 83 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   53e18: 20 84 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   53e54: 11 84 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   53ec0: ac 83 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   53ed0: f2 83 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   53f04: e5 83 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   53f6c: 81 83 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   53f7c: c7 83 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   54478: 88 82 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   54494: 81 82 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   544b0: 7a 82 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   54d94: 41 80 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   54e04: db 7f 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   54e18: 20 80 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   56164: 2f 79 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   56ae8: ce 76 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   56b44: b7 76 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   57290: e4 74 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   573fc: 89 74 00 14  	b	0x74620 <_ZdaPv+0x228>
+   574ec: 4d 74 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   578c4: 03 76 00 94  	bl	0x750d0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   57aa4: 8b 75 00 94  	bl	0x750d0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   57bd8: 3e 75 00 94  	bl	0x750d0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   57d7c: d5 74 00 94  	bl	0x750d0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   57dd8: be 74 00 94  	bl	0x750d0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   57ef0: 78 74 00 94  	bl	0x750d0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   57fdc: 3d 74 00 94  	bl	0x750d0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   58158: de 73 00 94  	bl	0x750d0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   58214: af 73 00 94  	bl	0x750d0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   58444: 23 73 00 94  	bl	0x750d0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   58498: 0e 73 00 94  	bl	0x750d0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   58564: db 72 00 94  	bl	0x750d0 <_ZNSt3__16chrono12system_clock3nowEv@plt>
+   58960: 4e 71 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   589d8: e6 70 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   589e8: 2c 71 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   58c80: 68 6e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   58d4c: 35 6e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   58e18: 02 6e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   58ee8: ce 6d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   58fb4: 9b 6d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   59078: 6a 6d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5913c: 39 6d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5920c: 05 6d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   592d8: d2 6c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   593a4: 9f 6c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   59470: 6c 6c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5953c: 39 6c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   59608: 06 6c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   596cc: d5 6b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   59790: a4 6b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   59854: 73 6b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   59918: 42 6b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   599c8: 16 6b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   59a94: e3 6a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   59b58: b2 6a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   59c1c: 81 6a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   59ce8: 4e 6a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   59dac: 1d 6a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   59e78: ea 69 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   59f44: b7 69 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5a010: 84 69 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5a0d4: 53 69 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5a198: 22 69 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5a25c: f1 68 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5a328: be 68 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5a3f4: 8b 68 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5a4c0: 58 68 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5a58c: 25 68 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5a650: f4 67 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5a724: bf 67 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5a7e8: 8e 67 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5a8b0: 5c 67 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5a97c: 29 67 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5aa48: f6 66 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5ab14: c3 66 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5abd8: 92 66 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5aca4: 5f 66 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5ad70: 2c 66 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5ae3c: f9 65 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5af00: c8 65 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5afcc: 95 65 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5b098: 62 65 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5b168: 2e 65 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5b21c: 01 65 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5b2e8: ce 64 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5b3b4: 9b 64 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5b480: 68 64 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5b544: 37 64 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5b610: 04 64 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5b6dc: d1 63 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5b7e0: 90 63 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5b8ac: 5d 63 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5b978: 2a 63 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5ba4c: f5 62 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5bac8: d6 62 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5bb94: a3 62 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5bc60: 70 62 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5bd30: 3c 62 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5bdfc: 09 62 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5bec8: d6 61 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5bf9c: a1 61 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5c070: 6c 61 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5c134: 3b 61 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5c204: 07 61 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5c2d0: d4 60 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5c39c: a1 60 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5c468: 6e 60 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5c52c: 3d 60 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5c5f8: 0a 60 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5c6bc: d9 5f 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5c780: a8 5f 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5c844: 77 5f 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5c908: 46 5f 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5c9d4: 13 5f 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5caa0: e0 5e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5cb6c: ad 5e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5cc38: 7a 5e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5ccfc: 49 5e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5cdc0: 18 5e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5ce84: e7 5d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5cf50: b4 5d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5d014: 83 5d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5d0e0: 50 5d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5d1ac: 1d 5d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5d270: ec 5c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5d334: bb 5c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5d3f8: 8a 5c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5d4c4: 57 5c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5d588: 26 5c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5d654: f3 5b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5d718: c2 5b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5d7dc: 91 5b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5d8a8: 5e 5b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5d974: 2b 5b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5da40: f8 5a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5db04: c7 5a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5dbc8: 96 5a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5dc8c: 65 5a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5dd50: 34 5a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5de14: 03 5a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5ded8: d2 59 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5df9c: a1 59 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5e060: 70 59 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5e124: 3f 59 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5e1e8: 0e 59 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5e2ac: dd 58 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5e370: ac 58 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5e434: 7b 58 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5e4f8: 4a 58 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5e5bc: 19 58 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5e680: e8 57 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5e74c: b5 57 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5e810: 84 57 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5e8d4: 53 57 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5e9a0: 20 57 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5ea74: eb 56 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5eb40: b8 56 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5ec04: 87 56 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5ecd0: 54 56 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5ed9c: 21 56 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5ee70: ec 55 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5ef3c: b9 55 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5f008: 86 55 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5f0d4: 53 55 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5f1a0: 20 55 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5f26c: ed 54 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5f330: bc 54 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5f3fc: 89 54 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5f4cc: 55 54 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5f594: 23 54 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5f664: ef 53 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5f734: bb 53 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5f804: 87 53 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5f8c8: 56 53 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5f98c: 25 53 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5fa08: 06 53 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5fad4: d3 52 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5fba0: a0 52 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5fc6c: 6d 52 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5fd38: 3a 52 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5fdfc: 09 52 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5fec0: d8 51 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   5ff84: a7 51 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   60058: 72 51 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   60124: 3f 51 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   601f4: 0b 51 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   602c0: d8 50 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6038c: a5 50 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   60458: 72 50 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   60524: 3f 50 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   605e8: 0e 50 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   606ac: dd 4f 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   60778: aa 4f 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   60844: 77 4f 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   60918: 42 4f 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   609ec: 0d 4f 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   60ab8: da 4e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   60b84: a7 4e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   60c50: 74 4e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   60d1c: 41 4e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   60df0: 0c 4e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   60ebc: d9 4d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   60f80: a8 4d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   61044: 77 4d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   61118: 42 4d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   611dc: 11 4d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   612a8: de 4c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   61374: ab 4c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   61440: 78 4c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6150c: 45 4c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   615d0: 14 4c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   616d8: d2 4b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   617a4: 9f 4b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   61870: 6c 4b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   61934: 3b 4b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   61a00: 08 4b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   61acc: d5 4a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   61b90: a4 4a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   61c54: 73 4a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   61d18: 42 4a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   61ddc: 11 4a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   61ea8: de 49 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   61f6c: ad 49 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   62038: 7a 49 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   620fc: 49 49 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   621c0: 18 49 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   62284: e7 48 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   62348: b6 48 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6240c: 85 48 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   624d0: 54 48 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   62594: 23 48 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   62660: f0 47 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   62724: bf 47 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   627e8: 8e 47 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   628ac: 5d 47 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   62970: 2c 47 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   62a34: fb 46 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   62af8: ca 46 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   62bbc: 99 46 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   62c80: 68 46 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   62d44: 37 46 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   62e08: 06 46 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   62ecc: d5 45 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   62f90: a4 45 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6305c: 71 45 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   63128: 3e 45 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   631f4: 0b 45 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   632b8: da 44 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6337c: a9 44 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   63440: 78 44 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   63504: 47 44 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   635c8: 16 44 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   63694: e3 43 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   63758: b2 43 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6381c: 81 43 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   638e0: 50 43 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   639a4: 1f 43 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   63a68: ee 42 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   63b2c: bd 42 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   63bf0: 8c 42 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   63cb4: 5b 42 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   63d78: 2a 42 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   63e3c: f9 41 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   63f00: c8 41 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   63fc4: 97 41 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   64088: 66 41 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6414c: 35 41 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   64210: 04 41 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   642e0: d0 40 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   643ac: 9d 40 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   64478: 6a 40 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   64548: 36 40 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   64614: 03 40 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   646e0: d0 3f 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   647a4: 9f 3f 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   64870: 6c 3f 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6493c: 39 3f 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   64a00: 08 3f 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   64ac4: d7 3e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   64b88: a6 3e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   64c4c: 75 3e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   64d10: 44 3e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   64dd4: 13 3e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   64e98: e2 3d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   64f64: af 3d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   65028: 7e 3d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   650f4: 4b 3d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   651c0: 18 3d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   65274: eb 3c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   65340: b8 3c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6540c: 85 3c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   654d0: 54 3c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6559c: 21 3c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   65668: ee 3b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6572c: bd 3b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   657f0: 8c 3b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   658b4: 5b 3b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   65980: 28 3b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   65a44: f7 3a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   65b08: c6 3a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   65bd4: 93 3a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   65c98: 62 3a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   65d5c: 31 3a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   65e28: fe 39 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   65eec: cd 39 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   65fb0: 9c 39 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   66074: 6b 39 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   66140: 38 39 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   661fc: 09 39 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   662c8: d6 38 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   66394: a3 38 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   66460: 70 38 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   66524: 3f 38 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   665f0: 0c 38 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   666c8: d6 37 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   66794: a3 37 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   66860: 70 37 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   66924: 3f 37 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   669e8: 0e 37 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   66aac: dd 36 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   66b78: aa 36 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   66c3c: 79 36 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   66d00: 48 36 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   66dc4: 17 36 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   66e88: e6 35 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   66f4c: b5 35 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   67010: 84 35 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   670d4: 53 35 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   67198: 22 35 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   67270: ec 34 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6733c: b9 34 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   67410: 84 34 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   674d8: 52 34 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   675a4: 1f 34 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   67668: ee 33 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   67734: bb 33 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   67800: 88 33 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   678b8: 5a 33 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   67984: 27 33 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   67a50: f4 32 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   67b1c: c1 32 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   67be8: 8e 32 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   67cac: 5d 32 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   67d78: 2a 32 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   67e3c: f9 31 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   67f08: c6 31 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   67fd4: 93 31 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   68098: 62 31 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   68164: 2f 31 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   68230: fc 30 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   682f4: cb 30 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   683c0: 98 30 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6848c: 65 30 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   68558: 32 30 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   68624: ff 2f 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   686f0: cc 2f 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   687bc: 99 2f 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   68888: 66 2f 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   68954: 33 2f 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   68a20: 00 2f 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   68aec: cd 2e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   68bb0: 9c 2e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   68c7c: 69 2e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   68d48: 36 2e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   68e0c: 05 2e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   68f0c: c5 2d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   68fd8: 92 2d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6909c: 61 2d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   69160: 30 2d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   69224: ff 2c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   692f0: cc 2c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   693b4: 9b 2c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   69478: 6a 2c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6953c: 39 2c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   69600: 08 2c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   696c4: d7 2b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   69788: a6 2b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6984c: 75 2b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   69910: 44 2b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   699d4: 13 2b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   69a98: e2 2a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   69b5c: b1 2a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   69c28: 7e 2a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   69cec: 4d 2a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   69db0: 1c 2a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   69e74: eb 29 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   69f38: ba 29 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6a004: 87 29 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6a0c8: 56 29 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6a194: 23 29 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6a258: f2 28 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6a32c: bd 28 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6a3f8: 8a 28 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6a4c4: 57 28 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6a590: 24 28 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6a664: ef 27 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6a730: bc 27 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6a7fc: 89 27 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6a8c8: 56 27 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6a98c: 25 27 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6aa50: f4 26 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6ab14: c3 26 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6abd8: 92 26 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6ac9c: 61 26 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6ad68: 2e 26 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6ae2c: fd 25 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6aef0: cc 25 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6afb4: 9b 25 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6b078: 6a 25 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6b13c: 39 25 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6b208: 06 25 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6b2cc: d5 24 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6b390: a4 24 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6b454: 73 24 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6b518: 42 24 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6b5dc: 11 24 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6b6a0: e0 23 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6b764: af 23 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6b828: 7e 23 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6b8ec: 4d 23 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6b9b0: 1c 23 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6ba74: eb 22 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6bb38: ba 22 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6bbfc: 89 22 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6bcc0: 58 22 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6bd90: 24 22 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6be60: f0 21 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6bf28: be 21 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6bff0: 8c 21 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6c0bc: 59 21 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6c188: 26 21 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6c24c: f5 20 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6c310: c4 20 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6c3dc: 91 20 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6c4a0: 60 20 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6c56c: 2d 20 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6c644: f7 1f 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6c710: c4 1f 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6c7e4: 8f 1f 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6c8b8: 5a 1f 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6c98c: 25 1f 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6ca58: f2 1e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6cb1c: c1 1e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6cbe8: 8e 1e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6ccbc: 59 1e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6cd88: 26 1e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6ce4c: f5 1d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6cf1c: c1 1d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6cfec: 8d 1d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6d0b8: 5a 1d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6d184: 27 1d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6d250: f4 1c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6d31c: c1 1c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6d3f0: 8c 1c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6d4c4: 57 1c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6d588: 26 1c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6d660: f0 1b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6d72c: bd 1b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6d7f8: 8a 1b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6d8c4: 57 1b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6d998: 22 1b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6da64: ef 1a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6db28: be 1a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6dbec: 8d 1a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6dcc0: 58 1a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6dd84: 27 1a 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6de50: f4 19 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6df24: bf 19 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6dff0: 8c 19 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6e0ec: 4d 19 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6e1b8: 1a 19 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6e284: e7 18 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6e358: b2 18 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6e3d4: 93 18 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6e4a0: 60 18 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6e564: 2f 18 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6e634: fb 17 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6e704: c7 17 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6e7d0: 94 17 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6e89c: 61 17 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6e960: 30 17 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6ea24: ff 16 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6eaf8: ca 16 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6ebc4: 97 16 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6ec90: 64 16 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6ed5c: 31 16 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6ee30: fc 15 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6ef04: c7 15 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6efc8: 96 15 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6f098: 62 15 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6f164: 2f 15 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6f228: fe 14 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6f2fc: c9 14 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6f378: aa 14 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6f444: 77 14 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6f510: 44 14 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6f5d4: 13 14 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6f698: e2 13 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6f75c: b1 13 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6f830: 7c 13 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6f8fc: 49 13 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6f9c0: 18 13 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6fa84: e7 12 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6fb30: bc 12 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6fbfc: 89 12 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6fcc0: 58 12 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6fd8c: 25 12 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6fe3c: f9 11 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6ff08: c6 11 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   6ffd4: 93 11 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   70098: 62 11 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   70150: 34 11 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   7021c: 01 11 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   702e8: ce 10 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   703b4: 9b 10 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   70480: 68 10 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   70540: 38 10 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   705f8: 0a 10 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   706b8: da 0f 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   70770: ac 0f 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   7083c: 79 0f 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   70908: 46 0f 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   70a94: e3 0e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   70bd0: 94 0e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   70ca4: 5f 0e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   70d5c: 31 0e 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   70e8c: e5 0d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   70f68: ae 0d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   7109c: 61 0d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   711d0: 14 0d 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   712a4: df 0c 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   71728: be 0b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   71788: a6 0b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   71850: 74 0b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   718e4: 4f 0b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   71950: 34 0b 00 94  	bl	0x74620 <_ZdaPv+0x228>
+   719f4: 29 0d 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   71a6c: c1 0c 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   71a7c: 07 0d 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   7324c: 13 07 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   73498: 80 06 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   73510: 18 06 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   73520: 5e 06 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   73820: 9e 05 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+   73898: 36 05 00 94  	bl	0x74d70 <_ZdaPv+0x978>
+   738a8: 7c 05 00 94  	bl	0x74e98 <_ZdaPv+0xaa0>
+00000000000742c8 <_Znwm>:
+   742e8: 00 01 00 b4  	cbz	x0, 0x74308 <_Znwm+0x40>
+   74304: 80 01 00 34  	cbz	w0, 0x74334 <_Znwm+0x6c>
+   74318: c1 01 00 54  	b.ne	0x74350 <_Znwm+0x88>
+   74338: b4 fe ff b4  	cbz	x20, 0x7430c <_Znwm+0x44>
+   7434c: f0 ff ff 17  	b	0x7430c <_Znwm+0x44>
+0000000000074358 <_Znam>:
+   74378: 00 01 00 b4  	cbz	x0, 0x74398 <_Znam+0x40>
+   74394: 80 01 00 34  	cbz	w0, 0x743c4 <_Znam+0x6c>
+   743a8: c1 01 00 54  	b.ne	0x743e0 <_Znam+0x88>
+   743c8: b4 fe ff b4  	cbz	x20, 0x7439c <_Znam+0x44>
+   743dc: f0 ff ff 17  	b	0x7439c <_Znam+0x44>
+00000000000743e8 <_ZdlPv>:
+   743e8: 40 00 00 b4  	cbz	x0, 0x743f0 <_ZdlPv+0x8>
+00000000000743f8 <_ZdaPv>:
+   743f8: 40 00 00 b4  	cbz	x0, 0x74400 <_ZdaPv+0x8>
+   74490: a1 00 00 54  	b.ne	0x744a4 <_ZdaPv+0xac>
+   744e0: a0 03 00 34  	cbz	w0, 0x74554 <_ZdaPv+0x15c>
+   7454c: c0 04 00 54  	b.eq	0x745e4 <_ZdaPv+0x1ec>
+   74550: 33 00 00 14  	b	0x7461c <_ZdaPv+0x224>
+   74558: 73 fc ff b4  	cbz	x19, 0x744e4 <_ZdaPv+0xec>
+   7459c: 60 01 00 35  	cbnz	w0, 0x745c8 <_ZdaPv+0x1d0>
+   745ac: a0 00 00 35  	cbnz	w0, 0x745c0 <_ZdaPv+0x1c8>
+   745bc: 00 02 00 34  	cbz	w0, 0x745fc <_ZdaPv+0x204>
+   745e0: e1 01 00 54  	b.ne	0x7461c <_ZdaPv+0x224>
+   74618: 60 fe ff 54  	b.eq	0x745e4 <_ZdaPv+0x1ec>
+   74644: 3c 00 00 90  	adrp	x28, 0x78000 <_ZdaPv+0x25c>
+   7464c: 37 00 00 90  	adrp	x23, 0x78000 <_ZdaPv+0x264>
+   7468c: 2c 06 00 35  	cbnz	w12, 0x74750 <_ZdaPv+0x358>
+   74690: 38 00 00 90  	adrp	x24, 0x78000 <_ZdaPv+0x2a8>
+   7469c: 80 00 00 b5  	cbnz	x0, 0x746ac <_ZdaPv+0x2b4>
+   746a0: c2 00 00 94  	bl	0x749a8 <_ZdaPv+0x5b0>
+   746a8: 40 05 00 b4  	cbz	x0, 0x74750 <_ZdaPv+0x358>
+   746d8: b6 02 00 94  	bl	0x751b0 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt>
+   746e4: 61 03 00 54  	b.ne	0x74750 <_ZdaPv+0x358>
+   746f0: a0 00 00 b4  	cbz	x0, 0x74704 <_ZdaPv+0x30c>
+   74700: 02 00 00 14  	b	0x74708 <_ZdaPv+0x310>
+   7474c: 20 11 00 54  	b.eq	0x74970 <_ZdaPv+0x578>
+   74758: c0 00 00 54  	b.eq	0x74770 <_ZdaPv+0x378>
+   74764: 60 00 00 54  	b.eq	0x74770 <_ZdaPv+0x378>
+   7476c: 29 10 00 b4  	cbz	x9, 0x74970 <_ZdaPv+0x578>
+   747d0: 81 01 00 54  	b.ne	0x74800 <_ZdaPv+0x408>
+   747d8: a8 00 00 54  	b.hi	0x747ec <_ZdaPv+0x3f4>
+   747dc: cb fc ff 90  	adrp	x11, 0xc000 <_ZdaPv+0x244>
+   747e8: 02 00 00 14  	b	0x747f0 <_ZdaPv+0x3f8>
+   747f0: 81 fc ff b0  	adrp	x1, 0x5000 <_ZdaPv+0x23c>
+   74808: 61 07 00 54  	b.ne	0x748f4 <_ZdaPv+0x4fc>
+   7481c: 37 00 00 90  	adrp	x23, 0x78000 <_ZdaPv+0x434>
+   74824: b5 00 00 b5  	cbnz	x21, 0x74838 <_ZdaPv+0x440>
+   74828: 60 00 00 94  	bl	0x749a8 <_ZdaPv+0x5b0>
+   74834: 00 06 00 b4  	cbz	x0, 0x748f4 <_ZdaPv+0x4fc>
+   7483c: 69 02 00 94  	bl	0x751e0 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt>
+   74840: a0 05 00 34  	cbz	w0, 0x748f4 <_ZdaPv+0x4fc>
+   7485c: 80 03 00 b4  	cbz	x0, 0x748cc <_ZdaPv+0x4d4>
+   74884: a2 fc ff d0  	adrp	x2, 0xa000 <_ZdaPv+0x2e4>
+   748c8: 07 00 00 14  	b	0x748e4 <_ZdaPv+0x4ec>
+   748cc: a2 fc ff f0  	adrp	x2, 0xb000 <_ZdaPv+0x330>
+   748f0: 50 02 00 94  	bl	0x75230 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt>
+   748f8: cf 03 00 b4  	cbz	x15, 0x74970 <_ZdaPv+0x578>
+   7490c: 00 01 00 34  	cbz	w0, 0x7492c <_ZdaPv+0x534>
+   74928: 0c 00 00 14  	b	0x74958 <_ZdaPv+0x560>
+   74934: e0 fe ff b4  	cbz	x0, 0x74910 <_ZdaPv+0x518>
+   7495c: a1 fc ff f0  	adrp	x1, 0xb000 <_ZdaPv+0x3c0>
+   7496c: a7 fe ff 97  	bl	0x74408 <_ZdaPv+0x10>
+   7497c: 21 01 00 54  	b.ne	0x749a0 <_ZdaPv+0x5a8>
+   749c8: 1a 00 00 f0  	adrp	x26, 0x77000 <_ZdaPv+0x5dc>
+   749d4: 19 00 00 f0  	adrp	x25, 0x77000 <_ZdaPv+0x5e8>
+   749e8: e8 11 00 35  	cbnz	w8, 0x74c24 <_ZdaPv+0x82c>
+   749ec: 00 00 00 f0  	adrp	x0, 0x77000 <_ZdaPv+0x600>
+   749f4: 13 02 00 94  	bl	0x75240 <_ZNSt3__15mutex4lockEv@plt>
+   749fc: e9 10 00 35  	cbnz	w9, 0x74c18 <_ZdaPv+0x820>
+   74a00: 0c 00 00 f0  	adrp	x12, 0x77000 <_ZdaPv+0x614>
+   74a24: 60 00 00 34  	cbz	w0, 0x74a30 <_ZdaPv+0x638>
+   74a2c: 07 00 00 14  	b	0x74a48 <_ZdaPv+0x650>
+   74a34: b3 00 00 b4  	cbz	x19, 0x74a48 <_ZdaPv+0x650>
+   74a50: 00 02 00 94  	bl	0x75250 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>
+   74a5c: c2 00 00 54  	b.hs	0x74a74 <_ZdaPv+0x67c>
+   74a70: 28 00 00 14  	b	0x74b10 <_ZdaPv+0x718>
+   74a88: 8b 10 00 b5  	cbnz	x11, 0x74c98 <_ZdaPv+0x8a0>
+   74aac: 5c 01 00 b4  	cbz	x28, 0x74ad4 <_ZdaPv+0x6dc>
+   74ab4: f1 0f 00 b5  	cbnz	x17, 0x74cb0 <_ZdaPv+0x8b8>
+   74ad0: 60 0c 00 34  	cbz	w0, 0x74c5c <_ZdaPv+0x864>
+   74ae8: ab 00 00 54  	b.lt	0x74afc <_ZdaPv+0x704>
+   74b08: 40 00 00 b4  	cbz	x0, 0x74b10 <_ZdaPv+0x718>
+   74b24: 60 00 00 34  	cbz	w0, 0x74b30 <_ZdaPv+0x738>
+   74b2c: 07 00 00 14  	b	0x74b48 <_ZdaPv+0x750>
+   74b34: b3 00 00 b4  	cbz	x19, 0x74b48 <_ZdaPv+0x750>
+   74b50: c0 01 00 94  	bl	0x75250 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>
+   74b5c: c2 00 00 54  	b.hs	0x74b74 <_ZdaPv+0x77c>
+   74b70: 28 00 00 14  	b	0x74c10 <_ZdaPv+0x818>
+   74b88: e1 08 00 b5  	cbnz	x1, 0x74ca4 <_ZdaPv+0x8ac>
+   74bac: 5c 01 00 b4  	cbz	x28, 0x74bd4 <_ZdaPv+0x7dc>
+   74bb4: 16 08 00 b5  	cbnz	x22, 0x74cb4 <_ZdaPv+0x8bc>
+   74bd0: 40 05 00 34  	cbz	w0, 0x74c78 <_ZdaPv+0x880>
+   74be8: ab 00 00 54  	b.lt	0x74bfc <_ZdaPv+0x804>
+   74c08: 40 00 00 b4  	cbz	x0, 0x74c10 <_ZdaPv+0x818>
+   74c18: 00 00 00 f0  	adrp	x0, 0x77000 <_ZdaPv+0x82c>
+   74c20: 90 01 00 94  	bl	0x75260 <_ZNSt3__15mutex6unlockEv@plt>
+   74c38: e1 02 00 54  	b.ne	0x74c94 <_ZdaPv+0x89c>
+   74c60: d6 f3 ff b4  	cbz	x22, 0x74ad8 <_ZdaPv+0x6e0>
+   74c74: 99 ff ff 17  	b	0x74ad8 <_ZdaPv+0x6e0>
+   74c7c: f6 fa ff b4  	cbz	x22, 0x74bd8 <_ZdaPv+0x7e0>
+   74c90: d2 ff ff 17  	b	0x74bd8 <_ZdaPv+0x7e0>
+   74c98: 00 00 00 f0  	adrp	x0, 0x77000 <_ZdaPv+0x8ac>
+   74ca0: 74 01 00 94  	bl	0x75270 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+   74ca4: 00 00 00 f0  	adrp	x0, 0x77000 <_ZdaPv+0x8b8>
+   74cac: 71 01 00 94  	bl	0x75270 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+   74cb0: 10 00 00 94  	bl	0x74cf0 <_ZdaPv+0x8f8>
+   74cb4: 0f 00 00 94  	bl	0x74cf0 <_ZdaPv+0x8f8>
+   74cb8: 01 00 00 14  	b	0x74cbc <_ZdaPv+0x8c4>
+   74cc0: d3 00 00 b4  	cbz	x19, 0x74cd8 <_ZdaPv+0x8e0>
+   74ccc: 03 00 00 14  	b	0x74cd8 <_ZdaPv+0x8e0>
+   74cd0: 01 00 00 14  	b	0x74cd4 <_ZdaPv+0x8dc>
+   74cd8: 00 00 00 f0  	adrp	x0, 0x77000 <_ZdaPv+0x8ec>
+   74ce0: 60 01 00 94  	bl	0x75260 <_ZNSt3__15mutex6unlockEv@plt>
+   74d08: 0c 00 00 94  	bl	0x74d38 <_ZdaPv+0x940>
+   74d0c: 01 00 00 f0  	adrp	x1, 0x77000 <_ZdaPv+0x920>
+   74d10: 02 00 00 f0  	adrp	x2, 0x77000 <_ZdaPv+0x924>
+   74d44: 81 fc ff 90  	adrp	x1, 0x4000 <_ZdaPv+0x78c>
+   74d50: 5c 01 00 94  	bl	0x752c0 <_ZNSt11logic_errorC2EPKc@plt>
+   74d54: 08 00 00 f0  	adrp	x8, 0x77000 <_ZdaPv+0x968>
+   74d94: c0 ff ff b5  	cbnz	x0, 0x74d8c <_ZdaPv+0x994>
+   74d98: 34 07 00 34  	cbz	w20, 0x74e7c <_ZdaPv+0xa84>
+   74da8: a2 03 00 54  	b.hs	0x74e1c <_ZdaPv+0xa24>
+   74dbc: cb ff ff b5  	cbnz	x11, 0x74db4 <_ZdaPv+0x9bc>
+   74dc4: 20 02 00 b4  	cbz	x0, 0x74e08 <_ZdaPv+0xa10>
+   74dd0: 03 00 00 14  	b	0x74ddc <_ZdaPv+0x9e4>
+   74dd8: 80 01 00 b4  	cbz	x0, 0x74e08 <_ZdaPv+0xa10>
+   74de4: 81 ff ff 54  	b.ne	0x74dd4 <_ZdaPv+0x9dc>
+   74df4: 01 ff ff 54  	b.ne	0x74dd4 <_ZdaPv+0x9dc>
+   74e04: db ff ff 97  	bl	0x74d70 <_ZdaPv+0x978>
+   74e10: 82 03 00 54  	b.hs	0x74e80 <_ZdaPv+0xa88>
+   74e14: e0 fc ff b4  	cbz	x0, 0x74db0 <_ZdaPv+0x9b8>
+   74e18: 1a 00 00 14  	b	0x74e80 <_ZdaPv+0xa88>
+   74e20: 04 00 00 14  	b	0x74e30 <_ZdaPv+0xa38>
+   74e2c: 80 02 00 54  	b.eq	0x74e7c <_ZdaPv+0xa84>
+   74e3c: cc ff ff b5  	cbnz	x12, 0x74e34 <_ZdaPv+0xa3c>
+   74e44: 00 ff ff b4  	cbz	x0, 0x74e24 <_ZdaPv+0xa2c>
+   74e50: 03 00 00 14  	b	0x74e5c <_ZdaPv+0xa64>
+   74e58: 60 fe ff b4  	cbz	x0, 0x74e24 <_ZdaPv+0xa2c>
+   74e64: 81 ff ff 54  	b.ne	0x74e54 <_ZdaPv+0xa5c>
+   74e74: 01 ff ff 54  	b.ne	0x74e54 <_ZdaPv+0xa5c>
+   74e78: 02 00 00 14  	b	0x74e80 <_ZdaPv+0xa88>
+   74eb4: c0 ff ff b5  	cbnz	x0, 0x74eac <_ZdaPv+0xab4>
+   74ebc: d5 01 00 b4  	cbz	x21, 0x74ef4 <_ZdaPv+0xafc>
+   74ed8: 55 00 00 b4  	cbz	x21, 0x74ee0 <_ZdaPv+0xae8>
+   74edc: 20 ff ff b4  	cbz	x0, 0x74ec0 <_ZdaPv+0xac8>
+   74eec: e1 00 00 54  	b.ne	0x74f08 <_ZdaPv+0xb10>
+   74ef0: 0c 00 00 14  	b	0x74f20 <_ZdaPv+0xb28>
+   74f04: e0 00 00 54  	b.eq	0x74f20 <_ZdaPv+0xb28>
+   74f10: e2 ff ff 97  	bl	0x74e98 <_ZdaPv+0xaa0>
+   74f14: 60 00 00 b5  	cbnz	x0, 0x74f20 <_ZdaPv+0xb28>
+   74f1c: 74 ff ff b5  	cbnz	x20, 0x74f08 <_ZdaPv+0xb10>
+0000000000074ff0 <_ZN11ROIPriorityC1Ev@plt>:
+   74ff0: 10 00 00 f0  	adrp	x16, 0x77000 <_ZN11ROIPriorityC1Ev@plt+0xc>
+0000000000075000 <_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>:
+   75000: 10 00 00 d0  	adrp	x16, 0x77000 <_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt+0x8>
+0000000000075010 <_ZN11ROIPriority13SetTuningDataEPN16statsroipriority29chromatixStatsROIPriorityTypeEi@plt>:
+   75010: 10 00 00 d0  	adrp	x16, 0x77000 <_ZN11ROIPriority13SetTuningDataEPN16statsroipriority29chromatixStatsROIPriorityTypeEi@plt+0x8>
+0000000000075020 <_ZN11ROIPriorityD1Ev@plt>:
+   75020: 10 00 00 d0  	adrp	x16, 0x77000 <_ZN11ROIPriorityD1Ev@plt+0x8>
+0000000000075060 <_ZNK8ROIsData4SizeEv@plt>:
+   75060: 10 00 00 d0  	adrp	x16, 0x77000 <_ZNK8ROIsData4SizeEv@plt+0x8>
+0000000000075070 <_ZNK11ROIPriority16GetDominantIndexEv@plt>:
+   75070: 10 00 00 d0  	adrp	x16, 0x77000 <_ZNK11ROIPriority16GetDominantIndexEv@plt+0x8>
+0000000000075080 <_ZNK8ROIsData21GetNormalizeROIInCropEj@plt>:
+   75080: 10 00 00 d0  	adrp	x16, 0x77000 <_ZNK8ROIsData21GetNormalizeROIInCropEj@plt+0x8>
+00000000000750d0 <_ZNSt3__16chrono12system_clock3nowEv@plt>:
+   750d0: 10 00 00 d0  	adrp	x16, 0x77000 <_ZNSt3__16chrono12system_clock3nowEv@plt+0x8>
+0000000000075110 <_ZN8ROIsData18SetImageResolutionEff@plt>:
+   75110: 10 00 00 d0  	adrp	x16, 0x77000 <_ZN8ROIsData18SetImageResolutionEff@plt+0x8>
+0000000000075120 <_ZN11ROIPriority13UpdateROIDataEPK26UnstabilizedROIInformation@plt>:
+   75120: 10 00 00 d0  	adrp	x16, 0x77000 <_ZN11ROIPriority13UpdateROIDataEPK26UnstabilizedROIInformation@plt+0x8>
+0000000000075130 <_ZN8ROIsData13SetCropWindowEffff@plt>:
+   75130: 10 00 00 d0  	adrp	x16, 0x77000 <_ZN8ROIsData13SetCropWindowEffff@plt+0x8>
+00000000000751b0 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt>:
+   751b0: 10 00 00 d0  	adrp	x16, 0x77000 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt+0x8>
+00000000000751e0 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt>:
+   751e0: 10 00 00 d0  	adrp	x16, 0x77000 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt+0x8>
+0000000000075230 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt>:
+   75230: 10 00 00 d0  	adrp	x16, 0x77000 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt+0x8>
+0000000000075240 <_ZNSt3__15mutex4lockEv@plt>:
+   75240: 10 00 00 d0  	adrp	x16, 0x77000 <_ZNSt3__15mutex4lockEv@plt+0x8>
+0000000000075250 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>:
+   75250: 10 00 00 d0  	adrp	x16, 0x77000 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt+0x8>
+0000000000075260 <_ZNSt3__15mutex6unlockEv@plt>:
+   75260: 10 00 00 d0  	adrp	x16, 0x77000 <_ZNSt3__15mutex6unlockEv@plt+0x8>
+0000000000075270 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>:
+   75270: 10 00 00 d0  	adrp	x16, 0x77000 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt+0x8>
+00000000000752c0 <_ZNSt11logic_errorC2EPKc@plt>:
+   752c0: 10 00 00 d0  	adrp	x16, 0x77000 <_ZNSt11logic_errorC2EPKc@plt+0x8>
+0000000000077950 <_ZTISt9exception>:
+0000000000077960 <_ZTISt11logic_error>:
+0000000000077978 <_ZTISt12length_error>:
