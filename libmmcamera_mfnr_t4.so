@@ -1,227 +1,39 @@
+	tbz	wzr, #6, 0x5e30 <_ZTSSt8bad_cast+0x3e>
 
 
 
 
 
-	ldr	q0, 0x893d0 <_ZTISt8bad_cast+0x370>
-	bl	0x87c30 <_Znwm@plt>
-	bl	0x87c40 <_ZNSt3__115__thread_structC1Ev@plt>
-	bl	0x87c30 <_Znwm@plt>
-	bl	0x87c60 <_ZNSt3__16threadD1Ev@plt>
-	bl	0x87c30 <_Znwm@plt>
-	bl	0x87c40 <_ZNSt3__115__thread_structC1Ev@plt>
-	bl	0x87c30 <_Znwm@plt>
-	bl	0x87c60 <_ZNSt3__16threadD1Ev@plt>
-	bl	0x87c30 <_Znwm@plt>
-	bl	0x87c40 <_ZNSt3__115__thread_structC1Ev@plt>
-	bl	0x87c30 <_Znwm@plt>
-	bl	0x87c60 <_ZNSt3__16threadD1Ev@plt>
-	bl	0x87c30 <_Znwm@plt>
-	bl	0x87c40 <_ZNSt3__115__thread_structC1Ev@plt>
-	bl	0x87c30 <_Znwm@plt>
-	bl	0x87c60 <_ZNSt3__16threadD1Ev@plt>
-	bl	0x87c80 <_ZNSt3__120__throw_system_errorEiPKc@plt>
-	bl	0x87c60 <_ZNSt3__16threadD1Ev@plt>
-	bl	0x87ca0 <_ZNSt3__115__thread_structD1Ev@plt>
-	bl	0x87cb0 <_ZdlPv@plt>
-	bl	0x87cb0 <_ZdlPv@plt>
-	bl	0x87ca0 <_ZNSt3__115__thread_structD1Ev@plt>
-	bl	0x87cb0 <_ZdlPv@plt>
-	bl	0x87cb0 <_ZdlPv@plt>
-	bl	0x87cc0 <_ZNSt3__118condition_variableD1Ev@plt>
-	bl	0x87cc0 <_ZNSt3__118condition_variableD1Ev@plt>
-	bl	0x87cc0 <_ZNSt3__118condition_variableD1Ev@plt>
-	bl	0x87cd0 <_ZNSt3__15mutexD1Ev@plt>
-	bl	0x87c60 <_ZNSt3__16threadD1Ev@plt>
-	bl	0x87cb0 <_ZdlPv@plt>
-	bl	0x87d00 <_ZNSt3__15mutex4lockEv@plt>
-	bl	0x87d10 <_ZNSt3__118condition_variable10notify_allEv@plt>
-	bl	0x87d20 <_ZNSt3__118condition_variable4waitERNS_11unique_lockINS_5mutexEEE@plt>
-	bl	0x87d30 <_ZNSt3__15mutex6unlockEv@plt>
-	bl	0x87d40 <_ZNSt3__16thread4joinEv@plt>
-	bl	0x87cc0 <_ZNSt3__118condition_variableD1Ev@plt>
-	bl	0x87cc0 <_ZNSt3__118condition_variableD1Ev@plt>
-	bl	0x87cc0 <_ZNSt3__118condition_variableD1Ev@plt>
-	bl	0x87cd0 <_ZNSt3__15mutexD1Ev@plt>
-	bl	0x87c60 <_ZNSt3__16threadD1Ev@plt>
-	bl	0x87cb0 <_ZdlPv@plt>
-	bl	0x87cc0 <_ZNSt3__118condition_variableD1Ev@plt>
-	bl	0x87cc0 <_ZNSt3__118condition_variableD1Ev@plt>
-	bl	0x87cc0 <_ZNSt3__118condition_variableD1Ev@plt>
-	bl	0x87cd0 <_ZNSt3__15mutexD1Ev@plt>
-	bl	0x87c60 <_ZNSt3__16threadD1Ev@plt>
-	b	0x87cb0 <_ZdlPv@plt>
-	bl	0x87d60 <_ZSt9terminatev@plt>
-	bl	0x87d00 <_ZNSt3__15mutex4lockEv@plt>
-	bl	0x87d10 <_ZNSt3__118condition_variable10notify_allEv@plt>
-	bl	0x87d30 <_ZNSt3__15mutex6unlockEv@plt>
-	bl	0x87d20 <_ZNSt3__118condition_variable4waitERNS_11unique_lockINS_5mutexEEE@plt>
-	bl	0x87d30 <_ZNSt3__15mutex6unlockEv@plt>
-	bl	0x87d00 <_ZNSt3__15mutex4lockEv@plt>
-	bl	0x87d10 <_ZNSt3__118condition_variable10notify_allEv@plt>
-	bl	0x87c80 <_ZNSt3__120__throw_system_errorEiPKc@plt>
-	bl	0x87c80 <_ZNSt3__120__throw_system_errorEiPKc@plt>
-	bl	0x87c80 <_ZNSt3__120__throw_system_errorEiPKc@plt>
-	bl	0x87d30 <_ZNSt3__15mutex6unlockEv@plt>
-	bl	0x87c30 <_Znwm@plt>
-	bl	0x87c60 <_ZNSt3__16threadD1Ev@plt>
-	b	0x87cb0 <_ZdlPv@plt>
-	bl	0x87da0 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
-	bl	0x87de0 <_ZNSt11logic_errorC2EPKc@plt>
-	bl	0x87df0 <_ZNSt3__119__thread_local_dataEv@plt>
-	bl	0x87ca0 <_ZNSt3__115__thread_structD1Ev@plt>
-	bl	0x87cb0 <_ZdlPv@plt>
-	bl	0x87cb0 <_ZdlPv@plt>
-	bl	0x87ca0 <_ZNSt3__115__thread_structD1Ev@plt>
-	bl	0x87cb0 <_ZdlPv@plt>
-	bl	0x87cb0 <_ZdlPv@plt>
-	bl	0x87e10 <_ZNSt9exceptionD2Ev@plt>
-	b	0x87cb0 <_ZdlPv@plt>
-	bl	0x87c30 <_Znwm@plt>
-	bl	0x87c30 <_Znwm@plt>
-	bl	0x87cb0 <_ZdlPv@plt>
-	bl	0x87e20 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-	b	0x87e20 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-	bl	0x87da0 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZNSt3__15mutex4lockEv@plt>
-<_ZNSt3__15mutex4lockEv@plt>
-<_ZNSt3__118condition_variable10notify_allEv@plt>
-<_ZNSt3__118condition_variable4waitERNS_11unique_lockINS_5mutexEEE@plt>
-<_ZNSt3__15mutex6unlockEv@plt>
-<_ZNSt3__15mutex6unlockEv@plt>
-<_ZNSt3__15mutex6unlockEv@plt>
-<_ZNSt3__15mutex6unlockEv@plt>
-<_ZNSt3__118condition_variableD1Ev@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
+	bl	0x8ab70 <_Znwm@plt>
+	bl	0x8ab80 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+	bl	0x8ab80 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+	bl	0x8abe0 <_ZdlPv@plt>
+	bl	0x8abe0 <_ZdlPv@plt>
+	bl	0x8abf0 <_ZN2cv3Mat10deallocateEv@plt>
+	bl	0x8ac00 <_ZN2cv8fastFreeEPv@plt>
+	bl	0x8abf0 <_ZN2cv3Mat10deallocateEv@plt>
+	bl	0x8ac00 <_ZN2cv8fastFreeEPv@plt>
+	bl	0x8abf0 <_ZN2cv3Mat10deallocateEv@plt>
+	bl	0x8ac00 <_ZN2cv8fastFreeEPv@plt>
+	bl	0x8abf0 <_ZN2cv3Mat10deallocateEv@plt>
+	bl	0x8ac00 <_ZN2cv8fastFreeEPv@plt>
+	bl	0x8abf0 <_ZN2cv3Mat10deallocateEv@plt>
+	bl	0x8ac00 <_ZN2cv8fastFreeEPv@plt>
+	b	0x8ac10 <_ZNSt3__15mutexD1Ev@plt>
+	bl	0x8abf0 <_ZN2cv3Mat10deallocateEv@plt>
+	bl	0x8ac00 <_ZN2cv8fastFreeEPv@plt>
+	bl	0x8abf0 <_ZN2cv3Mat10deallocateEv@plt>
+	bl	0x8ac00 <_ZN2cv8fastFreeEPv@plt>
+	bl	0x8abf0 <_ZN2cv3Mat10deallocateEv@plt>
+	bl	0x8ac00 <_ZN2cv8fastFreeEPv@plt>
+	b	0x8ac10 <_ZNSt3__15mutexD1Ev@plt>
+	bl	0x8abf0 <_ZN2cv3Mat10deallocateEv@plt>
+	bl	0x8ac00 <_ZN2cv8fastFreeEPv@plt>
+	bl	0x8abf0 <_ZN2cv3Mat10deallocateEv@plt>
+	bl	0x8ac00 <_ZN2cv8fastFreeEPv@plt>
+	bl	0x8abf0 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZNSt3__15mutexD1Ev@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZdlPv@plt>
-<_Znwm@plt>
-<_ZdlPv@plt>
-<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat6createEiPKii@plt>
-<_ZN2cv3MatC1ERKS0_RKNS_5Rect_IiEE@plt>
-<_ZNK2cv3Mat6copyToERKNS_12_OutputArrayE@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv3MatC1ERKS0_RKNS_5Rect_IiEE@plt>
-<_ZN2cv3Mat6createEiPKii@plt>
-<_ZN2cv3Mat6createEiPKii@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3MatC1ERKS0_RKNS_5Rect_IiEE@plt>
-<_ZNK2cv3Mat6copyToERKNS_12_OutputArrayE@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv3MatC1ERKS0_RKNS_5Rect_IiEE@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv7noArrayEv@plt>
-<_ZN2cv13matchTemplateERKNS_11_InputArrayES2_RKNS_12_OutputArrayEiS2_@plt>
-<_ZN2cv7noArrayEv@plt>
-<_ZN2cv9minMaxLocERKNS_11_InputArrayEPdS3_PNS_6Point_IiEES6_S2_@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_Znwm@plt>
-<_ZdlPv@plt>
-<_ZNSt3__15mutex4lockEv@plt>
-<_ZNSt3__15mutex8try_lockEv@plt>
-<_ZNSt3__15mutex6unlockEv@plt>
-<_ZNSt3__15mutex4lockEv@plt>
-<_ZNSt3__15mutex6unlockEv@plt>
-<_ZNSt3__118condition_variable4waitERNS_11unique_lockINS_5mutexEEE@plt>
-<_ZNSt3__15mutex6unlockEv@plt>
-<_ZNSt3__15mutex6unlockEv@plt>
-<_ZNSt3__15mutex4lockEv@plt>
-<_ZNSt3__15mutex6unlockEv@plt>
-<_ZNSt3__118condition_variable10notify_allEv@plt>
-<_ZNSt3__15mutex6unlockEv@plt>
-<_ZNSt3__15mutex4lockEv@plt>
-<_ZNSt3__15mutex6unlockEv@plt>
-<_ZNSt3__118condition_variable10notify_allEv@plt>
-<_ZNSt3__15mutex6unlockEv@plt>
-<_ZNSt3__15mutex6unlockEv@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_Znwm@plt>
-<_ZdlPv@plt>
-<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
-<_Znwm@plt>
-<_ZdlPv@plt>
-<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
-<_Znwm@plt>
-<_ZdlPv@plt>
-<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv3Mat8copySizeERKS0_@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZdlPv@plt>
 <_ZN2cv12getTickCountEv@plt>
 <_ZN2cv3ORB6createEifiiiiNS0_9ScoreTypeEii@plt>
 <_ZN2cv7noArrayEv@plt>
@@ -251,7 +63,6 @@
 <_ZN2cv8fastFreeEPv@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
-<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
@@ -280,12 +91,6 @@
 <_ZdlPv@plt>
 <_ZN2cv12getTickCountEv@plt>
 <_ZN2cv3Mat5zerosEiii@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
 <_ZNK2cv3Mat9convertToERKNS_12_OutputArrayEidd@plt>
 <_ZN2cv12getTickCountEv@plt>
 <_ZN2cv16getTickFrequencyEv@plt>
@@ -307,12 +112,6 @@
 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
 <_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
 <_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
@@ -323,61 +122,51 @@
 <_ZN2cv8fastFreeEPv@plt>
 <_ZdlPv@plt>
 <_ZdlPv@plt>
-<_Znwm@plt>
-<_ZN2cv3Mat6createEiPKii@plt>
-<_Znwm@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_Znwm@plt>
-<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
 <_ZN2cv12getTickCountEv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_Znwm@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
 <_ZN2cv12getTickCountEv@plt>
 <_ZN2cv3Mat3eyeEiii@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat3eyeEiii@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv12getTickCountEv@plt>
-<_ZN2cv12equalizeHistERKNS_11_InputArrayERKNS_12_OutputArrayE@plt>
-<_ZNK2cv3Mat6copyToERKNS_12_OutputArrayE@plt>
-<_ZN2cv12equalizeHistERKNS_11_InputArrayERKNS_12_OutputArrayE@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv12equalizeHistERKNS_11_InputArrayERKNS_12_OutputArrayE@plt>
 <_ZNK2cv3Mat6copyToERKNS_12_OutputArrayE@plt>
 <_ZN2cv12equalizeHistERKNS_11_InputArrayERKNS_12_OutputArrayE@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv12equalizeHistERKNS_11_InputArrayERKNS_12_OutputArrayE@plt>
 <_ZNK2cv3Mat6copyToERKNS_12_OutputArrayE@plt>
 <_ZN2cv12equalizeHistERKNS_11_InputArrayERKNS_12_OutputArrayE@plt>
+<_ZNK2cv3Mat6copyToERKNS_12_OutputArrayE@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZN2cv12equalizeHistERKNS_11_InputArrayERKNS_12_OutputArrayE@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZN2cv12equalizeHistERKNS_11_InputArrayERKNS_12_OutputArrayE@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZN2cv12equalizeHistERKNS_11_InputArrayERKNS_12_OutputArrayE@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv12getTickCountEv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
@@ -397,39 +186,57 @@
 <_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZdlPv@plt>
 <_ZdlPv@plt>
 <_ZdlPv@plt>
 <_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv12getTickCountEv@plt>
+<_ZN2cv3Mat3eyeEiii@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv12getTickCountEv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv22estimateRigidTransformERKNS_11_InputArrayES2_b@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
+<_Znwm@plt>
+<_Znwm@plt>
+<_Znwm@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZdlPv@plt>
 <_ZdlPv@plt>
 <_ZdlPv@plt>
 <_ZN2cv3Mat3eyeEiii@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat3eyeEiii@plt>
+<_ZN2cv3MatC1ERKS0_RKNS_5Rect_IiEE@plt>
+<_ZNK2cv3Mat6copyToERKNS_12_OutputArrayE@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv8fastFreeEPv@plt>
@@ -437,6 +244,376 @@
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv12getTickCountEv@plt>
+<_ZN2cv3Mat3eyeEiii@plt>
+<_Znwm@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat3eyeEiii@plt>
+<_ZN2cv12getTickCountEv@plt>
+<_ZN2cv16getTickFrequencyEv@plt>
+<_ZN2cv16getTickFrequencyEv@plt>
+<_ZN2cv16getTickFrequencyEv@plt>
+<_ZN2cv16getTickFrequencyEv@plt>
+<_ZN2cv16getTickFrequencyEv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3MataSERKNS_7Scalar_IdEE@plt>
+<_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZdlPv@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3MataSERKNS_7Scalar_IdEE@plt>
+<_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNK2cv3Mat6copyToERKNS_12_OutputArrayE@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv12getTickCountEv@plt>
+<_ZN2cv12getTickCountEv@plt>
+<_ZN2cv20perspectiveTransformERKNS_11_InputArrayERKNS_12_OutputArrayES2_@plt>
+<_ZN2cv12getTickCountEv@plt>
+<_ZN2cv12getTickCountEv@plt>
+<_Znwm@plt>
+<_ZN2cv3Mat3eyeEiii@plt>
+<_ZN2cv3Mat6createEiPKii@plt>
+<_ZNK2cv3Mat9convertToERKNS_12_OutputArrayEidd@plt>
+<_ZN2cv12getTickCountEv@plt>
+<_ZN2cv16getTickFrequencyEv@plt>
+<_ZN2cv16getTickFrequencyEv@plt>
+<_ZN2cv16getTickFrequencyEv@plt>
+<_ZN2cv16getTickFrequencyEv@plt>
+<_ZN2cv16getTickFrequencyEv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZNK2cv3Mat6copyToERKNS_12_OutputArrayE@plt>
+<_ZN2cv6invertERKNS_11_InputArrayERKNS_12_OutputArrayEi@plt>
+<_Znwm@plt>
+<_ZN2cv20perspectiveTransformERKNS_11_InputArrayERKNS_12_OutputArrayES2_@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv20perspectiveTransformERKNS_11_InputArrayERKNS_12_OutputArrayES2_@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZNSt3__16threadD1Ev@plt>
+<_ZNSt3__16threadD1Ev@plt>
+<_ZNSt3__16threadD1Ev@plt>
+<_ZNSt3__16threadD1Ev@plt>
+<_ZNSt3__16threadD1Ev@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__16threadD1Ev@plt>
+<_ZdlPv@plt>
+<_ZNSt3__15mutex4lockEv@plt>
+<_ZNSt3__118condition_variable10notify_allEv@plt>
+<_ZNSt3__118condition_variable4waitERNS_11unique_lockINS_5mutexEEE@plt>
+<_ZNSt3__15mutex6unlockEv@plt>
+<_ZNSt3__16thread4joinEv@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__16threadD1Ev@plt>
+<_ZdlPv@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZdlPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZdlPv@plt>
+<_ZSt9terminatev@plt>
+<_Znwm@plt>
+<_ZdlPv@plt>
+<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+<_ZNSt11logic_errorC2EPKc@plt>
+<_Znwm@plt>
+<_ZdlPv@plt>
+<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+<_Znwm@plt>
+<_ZdlPv@plt>
+<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+<_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3MatC1ERKS0_RKNS_5Rect_IiEE@plt>
+<_ZNK2cv3Mat6copyToERKNS_12_OutputArrayE@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3MatC1ERKS0_RKNS_5Rect_IiEE@plt>
+<_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
@@ -446,69 +623,166 @@
 <_ZNK2cv3Mat6copyToERKNS_12_OutputArrayE@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3MatC1ERKS0_RKNS_5Rect_IiEE@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv7noArrayEv@plt>
+<_ZN2cv13matchTemplateERKNS_11_InputArrayES2_RKNS_12_OutputArrayEiS2_@plt>
+<_ZN2cv7noArrayEv@plt>
+<_ZN2cv9minMaxLocERKNS_11_InputArrayEPdS3_PNS_6Point_IiEES6_S2_@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_Znwm@plt>
+<_ZN2cv3Mat6createEiPKii@plt>
+<_Znwm@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_Znwm@plt>
+<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_Znwm@plt>
+<_ZdlPv@plt>
+<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+<_Znwm@plt>
+<_ZdlPv@plt>
+<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_Znwm@plt>
+<_ZdlPv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+<_ZNSt3__15mutex4lockEv@plt>
+<_ZNSt3__15mutex6unlockEv@plt>
+<_ZNSt3__15mutex6unlockEv@plt>
+<_ZNSt3__15mutex4lockEv@plt>
+<_ZNSt3__118condition_variable10notify_allEv@plt>
+<_ZNSt3__118condition_variable4waitERNS_11unique_lockINS_5mutexEEE@plt>
+<_ZNSt3__15mutex6unlockEv@plt>
+<_ZNSt3__15mutex6unlockEv@plt>
+<_ZdlPv@plt>
+<_Znwm@plt>
+<_ZdlPv@plt>
+<_ZNSt3__15mutex6unlockEv@plt>
+<_ZNSt3__15mutex4lockEv@plt>
+<_ZNSt3__15mutex6unlockEv@plt>
+<_ZNSt3__15mutex6unlockEv@plt>
+<_ZNSt3__15mutex4lockEv@plt>
+<_ZNSt3__15mutex6unlockEv@plt>
+<_ZNSt3__118condition_variable10notify_allEv@plt>
+<_ZNSt3__15mutex4lockEv@plt>
+<_ZNSt3__118condition_variable4waitERNS_11unique_lockINS_5mutexEEE@plt>
+<_ZNSt3__15mutex6unlockEv@plt>
+<_ZNSt3__15mutex6unlockEv@plt>
+<_ZNSt3__15mutex4lockEv@plt>
+<_ZNSt3__15mutex6unlockEv@plt>
+<_ZNSt3__118condition_variable10notify_allEv@plt>
+<_ZNSt3__15mutex6unlockEv@plt>
+<_ZNSt3__15mutex8try_lockEv@plt>
+<_ZNSt3__15mutex6unlockEv@plt>
+<_ZNSt3__15mutex4lockEv@plt>
+<_ZNSt3__118condition_variable10notify_allEv@plt>
+<_ZNSt3__15mutex6unlockEv@plt>
+<_ZNSt3__118condition_variable4waitERNS_11unique_lockINS_5mutexEEE@plt>
+<_ZNSt3__15mutex6unlockEv@plt>
+<_ZNSt3__15mutex4lockEv@plt>
+<_ZNSt3__118condition_variable10notify_allEv@plt>
+<_ZNSt3__120__throw_system_errorEiPKc@plt>
+<_ZNSt3__120__throw_system_errorEiPKc@plt>
+<_ZNSt3__120__throw_system_errorEiPKc@plt>
+<_ZNSt3__15mutex6unlockEv@plt>
+<_Znwm@plt>
+<_ZNSt3__115__thread_structC1Ev@plt>
+<_Znwm@plt>
+<_ZNSt3__120__throw_system_errorEiPKc@plt>
+<_ZNSt3__115__thread_structD1Ev@plt>
+<_ZdlPv@plt>
+<_ZNSt3__115__thread_structD1Ev@plt>
+<_ZdlPv@plt>
+<_ZNSt3__16threadD1Ev@plt>
+<_ZdlPv@plt>
+<_Znwm@plt>
+<_ZNSt3__16threadD1Ev@plt>
+<_ZdlPv@plt>
+<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+<_ZNSt9exceptionD2Ev@plt>
+<_ZdlPv@plt>
+<_ZNSt3__119__thread_local_dataEv@plt>
+<_ZNSt3__115__thread_structD1Ev@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZNSt3__115__thread_structD1Ev@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_Znwm@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv12getTickCountEv@plt>
+<_ZNK2cv11_InputArray4sizeEi@plt>
+<_ZNK2cv11_InputArray4kindEv@plt>
+<_ZNK2cv11_InputArray7getMat_Ei@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZNK2cv11_InputArray4kindEv@plt>
+<_ZNK2cv11_InputArray7getMat_Ei@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZNK2cv12_OutputArray6createENS_5Size_IiEEiibNS0_9DepthMaskE@plt>
+<_ZNK2cv11_InputArray4kindEv@plt>
+<_ZNK2cv11_InputArray7getMat_Ei@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZNK2cv12_OutputArray6createENS_5Size_IiEEiibNS0_9DepthMaskE@plt>
+<_ZNK2cv11_InputArray4kindEv@plt>
+<_ZNK2cv11_InputArray7getMat_Ei@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZNK2cv3Mat6copyToERKNS_12_OutputArrayE@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv12getTickCountEv@plt>
-<_ZN2cv3Mat3eyeEiii@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_Znwm@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat3eyeEiii@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv12getTickCountEv@plt>
 <_ZN2cv16getTickFrequencyEv@plt>
 <_ZN2cv16getTickFrequencyEv@plt>
 <_ZN2cv16getTickFrequencyEv@plt>
-<_ZN2cv16getTickFrequencyEv@plt>
-<_ZN2cv16getTickFrequencyEv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
@@ -536,80 +810,9 @@
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZNSt3__15mutexD1Ev@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
 <_ZNSt3__15mutexD1Ev@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
@@ -617,117 +820,8 @@
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_Znwm@plt>
-<_ZdlPv@plt>
-<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
-<_ZdlPv@plt>
-<_Znwm@plt>
-<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat8copySizeERKS0_@plt>
-<_ZN2cv3Mat8copySizeERKS0_@plt>
-<_ZN2cv3Mat6createEiPKii@plt>
-<_ZN2cv3MataSERKNS_7Scalar_IdEE@plt>
-<_ZN2cv3Mat6createEiPKii@plt>
-<_ZN2cv3Mat6createEiPKii@plt>
-<_ZN2cv3Mat6createEiPKii@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZN2cv3Mat8copySizeERKS0_@plt>
-<_ZN2cv3Mat8copySizeERKS0_@plt>
-<_ZN2cv3Mat6createEiPKii@plt>
-<_ZN2cv3MataSERKNS_7Scalar_IdEE@plt>
-<_ZN2cv3Mat6createEiPKii@plt>
-<_ZN2cv3Mat6createEiPKii@plt>
-<_ZN2cv3Mat6createEiPKii@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZNK2cv3Mat6copyToERKNS_12_OutputArrayE@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_Znwm@plt>
-<_ZdlPv@plt>
-<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_Znwm@plt>
-<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
-<_ZdlPv@plt>
-<_Znwm@plt>
-<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat8copySizeERKS0_@plt>
-<_ZN2cv20perspectiveTransformERKNS_11_InputArrayERKNS_12_OutputArrayES2_@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
@@ -746,25 +840,39 @@
 <_ZdlPv@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__113basic_istreamIcNS_11char_traitsIcEEED2Ev@plt>
+<_ZNSt3__19basic_iosIcNS_11char_traitsIcEEED2Ev@plt>
+<_ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEED2Ev@plt>
+<_ZNSt3__19basic_iosIcNS_11char_traitsIcEEED2Ev@plt>
+<_ZNSt3__113basic_istreamIcNS_11char_traitsIcEEED2Ev@plt>
+<_ZNSt3__19basic_iosIcNS_11char_traitsIcEEED2Ev@plt>
+<_ZNSt3__113basic_istreamIcNS_11char_traitsIcEEED2Ev@plt>
+<_ZNSt3__19basic_iosIcNS_11char_traitsIcEEED2Ev@plt>
 <_ZdlPv@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZNSt3__113basic_istreamIcNS_11char_traitsIcEEED2Ev@plt>
+<_ZNSt3__19basic_iosIcNS_11char_traitsIcEEED2Ev@plt>
 <_ZdlPv@plt>
+<_ZdaPv@plt>
+<_ZdaPv@plt>
+<_ZNSt3__115basic_streambufIcNS_11char_traitsIcEEED2Ev@plt>
+<_ZNSt3__115basic_streambufIcNS_11char_traitsIcEEED2Ev@plt>
 <_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
+<_ZNKSt3__16locale9use_facetERNS0_2idE@plt>
+<_ZdaPv@plt>
+<_Znam@plt>
+<_Znam@plt>
+<_ZdaPv@plt>
+<_ZdaPv@plt>
+<_Znam@plt>
+<_Znam@plt>
+<_ZNSt8bad_castC1Ev@plt>
+<_ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEED2Ev@plt>
+<_ZNSt3__19basic_iosIcNS_11char_traitsIcEEED2Ev@plt>
+<_ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEED2Ev@plt>
+<_ZNSt3__19basic_iosIcNS_11char_traitsIcEEED2Ev@plt>
 <_ZdlPv@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZdlPv@plt>
+<_ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEED2Ev@plt>
+<_ZNSt3__19basic_iosIcNS_11char_traitsIcEEED2Ev@plt>
 <_ZdlPv@plt>
 <_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
@@ -776,30 +884,28 @@
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZNK2cv3Mat9convertToERKNS_12_OutputArrayEidd@plt>
 <_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZNK2cv3Mat9convertToERKNS_12_OutputArrayEidd@plt>
 <_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
 <_Znwm@plt>
 <_Znwm@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
 <_Znwm@plt>
 <_Znwm@plt>
 <_Znwm@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
 <_Znwm@plt>
 <_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
 <_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
-<_ZN2cv3Mat6createEiPKii@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv3Mat6createEiPKii@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
-<_ZN2cv3Mat6createEiPKii@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
 <_ZN2cv3Mat8copySizeERKS0_@plt>
@@ -812,38 +918,81 @@
 <_ZN2cv3Mat6createEiPKii@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__15mutexD1Ev@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZdlPv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZdlPv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZdlPv@plt>
 <_ZNK2cv3Mat6copyToERKNS_12_OutputArrayE@plt>
 <_ZN2cv6resizeERKNS_11_InputArrayERKNS_12_OutputArrayENS_5Size_IiEEddi@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZdlPv@plt>
 <_ZNK2cv3Mat6copyToERKNS_12_OutputArrayE@plt>
 <_ZN2cv6resizeERKNS_11_InputArrayERKNS_12_OutputArrayENS_5Size_IiEEddi@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZdlPv@plt>
 <_ZNK2cv3Mat6copyToERKNS_12_OutputArrayE@plt>
 <_ZN2cv6resizeERKNS_11_InputArrayERKNS_12_OutputArrayENS_5Size_IiEEddi@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
@@ -856,27 +1005,18 @@
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZdlPv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
@@ -920,14 +1060,46 @@
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZdlPv@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
@@ -967,6 +1139,41 @@
 <_ZNSt3__119__shared_weak_countD2Ev@plt>
 <_ZNSt3__119__shared_weak_countD2Ev@plt>
 <_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZdlPv@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZdlPv@plt>
+<_Znwm@plt>
+<_ZNSt3__16threadD1Ev@plt>
+<_Znwm@plt>
+<_ZNSt3__115__thread_structC1Ev@plt>
+<_Znwm@plt>
+<_ZNSt3__16thread4joinEv@plt>
+<_ZdlPv@plt>
+<_ZNSt3__16threadD1Ev@plt>
+<_ZdlPv@plt>
+<_ZNSt3__120__throw_system_errorEiPKc@plt>
+<_ZNSt3__16threadD1Ev@plt>
+<_ZNSt3__115__thread_structD1Ev@plt>
+<_ZdlPv@plt>
+<_ZNSt3__115__thread_structD1Ev@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZNSt3__16threadD1Ev@plt>
 <_ZdlPv@plt>
 <_ZN2cv3MatC1ERKS0_RKNS_5Rect_IiEE@plt>
 <_ZN2cv3MatC1ERKS0_RKNS_5Rect_IiEE@plt>
@@ -1009,9 +1216,76 @@
 <_ZNSt3__115__thread_structD1Ev@plt>
 <_ZdlPv@plt>
 <_ZdlPv@plt>
-<_Znwm@plt>
+<_ZN2cv12getTickCountEv@plt>
+<_ZN2cv7noArrayEv@plt>
+<_ZN2cv4meanERKNS_11_InputArrayES2_@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZdlPv@plt>
-<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3MataSERKNS_7Scalar_IdEE@plt>
+<_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3MataSERKNS_7Scalar_IdEE@plt>
+<_Znwm@plt>
+<_ZN2cv7noArrayEv@plt>
+<_ZN2cv4meanERKNS_11_InputArrayES2_@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv7noArrayEv@plt>
+<_ZN2cv4meanERKNS_11_InputArrayES2_@plt>
+<_ZN2cv7noArrayEv@plt>
+<_ZN2cv4meanERKNS_11_InputArrayES2_@plt>
+<_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv7noArrayEv@plt>
+<_ZN2cv3Mat5setToERKNS_11_InputArrayES3_@plt>
+<_ZN2cv3MataSERKNS_7Scalar_IdEE@plt>
+<_ZN2cv3Mat5zerosENS_5Size_IiEEi@plt>
+<_ZN2cv3MatC1ERKS0_RKNS_5Rect_IiEE@plt>
+<_ZN2cv7noArrayEv@plt>
+<_ZN2cv3Mat5setToERKNS_11_InputArrayES3_@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv7noArrayEv@plt>
+<_ZN2cv11bitwise_andERKNS_11_InputArrayES2_RKNS_12_OutputArrayES2_@plt>
+<_ZN2cv12countNonZeroERKNS_11_InputArrayE@plt>
+<_ZN2cv12getTickCountEv@plt>
+<_ZN2cv16getTickFrequencyEv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv12getTickCountEv@plt>
 <_Znwm@plt>
 <_ZN2cv7noArrayEv@plt>
@@ -1038,6 +1312,8 @@
 <_ZN2cv3Mat6createEiPKii@plt>
 <_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
@@ -1047,6 +1323,8 @@
 <_Znwm@plt>
 <_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
@@ -1064,6 +1342,10 @@
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
@@ -1079,17 +1361,21 @@
 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
@@ -1108,6 +1394,10 @@
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
@@ -1121,6 +1411,40 @@
 <_ZdlPv@plt>
 <_Znwm@plt>
 <_Znwm@plt>
+<_ZN2cv3Mat6createEiPKii@plt>
+<_Znwm@plt>
+<_Znwm@plt>
+<_Znwm@plt>
+<_Znwm@plt>
+<_Znwm@plt>
+<_Znwm@plt>
+<_ZN2cv3Mat6createEiPKii@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_Znwm@plt>
+<_Znwm@plt>
+<_ZdlPv@plt>
 <_Znwm@plt>
 <_ZdlPv@plt>
 <_Znwm@plt>
@@ -1136,6 +1460,8 @@
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
@@ -1155,6 +1481,8 @@
 <_ZN2cv3Mat6createEiPKii@plt>
 <_ZN2cv3MataSERKNS_7Scalar_IdEE@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
@@ -1171,6 +1499,8 @@
 <_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
@@ -1183,83 +1513,191 @@
 <_ZNSt3__15mutexD1Ev@plt>
 <_ZNSt3__119__shared_weak_countD2Ev@plt>
 <_ZdlPv@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZNSt3__15mutexD1Ev@plt>
-<_ZdlPv@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZdlPv@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZdlPv@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZdlPv@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZdlPv@plt>
 <_ZdlPv@plt>
 <_Znwm@plt>
 <_ZdlPv@plt>
-<_Znwm@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZdlPv@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_Znwm@plt>
 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+<_Znwm@plt>
+<_ZdlPv@plt>
+<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZdlPv@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZdlPv@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZdlPv@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZdlPv@plt>
+<_Znwm@plt>
+<_ZdlPv@plt>
+<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+<_Znwm@plt>
+<_ZdlPv@plt>
+<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNK2cv12_OutputArray6createENS_5Size_IiEEiibNS0_9DepthMaskE@plt>
+<_ZNK2cv11_InputArray4kindEv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNK2cv11_InputArray7getMat_Ei@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNK2cv12_OutputArray6createENS_5Size_IiEEiibNS0_9DepthMaskE@plt>
+<_ZNK2cv11_InputArray4kindEv@plt>
+<_ZNK2cv11_InputArray7getMat_Ei@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_Znwm@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat6createEiPKii@plt>
+<_Znwm@plt>
+<_ZdlPv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZdlPv@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
 <_ZdlPv@plt>
 <_Znwm@plt>
 <_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
 <_ZdlPv@plt>
-<_Znwm@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
 <_ZdlPv@plt>
-<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
 <_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
@@ -1271,17 +1709,42 @@
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
 <_ZdlPv@plt>
 <_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
 <_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
 <_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
 <_ZdlPv@plt>
 <_ZNSt3__15mutexD1Ev@plt>
 <_ZdlPv@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_Znwm@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
 <_ZdlPv@plt>
 <_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
 <_ZNK2cv11_InputArray4kindEv@plt>
 <_ZNK2cv11_InputArray7getMat_Ei@plt>
 <_ZN2cv3Mat8copySizeERKS0_@plt>
@@ -1352,6 +1815,8 @@
 <_ZN2cv3MatC1ERKS0_RKNS_5Rect_IiEE@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
@@ -1362,6 +1827,8 @@
 <_ZN2cv3MatC1ERKS0_RKNS_5Rect_IiEE@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
@@ -1372,6 +1839,8 @@
 <_ZN2cv3MatC1ERKS0_RKNS_5Rect_IiEE@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
@@ -1382,6 +1851,8 @@
 <_ZN2cv3MatC1ERKS0_RKNS_5Rect_IiEE@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
@@ -1398,61 +1869,54 @@
 <_Znwm@plt>
 <_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
 <_ZdlPv@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZN2cv12getTickCountEv@plt>
 <_ZN2cv12getTickCountEv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
 <_ZNSt3__15mutexD1Ev@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
 <_ZdlPv@plt>
 <_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
@@ -1487,6 +1951,19 @@
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZdlPv@plt>
@@ -1497,6 +1974,10 @@
 <_ZN2cv8fastFreeEPv@plt>
 <_ZNSt3__15mutexD1Ev@plt>
 <_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZdlPv@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZdlPv@plt>
 <_ZN2cv12getTickCountEv@plt>
 <_Znwm@plt>
@@ -1504,6 +1985,8 @@
 <_ZN2cv3MatC1ERKS0_RKNS_5Rect_IiEE@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
@@ -1514,17 +1997,8 @@
 <_ZN2cv3MatC1ERKS0_RKNS_5Rect_IiEE@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
-<_ZN2cv3Mat6createEiPKii@plt>
-<_ZN2cv3Mat6createEiPKii@plt>
-<_ZN2cv3Mat6createEiPKii@plt>
-<_ZN2cv3Mat6createEiPKii@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_Znwm@plt>
-<_ZN2cv3Mat8copySizeERKS0_@plt>
-<_ZN2cv3MatC1ERKS0_RKNS_5Rect_IiEE@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
@@ -1537,6 +2011,21 @@
 <_ZN2cv3MatC1ERKS0_RKNS_5Rect_IiEE@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat6createEiPKii@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_Znwm@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZN2cv3MatC1ERKS0_RKNS_5Rect_IiEE@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
@@ -1551,11 +2040,17 @@
 <_Znwm@plt>
 <_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZN2cv12getTickCountEv@plt>
 <_ZN2cv12getTickCountEv@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
@@ -1583,8 +2078,14 @@
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
@@ -1610,17 +2111,6 @@
 <_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
@@ -1631,9 +2121,6 @@
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
@@ -1650,6 +2137,10 @@
 <_ZN2cv8fastFreeEPv@plt>
 <_ZNSt3__15mutexD1Ev@plt>
 <_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZdlPv@plt>
+<_ZNSt3__118condition_variableD1Ev@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZdlPv@plt>
 <_Znwm@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
@@ -1661,231 +2152,48 @@
 <_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZNSt3__15mutexD1Ev@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNSt3__119__shared_weak_countD2Ev@plt>
 <_ZdlPv@plt>
 <_Znwm@plt>
 <_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZNSt3__15mutexD1Ev@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNSt3__119__shared_weak_countD2Ev@plt>
 <_ZdlPv@plt>
 <_Znwm@plt>
 <_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZNSt3__15mutexD1Ev@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNSt3__119__shared_weak_countD2Ev@plt>
 <_ZdlPv@plt>
 <_Znwm@plt>
 <_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_Znwm@plt>
-<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZdlPv@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
 <_ZNSt3__15mutexD1Ev@plt>
 <_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZdlPv@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZdlPv@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZdlPv@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZdlPv@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_Znwm@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat8copySizeERKS0_@plt>
-<_ZN2cv3Mat8copySizeERKS0_@plt>
-<_ZN2cv3Mat6createEiPKii@plt>
-<_ZN2cv3Mat6createEiPKii@plt>
-<_ZN2cv3Mat6createEiPKii@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZdlPv@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZdlPv@plt>
 <_ZdlPv@plt>
 <_Znwm@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
 <_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZdlPv@plt>
-<_Znwm@plt>
-<_ZdlPv@plt>
-<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
 <_ZdlPv@plt>
 <_ZNSt3__119__shared_weak_countD2Ev@plt>
 <_ZNSt3__119__shared_weak_countD2Ev@plt>
@@ -1907,8 +2215,9 @@
 <_ZN2cv8fastFreeEPv@plt>
 <_ZNSt3__15mutexD1Ev@plt>
 <_ZdlPv@plt>
-<_ZdlPv@plt>
 <_Znwm@plt>
+<_ZdlPv@plt>
+<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
 <_ZNSt3__119__shared_weak_countD2Ev@plt>
 <_ZNSt3__119__shared_weak_countD2Ev@plt>
 <_ZdlPv@plt>
@@ -1925,86 +2234,252 @@
 <_ZN2cv8fastFreeEPv@plt>
 <_ZNSt3__15mutexD1Ev@plt>
 <_ZdlPv@plt>
-<_ZdlPv@plt>
 <_ZNSt3__119__shared_weak_countD2Ev@plt>
 <_ZNSt3__119__shared_weak_countD2Ev@plt>
 <_ZdlPv@plt>
 <_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv12getTickCountEv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv12getTickCountEv@plt>
-<_ZN2cv12getTickCountEv@plt>
-<_ZNSt3__15mutex4lockEv@plt>
-<_ZN2cv12getTickCountEv@plt>
-<_ZN2cv20perspectiveTransformERKNS_11_InputArrayERKNS_12_OutputArrayES2_@plt>
-<_ZN2cv12getTickCountEv@plt>
-<_ZN2cv12getTickCountEv@plt>
-<_ZN2cv3Mat3eyeEiii@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_Znwm@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
-<_ZNK2cv3Mat9convertToERKNS_12_OutputArrayEidd@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat6createEiPKii@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZdlPv@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZdlPv@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZdlPv@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZdlPv@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZdlPv@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZdlPv@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_Znwm@plt>
+<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZdlPv@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZdlPv@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZdlPv@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZdlPv@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZNSt3__119__shared_weak_countD2Ev@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__15mutexD1Ev@plt>
+<_ZdlPv@plt>
 <_ZN2cv12getTickCountEv@plt>
-<_ZN2cv16getTickFrequencyEv@plt>
-<_ZN2cv16getTickFrequencyEv@plt>
-<_ZN2cv16getTickFrequencyEv@plt>
-<_ZN2cv16getTickFrequencyEv@plt>
-<_ZN2cv16getTickFrequencyEv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv12getTickCountEv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZNSt3__15mutex4lockEv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZNSt3__15mutex4lockEv@plt>
+<_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZNSt3__15mutex4lockEv@plt>
 <_ZNSt3__15mutex6unlockEv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
 <_ZN2cv12getTickCountEv@plt>
 <_ZN2cv12getTickCountEv@plt>
 <_ZNK2cv3Mat9convertToERKNS_12_OutputArrayEidd@plt>
@@ -2016,98 +2491,8 @@
 <_ZN2cv16getTickFrequencyEv@plt>
 <_ZN2cv16getTickFrequencyEv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv12getTickCountEv@plt>
-<_ZNK2cv11_InputArray4sizeEi@plt>
-<_ZNK2cv11_InputArray4kindEv@plt>
-<_ZNK2cv11_InputArray7getMat_Ei@plt>
-<_ZN2cv3Mat8copySizeERKS0_@plt>
-<_ZNK2cv11_InputArray4kindEv@plt>
-<_ZNK2cv11_InputArray7getMat_Ei@plt>
-<_ZN2cv3Mat8copySizeERKS0_@plt>
-<_ZNK2cv12_OutputArray6createENS_5Size_IiEEiibNS0_9DepthMaskE@plt>
-<_ZNK2cv11_InputArray4kindEv@plt>
-<_ZNK2cv11_InputArray7getMat_Ei@plt>
-<_ZN2cv3Mat8copySizeERKS0_@plt>
-<_ZNK2cv12_OutputArray6createENS_5Size_IiEEiibNS0_9DepthMaskE@plt>
-<_ZNK2cv11_InputArray4kindEv@plt>
-<_ZNK2cv11_InputArray7getMat_Ei@plt>
-<_ZN2cv3Mat8copySizeERKS0_@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat8copySizeERKS0_@plt>
-<_ZN2cv3Mat8copySizeERKS0_@plt>
-<_ZN2cv3Mat8copySizeERKS0_@plt>
-<_ZN2cv3Mat8copySizeERKS0_@plt>
-<_ZN2cv3Mat8copySizeERKS0_@plt>
-<_ZNK2cv3Mat6copyToERKNS_12_OutputArrayE@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv12getTickCountEv@plt>
-<_ZN2cv12getTickCountEv@plt>
-<_ZN2cv16getTickFrequencyEv@plt>
-<_ZN2cv16getTickFrequencyEv@plt>
-<_ZN2cv16getTickFrequencyEv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNK2cv3Mat6copyToERKNS_12_OutputArrayE@plt>
-<_ZN2cv6invertERKNS_11_InputArrayERKNS_12_OutputArrayEi@plt>
-<_ZN2cv20perspectiveTransformERKNS_11_InputArrayERKNS_12_OutputArrayES2_@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
@@ -2124,20 +2509,9 @@
 <_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
 <_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
 <_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
@@ -2145,6 +2519,8 @@
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv12getTickCountEv@plt>
+<_Znwm@plt>
+<_Znwm@plt>
 <_ZNSt3__16threadD1Ev@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv3MatC1ERKS0_RKNS_5Rect_IiEE@plt>
@@ -2164,30 +2540,36 @@
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
 <_ZdlPv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv8fastFreeEPv@plt>
@@ -2205,41 +2587,49 @@
 <_Znwm@plt>
 <_ZNSt3__115__thread_structC1Ev@plt>
 <_Znwm@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3MatC1ERKS0_RKNS_5Rect_IiEE@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv12getTickCountEv@plt>
+<_ZN2cv16getTickFrequencyEv@plt>
+<_ZN2cv16getTickFrequencyEv@plt>
+<_ZN2cv16getTickFrequencyEv@plt>
+<_ZN2cv16getTickFrequencyEv@plt>
+<_ZN2cv16getTickFrequencyEv@plt>
+<_ZN2cv16getTickFrequencyEv@plt>
+<_ZN2cv16getTickFrequencyEv@plt>
+<_ZN2cv3MatC1ERKS0_RKNS_5Rect_IiEE@plt>
 <_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZNSt3__16threadD1Ev@plt>
+<_Znwm@plt>
 <_ZN2cv12getTickCountEv@plt>
-<_ZN2cv3Mat5zerosENS_5Size_IiEEi@plt>
+<_ZN2cv12getTickCountEv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3MatC1ERKS0_RKNS_5Rect_IiEE@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3MatC1ERKS0_RKNS_5Rect_IiEE@plt>
-<_ZdlPv@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
 <_ZN2cv3MataSERKNS_7Scalar_IdEE@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv12countNonZeroERKNS_11_InputArrayE@plt>
-<_ZN2cv7noArrayEv@plt>
-<_ZN2cv10bitwise_orERKNS_11_InputArrayES2_RKNS_12_OutputArrayES2_@plt>
-<_ZN2cv7inRangeERKNS_11_InputArrayES2_S2_RKNS_12_OutputArrayE@plt>
-<_ZNK2cv12_OutputArray6createENS_5Size_IiEEiibNS0_9DepthMaskE@plt>
-<_ZNK2cv11_InputArray4kindEv@plt>
-<_ZNK2cv11_InputArray7getMat_Ei@plt>
-<_ZN2cvplERKNS_3MatERKNS_7Scalar_IdEE@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv3Mat8copySizeERKS0_@plt>
+<_ZN2cv3Mat5zerosEiii@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cvplERKNS_3MatERKNS_7Scalar_IdEE@plt>
+<_ZNSt3__16threadD1Ev@plt>
+<_ZNSt3__16threadD1Ev@plt>
+<_ZNSt3__16threadD1Ev@plt>
+<_ZNSt3__16threadD1Ev@plt>
+<_ZNSt3__16thread4joinEv@plt>
+<_ZNSt3__16threadD1Ev@plt>
+<_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv3Mat8copySizeERKS0_@plt>
 <_ZN2cv12findContoursERKNS_11_InputArrayERKNS_12_OutputArrayES5_iiNS_6Point_IiEE@plt>
+<_Znwm@plt>
+<_Znwm@plt>
+<_Znwm@plt>
 <_Znwm@plt>
 <_ZN2cv12approxPolyDPERKNS_11_InputArrayERKNS_12_OutputArrayEdb@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
@@ -2263,157 +2653,54 @@
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
 <_ZN2cvplERKNS_3MatERKNS_7Scalar_IdEE@plt>
+<_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNK2cv12_OutputArray6createENS_5Size_IiEEiibNS0_9DepthMaskE@plt>
-<_ZNK2cv11_InputArray4kindEv@plt>
-<_ZNK2cv11_InputArray7getMat_Ei@plt>
-<_ZN2cv3Mat8copySizeERKS0_@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_Znwm@plt>
-<_ZN2cv3Mat8copySizeERKS0_@plt>
-<_ZN2cv3Mat8copySizeERKS0_@plt>
-<_ZN2cv3Mat6createEiPKii@plt>
-<_ZN2cv3Mat6createEiPKii@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat6createEiPKii@plt>
-<_ZN2cv3Mat6createEiPKii@plt>
-<_Znwm@plt>
-<_ZdlPv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv12getTickCountEv@plt>
+<_ZN2cv12getTickCountEv@plt>
+<_ZN2cv16getTickFrequencyEv@plt>
+<_ZN2cv16getTickFrequencyEv@plt>
+<_ZN2cv16getTickFrequencyEv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
+<_ZN2cv12getTickCountEv@plt>
+<_ZN2cv3Mat5zerosENS_5Size_IiEEi@plt>
+<_ZN2cv12countNonZeroERKNS_11_InputArrayE@plt>
+<_ZN2cv7noArrayEv@plt>
+<_ZN2cv10bitwise_orERKNS_11_InputArrayES2_RKNS_12_OutputArrayES2_@plt>
+<_ZN2cv7inRangeERKNS_11_InputArrayES2_S2_RKNS_12_OutputArrayE@plt>
 <_ZN2cv12getTickCountEv@plt>
 <_ZNSt3__16thread4joinEv@plt>
 <_ZN2cvmiERKNS_3MatES2_@plt>
 <_ZN2cv3absERKNS_7MatExprE@plt>
 <_ZN2cvgeERKNS_3MatEd@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cvmlERKNS_3MatEd@plt>
 <_ZN2cvmlERKNS_3MatEd@plt>
 <_ZN2cvplERKNS_7MatExprES2_@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
 <_ZNK2cv3Mat6copyToERKNS_12_OutputArrayERKNS_11_InputArrayE@plt>
 <_ZN2cv3Mat5zerosEiii@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
 <_ZNSt3__16__sortIRNS_6__lessIffEEPfEEvT0_S5_T_@plt>
 <_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv12getTickCountEv@plt>
-<_Znwm@plt>
-<_ZN2cv3Mat6createEiPKii@plt>
-<_Znwm@plt>
-<_Znwm@plt>
-<_Znwm@plt>
-<_ZN2cv3Mat6createEiPKii@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
 <_ZN2cv12getTickCountEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__16threadD1Ev@plt>
-<_ZNSt3__16threadD1Ev@plt>
-<_ZNSt3__16threadD1Ev@plt>
-<_ZNSt3__16threadD1Ev@plt>
-<_ZNSt3__16threadD1Ev@plt>
-<_ZNSt3__16threadD1Ev@plt>
-<_ZNSt3__16threadD1Ev@plt>
-<_ZNSt3__16threadD1Ev@plt>
-<_ZNSt3__16threadD1Ev@plt>
-<_ZNSt3__16threadD1Ev@plt>
-<_ZNSt3__16threadD1Ev@plt>
-<_ZNSt3__16threadD1Ev@plt>
-<_ZNSt3__16threadD1Ev@plt>
-<_ZNSt3__16threadD1Ev@plt>
-<_ZNSt3__16threadD1Ev@plt>
-<_ZNSt3__16threadD1Ev@plt>
-<_ZNSt3__16thread4joinEv@plt>
-<_ZNSt3__16threadD1Ev@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat6createEiPKii@plt>
 <_ZN2cv3MataSERKNS_7Scalar_IdEE@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
 <_ZdlPv@plt>
 <_ZdlPv@plt>
 <_ZdlPv@plt>
@@ -2423,38 +2710,8 @@
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cvanERKNS_3MatES2_@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
 <_ZN2cvcoERKNS_3MatE@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
 <_ZN2cvorERKNS_3MatES2_@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZNSt3__16threadD1Ev@plt>
-<_ZNSt3__16threadD1Ev@plt>
-<_ZNSt3__16threadD1Ev@plt>
-<_ZNSt3__16threadD1Ev@plt>
-<_ZNSt3__16threadD1Ev@plt>
-<_ZNSt3__16threadD1Ev@plt>
-<_ZNSt3__16threadD1Ev@plt>
-<_ZNSt3__16threadD1Ev@plt>
-<_ZNSt3__16threadD1Ev@plt>
-<_ZNSt3__16threadD1Ev@plt>
-<_ZNSt3__16threadD1Ev@plt>
-<_ZNSt3__16threadD1Ev@plt>
 <_ZNSt3__16threadD1Ev@plt>
 <_ZNSt3__16threadD1Ev@plt>
 <_ZNSt3__16threadD1Ev@plt>
@@ -2466,118 +2723,17 @@
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv12getTickCountEv@plt>
-<_ZN2cv16getTickFrequencyEv@plt>
-<_ZN2cv16getTickFrequencyEv@plt>
-<_ZN2cv16getTickFrequencyEv@plt>
-<_ZN2cv16getTickFrequencyEv@plt>
-<_ZN2cv16getTickFrequencyEv@plt>
-<_ZN2cv16getTickFrequencyEv@plt>
-<_ZN2cv16getTickFrequencyEv@plt>
+<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
 <_ZNSt3__120__throw_system_errorEiPKc@plt>
 <_ZSt9terminatev@plt>
 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
-<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
-<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
@@ -2593,8 +2749,8 @@
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZdlPv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
@@ -2604,8 +2760,39 @@
 <_ZNSt3__115__thread_structD1Ev@plt>
 <_ZdlPv@plt>
 <_ZdlPv@plt>
+<_ZNSt3__115__thread_structD1Ev@plt>
+<_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
@@ -2618,36 +2805,6 @@
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
 <_ZNSt3__16threadD1Ev@plt>
 <_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
@@ -2658,51 +2815,10 @@
 <_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZNSt3__15mutexD1Ev@plt>
-<_ZNSt3__119__shared_weak_countD2Ev@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
 <_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
@@ -2715,181 +2831,87 @@
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
 <_ZdlPv@plt>
 <_ZN2cv12GaussianBlurERKNS_11_InputArrayERKNS_12_OutputArrayENS_5Size_IiEEddi@plt>
-<_ZN2cv12getTickCountEv@plt>
-<_ZN2cv12getTickCountEv@plt>
-<_ZN2cv3Mat8copySizeERKS0_@plt>
-<_ZN2cv3Mat5zerosEiii@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv12getTickCountEv@plt>
-<_ZN2cv12getTickCountEv@plt>
-<_ZN2cv7noArrayEv@plt>
-<_ZN2cv4meanERKNS_11_InputArrayES2_@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZNSt3__119__shared_weak_count14__release_weakEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat6createEiPKii@plt>
-<_ZN2cv3MataSERKNS_7Scalar_IdEE@plt>
-<_ZN2cv3Mat6createEiPKii@plt>
-<_ZN2cv3MataSERKNS_7Scalar_IdEE@plt>
-<_Znwm@plt>
-<_ZN2cv7noArrayEv@plt>
-<_ZN2cv4meanERKNS_11_InputArrayES2_@plt>
-<_Znwm@plt>
-<_ZdlPv@plt>
-<_ZN2cv7noArrayEv@plt>
-<_ZN2cv4meanERKNS_11_InputArrayES2_@plt>
-<_Znwm@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat6createEiPKii@plt>
-<_ZN2cv7noArrayEv@plt>
-<_ZN2cv3Mat5setToERKNS_11_InputArrayES3_@plt>
-<_ZN2cv3MataSERKNS_7Scalar_IdEE@plt>
-<_ZN2cv3Mat5zerosENS_5Size_IiEEi@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3MatC1ERKS0_RKNS_5Rect_IiEE@plt>
-<_ZN2cv7noArrayEv@plt>
-<_ZN2cv3Mat5setToERKNS_11_InputArrayES3_@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv7noArrayEv@plt>
-<_ZN2cv11bitwise_andERKNS_11_InputArrayES2_RKNS_12_OutputArrayES2_@plt>
-<_ZN2cv12countNonZeroERKNS_11_InputArrayE@plt>
-<_ZN2cv12getTickCountEv@plt>
-<_ZN2cv16getTickFrequencyEv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv12getTickCountEv@plt>
-<_ZN2cv16getTickFrequencyEv@plt>
-<_ZN2cv16getTickFrequencyEv@plt>
-<_ZN2cv16getTickFrequencyEv@plt>
-<_ZdlPv@plt>
-<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZN2cv3Mat10deallocateEv@plt>
-<_ZN2cv8fastFreeEPv@plt>
-<_ZdlPv@plt>
-<_Znwm@plt>
-<_ZNSt3__115__thread_structC1Ev@plt>
-<_Znwm@plt>
-<_ZNSt3__120__throw_system_errorEiPKc@plt>
-<_ZNSt3__115__thread_structD1Ev@plt>
-<_ZdlPv@plt>
-<_ZNSt3__115__thread_structD1Ev@plt>
-<_ZdlPv@plt>
-<_ZNSt3__119__thread_local_dataEv@plt>
-<_ZNSt3__115__thread_structD1Ev@plt>
 <_ZdlPv@plt>
 <_ZdlPv@plt>
-<_ZNSt3__115__thread_structD1Ev@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_Znwm@plt>
-<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
-<_ZdlPv@plt>
-<_Znwm@plt>
-<_ZN2cv5errorEiRKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPKcSA_i@plt>
-<_ZN2cv3Mat20updateContinuityFlagEv@plt>
-<_Znwm@plt>
-<_ZN2cv5errorEiRKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPKcSA_i@plt>
-<_ZdlPv@plt>
-<_Znwm@plt>
-<_ZNSt3__115__thread_structC1Ev@plt>
-<_Znwm@plt>
-<_ZNSt3__120__throw_system_errorEiPKc@plt>
-<_ZNSt3__115__thread_structD1Ev@plt>
-<_ZdlPv@plt>
-<_ZNSt3__115__thread_structD1Ev@plt>
-<_ZdlPv@plt>
-<_ZNSt3__119__thread_local_dataEv@plt>
-<_ZNSt3__115__thread_structD1Ev@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZNSt3__115__thread_structD1Ev@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
 <_ZNSt3__16__sortIRNS_6__lessIffEEPfEEvT0_S5_T_@plt>
 <_ZdlPv@plt>
 <_ZdlPv@plt>
+<_Znwm@plt>
+<_ZNSt3__115__thread_structC1Ev@plt>
+<_Znwm@plt>
+<_ZNSt3__120__throw_system_errorEiPKc@plt>
+<_ZNSt3__115__thread_structD1Ev@plt>
+<_ZdlPv@plt>
+<_ZNSt3__115__thread_structD1Ev@plt>
+<_ZdlPv@plt>
 <_ZNSt3__119__thread_local_dataEv@plt>
+<_ZNSt3__115__thread_structD1Ev@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZNSt3__115__thread_structD1Ev@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_Znwm@plt>
+<_ZNSt3__115__thread_structC1Ev@plt>
+<_Znwm@plt>
+<_ZNSt3__120__throw_system_errorEiPKc@plt>
+<_ZNSt3__115__thread_structD1Ev@plt>
+<_ZdlPv@plt>
+<_ZNSt3__115__thread_structD1Ev@plt>
+<_ZdlPv@plt>
+<_ZNSt3__119__thread_local_dataEv@plt>
+<_ZNSt3__115__thread_structD1Ev@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZNSt3__115__thread_structD1Ev@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
+<_ZNSt3__119__thread_local_dataEv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
+<_ZNSt3__115__thread_structD1Ev@plt>
+<_ZdlPv@plt>
+<_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZNSt3__115__thread_structD1Ev@plt>
@@ -2916,6 +2938,12 @@
 <_ZN2cv8fastFreeEPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
+<_ZN2cv3Mat20updateContinuityFlagEv@plt>
+<_Znwm@plt>
+<_ZN2cv5errorEiRKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPKcSA_i@plt>
+<_Znwm@plt>
+<_ZN2cv5errorEiRKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPKcSA_i@plt>
+<_ZdlPv@plt>
 <_ZN2cv12getTickCountEv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
@@ -2927,7 +2955,11 @@
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
 <_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
 <_ZdlPv@plt>
 <_ZN2cv12getTickCountEv@plt>
 <_ZN2cv16getTickFrequencyEv@plt>
@@ -2940,203 +2972,210 @@
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
 <_ZdlPv@plt>
+<_ZN2cv3Mat10deallocateEv@plt>
+<_ZN2cv8fastFreeEPv@plt>
 <_ZdlPv@plt>
-<_Znwm@plt>
-<_ZdlPv@plt>
-<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
 <_Znwm@plt>
 <_ZNSt3__15mutexD1Ev@plt>
 <_ZdlPv@plt>
 <_ZNSt3__111this_thread9sleep_forERKNS_6chrono8durationIxNS_5ratioILl1ELl1000000000EEEEE@plt>
 <_Znwm@plt>
-<_Znwm@plt>
-<_ZNSt3__115__thread_structC1Ev@plt>
-<_Znwm@plt>
-<_ZNSt3__16threadD1Ev@plt>
-<_ZNSt3__16thread4joinEv@plt>
-<_ZdlPv@plt>
-<_ZNSt3__16threadD1Ev@plt>
-<_ZdlPv@plt>
-<_Znwm@plt>
 <_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZdlPv@plt>
-<_ZNSt3__120__throw_system_errorEiPKc@plt>
 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
-<_ZNSt3__16threadD1Ev@plt>
-<_ZNSt3__115__thread_structD1Ev@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZNSt3__115__thread_structD1Ev@plt>
-<_ZdlPv@plt>
-<_ZdlPv@plt>
-<_ZNSt3__16threadD1Ev@plt>
-<_ZdlPv@plt>
 <_ZN2cv3Mat10deallocateEv@plt>
 <_ZN2cv8fastFreeEPv@plt>
 <_ZdlPv@plt>
+<_Znwm@plt>
+<_ZdlPv@plt>
+<_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
 
-0x8a000 <_Znwm@plt+0xc>
+0x8d000 <_Znwm@plt+0xc>
 
-0x8a000 <_ZNSt3__115__thread_structC1Ev@plt+0xc>
+0x8d000 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt+0xc>
 
-0x8a000 <_ZNSt3__16threadD1Ev@plt+0xc>
+0x8d000 <_ZdlPv@plt+0xc>
 
-0x8a000 <_ZNSt3__120__throw_system_errorEiPKc@plt+0xc>
+0x8d000 <_ZN2cv3Mat10deallocateEv@plt+0xc>
 
-0x8a000 <_ZNSt3__115__thread_structD1Ev@plt+0xc>
+0x8d000 <_ZN2cv8fastFreeEPv@plt+0xc>
 
-0x8a000 <_ZdlPv@plt+0xc>
+0x8d000 <_ZNSt3__15mutexD1Ev@plt+0xc>
 
-0x8a000 <_ZNSt3__118condition_variableD1Ev@plt+0xc>
+0x8d000 <_ZN2cv12getTickCountEv@plt+0xc>
 
-0x8a000 <_ZNSt3__15mutexD1Ev@plt+0xc>
+0x8d000 <_ZN2cv3ORB6createEifiiiiNS0_9ScoreTypeEii@plt+0xc>
 
-0x8a000 <_ZNSt3__15mutex4lockEv@plt+0xc>
+0x8d000 <_ZN2cv7noArrayEv@plt+0xc>
 
-0x8a000 <_ZNSt3__118condition_variable10notify_allEv@plt+0xc>
+0x8d000 <_ZN2cv17DescriptorMatcher6createERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE@plt+0xc>
 
-0x8a000 <_ZNSt3__118condition_variable4waitERNS_11unique_lockINS_5mutexEEE@plt+0xc>
+0x8d000 <_ZNK2cv17DescriptorMatcher5matchERKNS_11_InputArrayES3_RNSt3__16vectorINS_6DMatchENS4_9allocatorIS6_EEEES3_@plt+0xc>
 
-0x8a000 <_ZNSt3__15mutex6unlockEv@plt+0xc>
+0x8d000 <_ZN2cv12countNonZeroERKNS_11_InputArrayE@plt+0xc>
 
-0x8a000 <_ZNSt3__16thread4joinEv@plt+0xc>
+0x8d000 <_ZN2cv16getTickFrequencyEv@plt+0xc>
 
-0x8a000 <_ZSt9terminatev@plt+0xc>
+0x8d000 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt+0xc>
 
-0x8a000 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt+0xc>
+0x8d000 <_ZN2cv3Mat6createEiPKii@plt+0xc>
 
-0x8a000 <_ZNSt11logic_errorC2EPKc@plt+0xc>
+0x8d000 <_ZN2cv3Mat5zerosEiii@plt+0xc>
 
-0x8a000 <_ZNSt3__119__thread_local_dataEv@plt+0xc>
+0x8d000 <_ZNK2cv3Mat9convertToERKNS_12_OutputArrayEidd@plt+0xc>
 
-0x8a000 <_ZNSt9exceptionD2Ev@plt+0xc>
+0x8d000 <_ZN2cv3Mat8copySizeERKS0_@plt+0xc>
 
-0x8a000 <_ZNSt3__119__shared_weak_count14__release_weakEv@plt+0xc>
+0x8d000 <_ZN2cv3Mat3eyeEiii@plt+0xc>
 
-0x8a000 <_ZN2cv3Mat10deallocateEv@plt+0xc>
+0x8d000 <_ZN2cv12equalizeHistERKNS_11_InputArrayERKNS_12_OutputArrayE@plt+0xc>
 
-0x8a000 <_ZN2cv8fastFreeEPv@plt+0xc>
+0x8d000 <_ZNK2cv3Mat6copyToERKNS_12_OutputArrayE@plt+0xc>
 
-0x8a000 <_ZN2cv3Mat6createEiPKii@plt+0xc>
+0x8d000 <_ZNSt3__118condition_variableD1Ev@plt+0xc>
 
-0x8a000 <_ZN2cv3MatC1ERKS0_RKNS_5Rect_IiEE@plt+0xc>
+0x8d000 <_ZN2cv22estimateRigidTransformERKNS_11_InputArrayES2_b@plt+0xc>
 
-0x8a000 <_ZNK2cv3Mat6copyToERKNS_12_OutputArrayE@plt+0xc>
+0x8d000 <_ZN2cv3MatC1ERKS0_RKNS_5Rect_IiEE@plt+0xc>
 
-0x8a000 <_ZN2cv7noArrayEv@plt+0xc>
+0x8d000 <_ZN2cv3MataSERKNS_7Scalar_IdEE@plt+0xc>
 
-0x8a000 <_ZN2cv13matchTemplateERKNS_11_InputArrayES2_RKNS_12_OutputArrayEiS2_@plt+0xc>
+0x8d000 <_ZN2cv20perspectiveTransformERKNS_11_InputArrayERKNS_12_OutputArrayES2_@plt+0xc>
 
-0x8a000 <_ZN2cv9minMaxLocERKNS_11_InputArrayEPdS3_PNS_6Point_IiEES6_S2_@plt+0xc>
+0x8d000 <_ZN2cv6invertERKNS_11_InputArrayERKNS_12_OutputArrayEi@plt+0xc>
 
-0x8a000 <_ZNSt3__15mutex8try_lockEv@plt+0xc>
+0x8d000 <_ZNSt3__16threadD1Ev@plt+0xc>
 
-0x8a000 <_ZNSt3__119__shared_weak_countD2Ev@plt+0xc>
+0x8d000 <_ZNSt3__15mutex4lockEv@plt+0xc>
 
-0x8a000 <_ZN2cv3Mat8copySizeERKS0_@plt+0xc>
+0x8d000 <_ZNSt3__118condition_variable10notify_allEv@plt+0xc>
 
-0x8a000 <_ZN2cv12getTickCountEv@plt+0xc>
+0x8d000 <_ZNSt3__118condition_variable4waitERNS_11unique_lockINS_5mutexEEE@plt+0xc>
 
-0x8a000 <_ZN2cv3ORB6createEifiiiiNS0_9ScoreTypeEii@plt+0xc>
+0x8d000 <_ZNSt3__15mutex6unlockEv@plt+0xc>
 
-0x8a000 <_ZN2cv17DescriptorMatcher6createERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE@plt+0xc>
+0x8d000 <_ZNSt3__16thread4joinEv@plt+0xc>
 
-0x8a000 <_ZNK2cv17DescriptorMatcher5matchERKNS_11_InputArrayES3_RNSt3__16vectorINS_6DMatchENS4_9allocatorIS6_EEEES3_@plt+0xc>
+0x8d000 <_ZSt9terminatev@plt+0xc>
 
-0x8a000 <_ZN2cv12countNonZeroERKNS_11_InputArrayE@plt+0xc>
+0x8d000 <_ZNSt11logic_errorC2EPKc@plt+0xc>
 
-0x8a000 <_ZN2cv16getTickFrequencyEv@plt+0xc>
+0x8d000 <_ZN2cv13matchTemplateERKNS_11_InputArrayES2_RKNS_12_OutputArrayEiS2_@plt+0xc>
 
-0x8a000 <_ZN2cv3Mat5zerosEiii@plt+0x8>
+0x8d000 <_ZN2cv9minMaxLocERKNS_11_InputArrayEPdS3_PNS_6Point_IiEES6_S2_@plt+0xc>
 
-0x8a000 <_ZNK2cv3Mat9convertToERKNS_12_OutputArrayEidd@plt+0x8>
+0x8d000 <_ZNSt3__119__shared_weak_countD2Ev@plt+0xc>
 
-0x8a000 <_ZN2cv3Mat3eyeEiii@plt+0x8>
+0x8d000 <_ZNSt3__15mutex8try_lockEv@plt+0xc>
 
-0x8a000 <_ZN2cv12equalizeHistERKNS_11_InputArrayERKNS_12_OutputArrayE@plt+0x8>
+0x8d000 <_ZNSt3__120__throw_system_errorEiPKc@plt+0xc>
 
-0x8a000 <_ZN2cv22estimateRigidTransformERKNS_11_InputArrayES2_b@plt+0x8>
+0x8d000 <_ZNSt3__115__thread_structC1Ev@plt+0xc>
 
-0x8a000 <_ZN2cv3MataSERKNS_7Scalar_IdEE@plt+0x8>
+0x8d000 <_ZNSt3__115__thread_structD1Ev@plt+0xc>
 
-0x8a000 <_ZN2cv20perspectiveTransformERKNS_11_InputArrayERKNS_12_OutputArrayES2_@plt+0x8>
+0x8d000 <_ZNSt9exceptionD2Ev@plt+0xc>
 
-0x8a000 <_ZN2cv6resizeERKNS_11_InputArrayERKNS_12_OutputArrayENS_5Size_IiEEddi@plt+0x8>
+0x8d000 <_ZNSt3__119__thread_local_dataEv@plt+0xc>
 
-0x8a000 <_ZN2cv7absdiffERKNS_11_InputArrayES2_RKNS_12_OutputArrayE@plt+0x8>
+0x8d000 <_ZNK2cv11_InputArray4sizeEi@plt+0xc>
 
-0x8a000 <_ZN2cv4normERKNS_11_InputArrayEiS2_@plt+0x8>
+0x8d000 <_ZNK2cv11_InputArray4kindEv@plt+0xc>
 
-0x8a000 <_ZN2cv8subtractERKNS_11_InputArrayES2_RKNS_12_OutputArrayES2_i@plt+0x8>
+0x8d000 <_ZNK2cv11_InputArray7getMat_Ei@plt+0xc>
 
-0x8a000 <_ZN2cv8integralERKNS_11_InputArrayERKNS_12_OutputArrayES5_ii@plt+0x8>
+0x8d000 <_ZNK2cv12_OutputArray6createENS_5Size_IiEEiibNS0_9DepthMaskE@plt+0xc>
 
-0x8a000 <_ZNK2cv11_InputArray4kindEv@plt+0x8>
+0x8d000 <_ZNSt3__113basic_istreamIcNS_11char_traitsIcEEED2Ev@plt+0x8>
 
-0x8a000 <_ZNK2cv11_InputArray7getMat_Ei@plt+0x8>
+0x8d000 <_ZNSt3__19basic_iosIcNS_11char_traitsIcEEED2Ev@plt+0x8>
 
-0x8a000 <_ZNK2cv12_OutputArray6createENS_5Size_IiEEiibNS0_9DepthMaskE@plt+0x8>
+0x8d000 <_ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEED2Ev@plt+0x8>
 
-0x8a000 <_ZNK2cv11_InputArray5emptyEv@plt+0x8>
+0x8d000 <_ZdaPv@plt+0x8>
 
-0x8a000 <_ZNK2cv3Mat9locateROIERNS_5Size_IiEERNS_6Point_IiEE@plt+0x8>
+0x8d000 <_ZNSt3__115basic_streambufIcNS_11char_traitsIcEEED2Ev@plt+0x8>
 
-0x8a000 <_ZN2cv3Mat9adjustROIEiiii@plt+0x8>
+0x8d000 <_ZNKSt3__16locale9use_facetERNS0_2idE@plt+0x8>
 
-0x8a000 <_ZNK2cv11_InputArray4sizeEi@plt+0x8>
+0x8d000 <_Znam@plt+0x8>
 
-0x8a000 <_ZN2cv6invertERKNS_11_InputArrayERKNS_12_OutputArrayEi@plt+0x8>
+0x8d000 <_ZNSt8bad_castC1Ev@plt+0x8>
 
-0x8a000 <_ZN2cv3Mat5zerosENS_5Size_IiEEi@plt+0x8>
+0x8d000 <_ZN2cv6resizeERKNS_11_InputArrayERKNS_12_OutputArrayENS_5Size_IiEEddi@plt+0x8>
 
-0x8a000 <_ZN2cv10bitwise_orERKNS_11_InputArrayES2_RKNS_12_OutputArrayES2_@plt+0x8>
+0x8d000 <_ZN2cv7absdiffERKNS_11_InputArrayES2_RKNS_12_OutputArrayE@plt+0x8>
 
-0x8a000 <_ZN2cv7inRangeERKNS_11_InputArrayES2_S2_RKNS_12_OutputArrayE@plt+0x8>
+0x8d000 <_ZN2cv4normERKNS_11_InputArrayEiS2_@plt+0x8>
 
-0x8a000 <_ZN2cvplERKNS_3MatERKNS_7Scalar_IdEE@plt+0x8>
+0x8d000 <_ZN2cv4meanERKNS_11_InputArrayES2_@plt+0x8>
 
-0x8a000 <_ZN2cv12findContoursERKNS_11_InputArrayERKNS_12_OutputArrayES5_iiNS_6Point_IiEE@plt+0x8>
+0x8d000 <_ZN2cv3Mat5setToERKNS_11_InputArrayES3_@plt+0x8>
 
-0x8a000 <_ZN2cv12approxPolyDPERKNS_11_InputArrayERKNS_12_OutputArrayEdb@plt+0x8>
+0x8d000 <_ZN2cv3Mat5zerosENS_5Size_IiEEi@plt+0x8>
 
-0x8a000 <_ZN2cv12boundingRectERKNS_11_InputArrayE@plt+0x8>
+0x8d000 <_ZN2cv11bitwise_andERKNS_11_InputArrayES2_RKNS_12_OutputArrayES2_@plt+0x8>
 
-0x8a000 <_ZN2cvmiERKNS_3MatES2_@plt+0x8>
+0x8d000 <_ZN2cv8subtractERKNS_11_InputArrayES2_RKNS_12_OutputArrayES2_i@plt+0x8>
 
-0x8a000 <_ZN2cv3absERKNS_7MatExprE@plt+0x8>
+0x8d000 <_ZN2cv8integralERKNS_11_InputArrayERKNS_12_OutputArrayES5_ii@plt+0x8>
 
-0x8a000 <_ZN2cvgeERKNS_3MatEd@plt+0x8>
+0x8d000 <_ZNK2cv11_InputArray5emptyEv@plt+0x8>
 
-0x8a000 <_ZN2cvmlERKNS_3MatEd@plt+0x8>
+0x8d000 <_ZNK2cv3Mat9locateROIERNS_5Size_IiEERNS_6Point_IiEE@plt+0x8>
 
-0x8a000 <_ZN2cvplERKNS_7MatExprES2_@plt+0x8>
+0x8d000 <_ZN2cv3Mat9adjustROIEiiii@plt+0x8>
 
-0x8a000 <_ZNK2cv3Mat6copyToERKNS_12_OutputArrayERKNS_11_InputArrayE@plt+0x8>
+0x8d000 <_ZN2cvplERKNS_3MatERKNS_7Scalar_IdEE@plt+0x8>
 
-0x8a000 <_ZNSt3__16__sortIRNS_6__lessIffEEPfEEvT0_S5_T_@plt+0x8>
+0x8d000 <_ZN2cv12findContoursERKNS_11_InputArrayERKNS_12_OutputArrayES5_iiNS_6Point_IiEE@plt+0x8>
 
-0x8a000 <_ZN2cvanERKNS_3MatES2_@plt+0x8>
+0x8d000 <_ZN2cv12approxPolyDPERKNS_11_InputArrayERKNS_12_OutputArrayEdb@plt+0x8>
 
-0x8a000 <_ZN2cvcoERKNS_3MatE@plt+0x8>
+0x8d000 <_ZN2cv12boundingRectERKNS_11_InputArrayE@plt+0x8>
 
-0x8a000 <_ZN2cvorERKNS_3MatES2_@plt+0x8>
+0x8d000 <_ZN2cv10bitwise_orERKNS_11_InputArrayES2_RKNS_12_OutputArrayES2_@plt+0x8>
 
-0x8a000 <_ZN2cv12GaussianBlurERKNS_11_InputArrayERKNS_12_OutputArrayENS_5Size_IiEEddi@plt+0x8>
+0x8d000 <_ZN2cv7inRangeERKNS_11_InputArrayES2_S2_RKNS_12_OutputArrayE@plt+0x8>
 
-0x8a000 <_ZN2cv4meanERKNS_11_InputArrayES2_@plt+0x8>
+0x8d000 <_ZN2cvmiERKNS_3MatES2_@plt+0x8>
 
-0x8a000 <_ZN2cv3Mat5setToERKNS_11_InputArrayES3_@plt+0x8>
+0x8d000 <_ZN2cv3absERKNS_7MatExprE@plt+0x8>
 
-0x8a000 <_ZN2cv11bitwise_andERKNS_11_InputArrayES2_RKNS_12_OutputArrayES2_@plt+0x8>
+0x8d000 <_ZN2cvgeERKNS_3MatEd@plt+0x8>
 
-0x8a000 <_ZN2cv5errorEiRKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPKcSA_i@plt+0x8>
+0x8d000 <_ZN2cvmlERKNS_3MatEd@plt+0x8>
 
-0x8a000 <_ZN2cv3Mat20updateContinuityFlagEv@plt+0x8>
+0x8d000 <_ZN2cvplERKNS_7MatExprES2_@plt+0x8>
 
-0x8a000 <_ZNSt3__111this_thread9sleep_forERKNS_6chrono8durationIxNS_5ratioILl1ELl1000000000EEEEE@plt+0x8>
+0x8d000 <_ZNK2cv3Mat6copyToERKNS_12_OutputArrayERKNS_11_InputArrayE@plt+0x8>
+
+0x8d000 <_ZNSt3__16__sortIRNS_6__lessIffEEPfEEvT0_S5_T_@plt+0x8>
+
+0x8d000 <_ZN2cvanERKNS_3MatES2_@plt+0x8>
+
+0x8d000 <_ZN2cvcoERKNS_3MatE@plt+0x8>
+
+0x8d000 <_ZN2cvorERKNS_3MatES2_@plt+0x8>
+
+0x8d000 <_ZN2cv12GaussianBlurERKNS_11_InputArrayERKNS_12_OutputArrayENS_5Size_IiEEddi@plt+0x8>
+
+0x8d000 <_ZN2cv3Mat20updateContinuityFlagEv@plt+0x8>
+
+0x8d000 <_ZN2cv5errorEiRKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPKcSA_i@plt+0x8>
+
+0x8d000 <_ZNSt3__111this_thread9sleep_forERKNS_6chrono8durationIxNS_5ratioILl1ELl1000000000EEEEE@plt+0x8>
+
+
+
+
+
+
 
 
 

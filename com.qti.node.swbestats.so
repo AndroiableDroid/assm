@@ -1,158 +1,515 @@
 
 
 
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10b10 <_ZN12ChiNodeUtils8SNPrintFEPcmPKcz@plt>
-	bl	0x10b20 <_ZN12ChiNodeUtils14LibMapFullNameEPKc@plt>
-	bl	0x10b30 <_ZN12ChiNodeUtils10LibGetAddrEPvPKc@plt>
-	bl	0x10b30 <_ZN12ChiNodeUtils10LibGetAddrEPvPKc@plt>
-	bl	0x10b30 <_ZN12ChiNodeUtils10LibGetAddrEPvPKc@plt>
-	bl	0x10b30 <_ZN12ChiNodeUtils10LibGetAddrEPvPKc@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10b50 <_ZN12ChiNodeUtils9VSNPrintFEPcmPKcSt9__va_list@plt>
-	bl	0x10b70 <_ZN12ChiNodeUtils11GetDataListEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt>
-	bl	0x10b70 <_ZN12ChiNodeUtils11GetDataListEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10b90 <_ZN12ChiNodeUtils8LibUnmapEPv@plt>
-	bl	0x10b90 <_ZN12ChiNodeUtils8LibUnmapEPv@plt>
-	bl	0x10bb0 <_ZSt9terminatev@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10bc0 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10bd0 <_ZN12ChiNodeUtils11GetMetaDataEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10bd0 <_ZN12ChiNodeUtils11GetMetaDataEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10bd0 <_ZN12ChiNodeUtils11GetMetaDataEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10b70 <_ZN12ChiNodeUtils11GetDataListEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10b70 <_ZN12ChiNodeUtils11GetDataListEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10b70 <_ZN12ChiNodeUtils11GetDataListEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10c00 <_ZN4CamX13SWIQInterface20SWIQSetupTriggerDataEPNS_14SWISPInputDataE@plt>
-	bl	0x10c10 <_ZN4CamX13SWIQInterface17SWIQGetADRCParamsEPNS_14SWISPInputDataEPiPf@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10bd0 <_ZN12ChiNodeUtils11GetMetaDataEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10b70 <_ZN12ChiNodeUtils11GetDataListEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10b70 <_ZN12ChiNodeUtils11GetDataListEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10c30 <_ZN12ChiNodeUtils11GetDateTimeEP11CHIDateTime@plt>
-	bl	0x10b10 <_ZN12ChiNodeUtils8SNPrintFEPcmPKcz@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	b	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	b	0x10cb0 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10bd0 <_ZN12ChiNodeUtils11GetMetaDataEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10cc0 <_ZN12ChiNodeUtils17GetStaticMetaDataEjjP16ChiNodeInterfacePv@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x10ae0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1e0 <_ZN12ChiNodeUtils14LibMapFullNameEPKc@plt>
+	bl	0xd1f0 <_ZN12ChiNodeUtils10LibGetAddrEPvPKc@plt>
+	bl	0xd1f0 <_ZN12ChiNodeUtils10LibGetAddrEPvPKc@plt>
+	bl	0xd1f0 <_ZN12ChiNodeUtils10LibGetAddrEPvPKc@plt>
+	bl	0xd1f0 <_ZN12ChiNodeUtils10LibGetAddrEPvPKc@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd210 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd220 <_ZN12ChiNodeUtils11GetMetaDataEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd220 <_ZN12ChiNodeUtils11GetMetaDataEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd220 <_ZN12ChiNodeUtils11GetMetaDataEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd260 <_ZN4CamX13SWIQInterface20SWIQSetupTriggerDataEPNS_14SWISPInputDataE@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd220 <_ZN12ChiNodeUtils11GetMetaDataEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd280 <_ZN12ChiNodeUtils11GetDataListEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd280 <_ZN12ChiNodeUtils11GetDataListEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd290 <_ZN12ChiNodeUtils11GetDateTimeEP11CHIDateTime@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	b	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	b	0xd2e0 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd220 <_ZN12ChiNodeUtils11GetMetaDataEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd2f0 <_ZN12ChiNodeUtils17GetStaticMetaDataEjjP16ChiNodeInterfacePv@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd0c0 <_ZdaPv+0x1a08>
+	bl	0xcf98 <_ZdaPv+0x18e0>
+	bl	0xd0c0 <_ZdaPv+0x1a08>
+	bl	0xd0c0 <_ZdaPv+0x1a08>
+	bl	0xd0c0 <_ZdaPv+0x1a08>
+	bl	0xcf98 <_ZdaPv+0x18e0>
+	bl	0xd0c0 <_ZdaPv+0x1a08>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd280 <_ZN12ChiNodeUtils11GetDataListEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt>
+	bl	0xd280 <_ZN12ChiNodeUtils11GetDataListEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd300 <_ZN12ChiNodeUtils9VSNPrintFEPcmPKcSt9__va_list@plt>
+	bl	0xd1b0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0xd310 <_ZN12ChiNodeUtils8LibUnmapEPv@plt>
+	bl	0xd310 <_ZN12ChiNodeUtils8LibUnmapEPv@plt>
+	bl	0xd330 <_ZSt9terminatev@plt>
+
+	cbz	x0, 0xb5c8 <_Znwm+0x40>
+	cbz	w0, 0xb5f4 <_Znwm+0x6c>
+	b.ne	0xb610 <_Znwm+0x88>
+	cbz	x20, 0xb5cc <_Znwm+0x44>
+	b	0xb5cc <_Znwm+0x44>
+
+	cbz	x0, 0xb658 <_Znam+0x40>
+	cbz	w0, 0xb684 <_Znam+0x6c>
+	b.ne	0xb6a0 <_Znam+0x88>
+	cbz	x20, 0xb65c <_Znam+0x44>
+	b	0xb65c <_Znam+0x44>
+
+	cbz	x0, 0xb6b0 <_ZdlPv+0x8>
+
+	cbz	x0, 0xb6c0 <_ZdaPv+0x8>
+	cbz	w0, 0xb774 <_ZdaPv+0xbc>
+	b.eq	0xb804 <_ZdaPv+0x14c>
+	b	0xb83c <_ZdaPv+0x184>
+	cbz	x19, 0xb704 <_ZdaPv+0x4c>
+	cbnz	w0, 0xb7e8 <_ZdaPv+0x130>
+	cbnz	w0, 0xb7e0 <_ZdaPv+0x128>
+	cbz	w0, 0xb81c <_ZdaPv+0x164>
+	b.ne	0xb83c <_ZdaPv+0x184>
+	b.eq	0xb804 <_ZdaPv+0x14c>
+	bl	0xb890 <_ZdaPv+0x1d8>
+	adrp	x1, 0xe000 <_ZdaPv+0x1b8>
+	adrp	x2, 0xe000 <_ZdaPv+0x1bc>
+	bl	0xd3e0 <_ZNSt11logic_errorC2EPKc@plt>
+	adrp	x8, 0xe000 <_ZdaPv+0x1f8>
+	adrp	x0, 0x4000 <_ZdaPv+0x1f4>
+	bl	0xb6c8 <_ZdaPv+0x10>
+	adrp	x8, 0xf000 <_ZdaPv+0x22c>
+	cbz	x0, 0xb910 <_ZdaPv+0x258>
+	cbnz	x20, 0xb900 <_ZdaPv+0x248>
+	cbz	x0, 0xb928 <_ZdaPv+0x270>
+	adrp	x22, 0xf000 <_ZdaPv+0x2b0>
+	cbz	x24, 0xb9b0 <_ZdaPv+0x2f8>
+	b.ls	0xb9b8 <_ZdaPv+0x300>
+	cbnz	x8, 0xb9cc <_ZdaPv+0x314>
+	b	0xba40 <_ZdaPv+0x388>
+	b	0xba40 <_ZdaPv+0x388>
+	cbz	x8, 0xba40 <_ZdaPv+0x388>
+	b.hi	0xba18 <_ZdaPv+0x360>
+	cbz	x8, 0xba40 <_ZdaPv+0x388>
+	b.ne	0xba40 <_ZdaPv+0x388>
+	b.ne	0xb9d8 <_ZdaPv+0x320>
+	b	0xbc34 <_ZdaPv+0x57c>
+	b.ne	0xba40 <_ZdaPv+0x388>
+	b.eq	0xbc34 <_ZdaPv+0x57c>
+	cbz	x8, 0xba40 <_ZdaPv+0x388>
+	b.eq	0xba0c <_ZdaPv+0x354>
+	b.lo	0xba04 <_ZdaPv+0x34c>
+	b	0xba04 <_ZdaPv+0x34c>
+	cbz	w0, 0xba60 <_ZdaPv+0x3a8>
+	b	0xba70 <_ZdaPv+0x3b8>
+	cbz	x19, 0xba70 <_ZdaPv+0x3b8>
+	cbz	x24, 0xbaa0 <_ZdaPv+0x3e8>
+	b.pl	0xbbac <_ZdaPv+0x4f4>
+	b.ne	0xbadc <_ZdaPv+0x424>
+	b	0xbaf0 <_ZdaPv+0x438>
+	b.eq	0xbaf0 <_ZdaPv+0x438>
+	bl	0xd3f0 <_ZNSt3__112__next_primeEm@plt>
+	b.ls	0xbb08 <_ZdaPv+0x450>
+	bl	0xbc80 <_ZdaPv+0x5c8>
+	b	0xbb78 <_ZdaPv+0x4c0>
+	b.hs	0xbb78 <_ZdaPv+0x4c0>
+	b.lo	0xbb60 <_ZdaPv+0x4a8>
+	b.hi	0xbb60 <_ZdaPv+0x4a8>
+	b	0xbb64 <_ZdaPv+0x4ac>
+	bl	0xd3f0 <_ZNSt3__112__next_primeEm@plt>
+	b.hs	0xbb78 <_ZdaPv+0x4c0>
+	bl	0xbc80 <_ZdaPv+0x5c8>
+	b.eq	0xbba4 <_ZdaPv+0x4ec>
+	b.ls	0xbbc8 <_ZdaPv+0x510>
+	cbnz	x11, 0xbbb8 <_ZdaPv+0x500>
+	b	0xbbdc <_ZdaPv+0x524>
+	cbz	x11, 0xbbdc <_ZdaPv+0x524>
+	b	0xbc28 <_ZdaPv+0x570>
+	cbnz	x11, 0xbbb8 <_ZdaPv+0x500>
+	cbz	x12, 0xbc28 <_ZdaPv+0x570>
+	b.eq	0xbc1c <_ZdaPv+0x564>
+	b.lo	0xbc20 <_ZdaPv+0x568>
+	b	0xbc20 <_ZdaPv+0x568>
+	b.ne	0xbc60 <_ZdaPv+0x5a8>
+	cbz	x19, 0xbc74 <_ZdaPv+0x5bc>
+	cbz	x0, 0xbcd4 <_ZdaPv+0x61c>
+	cbnz	x10, 0xbfa0 <_ZdaPv+0x8e8>
+	cbz	w0, 0xbcf4 <_ZdaPv+0x63c>
+	b	0xbd0c <_ZdaPv+0x654>
+	adrp	x19, 0xf000 <_ZdaPv+0x62c>
+	cbz	x0, 0xbcec <_ZdaPv+0x634>
+	b	0xbee8 <_ZdaPv+0x830>
+	cbz	x20, 0xbd0c <_ZdaPv+0x654>
+	adrp	x21, 0xf000 <_ZdaPv+0x664>
+	cbz	x0, 0xbd28 <_ZdaPv+0x670>
+	b.le	0xbd50 <_ZdaPv+0x698>
+	b.hs	0xbf0c <_ZdaPv+0x854>
+	b.ls	0xbf0c <_ZdaPv+0x854>
+	b.hs	0xbd78 <_ZdaPv+0x6c0>
+	b.lo	0xbd64 <_ZdaPv+0x6ac>
+	cbz	x8, 0xbee8 <_ZdaPv+0x830>
+	b.ls	0xbdb0 <_ZdaPv+0x6f8>
+	b.lo	0xbdb8 <_ZdaPv+0x700>
+	b	0xbdb8 <_ZdaPv+0x700>
+	cbz	x10, 0xbee8 <_ZdaPv+0x830>
+	b.hi	0xbde8 <_ZdaPv+0x730>
+	b	0xbe74 <_ZdaPv+0x7bc>
+	cbz	x10, 0xbee8 <_ZdaPv+0x830>
+	b.lo	0xbdfc <_ZdaPv+0x744>
+	b.eq	0xbddc <_ZdaPv+0x724>
+	cbz	x17, 0xbe58 <_ZdaPv+0x7a0>
+	cbz	x16, 0xbe30 <_ZdaPv+0x778>
+	b.eq	0xbe14 <_ZdaPv+0x75c>
+	b	0xbde0 <_ZdaPv+0x728>
+	b	0xbde0 <_ZdaPv+0x728>
+	cbz	x10, 0xbee8 <_ZdaPv+0x830>
+	b.eq	0xbe68 <_ZdaPv+0x7b0>
+	cbz	x3, 0xbed8 <_ZdaPv+0x820>
+	cbz	x15, 0xbeb0 <_ZdaPv+0x7f8>
+	b.eq	0xbe94 <_ZdaPv+0x7dc>
+	b	0xbe6c <_ZdaPv+0x7b4>
+	b	0xbe6c <_ZdaPv+0x7b4>
+	b.ne	0xbf9c <_ZdaPv+0x8e4>
+	b.ne	0xbf20 <_ZdaPv+0x868>
+	cbz	x13, 0xbd78 <_ZdaPv+0x6c0>
+	b.ls	0xbf64 <_ZdaPv+0x8ac>
+	b.ge	0xbd78 <_ZdaPv+0x6c0>
+	tbz	w19, #2, 0xbf7c <_ZdaPv+0x8c4>
+	b.ge	0xbd78 <_ZdaPv+0x6c0>
+	tbz	w19, #1, 0xbf94 <_ZdaPv+0x8dc>
+	b.ge	0xbd78 <_ZdaPv+0x6c0>
+	b	0xbd78 <_ZdaPv+0x6c0>
+	adrp	x0, 0x2000 <_ZdaPv+0x8c4>
+	bl	0xb840 <_ZdaPv+0x188>
+	adrp	x10, 0x4000 <_ZdaPv+0x8f4>
+	adrp	x20, 0xf000 <_ZdaPv+0x930>
+	bl	0xb938 <_ZdaPv+0x280>
+	bl	0xb938 <_ZdaPv+0x280>
+	bl	0xb938 <_ZdaPv+0x280>
+	adrp	x0, 0xb000 <_ZdaPv+0x974>
+	adrp	x2, 0xe000 <_ZdaPv+0x984>
+	b.ne	0xc078 <_ZdaPv+0x9c0>
+	cbz	x8, 0xc09c <_ZdaPv+0x9e4>
+	cbnz	x20, 0xc088 <_ZdaPv+0x9d0>
+	adrp	x11, 0xf000 <_ZdaPv+0x9f0>
+	cbz	x0, 0xc0b4 <_ZdaPv+0x9fc>
+	adrp	x8, 0xe000 <_ZdaPv+0xa1c>
+	bl	0xc270 <_ZdaPv+0xbb8>
+	adrp	x11, 0xe000 <_ZdaPv+0xa40>
+	bl	0xd410 <_ZNSt3__113basic_istreamIcNS_11char_traitsIcEEED2Ev@plt>
+	b	0xd420 <_ZNSt3__19basic_iosIcNS_11char_traitsIcEEED2Ev@plt>
+	adrp	x8, 0xe000 <_ZdaPv+0xa74>
+	bl	0xc270 <_ZdaPv+0xbb8>
+	adrp	x12, 0xe000 <_ZdaPv+0xaa4>
+	bl	0xd410 <_ZNSt3__113basic_istreamIcNS_11char_traitsIcEEED2Ev@plt>
+	b	0xd420 <_ZNSt3__19basic_iosIcNS_11char_traitsIcEEED2Ev@plt>
+	adrp	x8, 0xe000 <_ZdaPv+0xad4>
+	bl	0xc270 <_ZdaPv+0xbb8>
+	adrp	x11, 0xe000 <_ZdaPv+0xaf8>
+	bl	0xd410 <_ZNSt3__113basic_istreamIcNS_11char_traitsIcEEED2Ev@plt>
+	bl	0xd420 <_ZNSt3__19basic_iosIcNS_11char_traitsIcEEED2Ev@plt>
+	cbz	x19, 0xc1d8 <_ZdaPv+0xb20>
+	adrp	x8, 0xe000 <_ZdaPv+0xb48>
+	bl	0xc270 <_ZdaPv+0xbb8>
+	adrp	x12, 0xe000 <_ZdaPv+0xb7c>
+	bl	0xd410 <_ZNSt3__113basic_istreamIcNS_11char_traitsIcEEED2Ev@plt>
+	bl	0xd420 <_ZNSt3__19basic_iosIcNS_11char_traitsIcEEED2Ev@plt>
+	cbz	x20, 0xc260 <_ZdaPv+0xba8>
+	adrp	x8, 0xe000 <_ZdaPv+0xbd0>
+	cbz	x20, 0xc2cc <_ZdaPv+0xc14>
+	bl	0xc818 <_ZdaPv+0x1160>
+	cbnz	w0, 0xc2b4 <_ZdaPv+0xbfc>
+	cbz	w8, 0xc2e0 <_ZdaPv+0xc28>
+	cbz	x0, 0xc2e0 <_ZdaPv+0xc28>
+	cbz	w9, 0xc2f4 <_ZdaPv+0xc3c>
+	cbz	x0, 0xc2f4 <_ZdaPv+0xc3c>
+	b	0xd430 <_ZNSt3__115basic_streambufIcNS_11char_traitsIcEEED2Ev@plt>
+	b	0xc31c <_ZdaPv+0xc64>
+	b	0xc2cc <_ZdaPv+0xc14>
+	bl	0xd430 <_ZNSt3__115basic_streambufIcNS_11char_traitsIcEEED2Ev@plt>
+	bl	0xc270 <_ZdaPv+0xbb8>
+	cbz	x19, 0xc368 <_ZdaPv+0xcb0>
+	adrp	x1, 0xe000 <_ZdaPv+0xcfc>
+	bl	0xd450 <_ZNKSt3__16locale9use_facetERNS0_2idE@plt>
+	b.eq	0xc46c <_ZdaPv+0xdb4>
+	tbz	w0, #0, 0xc434 <_ZdaPv+0xd7c>
+	cbz	w8, 0xc404 <_ZdaPv+0xd4c>
+	cbz	x0, 0xc404 <_ZdaPv+0xd4c>
+	b.eq	0xc47c <_ZdaPv+0xdc4>
+	cbz	w8, 0xc490 <_ZdaPv+0xdd8>
+	cbz	x20, 0xc45c <_ZdaPv+0xda4>
+	cbz	w0, 0xc4ec <_ZdaPv+0xe34>
+	b.ne	0xc430 <_ZdaPv+0xd78>
+	b.eq	0xc438 <_ZdaPv+0xd80>
+	cbz	x20, 0xc4c8 <_ZdaPv+0xe10>
+	cbz	w0, 0xc508 <_ZdaPv+0xe50>
+	b.eq	0xc47c <_ZdaPv+0xdc4>
+	b	0xc430 <_ZdaPv+0xd78>
+	cbz	x21, 0xc460 <_ZdaPv+0xda8>
+	b	0xc460 <_ZdaPv+0xda8>
+	cbz	x21, 0xc4cc <_ZdaPv+0xe14>
+	b	0xc4cc <_ZdaPv+0xe14>
+	cbz	w9, 0xc578 <_ZdaPv+0xec0>
+	cbz	x0, 0xc578 <_ZdaPv+0xec0>
+	cbz	w10, 0xc58c <_ZdaPv+0xed4>
+	cbz	x0, 0xc58c <_ZdaPv+0xed4>
+	b.lo	0xc5bc <_ZdaPv+0xf04>
+	cbz	x20, 0xc5f8 <_ZdaPv+0xf40>
+	cbz	w11, 0xc5f8 <_ZdaPv+0xf40>
+	cbnz	w12, 0xc5dc <_ZdaPv+0xf24>
+	b	0xc644 <_ZdaPv+0xf8c>
+	cbz	w12, 0xc644 <_ZdaPv+0xf8c>
+	b.eq	0xc670 <_ZdaPv+0xfb8>
+	b	0xc6e0 <_ZdaPv+0x1028>
+	cbz	w0, 0xc618 <_ZdaPv+0xf60>
+	b	0xc630 <_ZdaPv+0xf78>
+	cbz	x22, 0xc630 <_ZdaPv+0xf78>
+	cbnz	w12, 0xc5dc <_ZdaPv+0xf24>
+	cbz	x20, 0xc68c <_ZdaPv+0xfd4>
+	b.ne	0xc6e0 <_ZdaPv+0x1028>
+	cbz	w0, 0xc6ac <_ZdaPv+0xff4>
+	b	0xc6c4 <_ZdaPv+0x100c>
+	cbz	x20, 0xc6c4 <_ZdaPv+0x100c>
+	b.eq	0xc670 <_ZdaPv+0xfb8>
+	cbz	x0, 0xc7a4 <_ZdaPv+0x10ec>
+	cbz	x10, 0xc774 <_ZdaPv+0x10bc>
+	cbz	x21, 0xc730 <_ZdaPv+0x1078>
+	b.lt	0xc774 <_ZdaPv+0x10bc>
+	cbnz	w0, 0xc77c <_ZdaPv+0x10c4>
+	b.hi	0xc77c <_ZdaPv+0x10c4>
+	cbz	w0, 0xc790 <_ZdaPv+0x10d8>
+	b	0xc77c <_ZdaPv+0x10c4>
+	bl	0xcf60 <_ZdaPv+0x18a8>
+	cbz	x8, 0xc7f0 <_ZdaPv+0x1138>
+	cbnz	w0, 0xc7f0 <_ZdaPv+0x1138>
+	cbz	w0, 0xc810 <_ZdaPv+0x1158>
+	b	0xc7f8 <_ZdaPv+0x1140>
+	cbz	x10, 0xc85c <_ZdaPv+0x11a4>
+	cbz	x0, 0xca2c <_ZdaPv+0x1374>
+	tbnz	w8, #4, 0xc874 <_ZdaPv+0x11bc>
+	tbnz	w8, #3, 0xc914 <_ZdaPv+0x125c>
+	b.eq	0xc9d8 <_ZdaPv+0x1320>
+	b.eq	0xc8a0 <_ZdaPv+0x11e8>
+	b.eq	0xc9c8 <_ZdaPv+0x1310>
+	b.ne	0xc9c4 <_ZdaPv+0x130c>
+	b.eq	0xc8a4 <_ZdaPv+0x11ec>
+	b.eq	0xc9c4 <_ZdaPv+0x130c>
+	cbnz	w0, 0xc9c4 <_ZdaPv+0x130c>
+	b	0xc85c <_ZdaPv+0x11a4>
+	cbz	w9, 0xc934 <_ZdaPv+0x127c>
+	b	0xc9b0 <_ZdaPv+0x12f8>
+	b.lt	0xc968 <_ZdaPv+0x12b0>
+	b	0xc9b0 <_ZdaPv+0x12f8>
+	b.eq	0xc9ac <_ZdaPv+0x12f4>
+	b	0xc9b0 <_ZdaPv+0x12f8>
+	cbz	w0, 0xc9f4 <_ZdaPv+0x133c>
+	b.ne	0xc870 <_ZdaPv+0x11b8>
+	cbz	w20, 0xca00 <_ZdaPv+0x1348>
+	b.eq	0xc9d8 <_ZdaPv+0x1320>
+	b	0xc870 <_ZdaPv+0x11b8>
+	bl	0xcf60 <_ZdaPv+0x18a8>
+	cbz	x16, 0xca88 <_ZdaPv+0x13d0>
+	tbnz	w8, #3, 0xca90 <_ZdaPv+0x13d8>
+	cbz	w10, 0xcabc <_ZdaPv+0x1404>
+	b	0xcac4 <_ZdaPv+0x140c>
+	b	0xcc90 <_ZdaPv+0x15d8>
+	cbz	x8, 0xcae0 <_ZdaPv+0x1428>
+	cbz	w9, 0xcaf4 <_ZdaPv+0x143c>
+	b.eq	0xcb20 <_ZdaPv+0x1468>
+	b	0xcc78 <_ZdaPv+0x15c0>
+	cbnz	x8, 0xcaa0 <_ZdaPv+0x13e8>
+	cbnz	w9, 0xcaa4 <_ZdaPv+0x13ec>
+	b.ne	0xcab4 <_ZdaPv+0x13fc>
+	cbz	w11, 0xcb74 <_ZdaPv+0x14bc>
+	cbz	x0, 0xcc74 <_ZdaPv+0x15bc>
+	b	0xcc78 <_ZdaPv+0x15c0>
+	b.eq	0xcb94 <_ZdaPv+0x14dc>
+	b.eq	0xcbb8 <_ZdaPv+0x1500>
+	b	0xcbbc <_ZdaPv+0x1504>
+	cbz	x0, 0xcc74 <_ZdaPv+0x15bc>
+	cbz	x0, 0xccbc <_ZdaPv+0x1604>
+	b.ne	0xcc54 <_ZdaPv+0x159c>
+	b	0xcc78 <_ZdaPv+0x15c0>
+	b.eq	0xcc74 <_ZdaPv+0x15bc>
+	b	0xcc78 <_ZdaPv+0x15c0>
+	b.ne	0xcc90 <_ZdaPv+0x15d8>
+	b.ne	0xccb8 <_ZdaPv+0x1600>
+	bl	0xcf60 <_ZdaPv+0x18a8>
+	cbz	x9, 0xcd08 <_ZdaPv+0x1650>
+	b.hs	0xcd08 <_ZdaPv+0x1650>
+	b.eq	0xcd10 <_ZdaPv+0x1658>
+	tbnz	w10, #4, 0xccf8 <_ZdaPv+0x1640>
+	b.ne	0xcd08 <_ZdaPv+0x1650>
+	cbz	x10, 0xcf24 <_ZdaPv+0x186c>
+	tbnz	w8, #4, 0xcd8c <_ZdaPv+0x16d4>
+	b.lo	0xcdd4 <_ZdaPv+0x171c>
+	cbz	w9, 0xcde8 <_ZdaPv+0x1730>
+	b	0xcdf4 <_ZdaPv+0x173c>
+	b.eq	0xce18 <_ZdaPv+0x1760>
+	cbnz	x3, 0xcdb8 <_ZdaPv+0x1700>
+	b.ne	0xce20 <_ZdaPv+0x1768>
+	b	0xce4c <_ZdaPv+0x1794>
+	b	0xcdfc <_ZdaPv+0x1744>
+	b.ne	0xcda4 <_ZdaPv+0x16ec>
+	b.eq	0xce4c <_ZdaPv+0x1794>
+	cbz	w11, 0xce58 <_ZdaPv+0x17a0>
+	b.ne	0xcf24 <_ZdaPv+0x186c>
+	b	0xcf28 <_ZdaPv+0x1870>
+	cbz	x0, 0xcf54 <_ZdaPv+0x189c>
+	b.eq	0xcf24 <_ZdaPv+0x186c>
+	b.hs	0xcef8 <_ZdaPv+0x1840>
+	b.ne	0xcf24 <_ZdaPv+0x186c>
+	b.ne	0xce44 <_ZdaPv+0x178c>
+	cbz	x0, 0xcf54 <_ZdaPv+0x189c>
+	b	0xce6c <_ZdaPv+0x17b4>
+	b.ne	0xcf24 <_ZdaPv+0x186c>
+	b.eq	0xce44 <_ZdaPv+0x178c>
+	b.ne	0xcf58 <_ZdaPv+0x18a0>
+	bl	0xcf60 <_ZdaPv+0x18a8>
+	bl	0xd4c0 <_ZNSt8bad_castC1Ev@plt>
+	adrp	x1, 0xe000 <_ZdaPv+0x18cc>
+	adrp	x2, 0xe000 <_ZdaPv+0x18d0>
+	cbnz	x0, 0xcfb4 <_ZdaPv+0x18fc>
+	cbz	w20, 0xd0a4 <_ZdaPv+0x19ec>
+	b.hs	0xd044 <_ZdaPv+0x198c>
+	cbnz	x11, 0xcfdc <_ZdaPv+0x1924>
+	cbz	x0, 0xd030 <_ZdaPv+0x1978>
+	b	0xd004 <_ZdaPv+0x194c>
+	cbz	x0, 0xd030 <_ZdaPv+0x1978>
+	b.ne	0xcffc <_ZdaPv+0x1944>
+	b.ne	0xcffc <_ZdaPv+0x1944>
+	bl	0xcf98 <_ZdaPv+0x18e0>
+	b.hs	0xd0a8 <_ZdaPv+0x19f0>
+	cbz	x0, 0xcfd8 <_ZdaPv+0x1920>
+	b	0xd0a8 <_ZdaPv+0x19f0>
+	b	0xd058 <_ZdaPv+0x19a0>
+	b.eq	0xd0a4 <_ZdaPv+0x19ec>
+	cbnz	x12, 0xd05c <_ZdaPv+0x19a4>
+	cbz	x0, 0xd04c <_ZdaPv+0x1994>
+	b	0xd084 <_ZdaPv+0x19cc>
+	cbz	x0, 0xd04c <_ZdaPv+0x1994>
+	b.ne	0xd07c <_ZdaPv+0x19c4>
+	b.ne	0xd07c <_ZdaPv+0x19c4>
+	b	0xd0a8 <_ZdaPv+0x19f0>
+	cbnz	x0, 0xd0d4 <_ZdaPv+0x1a1c>
+	cbz	x21, 0xd11c <_ZdaPv+0x1a64>
+	cbz	x21, 0xd108 <_ZdaPv+0x1a50>
+	cbz	x0, 0xd0e8 <_ZdaPv+0x1a30>
+	b.ne	0xd130 <_ZdaPv+0x1a78>
+	b	0xd148 <_ZdaPv+0x1a90>
+	b.eq	0xd148 <_ZdaPv+0x1a90>
+	bl	0xd0c0 <_ZdaPv+0x1a08>
+	cbnz	x0, 0xd148 <_ZdaPv+0x1a90>
+	cbnz	x20, 0xd130 <_ZdaPv+0x1a78>
+
+	adrp	x16, 0xe000 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt+0x4>
+
+	adrp	x16, 0xe000 <_ZN12ChiNodeUtils14LibMapFullNameEPKc@plt+0x4>
+
+	adrp	x16, 0xe000 <_ZN12ChiNodeUtils10LibGetAddrEPvPKc@plt+0x4>
+
+	adrp	x16, 0xe000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo@plt+0x4>
+
+	adrp	x16, 0xe000 <_ZN12ChiNodeUtils11GetMetaDataEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt+0x4>
+
+	adrp	x16, 0xe000 <_ZN4CamX13SWIQInterface20SWIQSetupTriggerDataEPNS_14SWISPInputDataE@plt+0x4>
+
+	adrp	x16, 0xe000 <_ZN12ChiNodeUtils11GetDataListEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt+0x4>
+
+	adrp	x16, 0xe000 <_ZN12ChiNodeUtils11GetDateTimeEP11CHIDateTime@plt+0x4>
+
+	adrp	x16, 0xe000 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj@plt+0x4>
+
+	adrp	x16, 0xe000 <_ZN12ChiNodeUtils17GetStaticMetaDataEjjP16ChiNodeInterfacePv@plt+0x4>
+
+	adrp	x16, 0xe000 <_ZN12ChiNodeUtils9VSNPrintFEPcmPKcSt9__va_list@plt+0x4>
+
+	adrp	x16, 0xe000 <_ZN12ChiNodeUtils8LibUnmapEPv@plt+0x4>
+
+	adrp	x16, 0xe000 <_ZSt9terminatev@plt+0x4>
+
+	adrp	x16, 0xe000 <_ZNSt11logic_errorC2EPKc@plt+0x4>
+
+	adrp	x16, 0xe000 <_ZNSt3__112__next_primeEm@plt+0x4>
+
+	adrp	x16, 0xe000 <_ZNSt3__113basic_istreamIcNS_11char_traitsIcEEED2Ev@plt+0x4>
+
+	adrp	x16, 0xe000 <_ZNSt3__19basic_iosIcNS_11char_traitsIcEEED2Ev@plt+0x4>
+
+	adrp	x16, 0xe000 <_ZNSt3__115basic_streambufIcNS_11char_traitsIcEEED2Ev@plt+0x4>
+
+	adrp	x16, 0xe000 <_ZNKSt3__16locale9use_facetERNS0_2idE@plt+0x4>
+
+	adrp	x16, 0xe000 <_ZNSt8bad_castC1Ev@plt+0x4>
 
 
 
 
 
-
-
-
-
-
-
-0x11000 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt+0x4>
-
-0x11000 <_ZN12ChiNodeUtils8SNPrintFEPcmPKcz@plt+0x4>
-
-0x11000 <_ZN12ChiNodeUtils14LibMapFullNameEPKc@plt+0x4>
-
-0x11000 <_ZN12ChiNodeUtils10LibGetAddrEPvPKc@plt+0x4>
-
-0x11000 <_ZN12ChiNodeUtils9VSNPrintFEPcmPKcSt9__va_list@plt+0x4>
-
-0x11000 <_ZN12ChiNodeUtils11GetDataListEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt+0x4>
-
-0x11000 <_ZN12ChiNodeUtils8LibUnmapEPv@plt+0x4>
-
-0x11000 <_ZSt9terminatev@plt+0x4>
-
-0x11000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo@plt+0x4>
-
-0x11000 <_ZN12ChiNodeUtils11GetMetaDataEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt+0x4>
-
-0x11000 <_ZN4CamX13SWIQInterface20SWIQSetupTriggerDataEPNS_14SWISPInputDataE@plt+0x4>
-
-0x11000 <_ZN4CamX13SWIQInterface17SWIQGetADRCParamsEPNS_14SWISPInputDataEPiPf@plt+0x4>
-
-0x11000 <_ZN12ChiNodeUtils11GetDateTimeEP11CHIDateTime@plt+0x4>
-
-0x11000 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj@plt+0x4>
-
-0x11000 <_ZN12ChiNodeUtils17GetStaticMetaDataEjjP16ChiNodeInterfacePv@plt+0x4>
 
 
 

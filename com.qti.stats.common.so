@@ -1,14 +1,324 @@
+	tbz	wzr, #6, 0x5f78 <_Z37af_value_monitor_update_intern_configP21af_vm_intern_config_tPN17afmonitorelements24chromatixSensProfileTypeE+0xa8>
+	tbnz	wzr, #6, 0x80b4 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x754>
+	tbnz	w6, #6, 0x65b4 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x234>
+	tbz	w16, #6, 0x62bc <_Z32af_value_monitor_set_sensitivityP27af_value_monitor_internal_ti+0x174>
+	tbz	wzr, #6, 0x6e38 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x178>
 
 
 
-	ldr	q0, 0xb368 <_ZNK11ROIPriority18IsDominantIDChangeEv+0x8>
-	ldr	q0, 0xb388 <_ZN11ROIPriority13UpdateROIDataEPK26UnstabilizedROIInformation+0x10>
-	bl	0xde10 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti@plt>
-	bl	0xde20 <_Z37af_value_monitor_update_intern_configP21af_vm_intern_config_tPN17afmonitorelements24chromatixSensProfileTypeE@plt>
-	bl	0xde10 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti@plt>
-	bl	0xde20 <_Z37af_value_monitor_update_intern_configP21af_vm_intern_config_tPN17afmonitorelements24chromatixSensProfileTypeE@plt>
-	bl	0xde50 <_Z27af_value_monitor_get_medianPii@plt>
-	bl	0xdeb0 <_Z33af_value_monitor_get_debug_statusPKc@plt>
+	ldr	xzr, 0x7fe0 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x680>
+	ldr	q0, 0xa020 <_ZN16ROIStableChecker15IsROIStableByIDEi+0x98>
+	ldr	q0, 0xa040 <_ZN16ROIStableChecker15IsROIStableByIDEi+0xb8>
+	adrp	x0, 0xc000 <_Z26af_value_monitor_mix_floatfff+0x4>
+
+
+	adrp	x20, 0xc000 <_Z33af_value_monitor_get_debug_statusPKc+0x40>
+	adrp	x1, 0x3000 <_Z33af_value_monitor_get_debug_statusPKc+0x48>
+	cbz	x0, 0x50ec <_Z33af_value_monitor_get_debug_statusPKc+0xbc>
+	adrp	x1, 0x3000 <_Z33af_value_monitor_get_debug_statusPKc+0x64>
+	cbz	w0, 0x50e0 <_Z33af_value_monitor_get_debug_statusPKc+0xb0>
+	adrp	x22, 0x3000 <_Z33af_value_monitor_get_debug_statusPKc+0x78>
+	cbnz	x0, 0x50e8 <_Z33af_value_monitor_get_debug_statusPKc+0xb8>
+	cbnz	x0, 0x50b8 <_Z33af_value_monitor_get_debug_statusPKc+0x88>
+	b	0x50ec <_Z33af_value_monitor_get_debug_statusPKc+0xbc>
+	b	0x5158 <_Z33af_value_monitor_get_debug_statusPKc+0x128>
+	adrp	x8, 0xd000 <_Z33af_value_monitor_get_debug_statusPKc+0xdc>
+	adrp	x22, 0x3000 <_Z33af_value_monitor_get_debug_statusPKc+0xb8>
+	adrp	x0, 0xd000 <_Z33af_value_monitor_get_debug_statusPKc+0x104>
+	adrp	x2, 0x3000 <_Z33af_value_monitor_get_debug_statusPKc+0xec>
+	adrp	x5, 0x3000 <_Z33af_value_monitor_get_debug_statusPKc+0xf0>
+	b.ne	0x5180 <_Z33af_value_monitor_get_debug_statusPKc+0x150>
+
+	cbz	w9, 0x5248 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0xc0>
+	b	0x5264 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0xdc>
+	bl	0xbac0 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti@plt>
+	b.ne	0x52cc <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x144>
+	b.eq	0x52d0 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x148>
+	b.ne	0x52e4 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x15c>
+	b.eq	0x52e8 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x160>
+	b.lt	0x5340 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x1b8>
+	b	0x5344 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x1bc>
+	adrp	x9, 0x2000 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x1b0>
+	cbz	w20, 0x5a1c <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x894>
+	adrp	x23, 0xd000 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x20c>
+	adrp	x24, 0x3000 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x1e8>
+	adrp	x0, 0xd000 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x23c>
+	adrp	x26, 0x2000 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x21c>
+	adrp	x5, 0x3000 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x230>
+	adrp	x5, 0x3000 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x280>
+	adrp	x5, 0x2000 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x2c8>
+	adrp	x5, 0x3000 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x318>
+	adrp	x5, 0x3000 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x35c>
+	adrp	x5, 0x3000 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x3a0>
+	adrp	x5, 0x3000 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x3e0>
+	adrp	x5, 0x3000 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x434>
+	adrp	x5, 0x2000 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x47c>
+	adrp	x5, 0x2000 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x4c0>
+	adrp	x5, 0x3000 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x508>
+	adrp	x5, 0x3000 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x548>
+	adrp	x5, 0x3000 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x59c>
+	adrp	x5, 0x3000 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x5e8>
+	adrp	x5, 0x3000 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x62c>
+	adrp	x5, 0x2000 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x66c>
+	adrp	x5, 0x3000 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x6b0>
+	cbz	w6, 0x5a1c <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x894>
+	adrp	x0, 0xd000 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x738>
+	adrp	x26, 0x2000 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x718>
+	adrp	x5, 0x2000 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x728>
+	adrp	x5, 0x3000 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x784>
+	adrp	x5, 0x3000 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x7d4>
+	adrp	x5, 0x3000 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x818>
+	adrp	x5, 0x3000 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x85c>
+	b.ne	0x5a54 <_Z27af_value_monitor_set_configP27af_value_monitor_internal_tPN17afmonitorelements25chromatixValueMonitorTypeEi+0x8cc>
+
+	b.ne	0x5aa8 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x50>
+	b.ne	0x5bfc <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x1a4>
+	b.le	0x5c14 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x1bc>
+	b.le	0x5e80 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x428>
+	b.hi	0x5c28 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x1d0>
+	b.gt	0x5bb4 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x15c>
+	b.gt	0x5aa0 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x48>
+	b	0x5e80 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x428>
+	adrp	x8, 0x2000 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x198>
+	b.gt	0x5a94 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x3c>
+	b.gt	0x5aa0 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x48>
+	b	0x5e80 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x428>
+	b.ne	0x5c74 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x21c>
+	b.ne	0x5dc0 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x368>
+	b.le	0x5dd8 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x380>
+	b.gt	0x5aa0 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x48>
+	b	0x5e80 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x428>
+	b.hi	0x5dec <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x394>
+	b.gt	0x5d78 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x320>
+	b.gt	0x5aa0 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x48>
+	b	0x5e80 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x428>
+	adrp	x9, 0x2000 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x35c>
+	b.gt	0x5c64 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x20c>
+	b.gt	0x5aa0 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x48>
+	b	0x5e80 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x428>
+	cbz	w2, 0x5e3c <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x3e4>
+	b.ne	0x5aa0 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x48>
+	b.ne	0x5e58 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x400>
+	b.le	0x5e70 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x418>
+	b.gt	0x5aa0 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x48>
+	b	0x5e80 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x428>
+	b.eq	0x5e8c <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x434>
+	b.ne	0x5ea8 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x450>
+	b	0x5e90 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x438>
+	adrp	x10, 0x2000 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x3f4>
+	b.gt	0x5e2c <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x3d4>
+	b.gt	0x5aa0 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti+0x48>
+
+	b.ne	0x5f00 <_Z37af_value_monitor_update_intern_configP21af_vm_intern_config_tPN17afmonitorelements24chromatixSensProfileTypeE+0x30>
+	b.eq	0x5f04 <_Z37af_value_monitor_update_intern_configP21af_vm_intern_config_tPN17afmonitorelements24chromatixSensProfileTypeE+0x34>
+	b.ne	0x5f18 <_Z37af_value_monitor_update_intern_configP21af_vm_intern_config_tPN17afmonitorelements24chromatixSensProfileTypeE+0x48>
+	b.eq	0x5f1c <_Z37af_value_monitor_update_intern_configP21af_vm_intern_config_tPN17afmonitorelements24chromatixSensProfileTypeE+0x4c>
+	b.lt	0x5f7c <_Z37af_value_monitor_update_intern_configP21af_vm_intern_config_tPN17afmonitorelements24chromatixSensProfileTypeE+0xac>
+
+	adrp	x8, 0x2000 <_Z33af_value_monitor_rebase_referenceP27af_value_monitor_internal_t+0x8>
+	b.lt	0x5fec <_Z33af_value_monitor_rebase_referenceP27af_value_monitor_internal_t+0x5c>
+	b.ne	0x5fdc <_Z33af_value_monitor_rebase_referenceP27af_value_monitor_internal_t+0x4c>
+	b.lt	0x6010 <_Z33af_value_monitor_rebase_referenceP27af_value_monitor_internal_t+0x80>
+	b.ne	0x6000 <_Z33af_value_monitor_rebase_referenceP27af_value_monitor_internal_t+0x70>
+	b.lt	0x6038 <_Z33af_value_monitor_rebase_referenceP27af_value_monitor_internal_t+0xa8>
+	b.ne	0x6024 <_Z33af_value_monitor_rebase_referenceP27af_value_monitor_internal_t+0x94>
+	cbz	w9, 0x60a0 <_Z33af_value_monitor_rebase_referenceP27af_value_monitor_internal_t+0x110>
+	adrp	x15, 0xd000 <_Z33af_value_monitor_rebase_referenceP27af_value_monitor_internal_t+0xcc>
+	adrp	x20, 0x3000 <_Z33af_value_monitor_rebase_referenceP27af_value_monitor_internal_t+0xa8>
+	adrp	x0, 0xd000 <_Z33af_value_monitor_rebase_referenceP27af_value_monitor_internal_t+0xf4>
+	adrp	x2, 0x2000 <_Z33af_value_monitor_rebase_referenceP27af_value_monitor_internal_t+0xd8>
+	adrp	x5, 0x2000 <_Z33af_value_monitor_rebase_referenceP27af_value_monitor_internal_t+0xdc>
+	cbz	x0, 0x60d8 <_Z33af_value_monitor_rebase_referenceP27af_value_monitor_internal_t+0x148>
+	adrp	x8, 0xd000 <_Z33af_value_monitor_rebase_referenceP27af_value_monitor_internal_t+0x164>
+	adrp	x19, 0x3000 <_Z33af_value_monitor_rebase_referenceP27af_value_monitor_internal_t+0x140>
+	adrp	x0, 0xd000 <_Z33af_value_monitor_rebase_referenceP27af_value_monitor_internal_t+0x18c>
+	adrp	x2, 0x3000 <_Z33af_value_monitor_rebase_referenceP27af_value_monitor_internal_t+0x174>
+	adrp	x5, 0x3000 <_Z33af_value_monitor_rebase_referenceP27af_value_monitor_internal_t+0x178>
+
+	bl	0xbac0 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti@plt>
+	b.ne	0x61bc <_Z32af_value_monitor_set_sensitivityP27af_value_monitor_internal_ti+0x74>
+	b.eq	0x61c0 <_Z32af_value_monitor_set_sensitivityP27af_value_monitor_internal_ti+0x78>
+	b.ne	0x61d4 <_Z32af_value_monitor_set_sensitivityP27af_value_monitor_internal_ti+0x8c>
+	b.eq	0x61d8 <_Z32af_value_monitor_set_sensitivityP27af_value_monitor_internal_ti+0x90>
+	b.lt	0x62c8 <_Z32af_value_monitor_set_sensitivityP27af_value_monitor_internal_ti+0x180>
+	cbz	w13, 0x62a0 <_Z32af_value_monitor_set_sensitivityP27af_value_monitor_internal_ti+0x158>
+	adrp	x8, 0xd000 <_Z32af_value_monitor_set_sensitivityP27af_value_monitor_internal_ti+0x10c>
+	adrp	x20, 0x3000 <_Z32af_value_monitor_set_sensitivityP27af_value_monitor_internal_ti+0xe8>
+	adrp	x0, 0xd000 <_Z32af_value_monitor_set_sensitivityP27af_value_monitor_internal_ti+0x134>
+	adrp	x2, 0x3000 <_Z32af_value_monitor_set_sensitivityP27af_value_monitor_internal_ti+0x11c>
+	adrp	x5, 0x3000 <_Z32af_value_monitor_set_sensitivityP27af_value_monitor_internal_ti+0x124>
+	b.ne	0x62dc <_Z32af_value_monitor_set_sensitivityP27af_value_monitor_internal_ti+0x194>
+	cbnz	w13, 0x6238 <_Z32af_value_monitor_set_sensitivityP27af_value_monitor_internal_ti+0xf0>
+	b	0x62a0 <_Z32af_value_monitor_set_sensitivityP27af_value_monitor_internal_ti+0x158>
+
+	cbz	w8, 0x6368 <_Z26af_value_monitor_set_inputP27af_value_monitor_internal_tf+0x88>
+	adrp	x8, 0xd000 <_Z26af_value_monitor_set_inputP27af_value_monitor_internal_tf+0x38>
+	adrp	x20, 0x3000 <_Z26af_value_monitor_set_inputP27af_value_monitor_internal_tf+0x14>
+	adrp	x0, 0xd000 <_Z26af_value_monitor_set_inputP27af_value_monitor_internal_tf+0x64>
+	adrp	x2, 0x3000 <_Z26af_value_monitor_set_inputP27af_value_monitor_internal_tf+0x4c>
+	adrp	x5, 0x2000 <_Z26af_value_monitor_set_inputP27af_value_monitor_internal_tf+0x50>
+
+	b.eq	0x63d8 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x58>
+	adrp	x0, 0xd000 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x64>
+	adrp	x27, 0x3000 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x54>
+	adrp	x20, 0xd000 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x80>
+	cbz	w15, 0x654c <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x1cc>
+	cbz	w16, 0x644c <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0xcc>
+	adrp	x0, 0xd000 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0xb0>
+	adrp	x2, 0x3000 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x98>
+	adrp	x5, 0x3000 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0xa0>
+	b.lt	0x6478 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0xf8>
+	b.gt	0x6458 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0xd8>
+	cbz	w24, 0x649c <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x11c>
+	cbz	w0, 0x6850 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x4d0>
+	adrp	x0, 0xd000 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x154>
+	adrp	x2, 0x3000 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x13c>
+	adrp	x5, 0x3000 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x140>
+	cbz	w23, 0x654c <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x1cc>
+	adrp	x0, 0xd000 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x1b0>
+	adrp	x2, 0x3000 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x198>
+	adrp	x5, 0x2000 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x198>
+	cbz	w6, 0x668c <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x30c>
+	cbz	w7, 0x65b0 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x230>
+	adrp	x0, 0xd000 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x214>
+	adrp	x2, 0x3000 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x1fc>
+	adrp	x5, 0x3000 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x204>
+	b.le	0x65e0 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x260>
+	b.gt	0x65c0 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x240>
+	b.lt	0x6620 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x2a0>
+	b.eq	0x6620 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x2a0>
+	b.ne	0x660c <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x28c>
+	cbz	w8, 0x668c <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x30c>
+	adrp	x0, 0xd000 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x2f0>
+	adrp	x2, 0x3000 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x2d8>
+	adrp	x5, 0x3000 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x2dc>
+	cbz	w9, 0x6720 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x3a0>
+	cbz	w10, 0x66f0 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x370>
+	adrp	x0, 0xd000 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x354>
+	adrp	x2, 0x3000 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x33c>
+	adrp	x5, 0x3000 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x344>
+	cbz	w14, 0x6804 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x484>
+	b.lt	0x6a20 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x6a0>
+	cbz	w15, 0x6774 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x3f4>
+	cbz	w16, 0x67a4 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x424>
+	b.lt	0x67a4 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x424>
+	b.ne	0x6794 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x414>
+	cbz	w13, 0x67d0 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x450>
+	b.lt	0x67d0 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x450>
+	b.ne	0x67c0 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x440>
+	cbz	w17, 0x6a20 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x6a0>
+	b.lt	0x6a20 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x6a0>
+	b.ne	0x67ec <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x46c>
+	b	0x6a20 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x6a0>
+	b.eq	0x68ec <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x56c>
+	b.ne	0x694c <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x5cc>
+	b.ge	0x6938 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x5b8>
+	b	0x694c <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x5cc>
+	cbz	x22, 0x649c <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x11c>
+	b.lt	0x6914 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x594>
+	b	0x68a8 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x528>
+	b.eq	0x6914 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x594>
+	b.le	0x6898 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x518>
+	b.ne	0x68c0 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x540>
+	b	0x6898 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x518>
+	b.ge	0x6940 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x5c0>
+	b	0x694c <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x5cc>
+	cbnz	w23, 0x64f8 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x178>
+	b	0x654c <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x1cc>
+	b	0x6944 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x5c4>
+	cbz	w9, 0x6a20 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x6a0>
+	adrp	x0, 0xd000 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x614>
+	adrp	x26, 0x3000 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x5f8>
+	adrp	x5, 0x3000 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x60c>
+	adrp	x5, 0x2000 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x660>
+	adrp	x0, 0xd000 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x6e8>
+	adrp	x2, 0x3000 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x6d0>
+	cbz	w23, 0x6aa8 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x728>
+	adrp	x5, 0x3000 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x6fc>
+	b	0x6ac4 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x744>
+	adrp	x5, 0x3000 <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x71c>
+	b.ne	0x6b0c <_Z28af_value_monitor_get_triggerP27af_value_monitor_internal_t+0x78c>
+
+	cbz	w1, 0x6b5c <_Z27af_value_monitor_get_medianPii+0x4c>
+	cbz	w0, 0x6be8 <_Z27af_value_monitor_get_medianPii+0xd8>
+	adrp	x8, 0xd000 <_Z27af_value_monitor_get_medianPii+0x68>
+	adrp	x21, 0x3000 <_Z27af_value_monitor_get_medianPii+0x44>
+	adrp	x0, 0xd000 <_Z27af_value_monitor_get_medianPii+0x90>
+	adrp	x2, 0x3000 <_Z27af_value_monitor_get_medianPii+0x78>
+	adrp	x5, 0x3000 <_Z27af_value_monitor_get_medianPii+0x7c>
+	b.ne	0x6ca8 <_Z27af_value_monitor_get_medianPii+0x198>
+	cbz	x19, 0x6b5c <_Z27af_value_monitor_get_medianPii+0x4c>
+	b.lt	0x6c80 <_Z27af_value_monitor_get_medianPii+0x170>
+	b	0x6c3c <_Z27af_value_monitor_get_medianPii+0x12c>
+	b.eq	0x6c80 <_Z27af_value_monitor_get_medianPii+0x170>
+	b.le	0x6c2c <_Z27af_value_monitor_get_medianPii+0x11c>
+	b.ne	0x6c54 <_Z27af_value_monitor_get_medianPii+0x144>
+	b	0x6c2c <_Z27af_value_monitor_get_medianPii+0x11c>
+	b.eq	0x6bcc <_Z27af_value_monitor_get_medianPii+0xbc>
+
+	cbz	x0, 0x6cb8 <_Z24af_value_monitor_destroyP27af_value_monitor_internal_t+0x8>
+
+	cbz	w0, 0x6da4 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0xe4>
+	adrp	x8, 0xd000 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x6c>
+	adrp	x20, 0x3000 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x48>
+	adrp	x0, 0xd000 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x94>
+	adrp	x2, 0x3000 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x7c>
+	adrp	x5, 0x3000 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x80>
+	b.ne	0x6fdc <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x31c>
+	cbz	x19, 0x6d10 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x50>
+	adrp	x26, 0xd000 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x10c>
+	adrp	x9, 0xc000 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x10c>
+	adrp	x10, 0xc000 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x110>
+	adrp	x11, 0xc000 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x114>
+	adrp	x12, 0xc000 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x118>
+	adrp	x13, 0xc000 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x11c>
+	adrp	x14, 0x6000 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x108>
+	cbz	x20, 0x6ee4 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x224>
+	adrp	x22, 0xc000 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x1b8>
+	adrp	x1, 0x3000 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x1b8>
+	cbz	x0, 0x6f04 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x244>
+	adrp	x1, 0x3000 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x1d4>
+	cbz	w0, 0x6f68 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x2a8>
+	adrp	x24, 0x3000 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x1e8>
+	cbnz	x0, 0x6f00 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x240>
+	cbnz	x0, 0x6ebc <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x1fc>
+	b	0x6f04 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x244>
+	adrp	x1, 0x3000 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x218>
+	b	0x6f70 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x2b0>
+	adrp	x24, 0x3000 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x238>
+	adrp	x0, 0xd000 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x284>
+	adrp	x2, 0x3000 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x26c>
+	adrp	x5, 0x3000 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x270>
+	cbz	x23, 0x6f70 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x2b0>
+	adrp	x23, 0x3000 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x2a4>
+	adrp	x0, 0xd000 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x2f0>
+	adrp	x2, 0x3000 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x2d8>
+	adrp	x5, 0x3000 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0x2dc>
+	b.eq	0x6d80 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi+0xc0>
+
+	cbz	x0, 0x7084 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum+0xa4>
+	b.gt	0x70e4 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum+0x104>
+	b.lt	0x70e4 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum+0x104>
+	adrp	x11, 0xd000 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum+0x4c>
+	adrp	x21, 0x3000 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum+0x28>
+	adrp	x0, 0xd000 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum+0x80>
+	adrp	x2, 0x2000 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum+0x64>
+	adrp	x5, 0x3000 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum+0x6c>
+	b	0x7148 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum+0x168>
+	adrp	x9, 0xd000 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum+0xbc>
+	adrp	x20, 0x3000 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum+0x98>
+	adrp	x0, 0xd000 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum+0xe4>
+	adrp	x2, 0x2000 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum+0xc8>
+	adrp	x5, 0x3000 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum+0xd0>
+	b	0x7144 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum+0x164>
+	adrp	x10, 0xd000 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum+0x11c>
+	adrp	x20, 0x3000 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum+0xf8>
+	adrp	x0, 0xd000 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum+0x144>
+	adrp	x2, 0x2000 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum+0x128>
+	adrp	x5, 0x3000 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum+0x130>
+
+	adrp	x11, 0x2000 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum+0x174>
+	adrp	x1, 0x3000 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum+0x17c>
 
 
 
@@ -18,635 +328,748 @@
 
 
 
+	b.lo	0x7308 <_ZNK8ROIsData6GetROIEj+0xb8>
+	b.hi	0x7308 <_ZNK8ROIsData6GetROIEj+0xb8>
+	cbz	x24, 0x72f4 <_ZNK8ROIsData6GetROIEj+0xa4>
+	adrp	x22, 0x3000 <_ZNK8ROIsData6GetROIEj+0x44>
+	adrp	x2, 0x3000 <_ZNK8ROIsData6GetROIEj+0x60>
+	adrp	x5, 0x3000 <_ZNK8ROIsData6GetROIEj+0x64>
+	b	0x7320 <_ZNK8ROIsData6GetROIEj+0xd0>
+	b.ne	0x7348 <_ZNK8ROIsData6GetROIEj+0xf8>
 
+	b.ls	0x73a8 <_ZNK8ROIsData15GetNormalizeROIEj+0x58>
+	b.ls	0x73a8 <_ZNK8ROIsData15GetNormalizeROIEj+0x58>
+	b.lo	0x7414 <_ZNK8ROIsData15GetNormalizeROIEj+0xc4>
+	b.ls	0x73b0 <_ZNK8ROIsData15GetNormalizeROIEj+0x60>
+	b	0x7414 <_ZNK8ROIsData15GetNormalizeROIEj+0xc4>
+	b.ls	0x740c <_ZNK8ROIsData15GetNormalizeROIEj+0xbc>
+	cbz	x22, 0x742c <_ZNK8ROIsData15GetNormalizeROIEj+0xdc>
+	adrp	x21, 0x3000 <_ZNK8ROIsData15GetNormalizeROIEj+0x58>
+	adrp	x2, 0x3000 <_ZNK8ROIsData15GetNormalizeROIEj+0x78>
+	adrp	x5, 0x3000 <_ZNK8ROIsData15GetNormalizeROIEj+0x7c>
+	b	0x742c <_ZNK8ROIsData15GetNormalizeROIEj+0xdc>
 
-	b.lo	0xa6cc <_ZNK8ROIsData6GetROIEj+0xb4>
-	b.hi	0xa6cc <_ZNK8ROIsData6GetROIEj+0xb4>
-	cbz	x21, 0xa6c0 <_ZNK8ROIsData6GetROIEj+0xa8>
-	adrp	x23, 0x4000 <_ZNK8ROIsData6GetROIEj+0x40>
-	adrp	x2, 0x4000 <_ZNK8ROIsData6GetROIEj+0x5c>
-	adrp	x5, 0x3000 <_ZNK8ROIsData6GetROIEj+0x5c>
-	b	0xa6ec <_ZNK8ROIsData6GetROIEj+0xd4>
-	b.hs	0xa704 <_ZNK8ROIsData6GetROIEj+0xec>
-
-	b.ls	0xa768 <_ZNK8ROIsData15GetNormalizeROIEj+0x60>
-	b.ls	0xa768 <_ZNK8ROIsData15GetNormalizeROIEj+0x60>
-	b.lo	0xa758 <_ZNK8ROIsData15GetNormalizeROIEj+0x50>
-	b.ls	0xa770 <_ZNK8ROIsData15GetNormalizeROIEj+0x68>
-	b.hs	0xa818 <_ZNK8ROIsData15GetNormalizeROIEj+0x110>
-	b	0xa7ec <_ZNK8ROIsData15GetNormalizeROIEj+0xe4>
-	b.ls	0xa7e4 <_ZNK8ROIsData15GetNormalizeROIEj+0xdc>
-	cbz	x21, 0xa804 <_ZNK8ROIsData15GetNormalizeROIEj+0xfc>
-	adrp	x22, 0x4000 <_ZNK8ROIsData15GetNormalizeROIEj+0x70>
-	adrp	x2, 0x4000 <_ZNK8ROIsData15GetNormalizeROIEj+0x90>
-	adrp	x5, 0x3000 <_ZNK8ROIsData15GetNormalizeROIEj+0x90>
-	b	0xa804 <_ZNK8ROIsData15GetNormalizeROIEj+0xfc>
-
-	b.lo	0xa8d4 <_ZNK8ROIsData12GetROIInCropEj+0xb4>
-	b.hi	0xa8d4 <_ZNK8ROIsData12GetROIInCropEj+0xb4>
-	cbz	x20, 0xaa00 <_ZNK8ROIsData12GetROIInCropEj+0x1e0>
-	adrp	x22, 0x4000 <_ZNK8ROIsData12GetROIInCropEj+0x48>
+	b.lo	0x74f8 <_ZNK8ROIsData12GetROIInCropEj+0xb8>
+	b.hi	0x74f8 <_ZNK8ROIsData12GetROIInCropEj+0xb8>
+	cbz	x22, 0x76a4 <_ZNK8ROIsData12GetROIInCropEj+0x264>
+	adrp	x19, 0x3000 <_ZNK8ROIsData12GetROIInCropEj+0x44>
 	adrp	x2, 0x3000 <_ZNK8ROIsData12GetROIInCropEj+0x64>
 	adrp	x5, 0x3000 <_ZNK8ROIsData12GetROIInCropEj+0x68>
-	b	0xaa00 <_ZNK8ROIsData12GetROIInCropEj+0x1e0>
-	b.lt	0xa98c <_ZNK8ROIsData12GetROIInCropEj+0x16c>
-	b.lt	0xa98c <_ZNK8ROIsData12GetROIInCropEj+0x16c>
-	b.le	0xa98c <_ZNK8ROIsData12GetROIInCropEj+0x16c>
-	b.le	0xa98c <_ZNK8ROIsData12GetROIInCropEj+0x16c>
-	b.hs	0xaa18 <_ZNK8ROIsData12GetROIInCropEj+0x1f8>
-	b	0xaa00 <_ZNK8ROIsData12GetROIInCropEj+0x1e0>
-	cbz	x22, 0xa9f0 <_ZNK8ROIsData12GetROIInCropEj+0x1d0>
-	adrp	x23, 0x4000 <_ZNK8ROIsData12GetROIInCropEj+0x174>
-	adrp	x2, 0x3000 <_ZNK8ROIsData12GetROIInCropEj+0x18c>
-	adrp	x5, 0x4000 <_ZNK8ROIsData12GetROIInCropEj+0x194>
-	bl	0xdec0 <_ZNK8ROIsData6GetROIEj@plt>
-
-	b.lo	0xab04 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0xe4>
-	b.hi	0xab04 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0xe4>
-	cbz	x22, 0xaad4 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0xb4>
-	adrp	x23, 0x4000 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x4c>
-	adrp	x2, 0x3000 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x68>
-	adrp	x5, 0x3000 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x6c>
-	b.ne	0xabf0 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x1d0>
-	b.lt	0xab6c <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x14c>
-	b.lt	0xab6c <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x14c>
-	b.le	0xab6c <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x14c>
-	b.le	0xab6c <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x14c>
-	bl	0xded0 <_ZNK8ROIsData12GetROIInCropEj@plt>
-	b	0xaadc <_ZNK8ROIsData21GetNormalizeROIInCropEj+0xbc>
-	cbz	x22, 0xabd0 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x1b0>
-	adrp	x23, 0x4000 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x154>
-	adrp	x2, 0x3000 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x16c>
-	adrp	x5, 0x4000 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x174>
-	bl	0xdee0 <_ZNK8ROIsData15GetNormalizeROIEj@plt>
-	b.eq	0xaaec <_ZNK8ROIsData21GetNormalizeROIInCropEj+0xcc>
-
-	bl	0xdef0 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIData@plt>
-
-	cbz	x1, 0xac88 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIData+0x70>
-	cbz	w8, 0xacfc <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIData+0xe4>
-	b.eq	0xad0c <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIData+0xf4>
-	b.ne	0xac44 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIData+0x2c>
-	b	0xacfc <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIData+0xe4>
-	cbz	x1, 0xacfc <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIData+0xe4>
-	adrp	x20, 0x4000 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIData+0x78>
-	adrp	x2, 0x4000 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIData+0xa8>
-	adrp	x5, 0x3000 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIData+0xa8>
-
-	cbz	x1, 0xad50 <_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE+0x38>
-	cbz	x2, 0xad50 <_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE+0x38>
-	b	0xadb4 <_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE+0x9c>
-	cbz	x19, 0xadb0 <_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE+0x98>
-	adrp	x20, 0x4000 <_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE+0x40>
-	adrp	x2, 0x4000 <_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE+0x5c>
-	adrp	x5, 0x4000 <_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE+0x60>
-
-	b.le	0xae6c <_ZN8ROIsData18SetImageResolutionEff+0xac>
-	b.le	0xae6c <_ZN8ROIsData18SetImageResolutionEff+0xac>
-	cbz	x20, 0xaee0 <_ZN8ROIsData18SetImageResolutionEff+0x120>
-	adrp	x21, 0x4000 <_ZN8ROIsData18SetImageResolutionEff+0x40>
-	adrp	x2, 0x3000 <_ZN8ROIsData18SetImageResolutionEff+0x60>
-	adrp	x5, 0x4000 <_ZN8ROIsData18SetImageResolutionEff+0x68>
-	b	0xaee4 <_ZN8ROIsData18SetImageResolutionEff+0x124>
-	cbz	x20, 0xaed8 <_ZN8ROIsData18SetImageResolutionEff+0x118>
-	adrp	x21, 0x4000 <_ZN8ROIsData18SetImageResolutionEff+0xb4>
-	adrp	x2, 0x3000 <_ZN8ROIsData18SetImageResolutionEff+0xd4>
-	adrp	x5, 0x4000 <_ZN8ROIsData18SetImageResolutionEff+0xdc>
-	b	0xaee4 <_ZN8ROIsData18SetImageResolutionEff+0x124>
-
-	b.lt	0xafd8 <_ZN8ROIsData13SetCropWindowEffff+0xd8>
-	b.lt	0xafd8 <_ZN8ROIsData13SetCropWindowEffff+0xd8>
-	b.le	0xafd8 <_ZN8ROIsData13SetCropWindowEffff+0xd8>
-	b.le	0xafd8 <_ZN8ROIsData13SetCropWindowEffff+0xd8>
-	cbz	x20, 0xb054 <_ZN8ROIsData13SetCropWindowEffff+0x154>
-	adrp	x21, 0x4000 <_ZN8ROIsData13SetCropWindowEffff+0x64>
-	adrp	x2, 0x3000 <_ZN8ROIsData13SetCropWindowEffff+0x84>
-	adrp	x5, 0x3000 <_ZN8ROIsData13SetCropWindowEffff+0x8c>
-	b	0xb058 <_ZN8ROIsData13SetCropWindowEffff+0x158>
-	cbz	x20, 0xb04c <_ZN8ROIsData13SetCropWindowEffff+0x14c>
-	adrp	x21, 0x4000 <_ZN8ROIsData13SetCropWindowEffff+0xe0>
-	adrp	x2, 0x3000 <_ZN8ROIsData13SetCropWindowEffff+0xfc>
-	adrp	x5, 0x3000 <_ZN8ROIsData13SetCropWindowEffff+0x104>
-	b	0xb058 <_ZN8ROIsData13SetCropWindowEffff+0x158>
-
-	b.le	0xb0bc <_ZN8ROIsData10SetAECGainEf+0x44>
-	b	0xb128 <_ZN8ROIsData10SetAECGainEf+0xb0>
-	cbz	x19, 0xb124 <_ZN8ROIsData10SetAECGainEf+0xac>
-	adrp	x21, 0x4000 <_ZN8ROIsData10SetAECGainEf+0x48>
-	adrp	x2, 0x3000 <_ZN8ROIsData10SetAECGainEf+0x64>
-	adrp	x5, 0x4000 <_ZN8ROIsData10SetAECGainEf+0x6c>
-
-	b.lt	0xb15c <_ZNK8ROIsData19FindROIIndexByROIIDEP7ROIDatajj+0x1c>
-	b.ne	0xb164 <_ZNK8ROIsData19FindROIIndexByROIIDEP7ROIDatajj+0x24>
-	b.eq	0xb198 <_ZNK8ROIsData19FindROIIndexByROIIDEP7ROIDatajj+0x58>
-	b.ne	0xb174 <_ZNK8ROIsData19FindROIIndexByROIIDEP7ROIDatajj+0x34>
-
-
-
-
-	adrp	x1, 0x4000 <_ZN8ROIsData12GetROIsCountEv>
-
-
-	b.lo	0xb32c <_ZNK11ROIPriority8GetScoreEi+0x84>
-	adrp	x8, 0x10000 <_ZNK11ROIPriority8GetScoreEi+0x34>
-	tbnz	w8, #1, 0xb2e8 <_ZNK11ROIPriority8GetScoreEi+0x40>
-	adrp	x9, 0x10000 <_ZNK11ROIPriority8GetScoreEi+0x48>
-	cbnz	w9, 0xb334 <_ZNK11ROIPriority8GetScoreEi+0x8c>
-	adrp	x20, 0x4000 <_ZNK11ROIPriority8GetScoreEi+0x24>
-	adrp	x4, 0x4000 <_ZNK11ROIPriority8GetScoreEi+0x40>
-	adrp	x6, 0x4000 <_ZNK11ROIPriority8GetScoreEi+0x44>
-	bl	0xd8a8 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x870>
-	b	0xb334 <_ZNK11ROIPriority8GetScoreEi+0x8c>
-
-
-
-
-	cbz	x1, 0xb3fc <_ZN11ROIPriority13UpdateROIDataEPK26UnstabilizedROIInformation+0x84>
-	bl	0xdef0 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIData@plt>
-	bl	0xdf00 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj@plt>
-	b	0xb464 <_ZN11ROIPriority13UpdateROIDataEPK26UnstabilizedROIInformation+0xec>
-	cbz	x20, 0xb460 <_ZN11ROIPriority13UpdateROIDataEPK26UnstabilizedROIInformation+0xe8>
-	adrp	x21, 0x4000 <_ZN11ROIPriority13UpdateROIDataEPK26UnstabilizedROIInformation+0x88>
-	adrp	x2, 0x3000 <_ZN11ROIPriority13UpdateROIDataEPK26UnstabilizedROIInformation+0xa0>
-	adrp	x5, 0x3000 <_ZN11ROIPriority13UpdateROIDataEPK26UnstabilizedROIInformation+0xa4>
-	b.ne	0xb48c <_ZN11ROIPriority13UpdateROIDataEPK26UnstabilizedROIInformation+0x114>
-
-	cbz	w2, 0xb50c <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x7c>
-	cbz	x8, 0xb524 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x94>
-	b	0xb530 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0xa0>
-	b	0xb7d4 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x344>
-	b.ge	0xb59c <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x10c>
-	b.eq	0xb570 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0xe0>
-	b.vc	0xb548 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0xb8>
-	b.eq	0xb894 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x404>
-	bl	0xdf10 <_ZN11ROIPriority16ROIDominantScoreE7ROIData@plt>
-	cbz	x20, 0xb610 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x180>
-	adrp	x25, 0x4000 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x110>
-	adrp	x2, 0x4000 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x134>
-	adrp	x5, 0x4000 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x138>
-	adrp	x28, 0x4000 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x164>
-	adrp	x22, 0x4000 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x168>
-	b	0xb654 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x1c4>
-	b.hs	0xb6ec <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x25c>
-	bl	0xdf10 <_ZN11ROIPriority16ROIDominantScoreE7ROIData@plt>
-	b.eq	0xb8a4 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x414>
-	cbz	x21, 0xb638 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x1a8>
-	adrp	x2, 0x4000 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x210>
-	b	0xb638 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x1a8>
-	b.eq	0xb7d4 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x344>
-	b.hi	0xb8a4 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x414>
-	b.ne	0xb760 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x2d0>
-	cbz	x20, 0xb7d4 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x344>
-	adrp	x21, 0x4000 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x2d4>
-	adrp	x2, 0x4000 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x2f8>
-	adrp	x5, 0x4000 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x2fc>
-	cbz	x22, 0xb854 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x3c4>
-	adrp	x27, 0x4000 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x358>
-	adrp	x2, 0x4000 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x37c>
-	adrp	x5, 0x4000 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x380>
-	b.ne	0xb8a8 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x418>
-	cbnz	x20, 0xb5a4 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x114>
-	b	0xb610 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x180>
-
-	b.ls	0xba0c <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x15c>
-	b.ls	0xba0c <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x15c>
-	cbz	x8, 0xbaa0 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x1f0>
-	bl	0xdf20 <_ZN11ROIPriority16GetDominantScoreEPN16statsroipriority25modFaceRoiTriggerDataTypeEf@plt>
-	bl	0xdf20 <_ZN11ROIPriority16GetDominantScoreEPN16statsroipriority25modFaceRoiTriggerDataTypeEf@plt>
-	cbz	x20, 0xba04 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x154>
-	adrp	x21, 0x4000 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0xe0>
-	adrp	x2, 0x4000 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x10c>
-	adrp	x5, 0x4000 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x114>
-	b	0xba84 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x1d4>
-	cbz	x20, 0xba84 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x1d4>
-	adrp	x21, 0x4000 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x164>
-	adrp	x2, 0x4000 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x188>
-	adrp	x5, 0x4000 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x18c>
-	cbnz	x20, 0xb994 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0xe4>
-	b	0xba04 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x154>
-
-	cbz	x1, 0xbb18 <_ZN11ROIPriority16GetDominantScoreEPN16statsroipriority25modFaceRoiTriggerDataTypeEf+0x60>
-	cbz	w10, 0xbb18 <_ZN11ROIPriority16GetDominantScoreEPN16statsroipriority25modFaceRoiTriggerDataTypeEf+0x60>
-	b.eq	0xbb84 <_ZN11ROIPriority16GetDominantScoreEPN16statsroipriority25modFaceRoiTriggerDataTypeEf+0xcc>
-	b.gt	0xbb88 <_ZN11ROIPriority16GetDominantScoreEPN16statsroipriority25modFaceRoiTriggerDataTypeEf+0xd0>
-	b.ne	0xbaec <_ZN11ROIPriority16GetDominantScoreEPN16statsroipriority25modFaceRoiTriggerDataTypeEf+0x34>
-	cbz	x19, 0xbbfc <_ZN11ROIPriority16GetDominantScoreEPN16statsroipriority25modFaceRoiTriggerDataTypeEf+0x144>
-	adrp	x21, 0x4000 <_ZN11ROIPriority16GetDominantScoreEPN16statsroipriority25modFaceRoiTriggerDataTypeEf+0x68>
-	adrp	x2, 0x4000 <_ZN11ROIPriority16GetDominantScoreEPN16statsroipriority25modFaceRoiTriggerDataTypeEf+0x84>
-	adrp	x5, 0x4000 <_ZN11ROIPriority16GetDominantScoreEPN16statsroipriority25modFaceRoiTriggerDataTypeEf+0x88>
-	b	0xbbfc <_ZN11ROIPriority16GetDominantScoreEPN16statsroipriority25modFaceRoiTriggerDataTypeEf+0x144>
-	cbz	w9, 0xbba8 <_ZN11ROIPriority16GetDominantScoreEPN16statsroipriority25modFaceRoiTriggerDataTypeEf+0xf0>
-	b.ne	0xbbb0 <_ZN11ROIPriority16GetDominantScoreEPN16statsroipriority25modFaceRoiTriggerDataTypeEf+0xf8>
-	b	0xbbfc <_ZN11ROIPriority16GetDominantScoreEPN16statsroipriority25modFaceRoiTriggerDataTypeEf+0x144>
-	b	0xbbfc <_ZN11ROIPriority16GetDominantScoreEPN16statsroipriority25modFaceRoiTriggerDataTypeEf+0x144>
-	b.eq	0xbbfc <_ZN11ROIPriority16GetDominantScoreEPN16statsroipriority25modFaceRoiTriggerDataTypeEf+0x144>
-
-
-
-	adrp	x1, 0x4000 <_ZN11ROIPriority13SetTuningDataEPN16statsroipriority29chromatixStatsROIPriorityTypeE+0x8>
-
-	cbz	x1, 0xbd4c <_ZN16ROIStableChecker13UpdateROIDataEPK26UnstabilizedROIInformation+0x84>
-	bl	0xdef0 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIData@plt>
-	bl	0xdf30 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj@plt>
-	b	0xbdb4 <_ZN16ROIStableChecker13UpdateROIDataEPK26UnstabilizedROIInformation+0xec>
-	cbz	x20, 0xbdb0 <_ZN16ROIStableChecker13UpdateROIDataEPK26UnstabilizedROIInformation+0xe8>
-	adrp	x21, 0x4000 <_ZN16ROIStableChecker13UpdateROIDataEPK26UnstabilizedROIInformation+0x88>
-	adrp	x2, 0x3000 <_ZN16ROIStableChecker13UpdateROIDataEPK26UnstabilizedROIInformation+0xa0>
-	adrp	x5, 0x3000 <_ZN16ROIStableChecker13UpdateROIDataEPK26UnstabilizedROIInformation+0xa4>
-	b.ne	0xbddc <_ZN16ROIStableChecker13UpdateROIDataEPK26UnstabilizedROIInformation+0x114>
-
-	cbz	x9, 0xc098 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x2b8>
-	bl	0xdf40 <_ZN16ROIStableChecker15UpdateThresholdEv@plt>
-	adrp	x22, 0x4000 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x50>
-	cbz	x23, 0xbea4 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0xc4>
-	adrp	x2, 0x4000 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x7c>
-	adrp	x5, 0x4000 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x80>
-	b.lt	0xc06c <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x28c>
-	adrp	x25, 0x4000 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0xb8>
-	b	0xbed8 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0xf8>
-	b.eq	0xc06c <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x28c>
-	b.eq	0xbf14 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x134>
-	b.ne	0xbef0 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x110>
-	b	0xbf9c <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x1bc>
-	b.ge	0xbf9c <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x1bc>
-	bl	0xdec0 <_ZNK8ROIsData6GetROIEj@plt>
-	bl	0xdf50 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_@plt>
-	b.ne	0xc054 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x274>
-	b.hi	0xc130 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x350>
-	b.hs	0xc134 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x354>
-	b.hi	0xc130 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x350>
-	b	0xbfb0 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x1d0>
-	b.hs	0xc130 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x350>
-	cbz	x22, 0xbecc <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0xec>
-	adrp	x2, 0x4000 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x21c>
-	adrp	x5, 0x4000 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x220>
-	b	0xbecc <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0xec>
-	b.hi	0xc130 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x350>
-	b	0xbfb0 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x1d0>
-	b	0xc100 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x320>
-	cbz	x22, 0xc0fc <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x31c>
-	adrp	x23, 0x4000 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x2b8>
-	adrp	x2, 0x4000 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x2d4>
-	adrp	x5, 0x4000 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x2d8>
-	b.ne	0xc138 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x358>
-
-	cbz	x11, 0xc190 <_ZN16ROIStableChecker15UpdateThresholdEv+0x50>
-	cbz	w8, 0xc190 <_ZN16ROIStableChecker15UpdateThresholdEv+0x50>
-	b.ge	0xc1fc <_ZN16ROIStableChecker15UpdateThresholdEv+0xbc>
-	b.ne	0xc170 <_ZN16ROIStableChecker15UpdateThresholdEv+0x30>
-	b	0xc204 <_ZN16ROIStableChecker15UpdateThresholdEv+0xc4>
-	cbz	x20, 0xc1f4 <_ZN16ROIStableChecker15UpdateThresholdEv+0xb4>
-	adrp	x21, 0x4000 <_ZN16ROIStableChecker15UpdateThresholdEv+0x50>
-	adrp	x2, 0x4000 <_ZN16ROIStableChecker15UpdateThresholdEv+0x6c>
-	adrp	x5, 0x4000 <_ZN16ROIStableChecker15UpdateThresholdEv+0x70>
-	b	0xc220 <_ZN16ROIStableChecker15UpdateThresholdEv+0xe0>
-	b.ne	0xc218 <_ZN16ROIStableChecker15UpdateThresholdEv+0xd8>
-	b.lo	0xc230 <_ZN16ROIStableChecker15UpdateThresholdEv+0xf0>
-	b	0xc220 <_ZN16ROIStableChecker15UpdateThresholdEv+0xe0>
-
-	b.ls	0xc420 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0x1e8>
-	b.ls	0xc420 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0x1e8>
-	cbz	x8, 0xc420 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0x1e8>
-	b.vs	0xc4c8 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0x290>
-	b.vs	0xc4c8 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0x290>
-	cbz	x21, 0xc3e4 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0x1ac>
-	adrp	x22, 0x4000 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0x10c>
-	adrp	x2, 0x4000 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0x13c>
-	adrp	x5, 0x4000 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0x140>
-	b.pl	0xc418 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0x1e0>
-	b.mi	0xc4a0 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0x268>
-	b	0xc4a4 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0x26c>
-	cbz	x21, 0xc4a0 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0x268>
-	adrp	x20, 0x4000 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0x1e8>
-	adrp	x2, 0x4000 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0x20c>
-	adrp	x5, 0x4000 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0x214>
-	b	0xc4a4 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0x26c>
-
-	cbz	x8, 0xc52c <_ZN16ROIStableChecker15IsROIStableByIDEi+0x5c>
-	b.lt	0xc5a4 <_ZN16ROIStableChecker15IsROIStableByIDEi+0xd4>
-	b.eq	0xc598 <_ZN16ROIStableChecker15IsROIStableByIDEi+0xc8>
-	b.ne	0xc508 <_ZN16ROIStableChecker15IsROIStableByIDEi+0x38>
-	b	0xc5a4 <_ZN16ROIStableChecker15IsROIStableByIDEi+0xd4>
-	cbz	x21, 0xc614 <_ZN16ROIStableChecker15IsROIStableByIDEi+0x144>
-	adrp	x20, 0x4000 <_ZN16ROIStableChecker15IsROIStableByIDEi+0x5c>
-	adrp	x2, 0x4000 <_ZN16ROIStableChecker15IsROIStableByIDEi+0x78>
-	adrp	x5, 0x4000 <_ZN16ROIStableChecker15IsROIStableByIDEi+0x7c>
-	b	0xc620 <_ZN16ROIStableChecker15IsROIStableByIDEi+0x150>
-	b.lo	0xc61c <_ZN16ROIStableChecker15IsROIStableByIDEi+0x14c>
-	cbz	x21, 0xc614 <_ZN16ROIStableChecker15IsROIStableByIDEi+0x144>
-	adrp	x22, 0x4000 <_ZN16ROIStableChecker15IsROIStableByIDEi+0xd4>
-	adrp	x2, 0x4000 <_ZN16ROIStableChecker15IsROIStableByIDEi+0xf0>
-	adrp	x5, 0x4000 <_ZN16ROIStableChecker15IsROIStableByIDEi+0xf4>
-	b	0xc620 <_ZN16ROIStableChecker15IsROIStableByIDEi+0x150>
-	b	0xc620 <_ZN16ROIStableChecker15IsROIStableByIDEi+0x150>
-
-
-	adrp	x1, 0x4000 <_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE+0x4>
-
-	cbz	x1, 0xc77c <_ZN16ROIChangeChecker13UpdateROIDataEPK26UnstabilizedROIInformation+0x7c>
-	bl	0xdef0 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIData@plt>
-	bl	0xdf60 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj@plt>
-	b	0xc780 <_ZN16ROIChangeChecker13UpdateROIDataEPK26UnstabilizedROIInformation+0x80>
-	b.ne	0xc7a4 <_ZN16ROIChangeChecker13UpdateROIDataEPK26UnstabilizedROIInformation+0xa4>
-
-	cbz	x9, 0xca8c <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x2e4>
-	bl	0xdf70 <_ZN16ROIChangeChecker15UpdateThresholdEv@plt>
-	adrp	x26, 0x4000 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x4c>
-	cbz	x23, 0xc86c <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0xc4>
-	adrp	x2, 0x3000 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x74>
-	adrp	x5, 0x4000 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x7c>
-	b.lt	0xca60 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x2b8>
-	adrp	x28, 0x4000 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0xac>
-	b	0xc8a0 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0xf8>
-	b.eq	0xca60 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x2b8>
-	b.eq	0xc8d8 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x130>
-	b.ne	0xc8b8 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x110>
-	b	0xc8fc <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x154>
-	b.ge	0xc8fc <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x154>
-	b.hi	0xcb24 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x37c>
-	b	0xc90c <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x164>
-	b.hs	0xcb24 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x37c>
-	b.eq	0xc934 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x18c>
-	b.ne	0xc914 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x16c>
-	b	0xc994 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x1ec>
-	b.ge	0xc994 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x1ec>
-	b.hi	0xcb24 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x37c>
-	bl	0xdf80 <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_@plt>
-	b.ne	0xca4c <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x2a4>
-	b.hi	0xcb24 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x37c>
-	b.lo	0xc9a4 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x1fc>
-	b	0xcb28 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x380>
-	b.hi	0xcb24 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x37c>
-	b.hs	0xcb28 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x380>
-	cbz	x23, 0xc894 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0xec>
-	adrp	x2, 0x3000 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x248>
-	adrp	x5, 0x3000 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x24c>
-	b	0xc894 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0xec>
-	b.hi	0xcb24 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x37c>
-	b	0xc9a8 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x200>
-	b	0xcaf4 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x34c>
-	cbz	x22, 0xcaf0 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x348>
-	adrp	x20, 0x4000 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x2e4>
-	adrp	x2, 0x3000 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x2fc>
-	adrp	x5, 0x4000 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x304>
-	b.ne	0xcb2c <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x384>
-
-	cbz	x11, 0xcb80 <_ZN16ROIChangeChecker15UpdateThresholdEv+0x50>
-	cbz	w8, 0xcb80 <_ZN16ROIChangeChecker15UpdateThresholdEv+0x50>
-	b.ge	0xcbec <_ZN16ROIChangeChecker15UpdateThresholdEv+0xbc>
-	b.ne	0xcb60 <_ZN16ROIChangeChecker15UpdateThresholdEv+0x30>
-	b	0xcbf4 <_ZN16ROIChangeChecker15UpdateThresholdEv+0xc4>
-	cbz	x20, 0xcbe4 <_ZN16ROIChangeChecker15UpdateThresholdEv+0xb4>
-	adrp	x21, 0x4000 <_ZN16ROIChangeChecker15UpdateThresholdEv+0x50>
-	adrp	x2, 0x4000 <_ZN16ROIChangeChecker15UpdateThresholdEv+0x6c>
-	adrp	x5, 0x4000 <_ZN16ROIChangeChecker15UpdateThresholdEv+0x70>
-	b	0xcc10 <_ZN16ROIChangeChecker15UpdateThresholdEv+0xe0>
-	b.ne	0xcc08 <_ZN16ROIChangeChecker15UpdateThresholdEv+0xd8>
-	b.lo	0xcc20 <_ZN16ROIChangeChecker15UpdateThresholdEv+0xf0>
-	b	0xcc10 <_ZN16ROIChangeChecker15UpdateThresholdEv+0xe0>
-
-	b.ls	0xce10 <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_+0x1e8>
-	b.ls	0xce10 <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_+0x1e8>
-	cbz	x8, 0xce10 <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_+0x1e8>
-	b.vs	0xceac <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_+0x284>
-	b.vs	0xceac <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_+0x284>
-	cbz	x21, 0xcdd4 <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_+0x1ac>
-	adrp	x22, 0x4000 <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_+0x10c>
-	adrp	x2, 0x4000 <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_+0x13c>
-	adrp	x5, 0x3000 <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_+0x13c>
-	b.gt	0xce08 <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_+0x1e0>
-	b.le	0xce88 <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_+0x260>
-	b	0xce8c <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_+0x264>
-	cbz	x21, 0xce88 <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_+0x260>
-	adrp	x20, 0x4000 <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_+0x1e8>
-	adrp	x2, 0x4000 <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_+0x20c>
-	adrp	x5, 0x4000 <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_+0x214>
-
-	cbz	x8, 0xcf18 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0x68>
-	b.lt	0xcf84 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0xd4>
-	b.eq	0xcf8c <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0xdc>
-	b.ne	0xcef4 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0x44>
-	b	0xcf98 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0xe8>
-	cbz	x21, 0xd004 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0x154>
-	adrp	x20, 0x4000 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0x68>
-	adrp	x2, 0x3000 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0x80>
-	adrp	x5, 0x4000 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0x88>
-	b	0xd008 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0x158>
-	b	0xcf98 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0xe8>
-	b.lo	0xd020 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0x170>
-	cbz	x21, 0xd004 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0x154>
-	adrp	x22, 0x4000 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0xe8>
-	adrp	x2, 0x3000 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0x100>
-	adrp	x5, 0x4000 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0x108>
-	b	0xd008 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0x158>
-
-
-	b.ne	0xd100 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0xc8>
-	cbnz	w10, 0xd0a8 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x70>
-	b.hs	0xd230 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x1f8>
-	b.ne	0xd234 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x1fc>
-	b.vs	0xd230 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x1f8>
-	b	0xd108 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0xd0>
-	cbz	w11, 0xd130 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0xf8>
-	b.ne	0xd22c <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x1f4>
-	b.ne	0xd234 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x1fc>
-	b.vs	0xd230 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x1f8>
-	b.lo	0xd238 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x200>
-	adrp	x9, 0x10000 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x168>
-	adrp	x22, 0x4000 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x164>
-	adrp	x2, 0x4000 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x188>
-	adrp	x5, 0x3000 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x188>
-	b.eq	0xd118 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0xe0>
-	b.ne	0xd2cc <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x294>
-	b.vs	0xd2d0 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x298>
-	b.ne	0xd2d4 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x29c>
-	adrp	x8, 0x4000 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x27c>
-	cbz	x0, 0xd338 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x300>
-	cbz	w0, 0xd364 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x32c>
-	b.ne	0xd380 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x348>
-	cbz	x20, 0xd33c <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x304>
-	b	0xd33c <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x304>
-	cbz	x0, 0xd3c8 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x390>
-	cbz	w0, 0xd3f4 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x3bc>
-	b.ne	0xd410 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x3d8>
-	cbz	x20, 0xd3cc <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x394>
-	b	0xd3cc <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x394>
-	cbz	x0, 0xd420 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x3e8>
-	cbz	x0, 0xd430 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x3f8>
-	adrp	x1, 0x4000 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x420>
-	b.ne	0xd4dc <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x4a4>
-	b.ne	0xd57c <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x544>
-	adrp	x21, 0x10000 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x56c>
-	cbnz	x0, 0xd6a8 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x670>
-	adrp	x22, 0xf000 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x57c>
-	cbnz	w8, 0xd694 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x65c>
-	adrp	x0, 0xf000 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x58c>
-	bl	0xdfc0 <_ZNSt3__15mutex4lockEv@plt>
-	cbnz	w9, 0xd688 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x650>
-	adrp	x8, 0xf000 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x5a0>
-	cbz	w0, 0xd600 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x5c8>
-	b	0xd618 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x5e0>
-	cbz	x19, 0xd618 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x5e0>
-	bl	0xdfd0 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>
-	bl	0xd718 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x6e0>
-	cbz	w0, 0xd650 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x618>
-	b	0xd668 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x630>
-	cbz	x19, 0xd668 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x630>
-	bl	0xdfd0 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>
-	bl	0xd718 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x6e0>
-	adrp	x0, 0xf000 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x658>
-	bl	0xdfe0 <_ZNSt3__15mutex6unlockEv@plt>
-	adrp	x9, 0xf000 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x664>
-	b.ne	0xd6cc <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x694>
-	cbz	x10, 0xd704 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x6cc>
-	b	0xd6f4 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x6bc>
-	cbz	x9, 0xd704 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x6cc>
-	b	0xd704 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x6cc>
-	b	0xd700 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x6c8>
-	adrp	x0, 0xf000 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x6d4>
-	bl	0xdfe0 <_ZNSt3__15mutex6unlockEv@plt>
-	adrp	x23, 0xf000 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x704>
-	b.hs	0xd770 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x738>
-	b	0xd860 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x828>
-	b.hs	0xd894 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x85c>
-	cbnz	x17, 0xd898 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x860>
-	b.lo	0xd7b4 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x77c>
-	cbz	x24, 0xd7d4 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x79c>
-	b	0xd7bc <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x784>
-	cbz	w0, 0xd7dc <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x7a4>
-	b	0xd7f4 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x7bc>
-	cbz	x20, 0xd7f4 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x7bc>
-	b.lt	0xd834 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x7fc>
-	b.ne	0xd890 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x858>
-	cbz	x1, 0xd860 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x828>
-	cbnz	x0, 0xd890 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x858>
-	b.ne	0xd88c <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x854>
-	adrp	x0, 0xf000 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x868>
-	bl	0xe000 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
-	adrp	x21, 0x10000 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x8a0>
-	adrp	x27, 0x10000 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x8a8>
-	adrp	x20, 0x10000 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x8b0>
-	adrp	x19, 0x10000 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x8b8>
-	cbnz	w10, 0xd9a8 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x970>
-	adrp	x22, 0x10000 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x8dc>
-	cbnz	w11, 0xd9a8 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x970>
-	bl	0xd580 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x548>
-	cbz	x0, 0xd9a8 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x970>
-	bl	0xe010 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt>
-	b.ne	0xd9a8 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x970>
-	cbz	x0, 0xd974 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x93c>
-	b	0xd978 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x940>
-	adrp	x8, 0x10000 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x950>
-	tbz	w10, #25, 0xdba0 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0xb68>
-	b.eq	0xd9c8 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x990>
-	b.eq	0xd9c8 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x990>
-	cbz	x9, 0xdba0 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0xb68>
-	adrp	x2, 0x4000 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x99c>
-	b.ne	0xda44 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0xa0c>
-	adrp	x1, 0x4000 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x9d4>
-	b.ne	0xdb20 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0xae8>
-	bl	0xd580 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x548>
-	cbz	x0, 0xdb20 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0xae8>
-	bl	0xe040 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt>
-	cbz	w0, 0xdb20 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0xae8>
-	cbz	x0, 0xdafc <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0xac4>
-	b.vs	0xdbd4 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0xb9c>
-	adrp	x13, 0x3000 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0xa54>
-	adrp	x2, 0x4000 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0xa5c>
-	bl	0xd4e0 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x4a8>
-	b	0xdb10 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0xad8>
-	adrp	x2, 0x4000 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0xaa0>
-	bl	0xd4e0 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x4a8>
-	bl	0xe090 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt>
-	cbz	x14, 0xdba0 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0xb68>
-	cbz	w0, 0xdb58 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0xb20>
-	b	0xdb90 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0xb58>
-	cbz	x0, 0xdb3c <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0xb04>
-	bl	0xd438 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x400>
-	b.ne	0xdbd0 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0xb98>
-	b.ne	0xdc4c <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0xc14>
-	b.hs	0xdc50 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0xc18>
-	b.ne	0xdc54 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0xc1c>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	b	0xd060 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x28>
-
-	b	0xd2d8 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x2a0>
-
-	b	0xd2f8 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x2c0>
-
-	b	0xd388 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x350>
-
-	b	0xd418 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x3e0>
-
-	b	0xd428 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x3f0>
-
-	b	0xdbd8 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0xba0>
-
-	b	0xd240 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0x208>
-
-	b	0xdc58 <_ZN16ROIChangeChecker18UpdateReferenceROIEv+0xc20>
-
-	adrp	x16, 0xf000 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti@plt+0x8>
-
-	adrp	x16, 0xf000 <_Z37af_value_monitor_update_intern_configP21af_vm_intern_config_tPN17afmonitorelements24chromatixSensProfileTypeE@plt+0x8>
-
-	adrp	x16, 0xf000 <_Z27af_value_monitor_get_medianPii@plt+0x8>
-
-	adrp	x16, 0xf000 <_Z33af_value_monitor_get_debug_statusPKc@plt+0x8>
-
-	adrp	x16, 0xf000 <_ZNK8ROIsData6GetROIEj@plt+0x8>
-
-	adrp	x16, 0xf000 <_ZNK8ROIsData12GetROIInCropEj@plt+0x8>
-
-	adrp	x16, 0xf000 <_ZNK8ROIsData15GetNormalizeROIEj@plt+0x8>
-
-	adrp	x16, 0xf000 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIData@plt+0x8>
-
-	adrp	x16, 0xf000 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj@plt+0x8>
-
-	adrp	x16, 0xf000 <_ZN11ROIPriority16ROIDominantScoreE7ROIData@plt+0x8>
-
-	adrp	x16, 0xf000 <_ZN11ROIPriority16GetDominantScoreEPN16statsroipriority25modFaceRoiTriggerDataTypeEf@plt+0x8>
-
-	adrp	x16, 0xf000 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj@plt+0x8>
-
-	adrp	x16, 0xf000 <_ZN16ROIStableChecker15UpdateThresholdEv@plt+0x8>
-
-	adrp	x16, 0xf000 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_@plt+0x8>
-
-	adrp	x16, 0xf000 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj@plt+0x8>
-
-	adrp	x16, 0xf000 <_ZN16ROIChangeChecker15UpdateThresholdEv@plt+0x8>
-
-	adrp	x16, 0xf000 <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_@plt+0x8>
-
-	adrp	x16, 0xf000 <_ZNSt3__15mutex4lockEv@plt+0x8>
-
-	adrp	x16, 0xf000 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt+0x8>
-
-	adrp	x16, 0xf000 <_ZNSt3__15mutex6unlockEv@plt+0x8>
-
-	adrp	x16, 0xf000 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt+0x4>
-
-	adrp	x16, 0xf000 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt+0x4>
-
-	adrp	x16, 0xf000 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt+0x4>
-
-	adrp	x16, 0xf000 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt+0x4>
-
-
-
- 	cbnz	w9, 0xa714 <_ZNK8ROIsData15GetNormalizeROIEj+0xc>
+	b.eq	0x76b4 <_ZNK8ROIsData12GetROIInCropEj+0x274>
+	b.lt	0x75a8 <_ZNK8ROIsData12GetROIInCropEj+0x168>
+	b.lt	0x75a8 <_ZNK8ROIsData12GetROIInCropEj+0x168>
+	b.le	0x75a8 <_ZNK8ROIsData12GetROIInCropEj+0x168>
+	b.le	0x75a8 <_ZNK8ROIsData12GetROIInCropEj+0x168>
+	b	0x76a4 <_ZNK8ROIsData12GetROIInCropEj+0x264>
+	cbz	x24, 0x75f8 <_ZNK8ROIsData12GetROIInCropEj+0x1b8>
+	adrp	x22, 0x3000 <_ZNK8ROIsData12GetROIInCropEj+0x160>
+	adrp	x2, 0x3000 <_ZNK8ROIsData12GetROIInCropEj+0x17c>
+	adrp	x5, 0x3000 <_ZNK8ROIsData12GetROIInCropEj+0x180>
+	b.lo	0x767c <_ZNK8ROIsData12GetROIInCropEj+0x23c>
+	b.hi	0x767c <_ZNK8ROIsData12GetROIInCropEj+0x23c>
+	cbz	x24, 0x7668 <_ZNK8ROIsData12GetROIInCropEj+0x228>
+	adrp	x22, 0x3000 <_ZNK8ROIsData12GetROIInCropEj+0x1c8>
+	adrp	x2, 0x3000 <_ZNK8ROIsData12GetROIInCropEj+0x1e4>
+	adrp	x5, 0x3000 <_ZNK8ROIsData12GetROIInCropEj+0x1e8>
+	b	0x7694 <_ZNK8ROIsData12GetROIInCropEj+0x254>
+	b.ne	0x74f4 <_ZNK8ROIsData12GetROIInCropEj+0xb4>
+
+	b.lo	0x779c <_ZNK8ROIsData21GetNormalizeROIInCropEj+0xcc>
+	b.hi	0x779c <_ZNK8ROIsData21GetNormalizeROIInCropEj+0xcc>
+	cbz	x24, 0x776c <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x9c>
+	adrp	x22, 0x3000 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x3c>
+	adrp	x2, 0x2000 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x58>
+	adrp	x5, 0x3000 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x60>
+	b.ne	0x7930 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x260>
+	b.lt	0x7804 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x134>
+	b.lt	0x7804 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x134>
+	b.le	0x7804 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x134>
+	b.le	0x7804 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x134>
+	bl	0xbb10 <_ZNK8ROIsData12GetROIInCropEj@plt>
+	b	0x7920 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x250>
+	cbz	x24, 0x7854 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x184>
+	adrp	x22, 0x3000 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x12c>
+	adrp	x2, 0x2000 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x144>
+	adrp	x5, 0x3000 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x14c>
+	b.ls	0x788c <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x1bc>
+	b.ls	0x788c <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x1bc>
+	b.lo	0x7908 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x238>
+	b.ls	0x7894 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x1c4>
+	b	0x7908 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x238>
+	b.ls	0x7900 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x230>
+	cbz	x24, 0x7920 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x250>
+	adrp	x22, 0x3000 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x1bc>
+	adrp	x2, 0x3000 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x1dc>
+	adrp	x5, 0x3000 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x1e0>
+	b.eq	0x7784 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0xb4>
+	b	0x7930 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0x260>
+	b.eq	0x7784 <_ZNK8ROIsData21GetNormalizeROIInCropEj+0xb4>
+
+	bl	0xbb20 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii@plt>
+
+	cbz	x1, 0x7b54 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x1f4>
+	adrp	x20, 0x3000 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x20>
+	cbz	x27, 0x7a5c <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0xfc>
+	adrp	x2, 0x3000 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x5c>
+	adrp	x5, 0x2000 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x5c>
+	cbz	x26, 0x7a5c <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0xfc>
+	adrp	x2, 0x3000 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0xb4>
+	adrp	x5, 0x3000 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0xbc>
+	b.hs	0x7a7c <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x11c>
+	b.hs	0x7bc4 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x264>
+	cbz	w8, 0x7aec <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x18c>
+	b.lo	0x7ab0 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x150>
+	b.ls	0x7de8 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x488>
+	b.ls	0x7de8 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x488>
+	b.ne	0x7ab8 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x158>
+	cbz	x23, 0x7d00 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x3a0>
+	adrp	x2, 0x3000 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x1b4>
+	adrp	x5, 0x3000 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x1b8>
+	b	0x7d00 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x3a0>
+	cbz	x0, 0x7d00 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x3a0>
+	adrp	x20, 0x3000 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x1ec>
+	adrp	x2, 0x3000 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x22c>
+	adrp	x5, 0x2000 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x230>
+	cbz	x26, 0x7c14 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x2b4>
+	adrp	x2, 0x3000 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x274>
+	adrp	x5, 0x3000 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x278>
+	cbz	w24, 0x7d20 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x3c0>
+	b.eq	0x7d20 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x3c0>
+	b.hi	0x7d20 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x3c0>
+	cbz	x27, 0x7c70 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x310>
+	adrp	x2, 0x3000 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x2d8>
+	adrp	x5, 0x3000 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x2dc>
+	cbz	w12, 0x7cdc <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x37c>
+	b.lo	0x7cb4 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x354>
+	b.ls	0x81c0 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x860>
+	b.ls	0x81c0 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x860>
+	b.lo	0x7cbc <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x35c>
+	cbnz	x23, 0x7b08 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x1a8>
+	cbz	w8, 0x7fac <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x64c>
+	cbz	x23, 0x7d74 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x414>
+	adrp	x2, 0x3000 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x3d4>
+	adrp	x5, 0x3000 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x3d8>
+	cbz	w8, 0x7ff0 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x690>
+	b.lo	0x7da8 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x448>
+	b.ls	0x7ff8 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x698>
+	b.ls	0x7ff8 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x698>
+	b.lo	0x7db0 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x450>
+	b	0x7ff0 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x690>
+	b.ne	0x7df8 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x498>
+	cbz	x16, 0x7aec <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x18c>
+	b.eq	0x7f78 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x618>
+	b.ge	0x7aec <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x18c>
+	b	0x7aec <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x18c>
+	cbz	x23, 0x7fec <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x68c>
+	adrp	x2, 0x3000 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x654>
+	adrp	x5, 0x3000 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x658>
+	b	0x7af4 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x194>
+	b.ne	0x8008 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x6a8>
+	cbz	x1, 0x7ff0 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x690>
+	b.eq	0x818c <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x82c>
+	b.ge	0x7ff0 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x690>
+	b	0x7ff0 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x690>
+	b.ne	0x81d8 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x878>
+	cbz	x4, 0x7cdc <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x37c>
+	b.ls	0x83b0 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0xa50>
+	b.ge	0x7cdc <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x37c>
+	b.lt	0x83c8 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0xa68>
+	b	0x7cdc <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0x37c>
+
+	cbz	w8, 0x845c <_ZN8ROIsData13CopyToROIDataEPK26UnstabilizedROIInformationP7ROIData+0x74>
+	b.ls	0x8420 <_ZN8ROIsData13CopyToROIDataEPK26UnstabilizedROIInformationP7ROIData+0x38>
+	b.ls	0x8464 <_ZN8ROIsData13CopyToROIDataEPK26UnstabilizedROIInformationP7ROIData+0x7c>
+	b.ls	0x8464 <_ZN8ROIsData13CopyToROIDataEPK26UnstabilizedROIInformationP7ROIData+0x7c>
+	b.ne	0x8428 <_ZN8ROIsData13CopyToROIDataEPK26UnstabilizedROIInformationP7ROIData+0x40>
+	b.ne	0x8474 <_ZN8ROIsData13CopyToROIDataEPK26UnstabilizedROIInformationP7ROIData+0x8c>
+	cbz	x11, 0x845c <_ZN8ROIsData13CopyToROIDataEPK26UnstabilizedROIInformationP7ROIData+0x74>
+	b.eq	0x85f4 <_ZN8ROIsData13CopyToROIDataEPK26UnstabilizedROIInformationP7ROIData+0x20c>
+	b.ge	0x845c <_ZN8ROIsData13CopyToROIDataEPK26UnstabilizedROIInformationP7ROIData+0x74>
+
+	cbz	x1, 0x8670 <_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE+0x40>
+	cbz	x2, 0x8670 <_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE+0x40>
+	cbz	x20, 0x86b8 <_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE+0x88>
+	adrp	x19, 0x3000 <_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE+0x34>
+	adrp	x2, 0x3000 <_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE+0x50>
+	adrp	x5, 0x3000 <_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE+0x54>
+
+	b.le	0x875c <_ZN8ROIsData18SetImageResolutionEff+0x94>
+	b.le	0x875c <_ZN8ROIsData18SetImageResolutionEff+0x94>
+	cbz	x21, 0x87b8 <_ZN8ROIsData18SetImageResolutionEff+0xf0>
+	adrp	x20, 0x3000 <_ZN8ROIsData18SetImageResolutionEff+0x2c>
+	adrp	x2, 0x3000 <_ZN8ROIsData18SetImageResolutionEff+0x50>
+	adrp	x5, 0x3000 <_ZN8ROIsData18SetImageResolutionEff+0x54>
+	b	0x87bc <_ZN8ROIsData18SetImageResolutionEff+0xf4>
+	cbz	x21, 0x87b0 <_ZN8ROIsData18SetImageResolutionEff+0xe8>
+	adrp	x20, 0x3000 <_ZN8ROIsData18SetImageResolutionEff+0x88>
+	adrp	x2, 0x3000 <_ZN8ROIsData18SetImageResolutionEff+0xac>
+	adrp	x5, 0x3000 <_ZN8ROIsData18SetImageResolutionEff+0xb0>
+	b	0x87bc <_ZN8ROIsData18SetImageResolutionEff+0xf4>
+
+	b.lt	0x8898 <_ZN8ROIsData13SetCropWindowEffff+0xc0>
+	b.lt	0x8898 <_ZN8ROIsData13SetCropWindowEffff+0xc0>
+	b.le	0x8898 <_ZN8ROIsData13SetCropWindowEffff+0xc0>
+	b.le	0x8898 <_ZN8ROIsData13SetCropWindowEffff+0xc0>
+	cbz	x21, 0x88fc <_ZN8ROIsData13SetCropWindowEffff+0x124>
+	adrp	x20, 0x3000 <_ZN8ROIsData13SetCropWindowEffff+0x50>
+	adrp	x2, 0x2000 <_ZN8ROIsData13SetCropWindowEffff+0x70>
+	adrp	x5, 0x2000 <_ZN8ROIsData13SetCropWindowEffff+0x78>
+	b	0x8900 <_ZN8ROIsData13SetCropWindowEffff+0x128>
+	cbz	x21, 0x88f4 <_ZN8ROIsData13SetCropWindowEffff+0x11c>
+	adrp	x20, 0x3000 <_ZN8ROIsData13SetCropWindowEffff+0xb4>
+	adrp	x2, 0x2000 <_ZN8ROIsData13SetCropWindowEffff+0xd4>
+	adrp	x5, 0x3000 <_ZN8ROIsData13SetCropWindowEffff+0xe0>
+	b	0x8900 <_ZN8ROIsData13SetCropWindowEffff+0x128>
+
+
+
+
+
+	b.le	0x8984 <_ZN8ROIsData10SetAECGainEf+0x44>
+	b	0x89d8 <_ZN8ROIsData10SetAECGainEf+0x98>
+	cbz	x21, 0x89d4 <_ZN8ROIsData10SetAECGainEf+0x94>
+	adrp	x20, 0x3000 <_ZN8ROIsData10SetAECGainEf+0x38>
+	adrp	x2, 0x3000 <_ZN8ROIsData10SetAECGainEf+0x58>
+	adrp	x5, 0x3000 <_ZN8ROIsData10SetAECGainEf+0x5c>
+
+	b.lt	0x8a0c <_ZNK8ROIsData19FindROIIndexByROIIDEP7ROIDatajj+0x1c>
+	b.ne	0x8a14 <_ZNK8ROIsData19FindROIIndexByROIIDEP7ROIDatajj+0x24>
+	b.eq	0x8a44 <_ZNK8ROIsData19FindROIIndexByROIIDEP7ROIDatajj+0x54>
+	b.ne	0x8a24 <_ZNK8ROIsData19FindROIIndexByROIIDEP7ROIDatajj+0x34>
+
+
+
+
+	adrp	x8, 0x2000 <_ZN8ROIsData7SetROIsEP7ROIData+0x1c>
+	adrp	x1, 0x3000 <_ZN11ROIPriorityC2Ev>
+	adrp	x9, 0x2000 <_ZN11ROIPriorityC2Ev+0x6c>
+
+
+	b.lo	0x8c1c <_ZNK11ROIPriority8GetScoreEi+0x9c>
+	adrp	x8, 0xd000 <_ZNK11ROIPriority8GetScoreEi+0x34>
+	tbnz	w8, #1, 0x8bc0 <_ZNK11ROIPriority8GetScoreEi+0x40>
+	adrp	x9, 0xd000 <_ZNK11ROIPriority8GetScoreEi+0x48>
+	cbnz	w9, 0x8c24 <_ZNK11ROIPriority8GetScoreEi+0xa4>
+	adrp	x20, 0x3000 <_ZNK11ROIPriority8GetScoreEi+0x2c>
+	adrp	x1, 0x3000 <_ZNK11ROIPriority8GetScoreEi+0x48>
+	adrp	x3, 0x3000 <_ZNK11ROIPriority8GetScoreEi+0x4c>
+	adrp	x4, 0x3000 <_ZNK11ROIPriority8GetScoreEi+0x50>
+	adrp	x6, 0x3000 <_ZNK11ROIPriority8GetScoreEi+0x54>
+	bl	0xb2d0 <_ZdaPv+0x150>
+	b	0x8c24 <_ZNK11ROIPriority8GetScoreEi+0xa4>
+
+
+
+
+	cbz	x1, 0x8d3c <_ZN11ROIPriority13UpdateROIDataEPK26UnstabilizedROIInformation+0xd4>
+	bl	0xbb30 <_ZN11ROIPriority38IsNewDominantFaceOutperformPreviousOneEPK26UnstabilizedROIInformationj@plt>
+	bl	0xbb20 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii@plt>
+	bl	0xbb40 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj@plt>
+	b.ne	0x8d9c <_ZN11ROIPriority13UpdateROIDataEPK26UnstabilizedROIInformation+0x134>
+	cbz	x21, 0x8d88 <_ZN11ROIPriority13UpdateROIDataEPK26UnstabilizedROIInformation+0x120>
+	adrp	x20, 0x3000 <_ZN11ROIPriority13UpdateROIDataEPK26UnstabilizedROIInformation+0xc8>
+	adrp	x2, 0x3000 <_ZN11ROIPriority13UpdateROIDataEPK26UnstabilizedROIInformation+0xe4>
+	adrp	x5, 0x2000 <_ZN11ROIPriority13UpdateROIDataEPK26UnstabilizedROIInformation+0xe4>
+	b.eq	0x8d20 <_ZN11ROIPriority13UpdateROIDataEPK26UnstabilizedROIInformation+0xb8>
+
+	cbz	w2, 0x8f08 <_ZN11ROIPriority38IsNewDominantFaceOutperformPreviousOneEPK26UnstabilizedROIInformationj+0x168>
+	adrp	x26, 0x3000 <_ZN11ROIPriority38IsNewDominantFaceOutperformPreviousOneEPK26UnstabilizedROIInformationj+0x24>
+	cbz	x27, 0x8e50 <_ZN11ROIPriority38IsNewDominantFaceOutperformPreviousOneEPK26UnstabilizedROIInformationj+0xb0>
+	adrp	x2, 0x3000 <_ZN11ROIPriority38IsNewDominantFaceOutperformPreviousOneEPK26UnstabilizedROIInformationj+0x68>
+	adrp	x5, 0x3000 <_ZN11ROIPriority38IsNewDominantFaceOutperformPreviousOneEPK26UnstabilizedROIInformationj+0x6c>
+	adrp	x28, 0x3000 <_ZN11ROIPriority38IsNewDominantFaceOutperformPreviousOneEPK26UnstabilizedROIInformationj+0xa0>
+	adrp	x27, 0x3000 <_ZN11ROIPriority38IsNewDominantFaceOutperformPreviousOneEPK26UnstabilizedROIInformationj+0xa4>
+	bl	0xbb50 <_ZN11ROIPriority16ROIDominantScoreE7ROIData@plt>
+	cbz	x20, 0x8ee8 <_ZN11ROIPriority38IsNewDominantFaceOutperformPreviousOneEPK26UnstabilizedROIInformationj+0x148>
+	b.gt	0x8f10 <_ZN11ROIPriority38IsNewDominantFaceOutperformPreviousOneEPK26UnstabilizedROIInformationj+0x170>
+	b.lo	0x8e70 <_ZN11ROIPriority38IsNewDominantFaceOutperformPreviousOneEPK26UnstabilizedROIInformationj+0xd0>
+	b	0x8f14 <_ZN11ROIPriority38IsNewDominantFaceOutperformPreviousOneEPK26UnstabilizedROIInformationj+0x174>
+	b	0x8f18 <_ZN11ROIPriority38IsNewDominantFaceOutperformPreviousOneEPK26UnstabilizedROIInformationj+0x178>
+	b.ne	0x8f4c <_ZN11ROIPriority38IsNewDominantFaceOutperformPreviousOneEPK26UnstabilizedROIInformationj+0x1ac>
+
+	cbz	w2, 0x8ff4 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0xa4>
+	cbz	x8, 0x9010 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0xc0>
+	b.lt	0x902c <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0xdc>
+	b.ne	0x9034 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0xe4>
+	tbz	w9, #0, 0x906c <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x11c>
+	b	0x90a0 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x150>
+	b	0x9280 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x330>
+	b.ge	0x8fd0 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x80>
+	b	0x90a0 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x150>
+	b.eq	0x90a0 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x150>
+	b.ne	0x9044 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0xf4>
+	tbnz	w9, #0, 0x90a0 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x150>
+	b.eq	0x90a0 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x150>
+	bl	0xbb50 <_ZN11ROIPriority16ROIDominantScoreE7ROIData@plt>
+	cbz	x20, 0x90fc <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x1ac>
+	adrp	x28, 0x3000 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x140>
+	adrp	x2, 0x3000 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x164>
+	adrp	x5, 0x3000 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x168>
+	adrp	x20, 0x3000 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x194>
+	b	0x9138 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x1e8>
+	b.hs	0x91bc <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x26c>
+	bl	0xbb50 <_ZN11ROIPriority16ROIDominantScoreE7ROIData@plt>
+	cbz	x21, 0x911c <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x1cc>
+	adrp	x2, 0x3000 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x214>
+	adrp	x5, 0x3000 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x21c>
+	b	0x911c <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x1cc>
+	b.eq	0x9280 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x330>
+	b.ne	0x9224 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x2d4>
+	cbz	x27, 0x9280 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x330>
+	adrp	x23, 0x3000 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x2c4>
+	adrp	x2, 0x3000 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x2e8>
+	adrp	x5, 0x3000 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x2ec>
+	cbz	x23, 0x92ec <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x39c>
+	adrp	x21, 0x3000 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x334>
+	adrp	x2, 0x3000 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x358>
+	adrp	x5, 0x3000 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x35c>
+	b.ne	0x9324 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj+0x3d4>
+
+
+
+
+
+	cbz	x1, 0x93f0 <_ZN11ROIPriority16GetDominantScoreEPN16statsroipriority25modFaceRoiTriggerDataTypeEf+0x70>
+	cbz	w10, 0x93f0 <_ZN11ROIPriority16GetDominantScoreEPN16statsroipriority25modFaceRoiTriggerDataTypeEf+0x70>
+	b.gt	0x93d0 <_ZN11ROIPriority16GetDominantScoreEPN16statsroipriority25modFaceRoiTriggerDataTypeEf+0x50>
+	b.ne	0x93b0 <_ZN11ROIPriority16GetDominantScoreEPN16statsroipriority25modFaceRoiTriggerDataTypeEf+0x30>
+	cbz	w9, 0x9444 <_ZN11ROIPriority16GetDominantScoreEPN16statsroipriority25modFaceRoiTriggerDataTypeEf+0xc4>
+	b.ne	0x944c <_ZN11ROIPriority16GetDominantScoreEPN16statsroipriority25modFaceRoiTriggerDataTypeEf+0xcc>
+	b	0x9498 <_ZN11ROIPriority16GetDominantScoreEPN16statsroipriority25modFaceRoiTriggerDataTypeEf+0x118>
+	cbz	x21, 0x9498 <_ZN11ROIPriority16GetDominantScoreEPN16statsroipriority25modFaceRoiTriggerDataTypeEf+0x118>
+	adrp	x20, 0x3000 <_ZN11ROIPriority16GetDominantScoreEPN16statsroipriority25modFaceRoiTriggerDataTypeEf+0x64>
+	adrp	x2, 0x3000 <_ZN11ROIPriority16GetDominantScoreEPN16statsroipriority25modFaceRoiTriggerDataTypeEf+0x80>
+	adrp	x5, 0x3000 <_ZN11ROIPriority16GetDominantScoreEPN16statsroipriority25modFaceRoiTriggerDataTypeEf+0x84>
+	b	0x9498 <_ZN11ROIPriority16GetDominantScoreEPN16statsroipriority25modFaceRoiTriggerDataTypeEf+0x118>
+	b	0x9498 <_ZN11ROIPriority16GetDominantScoreEPN16statsroipriority25modFaceRoiTriggerDataTypeEf+0x118>
+	b.eq	0x9498 <_ZN11ROIPriority16GetDominantScoreEPN16statsroipriority25modFaceRoiTriggerDataTypeEf+0x118>
+
+	b.ls	0x9608 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x158>
+	b.ls	0x9608 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x158>
+	b.lt	0x9534 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x84>
+	b.lt	0x9534 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x84>
+	b.le	0x9534 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x84>
+	b.le	0x9534 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x84>
+	adrp	x1, 0x2000 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x54>
+	cbz	w0, 0x989c <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x3ec>
+	cbz	x8, 0x966c <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x1bc>
+	cbz	w13, 0x9674 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x1c4>
+	b.gt	0x95e8 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x138>
+	b.ne	0x95c8 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x118>
+	cbz	w11, 0x96cc <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x21c>
+	b.ne	0x96d4 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x224>
+	b	0x9720 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x270>
+	cbz	x22, 0x987c <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x3cc>
+	adrp	x20, 0x3000 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x14c>
+	adrp	x2, 0x3000 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x170>
+	adrp	x5, 0x3000 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x174>
+	b	0x987c <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x3cc>
+	b	0x9818 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x368>
+	cbz	x21, 0x9720 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x270>
+	adrp	x20, 0x3000 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x1b8>
+	adrp	x2, 0x3000 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x1d4>
+	adrp	x5, 0x3000 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x1d8>
+	b	0x9720 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x270>
+	b	0x9720 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x270>
+	b.eq	0x9720 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x270>
+	cbz	w14, 0x9774 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x2c4>
+	b.gt	0x9754 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x2a4>
+	b.ne	0x9734 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x284>
+	cbz	w12, 0x97c4 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x314>
+	b.ne	0x97cc <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x31c>
+	b	0x9818 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x368>
+	cbz	x20, 0x9818 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x368>
+	adrp	x21, 0x3000 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x2b4>
+	adrp	x2, 0x3000 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x2d0>
+	adrp	x5, 0x3000 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x2d4>
+	b	0x9818 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x368>
+	b	0x9818 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x368>
+	b.eq	0x9818 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x368>
+	cbz	x21, 0x9878 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x3c8>
+	adrp	x20, 0x3000 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x358>
+	adrp	x2, 0x3000 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x384>
+	adrp	x5, 0x3000 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x38c>
+	cbz	x22, 0x957c <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0xcc>
+	adrp	x21, 0x3000 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x480>
+	adrp	x2, 0x3000 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x4a4>
+	adrp	x5, 0x3000 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x4ac>
+	b	0x957c <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0xcc>
+
+	adrp	x8, 0x2000 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x4e8>
+	adrp	x1, 0x3000 <_ZN11ROIPriority16ROIDominantScoreE7ROIData+0x4f4>
+
+	cbz	x1, 0x9af4 <_ZN16ROIStableChecker13UpdateROIDataEPK26UnstabilizedROIInformation+0xb4>
+	bl	0xbb20 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii@plt>
+	bl	0xbb70 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj@plt>
+	b.ne	0x9b54 <_ZN16ROIStableChecker13UpdateROIDataEPK26UnstabilizedROIInformation+0x114>
+	cbz	x22, 0x9b40 <_ZN16ROIStableChecker13UpdateROIDataEPK26UnstabilizedROIInformation+0x100>
+	adrp	x20, 0x3000 <_ZN16ROIStableChecker13UpdateROIDataEPK26UnstabilizedROIInformation+0xa4>
+	adrp	x2, 0x3000 <_ZN16ROIStableChecker13UpdateROIDataEPK26UnstabilizedROIInformation+0xc0>
+	adrp	x5, 0x2000 <_ZN16ROIStableChecker13UpdateROIDataEPK26UnstabilizedROIInformation+0xc0>
+	b.eq	0x9adc <_ZN16ROIStableChecker13UpdateROIDataEPK26UnstabilizedROIInformation+0x9c>
+
+	cbz	x11, 0x9bf0 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x98>
+	cbz	w8, 0x9c54 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0xfc>
+	b.ge	0x9bdc <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x84>
+	b.ne	0x9bbc <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x64>
+	b	0x9ca0 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x148>
+	cbz	x28, 0x9c3c <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0xe4>
+	adrp	x26, 0x3000 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x88>
+	adrp	x2, 0x3000 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0xa4>
+	adrp	x5, 0x3000 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0xa8>
+	b.eq	0x9f68 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x410>
+	cbz	x23, 0x9ca0 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x148>
+	adrp	x21, 0x3000 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0xec>
+	adrp	x2, 0x3000 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x108>
+	adrp	x5, 0x3000 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x10c>
+	cbz	x21, 0x9cf0 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x198>
+	adrp	x28, 0x3000 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x138>
+	adrp	x2, 0x3000 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x154>
+	adrp	x5, 0x3000 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x158>
+	b.lt	0x9f2c <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x3d4>
+	adrp	x26, 0x3000 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x188>
+	b	0x9d28 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x1d0>
+	b.eq	0x9f2c <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x3d4>
+	b.ne	0x9d58 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x200>
+	b.ne	0x9d88 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x230>
+	b	0x9e1c <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x2c4>
+	b.eq	0x9e1c <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x2c4>
+	b.ne	0x9d60 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x208>
+	b.eq	0x9e1c <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x2c4>
+	cbz	w9, 0x9e1c <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x2c4>
+	b.lo	0x9e2c <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x2d4>
+	b.hi	0x9e2c <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x2d4>
+	cbz	x20, 0x9e08 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x2b0>
+	adrp	x22, 0x3000 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x248>
+	adrp	x2, 0x3000 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x264>
+	adrp	x5, 0x3000 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x268>
+	b	0x9e4c <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x2f4>
+	b	0x9ea4 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x34c>
+	bl	0xbb80 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_@plt>
+	b.ne	0x9e98 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x340>
+	b	0x9e9c <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x344>
+	cbz	x20, 0x9d1c <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x1c4>
+	adrp	x2, 0x3000 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x384>
+	adrp	x5, 0x3000 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x388>
+	b	0x9d1c <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0x1c4>
+	b.ne	0x9c50 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj+0xf8>
+
+	cbz	x8, 0x9fd0 <_ZN16ROIStableChecker15IsROIStableByIDEi+0x48>
+	b.lt	0xa064 <_ZN16ROIStableChecker15IsROIStableByIDEi+0xdc>
+	b.ne	0xa024 <_ZN16ROIStableChecker15IsROIStableByIDEi+0x9c>
+	tbz	w9, #0, 0xa050 <_ZN16ROIStableChecker15IsROIStableByIDEi+0xc8>
+	b	0xa064 <_ZN16ROIStableChecker15IsROIStableByIDEi+0xdc>
+	cbz	x21, 0xa0bc <_ZN16ROIStableChecker15IsROIStableByIDEi+0x134>
+	adrp	x20, 0x3000 <_ZN16ROIStableChecker15IsROIStableByIDEi+0x38>
+	adrp	x2, 0x3000 <_ZN16ROIStableChecker15IsROIStableByIDEi+0x54>
+	adrp	x5, 0x3000 <_ZN16ROIStableChecker15IsROIStableByIDEi+0x58>
+	b	0xa0c0 <_ZN16ROIStableChecker15IsROIStableByIDEi+0x138>
+	b.eq	0xa064 <_ZN16ROIStableChecker15IsROIStableByIDEi+0xdc>
+	b.ne	0xa02c <_ZN16ROIStableChecker15IsROIStableByIDEi+0xa4>
+	tbnz	w9, #0, 0xa064 <_ZN16ROIStableChecker15IsROIStableByIDEi+0xdc>
+	b.hs	0xa064 <_ZN16ROIStableChecker15IsROIStableByIDEi+0xdc>
+	b	0xa0c0 <_ZN16ROIStableChecker15IsROIStableByIDEi+0x138>
+	cbz	x22, 0xa0bc <_ZN16ROIStableChecker15IsROIStableByIDEi+0x134>
+	adrp	x21, 0x3000 <_ZN16ROIStableChecker15IsROIStableByIDEi+0xc8>
+	adrp	x2, 0x3000 <_ZN16ROIStableChecker15IsROIStableByIDEi+0xe4>
+	adrp	x5, 0x3000 <_ZN16ROIStableChecker15IsROIStableByIDEi+0xe8>
+	b	0xa0c0 <_ZN16ROIStableChecker15IsROIStableByIDEi+0x138>
+
+
+	cbz	x11, 0xa15c <_ZN16ROIStableChecker15UpdateThresholdEv+0x74>
+	cbz	w8, 0xa15c <_ZN16ROIStableChecker15UpdateThresholdEv+0x74>
+	b.ge	0xa138 <_ZN16ROIStableChecker15UpdateThresholdEv+0x50>
+	b.ne	0xa118 <_ZN16ROIStableChecker15UpdateThresholdEv+0x30>
+	cbz	x21, 0xa1a8 <_ZN16ROIStableChecker15UpdateThresholdEv+0xc0>
+	adrp	x20, 0x3000 <_ZN16ROIStableChecker15UpdateThresholdEv+0x60>
+	adrp	x2, 0x3000 <_ZN16ROIStableChecker15UpdateThresholdEv+0x7c>
+	adrp	x5, 0x3000 <_ZN16ROIStableChecker15UpdateThresholdEv+0x80>
+
+	b.ls	0xa370 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0x1b0>
+	b.ls	0xa370 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0x1b0>
+	cbz	x8, 0xa370 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0x1b0>
+	cbz	x25, 0xa33c <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0x17c>
+	adrp	x21, 0x3000 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0xe0>
+	adrp	x2, 0x3000 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0x10c>
+	adrp	x5, 0x3000 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0x110>
+	b.pl	0xa368 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0x1a8>
+	b.mi	0xa3d8 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0x218>
+	b	0xa3dc <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0x21c>
+	cbz	x21, 0xa3d8 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0x218>
+	adrp	x20, 0x3000 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0x19c>
+	adrp	x2, 0x3000 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0x1c0>
+	adrp	x5, 0x3000 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0x1c8>
+	b	0xa3dc <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0x21c>
+
+	adrp	x1, 0x3000 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_+0x238>
+	adrp	x8, 0x2000 <_ZN16ROIChangeCheckerC2Ev+0x38>
+
+	cbz	x1, 0xa578 <_ZN16ROIChangeChecker13UpdateROIDataEPK26UnstabilizedROIInformation+0xa8>
+	bl	0xbb20 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii@plt>
+	bl	0xbb90 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj@plt>
+	b.ne	0xa58c <_ZN16ROIChangeChecker13UpdateROIDataEPK26UnstabilizedROIInformation+0xbc>
+	b.eq	0xa564 <_ZN16ROIChangeChecker13UpdateROIDataEPK26UnstabilizedROIInformation+0x94>
+
+	cbz	x13, 0xa628 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x98>
+	cbz	w8, 0xa68c <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0xfc>
+	b.ge	0xa614 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x84>
+	b.ne	0xa5f4 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x64>
+	b	0xa6d8 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x148>
+	cbz	x26, 0xa674 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0xe4>
+	adrp	x21, 0x3000 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x84>
+	adrp	x2, 0x3000 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0xa0>
+	adrp	x5, 0x3000 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0xa4>
+	b.eq	0xa958 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x3c8>
+	cbz	x21, 0xa6d8 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x148>
+	adrp	x27, 0x3000 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0xe8>
+	adrp	x2, 0x3000 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x104>
+	adrp	x5, 0x3000 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x108>
+	cbz	x24, 0xa728 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x198>
+	adrp	x25, 0x3000 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x134>
+	adrp	x2, 0x3000 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x150>
+	adrp	x5, 0x3000 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x154>
+	b.lt	0xa91c <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x38c>
+	adrp	x20, 0x3000 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x184>
+	b	0xa76c <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x1dc>
+	b.eq	0xa91c <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x38c>
+	b.ne	0xa79c <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x20c>
+	b.ne	0xa7cc <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x23c>
+	b	0xa820 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x290>
+	b.eq	0xa820 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x290>
+	b.ne	0xa7a4 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x214>
+	b.eq	0xa820 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x290>
+	cbz	w9, 0xa820 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x290>
+	b.eq	0xa834 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x2a4>
+	b.eq	0xa88c <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x2fc>
+	b.ne	0xa7f4 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x264>
+	b.ne	0xa844 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x2b4>
+	b	0xa88c <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x2fc>
+	b.ne	0xa7ec <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x25c>
+	b.eq	0xa88c <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x2fc>
+	cbz	w10, 0xa88c <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x2fc>
+	bl	0xbba0 <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_@plt>
+	b	0xa890 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x300>
+	cbz	x27, 0xa760 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x1d0>
+	adrp	x2, 0x3000 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x338>
+	adrp	x5, 0x3000 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x33c>
+	b	0xa760 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0x1d0>
+	b.ne	0xa688 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj+0xf8>
+
+	cbz	x8, 0xa9c8 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0x50>
+	b.lt	0xaa50 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0xd8>
+	b.ne	0xaa18 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0xa0>
+	b	0xaabc <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0x144>
+	cbz	x21, 0xaab8 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0x140>
+	adrp	x20, 0x3000 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0x3c>
+	adrp	x2, 0x3000 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0x58>
+	adrp	x5, 0x3000 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0x5c>
+	b	0xaab8 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0x140>
+	b.eq	0xaa60 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0xe8>
+	b.ne	0xaa24 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0xac>
+	b.hs	0xaa50 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0xd8>
+	b.lo	0xa9bc <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0x44>
+	b	0xaa64 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0xec>
+	cbnz	x23, 0xaa6c <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0xf4>
+	b	0xaab8 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0x140>
+	cbz	x23, 0xaab8 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0x140>
+	adrp	x21, 0x3000 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0xd8>
+	adrp	x2, 0x3000 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0xf4>
+	adrp	x5, 0x3000 <_ZN16ROIChangeChecker15IsROIChangeByIDEi+0xf8>
+
+
+
+	cbz	x11, 0xab84 <_ZN16ROIChangeChecker15UpdateThresholdEv+0x74>
+	cbz	w8, 0xab84 <_ZN16ROIChangeChecker15UpdateThresholdEv+0x74>
+	b.ge	0xab60 <_ZN16ROIChangeChecker15UpdateThresholdEv+0x50>
+	b.ne	0xab40 <_ZN16ROIChangeChecker15UpdateThresholdEv+0x30>
+	cbz	x21, 0xabd0 <_ZN16ROIChangeChecker15UpdateThresholdEv+0xc0>
+	adrp	x20, 0x3000 <_ZN16ROIChangeChecker15UpdateThresholdEv+0x60>
+	adrp	x2, 0x3000 <_ZN16ROIChangeChecker15UpdateThresholdEv+0x7c>
+	adrp	x5, 0x3000 <_ZN16ROIChangeChecker15UpdateThresholdEv+0x80>
+
+	b.ls	0xad98 <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_+0x1b0>
+	b.ls	0xad98 <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_+0x1b0>
+	cbz	x8, 0xad98 <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_+0x1b0>
+	cbz	x25, 0xad64 <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_+0x17c>
+	adrp	x21, 0x3000 <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_+0xe0>
+	adrp	x2, 0x3000 <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_+0x10c>
+	adrp	x5, 0x2000 <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_+0x10c>
+	b.gt	0xad90 <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_+0x1a8>
+	b.le	0xadf8 <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_+0x210>
+	b	0xadfc <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_+0x214>
+	cbz	x21, 0xadf8 <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_+0x210>
+	adrp	x20, 0x3000 <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_+0x19c>
+	adrp	x2, 0x3000 <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_+0x1c0>
+	adrp	x5, 0x3000 <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_+0x1c8>
+
+	b.ne	0xaeac <_Z26StatsConvergenceKPIMeasureiP23StatsConvergenceKPITypePKc+0x8c>
+	cbnz	w8, 0xae64 <_Z26StatsConvergenceKPIMeasureiP23StatsConvergenceKPITypePKc+0x44>
+	b	0xaeb4 <_Z26StatsConvergenceKPIMeasureiP23StatsConvergenceKPITypePKc+0x94>
+	cbz	w12, 0xaedc <_Z26StatsConvergenceKPIMeasureiP23StatsConvergenceKPITypePKc+0xbc>
+	b.ne	0xafa8 <_Z26StatsConvergenceKPIMeasureiP23StatsConvergenceKPITypePKc+0x188>
+	adrp	x8, 0xd000 <_Z26StatsConvergenceKPIMeasureiP23StatsConvergenceKPITypePKc+0xfc>
+	adrp	x21, 0x3000 <_Z26StatsConvergenceKPIMeasureiP23StatsConvergenceKPITypePKc+0xd8>
+	adrp	x2, 0x3000 <_Z26StatsConvergenceKPIMeasureiP23StatsConvergenceKPITypePKc+0x124>
+	adrp	x5, 0x2000 <_Z26StatsConvergenceKPIMeasureiP23StatsConvergenceKPITypePKc+0x124>
+	b.eq	0xaec4 <_Z26StatsConvergenceKPIMeasureiP23StatsConvergenceKPITypePKc+0xa4>
+
+	b.ne	0xb02c <_Z15q3a_get_time_msv+0x7c>
+
+	adrp	x8, 0x2000 <_Z15q3a_get_time_msv+0x5c>
+
+	cbz	x0, 0xb090 <_Znwm+0x40>
+	cbz	w0, 0xb0bc <_Znwm+0x6c>
+	b.ne	0xb0d8 <_Znwm+0x88>
+	cbz	x20, 0xb094 <_Znwm+0x44>
+	b	0xb094 <_Znwm+0x44>
+
+	cbz	x0, 0xb120 <_Znam+0x40>
+	cbz	w0, 0xb14c <_Znam+0x6c>
+	b.ne	0xb168 <_Znam+0x88>
+	cbz	x20, 0xb124 <_Znam+0x44>
+	b	0xb124 <_Znam+0x44>
+
+	cbz	x0, 0xb178 <_ZdlPv+0x8>
+
+	cbz	x0, 0xb188 <_ZdaPv+0x8>
+	b.ne	0xb22c <_ZdaPv+0xac>
+	b.ne	0xb2c8 <_ZdaPv+0x148>
+	adrp	x28, 0xd000 <_ZdaPv+0x17c>
+	adrp	x23, 0xd000 <_ZdaPv+0x184>
+	cbnz	w12, 0xb400 <_ZdaPv+0x280>
+	adrp	x24, 0xd000 <_ZdaPv+0x1c8>
+	cbnz	x0, 0xb35c <_ZdaPv+0x1dc>
+	bl	0xb658 <_ZdaPv+0x4d8>
+	cbz	x0, 0xb400 <_ZdaPv+0x280>
+	bl	0xbbe0 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt>
+	b.ne	0xb400 <_ZdaPv+0x280>
+	cbz	x0, 0xb3b4 <_ZdaPv+0x234>
+	b	0xb3b8 <_ZdaPv+0x238>
+	b.eq	0xb620 <_ZdaPv+0x4a0>
+	b.eq	0xb420 <_ZdaPv+0x2a0>
+	b.eq	0xb420 <_ZdaPv+0x2a0>
+	cbz	x9, 0xb620 <_ZdaPv+0x4a0>
+	b.ne	0xb4b0 <_ZdaPv+0x330>
+	b.hi	0xb49c <_ZdaPv+0x31c>
+	adrp	x11, 0x3000 <_ZdaPv+0x2ec>
+	b	0xb4a0 <_ZdaPv+0x320>
+	adrp	x1, 0x3000 <_ZdaPv+0x300>
+	b.ne	0xb5a4 <_ZdaPv+0x424>
+	adrp	x23, 0xd000 <_ZdaPv+0x354>
+	cbnz	x21, 0xb4e8 <_ZdaPv+0x368>
+	bl	0xb658 <_ZdaPv+0x4d8>
+	cbz	x0, 0xb5a4 <_ZdaPv+0x424>
+	bl	0xbc10 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt>
+	cbz	w0, 0xb5a4 <_ZdaPv+0x424>
+	cbz	x0, 0xb57c <_ZdaPv+0x3fc>
+	adrp	x2, 0x3000 <_ZdaPv+0x394>
+	bl	0xb230 <_ZdaPv+0xb0>
+	b	0xb594 <_ZdaPv+0x414>
+	adrp	x2, 0x3000 <_ZdaPv+0x3dc>
+	bl	0xb230 <_ZdaPv+0xb0>
+	bl	0xbc60 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt>
+	cbz	x15, 0xb620 <_ZdaPv+0x4a0>
+	cbz	w0, 0xb5dc <_ZdaPv+0x45c>
+	b	0xb608 <_ZdaPv+0x488>
+	cbz	x0, 0xb5c0 <_ZdaPv+0x440>
+	adrp	x1, 0x3000 <_ZdaPv+0x46c>
+	bl	0xb190 <_ZdaPv+0x10>
+	b.ne	0xb650 <_ZdaPv+0x4d0>
+	adrp	x26, 0xc000 <_ZdaPv+0x4fc>
+	adrp	x25, 0xc000 <_ZdaPv+0x508>
+	cbnz	w8, 0xb8d4 <_ZdaPv+0x754>
+	adrp	x0, 0xc000 <_ZdaPv+0x520>
+	bl	0xbc70 <_ZNSt3__15mutex4lockEv@plt>
+	cbnz	w9, 0xb8c8 <_ZdaPv+0x748>
+	adrp	x12, 0xc000 <_ZdaPv+0x534>
+	cbz	w0, 0xb6e0 <_ZdaPv+0x560>
+	b	0xb6f8 <_ZdaPv+0x578>
+	cbz	x19, 0xb6f8 <_ZdaPv+0x578>
+	bl	0xbc80 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>
+	b.hs	0xb724 <_ZdaPv+0x5a4>
+	b	0xb7c0 <_ZdaPv+0x640>
+	cbnz	x11, 0xb948 <_ZdaPv+0x7c8>
+	cbz	x28, 0xb784 <_ZdaPv+0x604>
+	cbnz	x17, 0xb960 <_ZdaPv+0x7e0>
+	cbz	w0, 0xb90c <_ZdaPv+0x78c>
+	b.lt	0xb7ac <_ZdaPv+0x62c>
+	cbz	x0, 0xb7c0 <_ZdaPv+0x640>
+	cbz	w0, 0xb7e0 <_ZdaPv+0x660>
+	b	0xb7f8 <_ZdaPv+0x678>
+	cbz	x19, 0xb7f8 <_ZdaPv+0x678>
+	bl	0xbc80 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>
+	b.hs	0xb824 <_ZdaPv+0x6a4>
+	b	0xb8c0 <_ZdaPv+0x740>
+	cbnz	x1, 0xb954 <_ZdaPv+0x7d4>
+	cbz	x28, 0xb884 <_ZdaPv+0x704>
+	cbnz	x22, 0xb964 <_ZdaPv+0x7e4>
+	cbz	w0, 0xb928 <_ZdaPv+0x7a8>
+	b.lt	0xb8ac <_ZdaPv+0x72c>
+	cbz	x0, 0xb8c0 <_ZdaPv+0x740>
+	adrp	x0, 0xc000 <_ZdaPv+0x74c>
+	bl	0xbc90 <_ZNSt3__15mutex6unlockEv@plt>
+	b.ne	0xb944 <_ZdaPv+0x7c4>
+	cbz	x22, 0xb788 <_ZdaPv+0x608>
+	b	0xb788 <_ZdaPv+0x608>
+	cbz	x22, 0xb888 <_ZdaPv+0x708>
+	b	0xb888 <_ZdaPv+0x708>
+	adrp	x0, 0xc000 <_ZdaPv+0x7cc>
+	bl	0xbca0 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+	adrp	x0, 0xc000 <_ZdaPv+0x7d8>
+	bl	0xbca0 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+	bl	0xb9a0 <_ZdaPv+0x820>
+	bl	0xb9a0 <_ZdaPv+0x820>
+	b	0xb96c <_ZdaPv+0x7ec>
+	cbz	x19, 0xb988 <_ZdaPv+0x808>
+	b	0xb988 <_ZdaPv+0x808>
+	b	0xb984 <_ZdaPv+0x804>
+	adrp	x0, 0xc000 <_ZdaPv+0x80c>
+	bl	0xbc90 <_ZNSt3__15mutex6unlockEv@plt>
+	bl	0xb9e8 <_ZdaPv+0x868>
+	adrp	x1, 0xc000 <_ZdaPv+0x840>
+	adrp	x2, 0xc000 <_ZdaPv+0x844>
+	adrp	x1, 0x3000 <_ZdaPv+0x854>
+	bl	0xbcf0 <_ZNSt11logic_errorC2EPKc@plt>
+	adrp	x8, 0xc000 <_ZdaPv+0x888>
+
+	adrp	x16, 0xc000 <_Z31af_value_monitor_interp_profilePN17afmonitorelements24chromatixSensProfileTypeEP21af_vm_intern_config_ti@plt+0x4>
+
+	adrp	x16, 0xc000 <_ZNK8ROIsData12GetROIInCropEj@plt+0x4>
+
+	adrp	x16, 0xc000 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii@plt+0x4>
+
+	adrp	x16, 0xc000 <_ZN11ROIPriority38IsNewDominantFaceOutperformPreviousOneEPK26UnstabilizedROIInformationj@plt+0x4>
+
+	adrp	x16, 0xc000 <_ZN11ROIPriority20DominantROISelectionEP7ROIDataj@plt+0x4>
+
+	adrp	x16, 0xc000 <_ZN11ROIPriority16ROIDominantScoreE7ROIData@plt+0x4>
+
+	adrp	x16, 0xc000 <_ZN16ROIStableChecker15UpdateROIStableEP7ROIDataj@plt+0x4>
+
+	adrp	x16, 0xc000 <_ZN16ROIStableChecker14ROIStableCheckE7ROIDataS0_@plt+0x4>
+
+	adrp	x16, 0xc000 <_ZN16ROIChangeChecker15UpdateROIChangeEP7ROIDataj@plt+0x4>
+
+	adrp	x16, 0xc000 <_ZN16ROIChangeChecker14ROIChangeCheckE7ROIDataS0_@plt+0x4>
+
+	adrp	x16, 0xc000 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt+0x4>
+
+	adrp	x16, 0xc000 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt+0x4>
+
+	adrp	x16, 0xc000 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt+0x4>
+
+	adrp	x16, 0xc000 <_ZNSt3__15mutex4lockEv@plt+0x4>
+
+	adrp	x16, 0xc000 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt+0x4>
+
+	adrp	x16, 0xc000 <_ZNSt3__15mutex6unlockEv@plt+0x4>
+
+	adrp	x16, 0xc000 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt+0x4>
+
+	adrp	x16, 0xc000 <_ZNSt11logic_errorC2EPKc@plt+0x4>
+
+
+
+ 	tbz	x27, #43, 0x70f0 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum+0x110>
+ 	tbz	w16, #16, 0x83b8 <_ZN8ROIsData16ConvertToROIDataEPK26UnstabilizedROIInformationP7ROIDatajii+0xa58>
+ 	tbz	x17, #58, 0x72a4 <_ZNK8ROIsData6GetROIEj+0x54>

@@ -1,4 +1,20 @@
 
+	adrp	x9, 0x2000 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z+0x24>
+	b.ne	0x120c <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z+0x1f4>
+	adrp	x23, 0x3000 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z+0x5c>
+	cbz	x9, 0x120c <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z+0x1f4>
+	cbz	x10, 0x120c <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z+0x1f4>
+	cbz	x0, 0x115c <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z+0x144>
+	adrp	x3, 0x0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z+0xe0>
+	adrp	x23, 0x3000 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z+0x130>
+	bl	0x1240 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z+0x228>
+	b	0x1160 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z+0x148>
+	adrp	x3, 0x0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z+0x160>
+	bl	0x1240 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z+0x228>
+	b.ne	0x123c <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z+0x224>
+	b.ne	0x12e4 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z+0x2cc>
 
+	adrp	x8, 0x3000 <_ZN6ChiLog19SetOfflineLoggerOpsEP16ChiOfflineLogOps+0x8>
 
+	b.ne	0x13b4 <_ZN6ChiLog7DPrintFEiPKcz+0x9c>
 

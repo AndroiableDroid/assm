@@ -1,22 +1,40 @@
-	ldr	d18, 0x6840 <_ZTSSt9exception+0x33>
 
 
 
+<_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt>
+<_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt>
+<_ZN4CamX13OfflineLogger6AddLogEPKcj@plt>
+<_ZdaPv+0x10>
 <_ZNSt3__15mutex4lockEv@plt>
 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>
 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>
 <_ZNSt3__15mutex6unlockEv@plt>
 <_ZNSt3__15mutex6unlockEv@plt>
 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
-<_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt>
-<_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt>
-<_ZN4CamX13OfflineLogger6AddLogEPKcj@plt>
+<_ZNSt11logic_errorC2EPKc@plt>
 
+0x12cb0 <_Znwm+0x40>
+0x12cdc <_Znwm+0x6c>
+<_Znwm+0x88>
+0x12cb4 <_Znwm+0x44>
+<_Znwm+0x44>
 
+0x12d40 <_Znam+0x40>
+0x12d6c <_Znam+0x6c>
+<_Znam+0x88>
+0x12d44 <_Znam+0x44>
+<_Znam+0x44>
 
+0x12d98 <_ZdlPv+0x8>
 
+0x12da8 <_ZdaPv+0x8>
+<_ZdaPv+0xac>
 
+0x16000 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt+0xc>
 
+0x16000 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt+0xc>
+
+0x16000 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt+0xc>
 
 0x16000 <_ZNSt3__15mutex4lockEv@plt+0xc>
 
@@ -26,11 +44,7 @@
 
 0x16000 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt+0xc>
 
-0x16000 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt+0xc>
-
-0x16000 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt+0xc>
-
-0x16000 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt+0xc>
+0x16000 <_ZNSt11logic_errorC2EPKc@plt+0xc>
 
 
 
