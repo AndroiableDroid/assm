@@ -1,82 +1,89 @@
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	b	0x46f0 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x4700 <_Znwm@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x4730 <_ZN12ChiNodeUtils14LibMapFullNameEPKc@plt>
-	bl	0x4740 <_ZN12ChiNodeUtils10LibGetAddrEPvPKc@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x4750 <_ZN12ChiNodeUtils8LibUnmapEPv@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x4770 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x4780 <_ZN12ChiNodeUtils11GetMetaDataEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x4780 <_ZN12ChiNodeUtils11GetMetaDataEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x4780 <_ZN12ChiNodeUtils11GetMetaDataEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	b	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	b	0x4790 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x46e0 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
-	bl	0x47a0 <_ZN12ChiNodeUtils9VSNPrintFEPcmPKcSt9__va_list@plt>
-	bl	0x4750 <_ZN12ChiNodeUtils8LibUnmapEPv@plt>
-	bl	0x4750 <_ZN12ChiNodeUtils8LibUnmapEPv@plt>
-	b	0x47b0 <_ZdlPv@plt>
+	ldr	q0, 0x8de8 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj@plt+0x858>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	b	0x8490 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo@plt>
+	bl	0x84a0 <_Znwm@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x84e0 <_ZN12ChiNodeUtils8SNPrintFEPcmPKcz@plt>
+	bl	0x84f0 <_ZN12ChiNodeUtils14LibMapFullNameEPKc@plt>
+	bl	0x8500 <_ZN12ChiNodeUtils10LibGetAddrEPvPKc@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8510 <_ZN12ChiNodeUtils8LibUnmapEPv@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8530 <_ZN12ChiNodeUtils9VSNPrintFEPcmPKcSt9__va_list@plt>
+	bl	0x8510 <_ZN12ChiNodeUtils8LibUnmapEPv@plt>
+	b	0x8540 <_ZdlPv@plt>
+	bl	0x8510 <_ZN12ChiNodeUtils8LibUnmapEPv@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8550 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8560 <_ZN12ChiNodeUtils11GetMetaDataEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8560 <_ZN12ChiNodeUtils11GetMetaDataEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8560 <_ZN12ChiNodeUtils11GetMetaDataEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	b	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	b	0x8590 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
+	bl	0x8480 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt>
 
-	adrp	x16, 0x5000 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt+0x4>
 
-	adrp	x16, 0x5000 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo@plt+0x4>
 
-	adrp	x16, 0x5000 <_Znwm@plt+0x4>
 
-	adrp	x16, 0x5000 <_ZN12ChiNodeUtils14LibMapFullNameEPKc@plt+0x4>
+	adrp	x16, 0x9000 <_ZN6ChiLog9LogSystemEPKcS1_S1_S1_iS1_z@plt+0x4>
 
-	adrp	x16, 0x5000 <_ZN12ChiNodeUtils10LibGetAddrEPvPKc@plt+0x4>
+	adrp	x16, 0x9000 <_ZN12ChiNodeUtils14QueryVendorTagEP17ChiQueryVendorTagP16ChiVendorTagInfo@plt+0x4>
 
-	adrp	x16, 0x5000 <_ZN12ChiNodeUtils8LibUnmapEPv@plt+0x4>
+	adrp	x16, 0x9000 <_Znwm@plt+0x4>
 
-	adrp	x16, 0x5000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo@plt+0x4>
+	adrp	x16, 0x9000 <_ZN12ChiNodeUtils8SNPrintFEPcmPKcz@plt+0x4>
 
-	adrp	x16, 0x5000 <_ZN12ChiNodeUtils11GetMetaDataEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt+0x4>
+	adrp	x16, 0x9000 <_ZN12ChiNodeUtils14LibMapFullNameEPKc@plt+0x4>
 
-	adrp	x16, 0x5000 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj@plt+0x4>
+	adrp	x16, 0x9000 <_ZN12ChiNodeUtils10LibGetAddrEPvPKc@plt+0x4>
 
-	adrp	x16, 0x5000 <_ZN12ChiNodeUtils9VSNPrintFEPcmPKcSt9__va_list@plt+0x4>
+	adrp	x16, 0x9000 <_ZN12ChiNodeUtils8LibUnmapEPv@plt+0x4>
 
-	adrp	x16, 0x5000 <_ZdlPv@plt+0x4>
+	adrp	x16, 0x9000 <_ZN12ChiNodeUtils9VSNPrintFEPcmPKcSt9__va_list@plt+0x4>
+
+	adrp	x16, 0x9000 <_ZdlPv@plt+0x4>
+
+	adrp	x16, 0x9000 <_ZN12ChiNodeUtils24DefaultBufferNegotiationEP22ChiNodeQueryBufferInfo@plt+0x4>
+
+	adrp	x16, 0x9000 <_ZN12ChiNodeUtils11GetMetaDataEmj15ChiMetadataTypeP16ChiNodeInterfacePvj@plt+0x4>
+
+	adrp	x16, 0x9000 <_ZN12ChiNodeUtils16SetNodeInterfaceEP16ChiNodeInterfacePKcS1_Pj@plt+0x4>

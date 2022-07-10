@@ -1,214 +1,48 @@
 
 
 
-	tbz	wzr, #0, 0x736c <_ZdaPv+0xb8c>
-	bl	0x7500 <_ZN4SCVE13ObjectTracker14deleteInstanceEPS0_@plt>
-	bl	0x7510 <_ZN4SCVE7Context14deleteInstanceEPS0_@plt>
-	bl	0x6a08 <_ZdaPv+0x228>
-	bl	0x7350 <_ZdaPv+0xb70>
-	bl	0x7180 <_ZdaPv+0x9a0>
-	bl	0x7350 <_ZdaPv+0xb70>
-	bl	0x7520 <_ZN4SCVE7Context11newInstanceENS_13OperationModeE@plt>
-	bl	0x7530 <_ZN4SCVE13ObjectTracker11newInstanceEPNS_7ContextENS_15_ImageDimensionENS_11ColorFormatEPFviPNS_19ObjectTrackerResultEjPvS7_EPFvijS7_S7_ENS_23ObjectTracker_PrecisionES7_@plt>
-	bl	0x7510 <_ZN4SCVE7Context14deleteInstanceEPS0_@plt>
-	bl	0x6a08 <_ZdaPv+0x228>
-	b	0x6a08 <_ZdaPv+0x228>
-	bl	0x6890 <_ZdaPv+0xb0>
-
-	cbz	x0, 0x66f0 <_Znwm+0x40>
-	cbz	w0, 0x671c <_Znwm+0x6c>
-	b.ne	0x6738 <_Znwm+0x88>
-	cbz	x20, 0x66f4 <_Znwm+0x44>
-	b	0x66f4 <_Znwm+0x44>
-
-	cbz	x0, 0x6780 <_Znam+0x40>
-	cbz	w0, 0x67ac <_Znam+0x6c>
-	b.ne	0x67c8 <_Znam+0x88>
-	cbz	x20, 0x6784 <_Znam+0x44>
-	b	0x6784 <_Znam+0x44>
-
-	cbz	x0, 0x67d8 <_ZdlPv+0x8>
-
-	cbz	x0, 0x67e8 <_ZdaPv+0x8>
-	b.ne	0x688c <_ZdaPv+0xac>
-	cbz	w0, 0x693c <_ZdaPv+0x15c>
-	b.eq	0x69cc <_ZdaPv+0x1ec>
-	b	0x6a04 <_ZdaPv+0x224>
-	cbz	x19, 0x68cc <_ZdaPv+0xec>
-	cbnz	w0, 0x69b0 <_ZdaPv+0x1d0>
-	cbnz	w0, 0x69a8 <_ZdaPv+0x1c8>
-	cbz	w0, 0x69e4 <_ZdaPv+0x204>
-	b.ne	0x6a04 <_ZdaPv+0x224>
-	b.eq	0x69cc <_ZdaPv+0x1ec>
-	adrp	x28, 0x9000 <_ZdaPv+0x258>
-	adrp	x23, 0x9000 <_ZdaPv+0x260>
-	cbnz	w12, 0x6b40 <_ZdaPv+0x360>
-	adrp	x24, 0x9000 <_ZdaPv+0x2a4>
-	cbnz	x0, 0x6a94 <_ZdaPv+0x2b4>
-	bl	0x6da0 <_ZdaPv+0x5c0>
-	cbz	x0, 0x6b40 <_ZdaPv+0x360>
-	bl	0x75c0 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt>
-	b.ne	0x6b40 <_ZdaPv+0x360>
-	cbz	x0, 0x6aec <_ZdaPv+0x30c>
-	b	0x6af0 <_ZdaPv+0x310>
-	b.hs	0x6d94 <_ZdaPv+0x5b4>
-	b.eq	0x6d60 <_ZdaPv+0x580>
-	b.eq	0x6b60 <_ZdaPv+0x380>
-	b.eq	0x6b60 <_ZdaPv+0x380>
-	cbz	x13, 0x6d60 <_ZdaPv+0x580>
-	b.ne	0x6bf0 <_ZdaPv+0x410>
-	b.hi	0x6bdc <_ZdaPv+0x3fc>
-	adrp	x11, 0x3000 <_ZdaPv+0x3e0>
-	b	0x6be0 <_ZdaPv+0x400>
-	adrp	x1, 0x2000 <_ZdaPv+0x3f0>
-	b.ne	0x6ce4 <_ZdaPv+0x504>
-	adrp	x23, 0x9000 <_ZdaPv+0x438>
-	cbnz	x21, 0x6c28 <_ZdaPv+0x448>
-	bl	0x6da0 <_ZdaPv+0x5c0>
-	cbz	x0, 0x6ce4 <_ZdaPv+0x504>
-	bl	0x75f0 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt>
-	cbz	w0, 0x6ce4 <_ZdaPv+0x504>
-	cbz	x0, 0x6cbc <_ZdaPv+0x4dc>
-	b.vs	0x6d98 <_ZdaPv+0x5b8>
-	adrp	x2, 0x3000 <_ZdaPv+0x48c>
-	b	0x6cd4 <_ZdaPv+0x4f4>
-	adrp	x2, 0x3000 <_ZdaPv+0x4d0>
-	bl	0x7640 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt>
-	cbz	x15, 0x6d60 <_ZdaPv+0x580>
-	cbz	w0, 0x6d1c <_ZdaPv+0x53c>
-	b	0x6d48 <_ZdaPv+0x568>
-	cbz	x0, 0x6d00 <_ZdaPv+0x520>
-	adrp	x1, 0x3000 <_ZdaPv+0x560>
-	bl	0x67f0 <_ZdaPv+0x10>
-	b.ne	0x6d90 <_ZdaPv+0x5b0>
-	adrp	x22, 0x8000 <_ZdaPv+0x5dc>
-	adrp	x21, 0x8000 <_ZdaPv+0x5e8>
-	cbnz	w8, 0x6ef0 <_ZdaPv+0x710>
-	adrp	x0, 0x8000 <_ZdaPv+0x600>
-	bl	0x7660 <_ZNSt3__15mutex4lockEv@plt>
-	cbnz	w9, 0x6ee4 <_ZdaPv+0x704>
-	adrp	x10, 0x8000 <_ZdaPv+0x614>
-	cbz	w0, 0x6e1c <_ZdaPv+0x63c>
-	b	0x6e34 <_ZdaPv+0x654>
-	cbz	x19, 0x6e34 <_ZdaPv+0x654>
-	bl	0x7670 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>
-	b.hs	0x6e64 <_ZdaPv+0x684>
-	b	0x6e6c <_ZdaPv+0x68c>
-	bl	0x6f68 <_ZdaPv+0x788>
-	cbz	w0, 0x6e8c <_ZdaPv+0x6ac>
-	b	0x6ea4 <_ZdaPv+0x6c4>
-	cbz	x19, 0x6ea4 <_ZdaPv+0x6c4>
-	bl	0x7670 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>
-	b.hs	0x6ed4 <_ZdaPv+0x6f4>
-	b	0x6edc <_ZdaPv+0x6fc>
-	bl	0x6f68 <_ZdaPv+0x788>
-	adrp	x0, 0x8000 <_ZdaPv+0x70c>
-	bl	0x7680 <_ZNSt3__15mutex6unlockEv@plt>
-	b.ne	0x6f1c <_ZdaPv+0x73c>
-	cbz	x12, 0x6f54 <_ZdaPv+0x774>
-	b	0x6f44 <_ZdaPv+0x764>
-	cbz	x11, 0x6f54 <_ZdaPv+0x774>
-	b	0x6f54 <_ZdaPv+0x774>
-	b	0x6f50 <_ZdaPv+0x770>
-	adrp	x0, 0x8000 <_ZdaPv+0x77c>
-	bl	0x7680 <_ZNSt3__15mutex6unlockEv@plt>
-	adrp	x24, 0x8000 <_ZdaPv+0x7b0>
-	b.hs	0x70ec <_ZdaPv+0x90c>
-	cbnz	x12, 0x70f0 <_ZdaPv+0x910>
-	cbz	x26, 0x7010 <_ZdaPv+0x830>
-	cbnz	x3, 0x70fc <_ZdaPv+0x91c>
-	cbz	w0, 0x701c <_ZdaPv+0x83c>
-	b	0x7034 <_ZdaPv+0x854>
-	b	0x7034 <_ZdaPv+0x854>
-	cbz	x21, 0x7034 <_ZdaPv+0x854>
-	tbnz	x27, #63, 0x70e4 <_ZdaPv+0x904>
-	b.lo	0x70e4 <_ZdaPv+0x904>
-	b.lo	0x70e4 <_ZdaPv+0x904>
-	b.lt	0x7074 <_ZdaPv+0x894>
-	b.ne	0x70e8 <_ZdaPv+0x908>
-	cbz	x0, 0x70d0 <_ZdaPv+0x8f0>
-	cbnz	x19, 0x70e8 <_ZdaPv+0x908>
-	b.ne	0x70e0 <_ZdaPv+0x900>
-	b.eq	0x70b0 <_ZdaPv+0x8d0>
-	adrp	x0, 0x8000 <_ZdaPv+0x914>
-	bl	0x76b0 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
-	bl	0x7100 <_ZdaPv+0x920>
-	bl	0x7148 <_ZdaPv+0x968>
-	adrp	x1, 0x8000 <_ZdaPv+0x940>
-	adrp	x2, 0x8000 <_ZdaPv+0x944>
-	adrp	x1, 0x2000 <_ZdaPv+0x960>
-	bl	0x76f0 <_ZNSt11logic_errorC2EPKc@plt>
-	adrp	x8, 0x8000 <_ZdaPv+0x988>
-	cbnz	x0, 0x71a0 <_ZdaPv+0x9c0>
-	b.hs	0x72c0 <_ZdaPv+0xae0>
-	b.hs	0x7248 <_ZdaPv+0xa68>
-	b	0x71e0 <_ZdaPv+0xa00>
-	b.eq	0x7330 <_ZdaPv+0xb50>
-	b.hs	0x7338 <_ZdaPv+0xb58>
-	cbnz	x0, 0x7338 <_ZdaPv+0xb58>
-	cbnz	x15, 0x71f0 <_ZdaPv+0xa10>
-	cbz	x0, 0x71d0 <_ZdaPv+0x9f0>
-	b	0x7218 <_ZdaPv+0xa38>
-	cbz	x0, 0x71d0 <_ZdaPv+0x9f0>
-	b.ne	0x7210 <_ZdaPv+0xa30>
-	b.ne	0x7210 <_ZdaPv+0xa30>
-	bl	0x7180 <_ZdaPv+0x9a0>
-	b	0x71d0 <_ZdaPv+0x9f0>
-	b	0x7268 <_ZdaPv+0xa88>
-	b.eq	0x7330 <_ZdaPv+0xb50>
-	b.hs	0x7338 <_ZdaPv+0xb58>
-	cbnz	x0, 0x7338 <_ZdaPv+0xb58>
-	cbnz	x16, 0x7278 <_ZdaPv+0xa98>
-	cbz	x0, 0x7258 <_ZdaPv+0xa78>
-	b	0x72a0 <_ZdaPv+0xac0>
-	cbz	x0, 0x7258 <_ZdaPv+0xa78>
-	b.ne	0x7298 <_ZdaPv+0xab8>
-	b.ne	0x7298 <_ZdaPv+0xab8>
-	b	0x7258 <_ZdaPv+0xa78>
-	b	0x72e0 <_ZdaPv+0xb00>
-	b.eq	0x7330 <_ZdaPv+0xb50>
-	b.eq	0x7334 <_ZdaPv+0xb54>
-	cbnz	x14, 0x72ec <_ZdaPv+0xb0c>
-	cbz	x11, 0x72d0 <_ZdaPv+0xaf0>
-	b	0x7314 <_ZdaPv+0xb34>
-	cbz	x11, 0x72d0 <_ZdaPv+0xaf0>
-	b.ne	0x730c <_ZdaPv+0xb2c>
-	b.ne	0x730c <_ZdaPv+0xb2c>
-	cbnz	x0, 0x7364 <_ZdaPv+0xb84>
-	cbz	x21, 0x73ac <_ZdaPv+0xbcc>
-	cbz	x21, 0x7398 <_ZdaPv+0xbb8>
-	cbz	x0, 0x7378 <_ZdaPv+0xb98>
-	b.ne	0x73c0 <_ZdaPv+0xbe0>
-	b	0x73d8 <_ZdaPv+0xbf8>
-	b.eq	0x73d8 <_ZdaPv+0xbf8>
-	bl	0x7350 <_ZdaPv+0xb70>
-	cbnz	x0, 0x73d8 <_ZdaPv+0xbf8>
-	cbnz	x20, 0x73c0 <_ZdaPv+0xbe0>
-
-	adrp	x16, 0x8000 <_ZN4SCVE13ObjectTracker14deleteInstanceEPS0_@plt+0x4>
-
-	adrp	x16, 0x8000 <_ZN4SCVE7Context14deleteInstanceEPS0_@plt+0x4>
-
-	adrp	x16, 0x8000 <_ZN4SCVE7Context11newInstanceENS_13OperationModeE@plt+0x4>
-
-	adrp	x16, 0x8000 <_ZN4SCVE13ObjectTracker11newInstanceEPNS_7ContextENS_15_ImageDimensionENS_11ColorFormatEPFviPNS_19ObjectTrackerResultEjPvS7_EPFvijS7_S7_ENS_23ObjectTracker_PrecisionES7_@plt+0x4>
-
-	adrp	x16, 0x8000 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt+0x4>
-
-	adrp	x16, 0x8000 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt+0x4>
-
-	adrp	x16, 0x8000 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt+0x4>
-
-	adrp	x16, 0x8000 <_ZNSt3__15mutex4lockEv@plt+0x4>
-
-	adrp	x16, 0x8000 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt+0x4>
-
-	adrp	x16, 0x8000 <_ZNSt3__15mutex6unlockEv@plt+0x4>
-
-	adrp	x16, 0x8000 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt+0x4>
-
-	adrp	x16, 0x8000 <_ZNSt11logic_errorC2EPKc@plt+0x4>
+	bl	0x7fb0 <_ZN4SCVE13ObjectTracker14deleteInstanceEPS0_@plt>
+	bl	0x7fc0 <_ZN4SCVE7Context14deleteInstanceEPS0_@plt>
+	bl	0x7fd0 <_ZN4SCVE7Context11newInstanceENS_13OperationModeE@plt>
+	bl	0x7fe0 <_ZN4SCVE13ObjectTracker11newInstanceEPNS_7ContextENS_15_ImageDimensionENS_11ColorFormatEPFviPNS_19ObjectTrackerResultEjPvS7_EPFvijS7_S7_ENS_23ObjectTracker_PrecisionES7_@plt>
+	bl	0x7fc0 <_ZN4SCVE7Context14deleteInstanceEPS0_@plt>
+	bl	0x8070 <_ZNSt3__15mutex4lockEv@plt>
+	bl	0x8080 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>
+	bl	0x8080 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>
+	bl	0x8090 <_ZNSt3__15mutex6unlockEv@plt>
+	bl	0x8090 <_ZNSt3__15mutex6unlockEv@plt>
+	bl	0x80c0 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+	bl	0x80d0 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt>
+	bl	0x8100 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt>
+	bl	0x8150 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt>
 
 
 
- 	tbnz	x4, #55, 0x6fe0 <_ZdaPv+0x800>
+
+
+
+
+	adrp	x16, 0x9000 <_ZN4SCVE13ObjectTracker14deleteInstanceEPS0_@plt+0x8>
+
+	adrp	x16, 0x9000 <_ZN4SCVE7Context14deleteInstanceEPS0_@plt+0x8>
+
+	adrp	x16, 0x9000 <_ZN4SCVE7Context11newInstanceENS_13OperationModeE@plt+0x8>
+
+	adrp	x16, 0x9000 <_ZN4SCVE13ObjectTracker11newInstanceEPNS_7ContextENS_15_ImageDimensionENS_11ColorFormatEPFviPNS_19ObjectTrackerResultEjPvS7_EPFvijS7_S7_ENS_23ObjectTracker_PrecisionES7_@plt+0x8>
+
+	adrp	x16, 0x9000 <_ZNSt3__15mutex4lockEv@plt+0x4>
+
+	adrp	x16, 0x9000 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt+0x4>
+
+	adrp	x16, 0x9000 <_ZNSt3__15mutex6unlockEv@plt+0x4>
+
+	adrp	x16, 0x9000 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt+0x4>
+
+	adrp	x16, 0x9000 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt+0x4>
+
+	adrp	x16, 0x9000 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt+0x4>
+
+	adrp	x16, 0x9000 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt+0x4>
+
+
+

@@ -1,35 +1,6 @@
 
 
 
-<_ZN16ROIStableCheckerC1Ev@plt>
-<_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>
-<_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
-<_ZN16ROIChangeCheckerC1Ev@plt>
-<_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>
-<_ZN16ROIChangeChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
-<_ZN16ROIStableCheckerD1Ev@plt>
-<_ZN16ROIStableCheckerC1Ev@plt>
-<_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>
-<_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
-<_ZN16ROIChangeCheckerC1Ev@plt>
-<_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>
-<_ZN16ROIChangeChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
-<_ZN16ROIStableCheckerD1Ev@plt>
-<_ZN16ROIStableCheckerC1Ev@plt>
-<_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>
-<_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
-<_ZN16ROIChangeCheckerC1Ev@plt>
-<_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>
-<_ZN16ROIChangeChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
-<_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
-<_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
-<_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
-<_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
-<_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
-<_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
-<_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
-<_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
-<_ZN16ROIStableCheckerD1Ev@plt>
 <_ZN16ROIStableChecker13UpdateROIDataEPK26UnstabilizedROIInformation@plt>
 <_ZN16ROIStableChecker13UpdateROIDataEPK26UnstabilizedROIInformation@plt>
 <_ZN16ROIChangeChecker13UpdateROIDataEPK26UnstabilizedROIInformation@plt>
@@ -101,8 +72,6 @@
 <_Z24af_value_monitor_destroyP27af_value_monitor_internal_t@plt>
 <_Z24af_value_monitor_destroyP27af_value_monitor_internal_t@plt>
 <_Z24af_value_monitor_destroyP27af_value_monitor_internal_t@plt>
-<_Z24af_value_monitor_destroyP27af_value_monitor_internal_t@plt>
-<_Z24af_value_monitor_destroyP27af_value_monitor_internal_t@plt>
 <_ZN16ROIStableCheckerD1Ev@plt>
 <_ZN16ROIChangeCheckerD1Ev@plt>
 <_ZN16ROIStableCheckerD1Ev@plt>
@@ -116,23 +85,12 @@
 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum@plt>
 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum@plt>
 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum@plt>
-<_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum@plt>
-<_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum@plt>
 <_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
 <_ZN16ROIChangeChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
 <_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
 <_ZN16ROIChangeChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
 <_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
 <_ZN16ROIChangeChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
-<_ZN16ROIStableCheckerC1Ev@plt>
-<_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>
-<_ZN16ROIStableCheckerC1Ev@plt>
-<_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>
-<_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
-<_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
-<_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
-<_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
-<_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
 <_ZN16ROIStableCheckerD1Ev@plt>
 <_ZN16ROIStableCheckerD1Ev@plt>
 <_Z24af_value_monitor_destroyP27af_value_monitor_internal_t@plt>
@@ -145,44 +103,28 @@
 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum@plt>
 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum@plt>
 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum@plt>
-<_ZN16ROIStableCheckerC1Ev@plt>
-<_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>
-<_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
-<_ZN16ROIStableCheckerC1Ev@plt>
-<_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>
-<_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
-<_ZN16ROIStableCheckerD1Ev@plt>
-<_ZN16ROIStableCheckerC1Ev@plt>
-<_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>
-<_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
-<_ZN16ROIStableCheckerC1Ev@plt>
-<_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>
-<_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
-<_ZN16ROIStableCheckerD1Ev@plt>
-<_ZN16ROIStableCheckerC1Ev@plt>
-<_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>
-<_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
-<_ZN16ROIStableCheckerC1Ev@plt>
-<_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>
-<_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
-<_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
-<_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
-<_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
-<_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
-<_ZN16ROIStableCheckerD1Ev@plt>
-<_ZN16ROIStableChecker13UpdateROIDataEPK26UnstabilizedROIInformation@plt>
-<_ZN16ROIStableChecker13UpdateROIDataEPK26UnstabilizedROIInformation@plt>
-<_ZN16ROIStableChecker13UpdateROIDataEPK26UnstabilizedROIInformation@plt>
-<_ZN16ROIStableChecker13UpdateROIDataEPK26UnstabilizedROIInformation@plt>
 <_ZN8ROIsData18SetImageResolutionEff@plt>
 <_ZN8ROIsData18SetImageResolutionEff@plt>
 <_ZN8ROIsData18SetImageResolutionEff@plt>
 <_ZN8ROIsData18SetImageResolutionEff@plt>
 <_ZN8ROIsData18SetImageResolutionEff@plt>
 <_ZN8ROIsData18SetImageResolutionEff@plt>
+<_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum@plt>
 <_ZN16ROIStableChecker13UpdateROIDataEPK26UnstabilizedROIInformation@plt>
 <_ZN16ROIStableChecker13UpdateROIDataEPK26UnstabilizedROIInformation@plt>
-<_ZNK8ROIsData4SizeEv@plt>
+<_ZN16ROIStableChecker13UpdateROIDataEPK26UnstabilizedROIInformation@plt>
+<_ZN16ROIStableChecker13UpdateROIDataEPK26UnstabilizedROIInformation@plt>
+<_ZN16ROIStableChecker13UpdateROIDataEPK26UnstabilizedROIInformation@plt>
+<_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum@plt>
+<_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum@plt>
+<_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum@plt>
+<_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum@plt>
+<_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
+<_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
+<_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
+<_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
+<_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
+<_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
 <_ZNK11ROIPriority13GetDominantIDEv@plt>
 <_ZN16ROIStableChecker15IsROIStableByIDEi@plt>
 <_ZNK11ROIPriority13GetDominantIDEv@plt>
@@ -195,15 +137,6 @@
 <_ZN16ROIStableChecker15IsROIStableByIDEi@plt>
 <_ZNK11ROIPriority13GetDominantIDEv@plt>
 <_ZN16ROIStableChecker15IsROIStableByIDEi@plt>
-<_ZNK11ROIPriority13GetDominantIDEv@plt>
-<_ZN16ROIStableChecker15IsROIStableByIDEi@plt>
-<_ZNK11ROIPriority13GetDominantIDEv@plt>
-<_ZN16ROIStableChecker15IsROIStableByIDEi@plt>
-<_ZNK8ROIsData4SizeEv@plt>
-<_ZNK8ROIsData6GetROIEj@plt>
-<_ZNK8ROIsData4SizeEv@plt>
-<_ZNK8ROIsData4SizeEv@plt>
-<_ZNK8ROIsData4SizeEv@plt>
 <_Z24af_value_monitor_destroyP27af_value_monitor_internal_t@plt>
 <_Z24af_value_monitor_destroyP27af_value_monitor_internal_t@plt>
 <_Z24af_value_monitor_destroyP27af_value_monitor_internal_t@plt>
@@ -214,44 +147,64 @@
 <_ZN16ROIStableCheckerD1Ev@plt>
 <_ZN16ROIStableCheckerD1Ev@plt>
 <_ZN16ROIStableCheckerD1Ev@plt>
+<_ZNK11ROIPriority13GetDominantIDEv@plt>
+<_ZN16ROIStableChecker15IsROIStableByIDEi@plt>
+<_ZNK11ROIPriority13GetDominantIDEv@plt>
+<_ZN16ROIStableChecker15IsROIStableByIDEi@plt>
+<_ZNK11ROIPriority13GetDominantIDEv@plt>
+<_ZN16ROIStableChecker15IsROIStableByIDEi@plt>
+<_ZNK11ROIPriority13GetDominantIDEv@plt>
+<_ZN16ROIStableChecker15IsROIStableByIDEi@plt>
+<_ZNK11ROIPriority13GetDominantIDEv@plt>
+<_ZN16ROIStableChecker15IsROIStableByIDEi@plt>
+<_ZNK11ROIPriority13GetDominantIDEv@plt>
+<_ZN16ROIStableChecker15IsROIStableByIDEi@plt>
+<_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum@plt>
+<_ZN16ROIStableChecker13UpdateROIDataEPK26UnstabilizedROIInformation@plt>
+<_ZN16ROIStableChecker13UpdateROIDataEPK26UnstabilizedROIInformation@plt>
+<_ZN8ROIsData18SetImageResolutionEff@plt>
+<_ZN8ROIsData18SetImageResolutionEff@plt>
+<_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
+<_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum@plt>
 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum@plt>
 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum@plt>
 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum@plt>
 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum@plt>
-<_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
-<_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
-<_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
-<_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
-<_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
-<_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
-<_ZNK8ROIsData4SizeEv@plt>
-<_ZNK11ROIPriority16GetDominantIndexEv@plt>
-<_ZNK8ROIsData6GetROIEj@plt>
-<_ZNK8ROIsData8GetWidthEv@plt>
-<_ZNK8ROIsData9GetHeightEv@plt>
-<_ZNK8ROIsData4SizeEv@plt>
-<_ZNK11ROIPriority16GetDominantIndexEv@plt>
-<_ZNK8ROIsData6GetROIEj@plt>
-<_ZNK8ROIsData8GetWidthEv@plt>
-<_ZNK8ROIsData9GetHeightEv@plt>
+<_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum@plt>
 <_ZNK11ROIPriority13GetDominantIDEv@plt>
 <_ZN16ROIStableChecker15IsROIStableByIDEi@plt>
 <_ZNK11ROIPriority13GetDominantIDEv@plt>
 <_ZN16ROIStableChecker15IsROIStableByIDEi@plt>
-<_ZNK11ROIPriority13GetDominantIDEv@plt>
-<_ZN16ROIStableChecker15IsROIStableByIDEi@plt>
-<_ZNK11ROIPriority13GetDominantIDEv@plt>
-<_ZN16ROIStableChecker15IsROIStableByIDEi@plt>
-<_ZNK11ROIPriority13GetDominantIDEv@plt>
-<_ZN16ROIStableChecker15IsROIStableByIDEi@plt>
-<_ZNK11ROIPriority13GetDominantIDEv@plt>
-<_ZN16ROIStableChecker15IsROIStableByIDEi@plt>
-<_ZNK8ROIsData4SizeEv@plt>
-<_ZNK11ROIPriority16GetDominantIndexEv@plt>
-<_ZNK8ROIsData6GetROIEj@plt>
-<_ZNK8ROIsData8GetWidthEv@plt>
-<_ZNK8ROIsData9GetHeightEv@plt>
+<_Z24af_value_monitor_destroyP27af_value_monitor_internal_t@plt>
+<_Z24af_value_monitor_destroyP27af_value_monitor_internal_t@plt>
+<_Z24af_value_monitor_destroyP27af_value_monitor_internal_t@plt>
+<_Z24af_value_monitor_destroyP27af_value_monitor_internal_t@plt>
+<_Z24af_value_monitor_destroyP27af_value_monitor_internal_t@plt>
+<_Z24af_value_monitor_destroyP27af_value_monitor_internal_t@plt>
+<_ZN16ROIStableCheckerD1Ev@plt>
+<_ZN16ROIStableCheckerD1Ev@plt>
+<_ZN16ROIStableCheckerC1Ev@plt>
+<_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>
+<_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
+<_ZN16ROIStableCheckerC1Ev@plt>
+<_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>
+<_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
+<_ZN16ROIStableCheckerC1Ev@plt>
+<_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>
+<_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
+<_ZN16ROIChangeCheckerC1Ev@plt>
+<_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>
+<_ZN16ROIChangeChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
+<_ZN16ROIStableCheckerC1Ev@plt>
+<_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>
+<_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
+<_ZN16ROIStableCheckerC1Ev@plt>
+<_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>
+<_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
+<_ZN16ROIStableCheckerD1Ev@plt>
+<_ZN16ROIStableCheckerD1Ev@plt>
+<_ZN16ROIStableCheckerD1Ev@plt>
 <_ZN16ROIStableCheckerC1Ev@plt>
 <_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>
 <_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
@@ -264,173 +217,93 @@
 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
-<_ZN16ROIStableCheckerD1Ev@plt>
-<_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum@plt>
-<_ZN8ROIsData18SetImageResolutionEff@plt>
-<_ZN8ROIsData18SetImageResolutionEff@plt>
-<_ZN16ROIStableChecker13UpdateROIDataEPK26UnstabilizedROIInformation@plt>
-<_ZN16ROIStableChecker13UpdateROIDataEPK26UnstabilizedROIInformation@plt>
+<_ZN16ROIChangeCheckerC1Ev@plt>
+<_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>
+<_ZN16ROIChangeChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
+<_ZN16ROIStableCheckerC1Ev@plt>
+<_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>
 <_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
+<_ZN16ROIStableCheckerD1Ev@plt>
+<_ZN16ROIStableCheckerD1Ev@plt>
+<_ZN16ROIStableCheckerC1Ev@plt>
+<_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>
 <_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
-<_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum@plt>
-<_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum@plt>
-<_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum@plt>
-<_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum@plt>
-<_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum@plt>
-<_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum@plt>
-<_ZNK11ROIPriority13GetDominantIDEv@plt>
-<_ZN16ROIStableChecker15IsROIStableByIDEi@plt>
-<_ZNK11ROIPriority13GetDominantIDEv@plt>
-<_ZN16ROIStableChecker15IsROIStableByIDEi@plt>
-<_Z24af_value_monitor_destroyP27af_value_monitor_internal_t@plt>
-<_Z24af_value_monitor_destroyP27af_value_monitor_internal_t@plt>
-<_Z24af_value_monitor_destroyP27af_value_monitor_internal_t@plt>
-<_Z24af_value_monitor_destroyP27af_value_monitor_internal_t@plt>
-<_Z24af_value_monitor_destroyP27af_value_monitor_internal_t@plt>
-<_Z24af_value_monitor_destroyP27af_value_monitor_internal_t@plt>
+<_ZN16ROIStableCheckerC1Ev@plt>
+<_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>
+<_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
+<_ZN16ROIChangeCheckerC1Ev@plt>
+<_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>
+<_ZN16ROIChangeChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
+<_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
+<_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
+<_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
+<_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
+<_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
+<_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
+<_ZN16ROIStableCheckerC1Ev@plt>
+<_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>
+<_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt>
 <_ZN16ROIStableCheckerD1Ev@plt>
 <_ZN16ROIStableCheckerD1Ev@plt>
-<_ZdaPv+0x138>
-<_ZdaPv+0x10>
-<_ZdaPv+0x138>
-<_ZdaPv+0x138>
-<_ZdaPv+0x10>
-<_ZdaPv+0x138>
-<_ZdaPv+0x138>
-<_ZdaPv+0x10>
-<_ZdaPv+0x138>
-<_ZdaPv+0x138>
-<_ZdaPv+0x10>
-<_ZdaPv+0x138>
-<_ZdaPv+0x138>
-<_ZdaPv+0x10>
-<_ZdaPv+0x138>
-<_ZdaPv+0x138>
-<_ZdaPv+0x10>
-<_ZdaPv+0x138>
-<_ZdaPv+0x138>
-<_ZdaPv+0x10>
-<_ZdaPv+0x138>
-<_ZdaPv+0x138>
-<_ZdaPv+0x10>
-<_ZdaPv+0x138>
-<_ZdaPv+0x138>
-<_ZdaPv+0x10>
-<_ZdaPv+0x138>
-<_ZdaPv+0x138>
-<_ZdaPv+0x10>
-<_ZdaPv+0x138>
-<_ZdaPv+0x138>
-<_ZdaPv+0x10>
-<_ZdaPv+0x138>
-<_ZdaPv+0x138>
-<_ZdaPv+0x138>
-<_ZdaPv+0x138>
-<_ZdaPv+0x138>
-<_ZdaPv+0x138>
-<_ZdaPv+0x138>
-<_ZdaPv+0x138>
-<_ZdaPv+0x138>
-<_ZdaPv+0x138>
-<_ZdaPv+0x138>
+<_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
+<_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
+<_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
+<_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
+<_ZN16ROIStableCheckerC1Ev@plt>
+<_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>
+<_ZN16ROIStableCheckerC1Ev@plt>
+<_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt>
+<_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
+<_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
+<_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
+<_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
+<_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt>
 
-0x6ca08 <_Znwm+0x40>
-0x6ca34 <_Znwm+0x6c>
-<_Znwm+0x88>
-0x6ca0c <_Znwm+0x44>
-<_Znwm+0x44>
 
-0x6ca98 <_Znam+0x40>
-0x6cac4 <_Znam+0x6c>
-<_Znam+0x88>
-0x6ca9c <_Znam+0x44>
-<_Znam+0x44>
 
-0x6caf0 <_ZdlPv+0x8>
 
-0x6cb00 <_ZdaPv+0x8>
-0x6cb24 <_ZdaPv+0x2c>
-0x6cc14 <_ZdaPv+0x11c>
-<_ZdaPv+0xbc>
-0x6cb4c <_ZdaPv+0x54>
-0x6cba0 <_ZdaPv+0xa8>
-<_ZdaPv+0x7c>
-0x6cba0 <_ZdaPv+0xa8>
-<_ZdaPv+0x74>
-<_ZdaPv+0x74>
-<_ZdaPv+0x10>
-<_ZdaPv+0x120>
-0x6cb48 <_ZdaPv+0x50>
-<_ZdaPv+0x120>
-<_ZdaPv+0xd0>
-<_ZdaPv+0x11c>
-0x6cbcc <_ZdaPv+0xd4>
-0x6cbbc <_ZdaPv+0xc4>
-<_ZdaPv+0xfc>
-0x6cbbc <_ZdaPv+0xc4>
-<_ZdaPv+0xf4>
-<_ZdaPv+0xf4>
-<_ZdaPv+0x120>
-0x6cc44 <_ZdaPv+0x14c>
-0x6cc8c <_ZdaPv+0x194>
-0x6cc78 <_ZdaPv+0x180>
-0x6cc58 <_ZdaPv+0x160>
-<_ZdaPv+0x1a8>
-<_ZdaPv+0x1c0>
-<_ZdaPv+0x1c0>
-<_ZdaPv+0x138>
-0x6ccb8 <_ZdaPv+0x1c0>
-0x6cca0 <_ZdaPv+0x1a8>
 
-0x6d000 <_ZN16ROIStableCheckerC1Ev@plt+0x4>
 
-0x6d000 <_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt+0x4>
 
-0x6d000 <_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt+0x4>
+0x55000 <_ZN16ROIStableChecker13UpdateROIDataEPK26UnstabilizedROIInformation@plt+0x4>
 
-0x6d000 <_ZN16ROIChangeCheckerC1Ev@plt+0x4>
+0x55000 <_ZN16ROIChangeChecker13UpdateROIDataEPK26UnstabilizedROIInformation@plt+0x4>
 
-0x6d000 <_ZN16ROIChangeChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt+0x4>
+0x55000 <_ZN8ROIsData18SetImageResolutionEff@plt+0x4>
 
-0x6d000 <_ZN16ROIStableCheckerD1Ev@plt+0x4>
+0x55000 <_ZN8ROIsData10SetAECGainEf@plt+0x4>
 
-0x6d000 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt+0x4>
+0x55000 <_ZNK11ROIPriority13GetDominantIDEv@plt+0x4>
 
-0x6d000 <_ZN16ROIStableChecker13UpdateROIDataEPK26UnstabilizedROIInformation@plt+0x4>
+0x55000 <_ZN16ROIStableChecker15IsROIStableByIDEi@plt+0x4>
 
-0x6d000 <_ZN16ROIChangeChecker13UpdateROIDataEPK26UnstabilizedROIInformation@plt+0x4>
+0x55000 <_ZNK11ROIPriority18IsDominantIDChangeEv@plt+0x4>
 
-0x6d000 <_ZN8ROIsData18SetImageResolutionEff@plt+0x4>
+0x55000 <_ZN16ROIChangeChecker15IsROIChangeByIDEi@plt+0x4>
 
-0x6d000 <_ZN8ROIsData10SetAECGainEf@plt+0x4>
+0x55000 <_ZN11ROIPriority18UpdateReferenceROIEv@plt+0x4>
 
-0x6d000 <_ZNK11ROIPriority13GetDominantIDEv@plt+0x4>
+0x55000 <_ZN16ROIChangeChecker18UpdateReferenceROIEv@plt+0x4>
 
-0x6d000 <_ZN16ROIStableChecker15IsROIStableByIDEi@plt+0x4>
+0x55000 <_Z24af_value_monitor_destroyP27af_value_monitor_internal_t@plt+0x4>
 
-0x6d000 <_ZNK11ROIPriority18IsDominantIDChangeEv@plt+0x4>
+0x55000 <_ZN16ROIStableCheckerD1Ev@plt+0x4>
 
-0x6d000 <_ZN16ROIChangeChecker15IsROIChangeByIDEi@plt+0x4>
+0x55000 <_ZN16ROIChangeCheckerD1Ev@plt+0x4>
 
-0x6d000 <_ZN11ROIPriority18UpdateReferenceROIEv@plt+0x4>
+0x55000 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum@plt+0x4>
 
-0x6d000 <_ZN16ROIChangeChecker18UpdateReferenceROIEv@plt+0x4>
+0x55000 <_ZN16ROIStableChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt+0x4>
 
-0x6d000 <_Z24af_value_monitor_destroyP27af_value_monitor_internal_t@plt+0x4>
+0x55000 <_ZN16ROIChangeChecker13SetTuningDataEPN18statsroidifference31chromatixStatsROIDifferenceTypeE@plt+0x4>
 
-0x6d000 <_ZN16ROIChangeCheckerD1Ev@plt+0x4>
+0x55000 <_ZN16ROIStableCheckerC1Ev@plt+0x4>
 
-0x6d000 <_Z23get_chromatix_vm_configPK12AFTuningInfo27af_vm_set_type_adapter_enum@plt+0x4>
+0x55000 <_ZN8ROIsData14SetLogFunctionEPKcPFvS1_iS1_jjS1_zE@plt+0x4>
 
-0x6d000 <_ZNK8ROIsData4SizeEv@plt+0x4>
+0x55000 <_ZN16ROIChangeCheckerC1Ev@plt+0x4>
 
-0x6d000 <_ZNK8ROIsData6GetROIEj@plt+0x4>
-
-0x6d000 <_ZNK11ROIPriority16GetDominantIndexEv@plt+0x4>
-
-0x6d000 <_ZNK8ROIsData8GetWidthEv@plt+0x4>
-
-0x6d000 <_ZNK8ROIsData9GetHeightEv@plt+0x4>
+0x55000 <_Z23af_value_monitor_createPKcPFvS0_iS0_jjS0_zEi@plt+0x4>
 
 
 

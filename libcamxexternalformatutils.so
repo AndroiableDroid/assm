@@ -1,10 +1,10 @@
-	bl	0x4b80 <_ZNSt3__15mutex4lockEv@plt>
-	bl	0x4be0 <_ZNSt3__15mutex6unlockEv@plt>
-	bl	0x4be0 <_ZNSt3__15mutex6unlockEv@plt>
-	b	0x4c40 <_ZNSt3__15mutexD1Ev@plt>
+	bl	0x73f0 <_ZNSt3__15mutex4lockEv@plt>
+	bl	0x7460 <_ZNSt3__15mutex6unlockEv@plt>
+	bl	0x7460 <_ZNSt3__15mutex6unlockEv@plt>
+	b	0x74c0 <_ZNSt3__15mutexD1Ev@plt>
 
-	adrp	x16, 0x5000 <_ZNSt3__15mutex4lockEv@plt+0x4>
+	adrp	x16, 0x8000 <_ZNSt3__15mutex4lockEv@plt+0x4>
 
-	adrp	x16, 0x5000 <_ZNSt3__15mutex6unlockEv@plt+0x4>
+	adrp	x16, 0x8000 <_ZNSt3__15mutex6unlockEv@plt+0x4>
 
-	adrp	x16, 0x5000 <_ZNSt3__15mutexD1Ev@plt+0x4>
+	adrp	x16, 0x8000 <_ZNSt3__15mutexD1Ev@plt+0x4>

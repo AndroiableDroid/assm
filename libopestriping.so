@@ -1,6 +1,6 @@
-	bl	0x10580 <_Znwm@plt>
-	b	0x10590 <_ZdlPv@plt>
+	bl	0xfee0 <_Znwm@plt>
+	b	0xfef0 <_ZdlPv@plt>
 
-0x11000 <_Znwm@plt+0x4>
+	adrp	x16, 0x10000 <_Znwm@plt+0x4>
 
-0x11000 <_ZdlPv@plt+0x4>
+	adrp	x16, 0x10000 <_ZdlPv@plt+0x4>

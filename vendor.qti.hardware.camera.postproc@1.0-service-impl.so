@@ -1,0 +1,191 @@
+	b	0xadc0 <_ZN7android7RefBaseD2Ev@plt>
+	bl	0xadc0 <_ZN7android7RefBaseD2Ev@plt>
+	b	0xadd0 <_ZdlPv@plt>
+	bl	0xade0 <_Znam@plt>
+	bl	0xadf0 <_ZdaPv@plt>
+	bl	0xadf0 <_ZdaPv@plt>
+	bl	0xae10 <_Znwm@plt>
+	bl	0xae20 <_ZN7android7RefBaseC2Ev@plt>
+	bl	0xae30 <_ZN7android23sp_report_stack_pointerEv@plt>
+	bl	0xae40 <_ZNK7android7RefBase9incStrongEPKv@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xae60 <_ZN7android14sp_report_raceEv@plt>
+	bl	0xae10 <_Znwm@plt>
+	bl	0xae20 <_ZN7android7RefBaseC2Ev@plt>
+	bl	0xae40 <_ZNK7android7RefBase9incStrongEPKv@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xae60 <_ZN7android14sp_report_raceEv@plt>
+	bl	0xae30 <_ZN7android23sp_report_stack_pointerEv@plt>
+	bl	0xae40 <_ZNK7android7RefBase9incStrongEPKv@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xae60 <_ZN7android14sp_report_raceEv@plt>
+	bl	0xae40 <_ZNK7android7RefBase9incStrongEPKv@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xae60 <_ZN7android14sp_report_raceEv@plt>
+	bl	0xaea0 <_ZN7android8hardware8graphics6mapper4V3_07IMapper10getServiceERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEb@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xae60 <_ZN7android14sp_report_raceEv@plt>
+	bl	0xadd0 <_ZdlPv@plt>
+	bl	0xaeb0 <_ZN7android8hardware8graphics6mapper4V2_07IMapper10getServiceERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEb@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xae60 <_ZN7android14sp_report_raceEv@plt>
+	bl	0xadd0 <_ZdlPv@plt>
+	bl	0xae30 <_ZN7android23sp_report_stack_pointerEv@plt>
+	bl	0xae40 <_ZNK7android7RefBase9incStrongEPKv@plt>
+	bl	0xae10 <_Znwm@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xae30 <_ZN7android23sp_report_stack_pointerEv@plt>
+	bl	0xae40 <_ZNK7android7RefBase9incStrongEPKv@plt>
+	bl	0xaf00 <_ZN7android8hardware7details13return_statusD2Ev@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xae30 <_ZN7android23sp_report_stack_pointerEv@plt>
+	bl	0xae40 <_ZNK7android7RefBase9incStrongEPKv@plt>
+	b	0xadc0 <_ZN7android7RefBaseD2Ev@plt>
+	bl	0xadc0 <_ZN7android7RefBaseD2Ev@plt>
+	b	0xadd0 <_ZdlPv@plt>
+	bl	0xae30 <_ZN7android23sp_report_stack_pointerEv@plt>
+	bl	0xae40 <_ZNK7android7RefBase9incStrongEPKv@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xae40 <_ZNK7android7RefBase9incStrongEPKv@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xae60 <_ZN7android14sp_report_raceEv@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xae60 <_ZN7android14sp_report_raceEv@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xae60 <_ZN7android14sp_report_raceEv@plt>
+	bl	0xaf00 <_ZN7android8hardware7details13return_statusD2Ev@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xae60 <_ZN7android14sp_report_raceEv@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xae60 <_ZN7android14sp_report_raceEv@plt>
+	b	0xadc0 <_ZN7android7RefBaseD2Ev@plt>
+	b	0xadd0 <_ZdlPv@plt>
+	b	0xadd0 <_ZdlPv@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	b	0xadd0 <_ZdlPv@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	b	0xadd0 <_ZdlPv@plt>
+	bl	0xae10 <_Znwm@plt>
+	bl	0xae20 <_ZN7android7RefBaseC2Ev@plt>
+	bl	0xae40 <_ZNK7android7RefBase9incStrongEPKv@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xae60 <_ZN7android14sp_report_raceEv@plt>
+	bl	0xaf50 <_ZN6vendor3qti8hardware6camera8postproc4V1_016IPostProcService17registerAsServiceERKNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEE@plt>
+	bl	0xadd0 <_ZdlPv@plt>
+	b	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xae40 <_ZNK7android7RefBase9incStrongEPKv@plt>
+	bl	0xaf00 <_ZN7android8hardware7details13return_statusD2Ev@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xae60 <_ZN7android14sp_report_raceEv@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xae60 <_ZN7android14sp_report_raceEv@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xae60 <_ZN7android14sp_report_raceEv@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xae60 <_ZN7android14sp_report_raceEv@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xae60 <_ZN7android14sp_report_raceEv@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xae60 <_ZN7android14sp_report_raceEv@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xae60 <_ZN7android14sp_report_raceEv@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xae60 <_ZN7android14sp_report_raceEv@plt>
+	bl	0xadd0 <_ZdlPv@plt>
+	bl	0xadd0 <_ZdlPv@plt>
+	bl	0xadd0 <_ZdlPv@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xadc0 <_ZN7android7RefBaseD2Ev@plt>
+	b	0xadd0 <_ZdlPv@plt>
+	bl	0xae10 <_Znwm@plt>
+	bl	0xadd0 <_ZdlPv@plt>
+	bl	0xadd0 <_ZdlPv@plt>
+	bl	0xadd0 <_ZdlPv@plt>
+	bl	0xae10 <_Znwm@plt>
+	bl	0xae10 <_Znwm@plt>
+	bl	0xae10 <_Znwm@plt>
+	bl	0xae10 <_Znwm@plt>
+	bl	0xadd0 <_ZdlPv@plt>
+	bl	0xae10 <_Znwm@plt>
+	bl	0xadd0 <_ZdlPv@plt>
+	bl	0xadd0 <_ZdlPv@plt>
+	bl	0xae10 <_Znwm@plt>
+	bl	0xae10 <_Znwm@plt>
+	bl	0xadd0 <_ZdlPv@plt>
+	bl	0xadd0 <_ZdlPv@plt>
+	b	0xadd0 <_ZdlPv@plt>
+	bl	0xb030 <_ZNK7android8hardware11hidl_handle15getNativeHandleEv@plt>
+	bl	0xb040 <_ZN7android8hardware11hidl_handleC1EPK13native_handle@plt>
+	bl	0xaf00 <_ZN7android8hardware7details13return_statusD2Ev@plt>
+	bl	0xb040 <_ZN7android8hardware11hidl_handleC1EPK13native_handle@plt>
+	bl	0xaf00 <_ZN7android8hardware7details13return_statusD2Ev@plt>
+	bl	0xb050 <_ZN7android8hardware11hidl_handleD1Ev@plt>
+	bl	0xae10 <_Znwm@plt>
+	bl	0xadd0 <_ZdlPv@plt>
+	bl	0xb070 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+	bl	0xaf00 <_ZN7android8hardware7details13return_statusD2Ev@plt>
+	bl	0xaf00 <_ZN7android8hardware7details13return_statusD2Ev@plt>
+	bl	0xadd0 <_ZdlPv@plt>
+	bl	0xadd0 <_ZdlPv@plt>
+	bl	0xadd0 <_ZdlPv@plt>
+	bl	0xae10 <_Znwm@plt>
+	bl	0xadd0 <_ZdlPv@plt>
+	b	0xadd0 <_ZdlPv@plt>
+	bl	0xae10 <_Znwm@plt>
+	b	0xadd0 <_ZdlPv@plt>
+	b	0xadd0 <_ZdlPv@plt>
+	bl	0xae10 <_Znwm@plt>
+	b	0xadd0 <_ZdlPv@plt>
+	bl	0xadd0 <_ZdlPv@plt>
+	bl	0xb0a0 <_ZNK7android8hardware6Status11descriptionEv@plt>
+	bl	0xadd0 <_ZdlPv@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xae60 <_ZN7android14sp_report_raceEv@plt>
+	bl	0xae50 <_ZNK7android7RefBase9decStrongEPKv@plt>
+	bl	0xae60 <_ZN7android14sp_report_raceEv@plt>
+	bl	0xaf00 <_ZN7android8hardware7details13return_statusD2Ev@plt>
+
+
+	adrp	x16, 0xc000 <_ZN7android7RefBaseD2Ev@plt+0x8>
+
+	adrp	x16, 0xc000 <_ZdlPv@plt+0x8>
+
+	adrp	x16, 0xc000 <_Znam@plt+0x8>
+
+	adrp	x16, 0xc000 <_ZdaPv@plt+0x8>
+
+	adrp	x16, 0xc000 <_Znwm@plt+0x8>
+
+	adrp	x16, 0xc000 <_ZN7android7RefBaseC2Ev@plt+0x8>
+
+	adrp	x16, 0xc000 <_ZN7android23sp_report_stack_pointerEv@plt+0x8>
+
+	adrp	x16, 0xc000 <_ZNK7android7RefBase9incStrongEPKv@plt+0x8>
+
+	adrp	x16, 0xc000 <_ZNK7android7RefBase9decStrongEPKv@plt+0x8>
+
+	adrp	x16, 0xc000 <_ZN7android14sp_report_raceEv@plt+0x8>
+
+	adrp	x16, 0xc000 <_ZN7android8hardware8graphics6mapper4V3_07IMapper10getServiceERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEb@plt+0x8>
+
+	adrp	x16, 0xc000 <_ZN7android8hardware8graphics6mapper4V2_07IMapper10getServiceERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEb@plt+0x8>
+
+	adrp	x16, 0xc000 <_ZN7android8hardware7details13return_statusD2Ev@plt+0x8>
+
+	adrp	x16, 0xc000 <_ZN6vendor3qti8hardware6camera8postproc4V1_016IPostProcService17registerAsServiceERKNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEE@plt+0x8>
+
+	adrp	x16, 0xc000 <_ZNK7android8hardware11hidl_handle15getNativeHandleEv@plt+0x4>
+
+	adrp	x16, 0xc000 <_ZN7android8hardware11hidl_handleC1EPK13native_handle@plt+0x4>
+
+	adrp	x16, 0xc000 <_ZN7android8hardware11hidl_handleD1Ev@plt+0x4>
+
+	adrp	x16, 0xc000 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt+0x4>
+
+	adrp	x16, 0xc000 <_ZNK7android8hardware6Status11descriptionEv@plt+0x4>
