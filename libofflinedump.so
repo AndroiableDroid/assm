@@ -1,719 +1,771 @@
+ 	tbz	w13, #6, 0x3b18 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x60>
 
 
 
-	cbz	wzr, 0x71d0 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x568>
-	cbz	w0, 0x6ca4 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x3c>
-	ldr	s31, 0x72f8 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x690>
+	adrp	x0, 0x8000 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x4>
 
-	bl	0x9bc0 <_ZSt9terminatev@plt>
-	bl	0x9bd0 <_ZNSt3__15mutex4lockEv@plt>
-	cbz	w8, 0x5b54 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x234>
-	b.eq	0x5a1c <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0xfc>
-	b.hs	0x5a28 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x108>
-	b.eq	0x5a2c <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x10c>
-	b	0x5a4c <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x12c>
-	b.lo	0x59fc <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0xdc>
-	b	0x5a4c <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x12c>
-	b.ne	0x5a4c <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x12c>
-	b.ne	0x5a34 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x114>
-	b.lo	0x5a78 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x158>
-	bl	0x9bf0 <_ZdlPv@plt>
-	b.hi	0x5a60 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x140>
-	b.eq	0x5a90 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x170>
-	bl	0x9bf0 <_ZdlPv@plt>
-	b.ne	0x5a80 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x160>
-	cbz	x21, 0x5aac <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x18c>
-	cbnz	x5, 0x5b8c <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x26c>
-	bl	0x9bf0 <_ZdlPv@plt>
-	b.eq	0x5b50 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x230>
-	b	0x5ad0 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x1b0>
-	b.eq	0x5b18 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x1f8>
-	bl	0x9c00 <_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_@plt>
-	cbz	x0, 0x5b04 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x1e4>
-	tbz	w10, #0, 0x5ac4 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x1a4>
-	bl	0x9bf0 <_ZdlPv@plt>
-	b	0x5ac4 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x1a4>
-	b.eq	0x5b50 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x230>
-	b	0x5b38 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x218>
-	b.eq	0x5b50 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x230>
-	tbz	w9, #0, 0x5b2c <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x20c>
-	bl	0x9bf0 <_ZdlPv@plt>
-	b	0x5b2c <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x20c>
-	bl	0x9c20 <_ZNSt3__15mutex6unlockEv@plt>
-	b.ne	0x5b88 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x268>
+	bl	0x7710 <_ZSt9terminatev@plt>
+	bl	0x7720 <_ZNSt3__15mutex4lockEv@plt>
+	cbz	w8, 0x3208 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x1f8>
+	b.eq	0x311c <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x10c>
+	b.eq	0x311c <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x10c>
+	b.ne	0x30f8 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0xe8>
+	b	0x30f8 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0xe8>
+	b.lo	0x314c <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x13c>
+	bl	0x7730 <_ZdlPv@plt>
+	b.hi	0x3128 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x118>
+	b	0x314c <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x13c>
+	bl	0x7730 <_ZdlPv@plt>
+	b.ne	0x3144 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x134>
+	cbz	x21, 0x3160 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x150>
+	bl	0x7730 <_ZdlPv@plt>
+	b.eq	0x3204 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x1f4>
+	b	0x3184 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x174>
+	b.eq	0x31cc <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x1bc>
+	bl	0x7740 <_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_@plt>
+	cbz	x0, 0x31b8 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x1a8>
+	tbz	w10, #0, 0x3178 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x168>
+	bl	0x7730 <_ZdlPv@plt>
+	b	0x3178 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x168>
+	b.eq	0x3204 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x1f4>
+	b	0x31ec <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x1dc>
+	b.eq	0x3204 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x1f4>
+	tbz	w9, #0, 0x31e0 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x1d0>
+	bl	0x7730 <_ZdlPv@plt>
+	b	0x31e0 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x1d0>
+	bl	0x7760 <_ZNSt3__15mutex6unlockEv@plt>
+	b.ne	0x323c <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x22c>
 
 
 
-	b.ne	0x5bbc <_ZN4CamX11OfflineDump16SetStartFrameNumEm+0x1c>
-	b.ne	0x5bd4 <_ZN4CamX11OfflineDump16SetStartFrameNumEm+0x34>
-	b.eq	0x5bdc <_ZN4CamX11OfflineDump16SetStartFrameNumEm+0x3c>
-	b.ne	0x5bd4 <_ZN4CamX11OfflineDump16SetStartFrameNumEm+0x34>
-	cbz	w8, 0x5bd4 <_ZN4CamX11OfflineDump16SetStartFrameNumEm+0x34>
-	b.lo	0x5c2c <_ZN4CamX11OfflineDump16SetStartFrameNumEm+0x8c>
-	b.hs	0x5c28 <_ZN4CamX11OfflineDump16SetStartFrameNumEm+0x88>
-	b.hs	0x5c28 <_ZN4CamX11OfflineDump16SetStartFrameNumEm+0x88>
+	b.ne	0x3264 <_ZN4CamX11OfflineDump16SetStartFrameNumEm+0x14>
+	b.ne	0x327c <_ZN4CamX11OfflineDump16SetStartFrameNumEm+0x2c>
+	b.eq	0x3280 <_ZN4CamX11OfflineDump16SetStartFrameNumEm+0x30>
+	b.ne	0x327c <_ZN4CamX11OfflineDump16SetStartFrameNumEm+0x2c>
+	cbz	w8, 0x327c <_ZN4CamX11OfflineDump16SetStartFrameNumEm+0x2c>
 
-	b.ne	0x5c4c <_ZN4CamX11OfflineDump15SetStopFrameNumEm+0x1c>
-	cbz	w9, 0x5c84 <_ZN4CamX11OfflineDump15SetStopFrameNumEm+0x54>
-	b.ne	0x5c84 <_ZN4CamX11OfflineDump15SetStopFrameNumEm+0x54>
-	b.lo	0x5ca0 <_ZN4CamX11OfflineDump15SetStopFrameNumEm+0x70>
-	b.ls	0x5c98 <_ZN4CamX11OfflineDump15SetStopFrameNumEm+0x68>
-	b.ne	0x5c98 <_ZN4CamX11OfflineDump15SetStopFrameNumEm+0x68>
-	adrp	x8, 0x3000 <_ZN4CamX11OfflineDump15SetStopFrameNumEm+0x54>
+	b.ne	0x32cc <_ZN4CamX11OfflineDump15SetStopFrameNumEm+0x14>
+	cbz	w9, 0x32f8 <_ZN4CamX11OfflineDump15SetStopFrameNumEm+0x40>
+	b.ne	0x32f8 <_ZN4CamX11OfflineDump15SetStopFrameNumEm+0x40>
+	b.ls	0x330c <_ZN4CamX11OfflineDump15SetStopFrameNumEm+0x54>
+	b.ne	0x330c <_ZN4CamX11OfflineDump15SetStopFrameNumEm+0x54>
+	adrp	x8, 0x1000 <_ZN4CamX11OfflineDump15SetStopFrameNumEm+0x40>
 
-	cbz	x1, 0x5ce4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x3c>
-	cbz	w9, 0x5d4c <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xa4>
-	adrp	x2, 0x2000 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x34>
-	adrp	x3, 0x2000 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x3c>
-	b.ne	0x62fc <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x654>
-	cbz	w16, 0x6248 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x5a0>
-	cbz	w17, 0x6248 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x5a0>
-	cbz	w1, 0x6248 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x5a0>
-	bl	0x9bd0 <_ZNSt3__15mutex4lockEv@plt>
-	cbz	x0, 0x6284 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x5dc>
-	b.hs	0x6254 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x5ac>
-	b.eq	0x5e94 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x1ec>
-	bl	0x9c00 <_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_@plt>
-	b	0x60a4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x3fc>
-	b.hs	0x62f4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x64c>
-	b.hi	0x6300 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x658>
-	b.hi	0x5f08 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x260>
-	cbz	x21, 0x6138 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x490>
-	bl	0x9c90 <_Znwm@plt>
-	bl	0x9c00 <_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_@plt>
-	b.eq	0x5fd8 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x330>
-	b.ge	0x5ff0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x348>
-	b.lt	0x5ff0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x348>
-	tbz	w3, #0, 0x5ff0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x348>
-	cbz	xzr, 0x6140 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x498>
-	b	0x602c <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x384>
-	cbnz	x27, 0x607c <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x3d4>
-	b	0x60a4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x3fc>
-	b.ne	0x5ff4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x34c>
-	b.eq	0x6070 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x3c8>
-	b	0x6058 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x3b0>
-	b.eq	0x6070 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x3c8>
-	tbz	w0, #0, 0x604c <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x3a4>
-	bl	0x9bf0 <_ZdlPv@plt>
-	b	0x604c <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x3a4>
-	cbz	x27, 0x60a4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x3fc>
-	cbnz	x0, 0x6308 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x660>
-	bl	0x9bf0 <_ZdlPv@plt>
-	b.lo	0x62f8 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x650>
-	bl	0x6360 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x6b8>
-	cbnz	x0, 0x60d8 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x430>
-	bl	0x63c0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x718>
-	b.hs	0x62f4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x64c>
-	b.hs	0x62f4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x64c>
-	tbz	w5, #0, 0x6118 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x470>
-	bl	0x9bf0 <_ZdlPv@plt>
-	b.eq	0x62f4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x64c>
-	b.lo	0x5e48 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x1a0>
-	b	0x6254 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x5ac>
-	b	0x5f1c <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x274>
-	b.le	0x602c <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x384>
-	b.lt	0x61e8 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x540>
-	b.ne	0x6174 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x4cc>
-	cbnz	x14, 0x61ec <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x544>
-	b	0x602c <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x384>
-	b	0x602c <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x384>
-	b	0x5d1c <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x74>
-	bl	0x9c20 <_ZNSt3__15mutex6unlockEv@plt>
-	bl	0x9bd0 <_ZNSt3__15mutex4lockEv@plt>
-	b.eq	0x62d8 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x630>
-	cbz	w7, 0x62d8 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x630>
-	b	0x62e0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x638>
-	adrp	x2, 0x2000 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x5cc>
-	adrp	x3, 0x2000 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x5d0>
-	bl	0x9c20 <_ZNSt3__15mutex6unlockEv@plt>
-	adrp	x2, 0x2000 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x5f4>
-	adrp	x3, 0x2000 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x5f8>
-	b	0x5d1c <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x74>
-	bl	0x9c20 <_ZNSt3__15mutex6unlockEv@plt>
-	b	0x5d1c <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x74>
-	bl	0x9ca0 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
-	b	0x6340 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x698>
-	b	0x6340 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x698>
-	cbnz	x20, 0x632c <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x684>
-	tbnz	w6, #0, 0x634c <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x6a4>
-	bl	0x9bf0 <_ZdlPv@plt>
-	tbz	w6, #0, 0x6324 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x67c>
-	b	0x634c <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x6a4>
-	tbz	w6, #0, 0x6324 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x67c>
-	bl	0x9bf0 <_ZdlPv@plt>
-	b.ne	0x637c <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x6d4>
-	b	0x6394 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x6ec>
-	b.ne	0x63b8 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x710>
-	b.lo	0x63b0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x708>
-	b.hs	0x63b4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x70c>
-	b.lo	0x63b0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x708>
-	b.lo	0x644c <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x7a4>
-	bl	0x68f8 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xc50>
-	b.ne	0x6734 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xa8c>
-	b.hs	0x64a4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x7fc>
-	bl	0x9c90 <_Znwm@plt>
-	b.ne	0x6520 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x878>
-	b.eq	0x6738 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xa90>
-	b	0x6410 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x768>
-	b.hs	0x68e0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xc38>
-	cbnz	x1, 0x68a8 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xc00>
-	bl	0x9c90 <_Znwm@plt>
-	bl	0x9c90 <_Znwm@plt>
-	b.ne	0x65c8 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x920>
-	b.ls	0x6584 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x8dc>
-	b	0x65c8 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x920>
-	b.ne	0x6894 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xbec>
-	b.ls	0x676c <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xac4>
-	cbz	x27, 0x6570 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x8c8>
-	b.ne	0x68e0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xc38>
-	b	0x6894 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xbec>
-	b.hs	0x68e0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xc38>
-	cbnz	x8, 0x68ac <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xc04>
-	bl	0x9c90 <_Znwm@plt>
-	bl	0x9bf0 <_ZdlPv@plt>
-	b.ne	0x6600 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x958>
-	b	0x66f8 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xa50>
-	b.eq	0x66f4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xa4c>
-	b.ne	0x65e0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x938>
-	b.hs	0x6668 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x9c0>
-	b.eq	0x6660 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x9b8>
-	b.ne	0x68e0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xc38>
-	b	0x65e4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x93c>
-	b.hs	0x68e0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xc38>
-	bl	0x9c90 <_Znwm@plt>
-	b.eq	0x66d4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xa2c>
-	b.ne	0x66bc <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xa14>
-	cbz	x20, 0x66e8 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xa40>
-	cbnz	x27, 0x68e0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xc38>
-	bl	0x9bf0 <_ZdlPv@plt>
-	b	0x65e4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x93c>
-	cbz	x0, 0x641c <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x774>
-	cbnz	x11, 0x68e0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xc38>
-	bl	0x9bf0 <_ZdlPv@plt>
-	b.eq	0x642c <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x784>
-	b.hs	0x67f4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xb4c>
-	cbz	x27, 0x6850 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xba8>
-	b.ne	0x68e0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xc38>
-	b	0x6484 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x7dc>
-	b.hs	0x68e0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xc38>
-	cbnz	x9, 0x68a8 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xc00>
-	bl	0x9c90 <_Znwm@plt>
-	b.eq	0x67c8 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xb20>
-	b.ne	0x67b0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xb08>
-	cbz	x22, 0x6890 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xbe8>
-	cbnz	x23, 0x68e0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xc38>
-	bl	0x9bf0 <_ZdlPv@plt>
-	b	0x6894 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xbec>
-	b.hs	0x68e0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xc38>
-	bl	0x9c90 <_Znwm@plt>
-	b.eq	0x685c <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xbb4>
-	b.ne	0x6834 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xb8c>
-	b	0x6864 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xbbc>
-	b	0x6484 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x7dc>
-	cbz	x8, 0x6484 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x7dc>
-	cbnz	x16, 0x68e0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xc38>
-	bl	0x9bf0 <_ZdlPv@plt>
-	b	0x6484 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x7dc>
-	b	0x641c <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x774>
-	bl	0x6be8 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xf40>
-	bl	0x6be8 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xf40>
-	bl	0x9bf0 <_ZdlPv@plt>
-	b	0x68d0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xc28>
-	b	0x68d0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xc28>
-	cbz	x20, 0x68ec <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xc44>
-	cbz	x3, 0x68e4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xc3c>
-	bl	0x9bf0 <_ZdlPv@plt>
-	b.ne	0x6af4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xe4c>
-	b.ls	0x6988 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xce0>
-	b.eq	0x6974 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xccc>
-	b.ne	0x6bdc <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xf34>
-	b	0x6af4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xe4c>
-	b.hs	0x6bdc <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xf34>
-	cbnz	x1, 0x6be0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xf38>
-	bl	0x9c90 <_Znwm@plt>
-	b.eq	0x6aa0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xdf8>
-	b.le	0x6aa8 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xe00>
-	b.lt	0x6aa8 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xe00>
-	tbz	w15, #0, 0x6aa8 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xe00>
-	b.ne	0x6ac4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xe1c>
-	b.le	0x6ac4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xe1c>
-	b.le	0x6b20 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xe78>
-	b.ne	0x6a64 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xdbc>
-	cbnz	x15, 0x6b24 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xe7c>
-	b	0x6ac4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xe1c>
-	b	0x6ac4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xe1c>
-	b.ne	0x6aac <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xe04>
-	cbz	x21, 0x6af0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xe48>
-	cbnz	x11, 0x6bdc <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xf34>
-	bl	0x9bf0 <_ZdlPv@plt>
-	b	0x6af4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xe4c>
-	b.ls	0x6b78 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xed0>
-	b.ge	0x6ac4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xe1c>
-	tbz	w12, #5, 0x6ba8 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xf00>
-	b.ge	0x6ac4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xe1c>
-	tbz	w12, #4, 0x6bcc <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xf24>
-	b.ge	0x6ac4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xe1c>
-	b	0x6ac4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xe1c>
-	bl	0x6be8 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xf40>
-	bl	0x6c30 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xf88>
-	adrp	x1, 0xa000 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xf6c>
-	adrp	x2, 0xa000 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xf70>
-	adrp	x1, 0x2000 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xf84>
-	bl	0x9d00 <_ZNSt11logic_errorC2EPKc@plt>
-	adrp	x8, 0xa000 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xfb4>
+	cbz	x1, 0x334c <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x3c>
+	cbz	w9, 0x33b4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xa4>
+	adrp	x2, 0x1000 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x38>
+	adrp	x3, 0x1000 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x40>
+	b.ne	0x3918 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x608>
+	cbz	w16, 0x386c <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x55c>
+	cbz	w17, 0x386c <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x55c>
+	cbz	w9, 0x3910 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x600>
+	bl	0x7720 <_ZNSt3__15mutex4lockEv@plt>
+	cbz	x0, 0x38a8 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x598>
+	cbz	w27, 0x3878 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x568>
+	b	0x34b0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x1a0>
+	b.hs	0x3878 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x568>
+	b.eq	0x34f4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x1e4>
+	bl	0x7740 <_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_@plt>
+	b	0x37e4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x4d4>
+	b.hs	0x391c <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x60c>
+	cbz	x21, 0x3590 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x280>
+	b.hs	0x3924 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x614>
+	bl	0x77a0 <_Znwm@plt>
+	b	0x3594 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x284>
+	bl	0x7740 <_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_@plt>
+	b.eq	0x36e0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x3d0>
+	b.ge	0x36f4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x3e4>
+	b.lt	0x36f4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x3e4>
+	tbz	w2, #0, 0x36f4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x3e4>
+	b.le	0x3790 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x480>
+	b.lt	0x3734 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x424>
+	b.ne	0x366c <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x35c>
+	cbnz	x14, 0x3738 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x428>
+	b	0x3790 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x480>
+	cbnz	x27, 0x37dc <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x4cc>
+	b	0x37e4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x4d4>
+	b.ne	0x36f8 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x3e8>
+	b	0x3790 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x480>
+	b.eq	0x37d0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x4c0>
+	b	0x37b8 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x4a8>
+	b.eq	0x37d0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x4c0>
+	tbz	w3, #0, 0x37ac <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x49c>
+	bl	0x7730 <_ZdlPv@plt>
+	b	0x37ac <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x49c>
+	cbz	x27, 0x37e4 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x4d4>
+	bl	0x7730 <_ZdlPv@plt>
+	b.ne	0x3820 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x510>
+	bl	0x4530 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x440>
+	tbz	w0, #0, 0x34a0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x190>
+	bl	0x7730 <_ZdlPv@plt>
+	b	0x34a0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x190>
+	b	0x3384 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x74>
+	bl	0x7760 <_ZNSt3__15mutex6unlockEv@plt>
+	bl	0x7720 <_ZNSt3__15mutex4lockEv@plt>
+	b.eq	0x38fc <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x5ec>
+	cbz	w6, 0x38fc <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x5ec>
+	b	0x3904 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x5f4>
+	adrp	x2, 0x1000 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x590>
+	adrp	x3, 0x1000 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x594>
+	bl	0x7760 <_ZNSt3__15mutex6unlockEv@plt>
+	adrp	x2, 0x1000 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x5b8>
+	adrp	x3, 0x1000 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x5bc>
+	b	0x3384 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x74>
+	bl	0x7760 <_ZNSt3__15mutex6unlockEv@plt>
+	b	0x3384 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x74>
+	bl	0x77b0 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+	adrp	x0, 0x1000 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x60c>
+	bl	0x44b0 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x3c0>
+	b	0x3964 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x654>
+	cbnz	x20, 0x394c <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x63c>
+	tbnz	w5, #0, 0x3970 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x660>
+	bl	0x7730 <_ZdlPv@plt>
+	tbz	w5, #0, 0x3944 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x634>
+	b	0x3970 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x660>
+	b	0x3964 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x654>
+	tbz	w5, #0, 0x3944 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x634>
+	bl	0x7730 <_ZdlPv@plt>
 
-	cbnz	w8, 0x6ca4 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x3c>
-	adrp	x0, 0xb000 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x2c>
-	b	0x6ca8 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x40>
-	b.eq	0x728c <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x624>
-	b.ne	0x728c <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x624>
-	bl	0x9bd0 <_ZNSt3__15mutex4lockEv@plt>
-	b.ne	0x6d28 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0xc0>
-	b	0x6d40 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0xd8>
-	b.ne	0x7348 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x6e0>
-	b.lo	0x7308 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x6a0>
-	b.hs	0x72fc <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x694>
-	b.lo	0x7308 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x6a0>
-	cbnz	x13, 0x723c <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x5d4>
-	b.lo	0x6d8c <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x124>
-	bl	0x9558 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x8b8>
-	b	0x723c <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x5d4>
-	b.hs	0x6e20 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x1b8>
-	b.ne	0x6ea0 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x238>
-	bl	0x9c90 <_Znwm@plt>
-	b.ne	0x7214 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x5ac>
-	b.hs	0x70d4 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x46c>
-	b.eq	0x7204 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x59c>
-	b.ne	0x7348 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x6e0>
-	b	0x7208 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x5a0>
-	b.hs	0x7348 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x6e0>
-	cbnz	x9, 0x730c <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x6a4>
-	bl	0x9c90 <_Znwm@plt>
-	bl	0x9c90 <_Znwm@plt>
-	b.ne	0x6f18 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x2b0>
-	b.ls	0x6f20 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x2b8>
-	b	0x6f64 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x2fc>
-	bl	0x9c90 <_Znwm@plt>
-	b.ne	0x71f0 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x588>
-	b.ls	0x7168 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x500>
-	b.eq	0x6f04 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x29c>
-	b.ne	0x7348 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x6e0>
-	b	0x71f0 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x588>
-	b	0x6f64 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x2fc>
-	b.hs	0x7348 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x6e0>
-	cbnz	x10, 0x7310 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x6a8>
-	bl	0x9c90 <_Znwm@plt>
-	bl	0x9bf0 <_ZdlPv@plt>
-	b.ne	0x6fa0 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x338>
-	b	0x70a4 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x43c>
-	b.eq	0x70a0 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x438>
-	b.ne	0x6f80 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x318>
-	b.hs	0x7008 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x3a0>
-	b.eq	0x7000 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x398>
-	b.ne	0x7348 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x6e0>
-	b	0x6f84 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x31c>
-	b.hs	0x7348 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x6e0>
-	bl	0x9c90 <_Znwm@plt>
-	b.eq	0x7078 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x410>
-	b.ne	0x7060 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x3f8>
-	cbz	x26, 0x708c <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x424>
-	cbnz	x5, 0x7348 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x6e0>
-	bl	0x9bf0 <_ZdlPv@plt>
-	b	0x6f84 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x31c>
-	cbz	x0, 0x723c <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x5d4>
-	cbnz	x23, 0x7348 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x6e0>
-	bl	0x9bf0 <_ZdlPv@plt>
-	b	0x723c <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x5d4>
-	b.hs	0x7348 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x6e0>
-	bl	0x9c90 <_Znwm@plt>
-	b.eq	0x7130 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x4c8>
-	b.ne	0x7120 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x4b8>
-	cbz	x8, 0x7214 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x5ac>
-	cbnz	x7, 0x7348 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x6e0>
-	bl	0x9bf0 <_ZdlPv@plt>
-	b	0x7214 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x5ac>
-	b.hs	0x7348 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x6e0>
-	cbnz	x10, 0x7314 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x6ac>
-	bl	0x9c90 <_Znwm@plt>
-	b.eq	0x71c0 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x558>
-	b.ne	0x71b0 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x548>
-	cbz	x9, 0x71f0 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x588>
-	cbnz	x23, 0x7348 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x6e0>
-	bl	0x9bf0 <_ZdlPv@plt>
-	b	0x723c <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x5d4>
-	bl	0x9558 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x8b8>
-	b.hs	0x72fc <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x694>
-	b.hs	0x72fc <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x694>
-	bl	0x9c20 <_ZNSt3__15mutex6unlockEv@plt>
-	bl	0x9d20 <_ZNSt3__118condition_variable10notify_oneEv@plt>
-	b.ne	0x7300 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x698>
-	adrp	x0, 0xb000 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x63c>
-	adrp	x0, 0xb000 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x64c>
-	adrp	x0, 0xb000 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x660>
-	b.ne	0x7304 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x69c>
-	bl	0x6be8 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xf40>
-	bl	0x6be8 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xf40>
-	bl	0x6be8 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xf40>
-	bl	0x9bf0 <_ZdlPv@plt>
-	b	0x7338 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x6d0>
-	b	0x7338 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x6d0>
-	cbz	x26, 0x7360 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x6f8>
-	cbz	x21, 0x734c <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x6e4>
-	bl	0x9bf0 <_ZdlPv@plt>
-	b	0x7360 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x6f8>
-	bl	0x9c20 <_ZNSt3__15mutex6unlockEv@plt>
+	adrp	x0, 0x9000 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x30>
+	b.ne	0x3a54 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0xd4>
+	bl	0x7720 <_ZNSt3__15mutex4lockEv@plt>
+	b.ne	0x3a18 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x98>
+	bl	0x67e0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x2e8>
+	bl	0x7760 <_ZNSt3__15mutex6unlockEv@plt>
+	bl	0x77e0 <_ZNSt3__118condition_variable10notify_oneEv@plt>
+	adrp	x0, 0x9000 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0xec>
+	adrp	x0, 0x9000 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x100>
+	adrp	x0, 0x9000 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x114>
+	bl	0x7760 <_ZNSt3__15mutex6unlockEv@plt>
 
-	b.ne	0x73ec <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x7c>
-	b.hs	0x7420 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0xb0>
-	adrp	x2, 0x2000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x38>
-	adrp	x3, 0x2000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x3c>
-	b	0x73f0 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x80>
-	b.ne	0x77dc <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x46c>
-	cbnz	w26, 0x77e4 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x474>
-	adrp	x0, 0xb000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0xcc>
-	b.hs	0x77e0 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x470>
-	b.ls	0x7480 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x110>
-	adrp	x0, 0xb000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0xf0>
-	bl	0x6ca8 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x40>
-	adrp	x0, 0xb000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x108>
-	b	0x74ac <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x13c>
-	adrp	x0, 0xb000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x120>
-	cbz	x28, 0x74ac <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x13c>
-	adrp	x0, 0xb000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x138>
-	b	0x7600 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x290>
-	bl	0x9bd0 <_ZNSt3__15mutex4lockEv@plt>
-	cbz	x10, 0x7588 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x218>
-	b.hs	0x77e0 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x470>
-	b.lo	0x751c <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x1ac>
-	bl	0x9bf0 <_ZdlPv@plt>
-	b.lo	0x77e8 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x478>
-	tbnz	w23, #31, 0x755c <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x1ec>
-	b.ge	0x755c <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x1ec>
-	tbnz	w12, #0, 0x7594 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x224>
-	b	0x75a8 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x238>
-	adrp	x2, 0x2000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x1d8>
-	adrp	x3, 0x2000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x1dc>
-	b	0x75bc <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x24c>
-	b	0x75bc <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x24c>
-	bl	0x9c20 <_ZNSt3__15mutex6unlockEv@plt>
-	adrp	x0, 0xb000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x264>
-	adrp	x0, 0xb000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x278>
-	adrp	x0, 0xb000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x288>
-	cbz	x28, 0x7680 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x310>
-	adrp	x0, 0xb000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x2a0>
-	tbnz	w12, #0, 0x7634 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x2c4>
-	cbnz	x11, 0x76d8 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x368>
-	b	0x7644 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x2d4>
-	cbnz	x11, 0x76d8 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x368>
-	bl	0x9d30 <_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6__initEPKcm@plt>
-	tbnz	w13, #0, 0x7688 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x318>
-	b	0x76c8 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x358>
-	b	0x73f0 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x80>
-	tbz	w14, #0, 0x76c8 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x358>
-	b.lo	0x77e8 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x478>
-	b.eq	0x77e0 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x470>
-	bl	0x9bf0 <_ZdlPv@plt>
-	cbz	x1, 0x7734 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x3c4>
-	adrp	x0, 0xb000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x390>
-	b.hs	0x77e0 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x470>
-	adrp	x0, 0xb000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x3a8>
-	b	0x73f0 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x80>
-	bl	0x9bd0 <_ZNSt3__15mutex4lockEv@plt>
-	cbz	w16, 0x7754 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x3e4>
-	b.eq	0x77a4 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x434>
-	bl	0x77f0 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x480>
-	adrp	x0, 0xb000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x40c>
-	adrp	x0, 0xb000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x41c>
-	adrp	x0, 0xb000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x430>
-	bl	0x9c20 <_ZNSt3__15mutex6unlockEv@plt>
-	adrp	x2, 0x3000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x42c>
-	adrp	x3, 0x2000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x42c>
-	b	0x73f0 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x80>
-	bl	0x6360 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x6b8>
-	cbnz	x0, 0x7814 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x4a4>
-	bl	0x63c0 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x718>
-	b.hs	0x7854 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x4e4>
-	b.hs	0x7854 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x4e4>
+	b.ne	0x3b44 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x8c>
+	b.hs	0x3b5c <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0xa4>
+	adrp	x2, 0x1000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x44>
+	adrp	x3, 0x1000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x48>
+	b.eq	0x409c <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x5e4>
+	b	0x40d0 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x618>
+	b.eq	0x409c <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x5e4>
+	b	0x40d0 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x618>
+	adrp	x0, 0x9000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0xc0>
+	b.ls	0x3c74 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x1bc>
+	adrp	x0, 0x9000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0xe8>
+	b.eq	0x3c34 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x17c>
+	bl	0x7720 <_ZNSt3__15mutex4lockEv@plt>
+	b.ne	0x3bfc <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x144>
+	bl	0x67e0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x2e8>
+	bl	0x7760 <_ZNSt3__15mutex6unlockEv@plt>
+	bl	0x77e0 <_ZNSt3__118condition_variable10notify_oneEv@plt>
+	adrp	x0, 0x9000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x194>
+	adrp	x0, 0x9000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x1a4>
+	adrp	x0, 0x9000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x1b8>
+	b	0x3ca0 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x1e8>
+	adrp	x0, 0x9000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x1d4>
+	cbz	x24, 0x3ca0 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x1e8>
+	adrp	x0, 0x9000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x1ec>
+	b	0x3e20 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x368>
+	cbz	x0, 0x3d84 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x2cc>
+	bl	0x7720 <_ZNSt3__15mutex4lockEv@plt>
+	adrp	x2, 0x1000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x1f8>
+	b.lo	0x3d10 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x258>
+	bl	0x7730 <_ZdlPv@plt>
+	bl	0x7760 <_ZNSt3__15mutex6unlockEv@plt>
+	tbnz	w23, #31, 0x3d5c <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x2a4>
+	b.ge	0x3d5c <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x2a4>
+	tbnz	w14, #0, 0x3dd8 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x320>
+	b	0x3de4 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x32c>
+	adrp	x2, 0x1000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x29c>
+	adrp	x3, 0x1000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x2a0>
+	b	0x3d88 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x2d0>
+	adrp	x0, 0x9000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x2e8>
+	adrp	x0, 0x9000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x2f8>
+	adrp	x0, 0x9000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x30c>
+	b.eq	0x409c <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x5e4>
+	b	0x40d0 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x618>
+	adrp	x0, 0x9000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x348>
+	adrp	x0, 0x9000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x368>
+	cbz	x24, 0x40bc <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x604>
+	tbnz	w13, #0, 0x3e9c <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x3e4>
+	cbz	x12, 0x3ea8 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x3f0>
+	cbz	x28, 0x3f84 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x4cc>
+	adrp	x0, 0x9000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x3b8>
+	b.eq	0x409c <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x5e4>
+	b	0x40d0 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x618>
+	cbnz	x12, 0x3e40 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x388>
+	b.hs	0x40d4 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x61c>
+	b.hs	0x3ee8 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x430>
+	cbnz	x23, 0x3f18 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x460>
+	b	0x3f28 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x470>
+	bl	0x77a0 <_Znwm@plt>
+	tbnz	w16, #0, 0x3f48 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x490>
+	b	0x3f68 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x4b0>
+	tbz	w17, #0, 0x3f68 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x4b0>
+	bl	0x7730 <_ZdlPv@plt>
+	cbnz	x28, 0x3e48 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x390>
+	bl	0x7720 <_ZNSt3__15mutex4lockEv@plt>
+	cbz	w3, 0x3fa0 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x4e8>
+	adrp	x0, 0x9000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x500>
+	b.eq	0x4058 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x5a0>
+	b.ne	0x4000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x548>
+	bl	0x4530 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x440>
+	adrp	x0, 0x9000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x548>
+	adrp	x0, 0x9000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x560>
+	adrp	x0, 0x9000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x58c>
+	adrp	x0, 0x9000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x5a0>
+	bl	0x7760 <_ZNSt3__15mutex6unlockEv@plt>
+	adrp	x2, 0x1000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x59c>
+	adrp	x3, 0x1000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x5a0>
+	b.ne	0x40d0 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x618>
+	b.eq	0x409c <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x5e4>
+	bl	0x7810 <_ZNKSt3__121__basic_string_commonILb1EE20__throw_length_errorEv@plt>
+	bl	0x7760 <_ZNSt3__15mutex6unlockEv@plt>
 
-	b.ne	0x790c <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xb4>
-	cbz	w8, 0x7934 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xdc>
-	b.hs	0x7920 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xc8>
-	bl	0x9bd0 <_ZNSt3__15mutex4lockEv@plt>
-	cbnz	w21, 0x7950 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xf8>
-	adrp	x0, 0xb000 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x60>
-	b.eq	0x7904 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xac>
-	bl	0x77f0 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x480>
-	adrp	x0, 0xb000 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x84>
-	adrp	x0, 0xb000 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x94>
-	adrp	x0, 0xb000 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xa8>
-	bl	0x9c20 <_ZNSt3__15mutex6unlockEv@plt>
-	b.ls	0x7934 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xdc>
-	b	0x7910 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xb8>
-	b	0x9d50 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj@plt>
-	bl	0x9d60 <_ZN4CamX18OfflineDumpManager11GetInstanceEv@plt>
-	b	0x9d70 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj@plt>
-	bl	0x9d60 <_ZN4CamX18OfflineDumpManager11GetInstanceEv@plt>
-	b	0x6ca8 <_ZN4CamX11OfflineDump25RequestFlushCurrentBufferEv+0x40>
-	bl	0x9d60 <_ZN4CamX18OfflineDumpManager11GetInstanceEv@plt>
-	b	0x8de0 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x140>
-	b	0x5970 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x50>
-	bl	0x9d60 <_ZN4CamX18OfflineDumpManager11GetInstanceEv@plt>
-	bl	0x9d60 <_ZN4CamX18OfflineDumpManager11GetInstanceEv@plt>
-	b	0x9d80 <_ZN4CamX11OfflineDump16SetStartFrameNumEm@plt>
-	bl	0x9d60 <_ZN4CamX18OfflineDumpManager11GetInstanceEv@plt>
-	bl	0x9d60 <_ZN4CamX18OfflineDumpManager11GetInstanceEv@plt>
-	b	0x9d90 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE@plt>
-	bl	0x9d60 <_ZN4CamX18OfflineDumpManager11GetInstanceEv@plt>
-	bl	0x9d60 <_ZN4CamX18OfflineDumpManager11GetInstanceEv@plt>
-	b	0x9d50 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj@plt>
-	bl	0x9d60 <_ZN4CamX18OfflineDumpManager11GetInstanceEv@plt>
-	bl	0x9bd0 <_ZNSt3__15mutex4lockEv@plt>
-	bl	0x9c90 <_Znwm@plt>
-	bl	0x9db0 <_ZNSt3__16threadD1Ev@plt>
-	bl	0x9c90 <_Znwm@plt>
-	bl	0x9dc0 <_ZNSt3__115__thread_structC1Ev@plt>
-	bl	0x9c90 <_Znwm@plt>
-	bl	0x9c90 <_Znwm@plt>
-	bl	0x9db0 <_ZNSt3__16threadD1Ev@plt>
-	bl	0x9bf0 <_ZdlPv@plt>
-	bl	0x9c20 <_ZNSt3__15mutex6unlockEv@plt>
-	bl	0x9e00 <_ZNSt3__120__throw_system_errorEiPKc@plt>
-	bl	0x9ca0 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
-	bl	0x9db0 <_ZNSt3__16threadD1Ev@plt>
-	bl	0x9e10 <_ZNSt3__115__thread_structD1Ev@plt>
-	bl	0x9e10 <_ZNSt3__115__thread_structD1Ev@plt>
-	bl	0x9bf0 <_ZdlPv@plt>
-	bl	0x9bf0 <_ZdlPv@plt>
-	bl	0x9c20 <_ZNSt3__15mutex6unlockEv@plt>
-	bl	0x9e20 <_ZNSt3__15mutexD1Ev@plt>
-	bl	0x8f60 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x2c0>
-	bl	0x9e20 <_ZNSt3__15mutexD1Ev@plt>
-	bl	0x9e30 <_ZNSt3__118condition_variableD1Ev@plt>
-	bl	0x9db0 <_ZNSt3__16threadD1Ev@plt>
-	bl	0x9bf0 <_ZdlPv@plt>
+	b.ne	0x4200 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x110>
+	cbz	w8, 0x422c <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x13c>
+	b.hs	0x4218 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x128>
+	bl	0x7720 <_ZNSt3__15mutex4lockEv@plt>
+	adrp	x0, 0x9000 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x5c>
+	b.eq	0x41f8 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x108>
+	b.ne	0x41a0 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xb0>
+	bl	0x4530 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x440>
+	adrp	x0, 0x9000 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xac>
+	adrp	x0, 0x9000 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xc8>
+	adrp	x0, 0x9000 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xf4>
+	adrp	x0, 0x9000 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x108>
+	bl	0x7760 <_ZNSt3__15mutex6unlockEv@plt>
+	b.ls	0x422c <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x13c>
+	b	0x4204 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x114>
+	b	0x7820 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj@plt>
+	cbz	w8, 0x4364 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x274>
+	bl	0x7740 <_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_@plt>
+	b.ne	0x436c <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x27c>
+	adrp	x1, 0x1000 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x1d4>
+	cbz	x0, 0x4394 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x2a4>
+	b.eq	0x4350 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x260>
+	adrp	x2, 0x1000 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x230>
+	adrp	x3, 0x1000 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x234>
+	tbnz	w13, #0, 0x43cc <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x2dc>
+	b	0x43d8 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x2e8>
+	b	0x4460 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x370>
+	adrp	x2, 0x1000 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x270>
+	adrp	x3, 0x1000 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x274>
+	b	0x444c <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x35c>
+	adrp	x2, 0x1000 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x2a0>
+	adrp	x3, 0x1000 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x2a4>
+	tbnz	w14, #0, 0x4458 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x368>
+	b	0x4460 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x370>
+	bl	0x7720 <_ZNSt3__15mutex4lockEv@plt>
+	b.ne	0x441c <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x32c>
+	bl	0x4530 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x440>
+	bl	0x7760 <_ZNSt3__15mutex6unlockEv@plt>
+	tbz	w14, #0, 0x4460 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x370>
+	bl	0x7730 <_ZdlPv@plt>
+	b.ne	0x448c <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x39c>
+	b	0x4494 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x3a4>
+	tbz	w15, #0, 0x44a8 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x3b8>
+	bl	0x7730 <_ZdlPv@plt>
+	bl	0x4500 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x410>
+	adrp	x1, 0x8000 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x3f4>
+	adrp	x2, 0x8000 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x3f8>
+	bl	0x78a0 <_ZNSt11logic_errorC2EPKc@plt>
+	adrp	x8, 0x8000 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x434>
+	b.lo	0x45d4 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x4e4>
+	b.ne	0x4948 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x858>
+	b.ls	0x470c <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x61c>
+	b.eq	0x45c4 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x4d4>
+	b	0x4948 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x858>
+	b.hs	0x4688 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x598>
+	bl	0x77a0 <_Znwm@plt>
+	b.ne	0x46b0 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x5c0>
+	b.eq	0x47bc <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x6cc>
+	b.ne	0x4f40 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xe50>
+	b.ls	0x4b0c <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xa1c>
+	b.eq	0x4678 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x588>
+	b	0x4f40 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xe50>
+	cbz	x25, 0x4730 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x640>
+	cbnz	x0, 0x5088 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xf98>
+	bl	0x77a0 <_Znwm@plt>
+	b	0x4734 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x644>
+	b.ne	0x4ed0 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xde0>
+	b.ls	0x4974 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x884>
+	cbz	x23, 0x46fc <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x60c>
+	b	0x4ed0 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xde0>
+	cbz	x26, 0x480c <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x71c>
+	cbnz	x15, 0x5088 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xf98>
+	bl	0x77a0 <_Znwm@plt>
+	b	0x4810 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x720>
+	bl	0x77a0 <_Znwm@plt>
+	b.ne	0x4778 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x688>
+	b.lt	0x47e4 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x6f4>
+	b.ne	0x4b90 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xaa0>
+	cbz	x0, 0x4958 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x868>
+	b	0x7730 <_ZdlPv@plt>
+	b.hs	0x4a44 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x954>
+	cbz	x23, 0x4dc4 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xcd4>
+	b	0x460c <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x51c>
+	cbz	x26, 0x4b30 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xa40>
+	cbnz	x3, 0x5094 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xfa4>
+	bl	0x77a0 <_Znwm@plt>
+	b	0x4b34 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xa44>
+	b.eq	0x4904 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x814>
+	b.ge	0x490c <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x81c>
+	b.lt	0x490c <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x81c>
+	tbz	w14, #0, 0x490c <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x81c>
+	b.ne	0x4920 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x830>
+	b.le	0x4920 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x830>
+	b.le	0x4f54 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xe64>
+	b.ne	0x48c8 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x7d8>
+	cbnz	x5, 0x4f58 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xe68>
+	b	0x4920 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x830>
+	b	0x4930 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x840>
+	b.ne	0x4910 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x820>
+	cbz	x24, 0x4948 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x858>
+	bl	0x7730 <_ZdlPv@plt>
+	cbnz	x9, 0x5088 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xf98>
+	bl	0x77a0 <_Znwm@plt>
+	b.eq	0x4eb4 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xdc4>
+	b.lo	0x4a20 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x930>
+	b.hs	0x49e4 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x8f4>
+	b.hi	0x4a20 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x930>
+	b.ne	0x4a04 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x914>
+	b.eq	0x4a30 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x940>
+	b.ne	0x4a20 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x930>
+	b	0x4eb8 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xdc8>
+	cbnz	x15, 0x5088 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xf98>
+	bl	0x77a0 <_Znwm@plt>
+	b.eq	0x4ee4 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xdf4>
+	b.lo	0x4ae8 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x9f8>
+	b.hs	0x4aac <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x9bc>
+	b.lo	0x4ae8 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x9f8>
+	b.ne	0x4acc <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x9dc>
+	b.eq	0x4af8 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xa08>
+	b.ne	0x4ae8 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x9f8>
+	b	0x4ee8 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xdf8>
+	cbz	x25, 0x4dd0 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xce0>
+	cbnz	x6, 0x5088 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xf98>
+	bl	0x77a0 <_Znwm@plt>
+	b	0x4dd4 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xce4>
+	cbz	x21, 0x4b50 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xa60>
+	bl	0x7730 <_ZdlPv@plt>
+	b.ne	0x4b90 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xaa0>
+	b	0x4788 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x698>
+	b.eq	0x4790 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x6a0>
+	b.ne	0x4b68 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xa78>
+	b.hs	0x4be0 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xaf0>
+	b.eq	0x4c08 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xb18>
+	b	0x4b70 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xa80>
+	cbz	x24, 0x4c10 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xb20>
+	cbnz	x2, 0x507c <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xf8c>
+	bl	0x77a0 <_Znwm@plt>
+	b	0x4c14 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xb24>
+	b	0x4b70 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xa80>
+	b.eq	0x4d24 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xc34>
+	b.ge	0x4d00 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xc10>
+	b.lt	0x4d00 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xc10>
+	tbz	w12, #0, 0x4d00 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xc10>
+	b.ne	0x4d18 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xc28>
+	b.le	0x4d18 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xc28>
+	b.le	0x4d38 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xc48>
+	b.ne	0x4cbc <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xbcc>
+	cbz	x6, 0x4d18 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xc28>
+	b.hi	0x4d44 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xc54>
+	b	0x4d6c <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xc7c>
+	b.ne	0x4d08 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xc18>
+	cbz	x21, 0x4d30 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xc40>
+	bl	0x7730 <_ZdlPv@plt>
+	b	0x4b70 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xa80>
+	b.ls	0x4d6c <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xc7c>
+	b.ge	0x4d18 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xc28>
+	tbz	w16, #5, 0x4d90 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xca0>
+	b.ge	0x4d18 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xc28>
+	tbz	w16, #4, 0x4db4 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xcc4>
+	b.ge	0x4d18 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xc28>
+	b	0x4d18 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xc28>
+	b	0x460c <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x51c>
+	b.eq	0x4eac <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xdbc>
+	b.ge	0x4f04 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xe14>
+	b.lt	0x4f04 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xe14>
+	tbz	w16, #0, 0x4f04 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xe14>
+	b.ne	0x4f18 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xe28>
+	b.le	0x4f18 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xe28>
+	b.le	0x4ff0 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xf00>
+	b.ne	0x4e70 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xd80>
+	cbnz	x7, 0x4ff4 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xf04>
+	b	0x4f18 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xe28>
+	b	0x4f28 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xe38>
+	cbz	x25, 0x4ed0 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xde0>
+	bl	0x7730 <_ZdlPv@plt>
+	b	0x4958 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x868>
+	cbz	x20, 0x460c <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x51c>
+	bl	0x7730 <_ZdlPv@plt>
+	b	0x460c <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x51c>
+	b.ne	0x4f08 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xe18>
+	cbz	x21, 0x4f40 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xe50>
+	bl	0x7730 <_ZdlPv@plt>
+	b	0x4958 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x868>
+	b.ls	0x4f90 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xea0>
+	b.gt	0x4920 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x830>
+	tbz	w17, #2, 0x4fb8 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xec8>
+	b.gt	0x4920 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x830>
+	tbz	w17, #1, 0x4fdc <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xeec>
+	b.gt	0x4920 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x830>
+	b	0x4920 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x830>
+	b.ls	0x5024 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xf34>
+	b.ge	0x4f18 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xe28>
+	tbz	w12, #5, 0x5048 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xf58>
+	b.ge	0x4f18 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xe28>
+	tbz	w12, #4, 0x506c <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xf7c>
+	b.ge	0x4f18 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xe28>
+	b	0x4f18 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xe28>
+	adrp	x0, 0x1000 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xf7c>
+	bl	0x44b0 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x3c0>
+	adrp	x0, 0x1000 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xf88>
+	bl	0x44b0 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x3c0>
+	adrp	x0, 0x1000 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xf94>
+	bl	0x44b0 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x3c0>
+	b	0x50b8 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xfc8>
+	bl	0x7730 <_ZdlPv@plt>
+	b	0x50bc <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xfcc>
+	b	0x50b8 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xfc8>
+	cbz	x21, 0x50c8 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0xfd8>
+	bl	0x7730 <_ZdlPv@plt>
+	b	0x78c0 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj@plt>
+	bl	0x7720 <_ZNSt3__15mutex4lockEv@plt>
+	bl	0x67e0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x2e8>
+	bl	0x7760 <_ZNSt3__15mutex6unlockEv@plt>
+	bl	0x77e0 <_ZNSt3__118condition_variable10notify_oneEv@plt>
+	bl	0x7760 <_ZNSt3__15mutex6unlockEv@plt>
+	b	0x3060 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x50>
+	b	0x7910 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE@plt>
+	b	0x7820 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj@plt>
+	bl	0x7720 <_ZNSt3__15mutex4lockEv@plt>
+	bl	0x77a0 <_Znwm@plt>
+	bl	0x7920 <_ZNSt3__16threadD1Ev@plt>
+	bl	0x77a0 <_Znwm@plt>
+	bl	0x7930 <_ZNSt3__115__thread_structC1Ev@plt>
+	bl	0x77a0 <_Znwm@plt>
+	bl	0x77a0 <_Znwm@plt>
+	bl	0x7920 <_ZNSt3__16threadD1Ev@plt>
+	bl	0x7730 <_ZdlPv@plt>
+	bl	0x7760 <_ZNSt3__15mutex6unlockEv@plt>
+	bl	0x7950 <_ZNSt3__120__throw_system_errorEiPKc@plt>
+	bl	0x77b0 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+	bl	0x44b0 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x3c0>
+	bl	0x7920 <_ZNSt3__16threadD1Ev@plt>
+	bl	0x7960 <_ZNSt3__115__thread_structD1Ev@plt>
+	bl	0x7960 <_ZNSt3__115__thread_structD1Ev@plt>
+	bl	0x7730 <_ZdlPv@plt>
+	bl	0x7730 <_ZdlPv@plt>
+	bl	0x7760 <_ZNSt3__15mutex6unlockEv@plt>
+	bl	0x7970 <_ZNSt3__15mutexD1Ev@plt>
+	bl	0x7730 <_ZdlPv@plt>
+	bl	0x7730 <_ZdlPv@plt>
+	bl	0x7730 <_ZdlPv@plt>
+	bl	0x7970 <_ZNSt3__15mutexD1Ev@plt>
+	bl	0x7980 <_ZNSt3__118condition_variableD1Ev@plt>
+	bl	0x7920 <_ZNSt3__16threadD1Ev@plt>
+	bl	0x7730 <_ZdlPv@plt>
+	bl	0x7730 <_ZdlPv@plt>
+	bl	0x7730 <_ZdlPv@plt>
+	b	0x7730 <_ZdlPv@plt>
+	bl	0x7920 <_ZNSt3__16threadD1Ev@plt>
+	b	0x7730 <_ZdlPv@plt>
+	bl	0x7970 <_ZNSt3__15mutexD1Ev@plt>
+	bl	0x7730 <_ZdlPv@plt>
+	bl	0x7730 <_ZdlPv@plt>
+	bl	0x7730 <_ZdlPv@plt>
+	bl	0x7970 <_ZNSt3__15mutexD1Ev@plt>
+	bl	0x7980 <_ZNSt3__118condition_variableD1Ev@plt>
+	bl	0x7920 <_ZNSt3__16threadD1Ev@plt>
+	b	0x7730 <_ZdlPv@plt>
+	bl	0x7970 <_ZNSt3__15mutexD1Ev@plt>
+	bl	0x7970 <_ZNSt3__15mutexD1Ev@plt>
+	bl	0x7980 <_ZNSt3__118condition_variableD1Ev@plt>
+	bl	0x3050 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x40>
+	bl	0x7720 <_ZNSt3__15mutex4lockEv@plt>
+	bl	0x7720 <_ZNSt3__15mutex4lockEv@plt>
+	bl	0x7990 <_ZNSt3__118condition_variable10notify_allEv@plt>
+	bl	0x7760 <_ZNSt3__15mutex6unlockEv@plt>
+	bl	0x79a0 <_ZNSt3__16thread4joinEv@plt>
+	bl	0x3060 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x50>
+	b	0x7760 <_ZNSt3__15mutex6unlockEv@plt>
+	bl	0x7760 <_ZNSt3__15mutex6unlockEv@plt>
 
-	cbnz	w8, 0x8cdc <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x3c>
-	adrp	x2, 0x2000 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x4>
-	adrp	x3, 0x2000 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x8>
-	cbnz	w20, 0x8cf0 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x50>
-	bl	0x8de0 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x140>
-	bl	0x9e20 <_ZNSt3__15mutexD1Ev@plt>
-	bl	0x8f60 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x2c0>
-	bl	0x9e20 <_ZNSt3__15mutexD1Ev@plt>
-	bl	0x9e30 <_ZNSt3__118condition_variableD1Ev@plt>
-	cbz	x21, 0x8d68 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0xc8>
-	b.eq	0x8d78 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0xd8>
-	bl	0x9db0 <_ZNSt3__16threadD1Ev@plt>
-	b.ne	0x8d48 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0xa8>
-	b	0x8d7c <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0xdc>
-	cbnz	x11, 0x8da4 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x104>
-	b	0x9bf0 <_ZdlPv@plt>
-	bl	0x9e20 <_ZNSt3__15mutexD1Ev@plt>
-	bl	0x8ec8 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x228>
-	bl	0x9e20 <_ZNSt3__15mutexD1Ev@plt>
-	bl	0x9e30 <_ZNSt3__118condition_variableD1Ev@plt>
-	bl	0x8ed0 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x230>
-	bl	0x5960 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x40>
-	bl	0x9bd0 <_ZNSt3__15mutex4lockEv@plt>
-	bl	0x9bd0 <_ZNSt3__15mutex4lockEv@plt>
-	bl	0x9e50 <_ZNSt3__118condition_variable10notify_allEv@plt>
-	bl	0x9c20 <_ZNSt3__15mutex6unlockEv@plt>
-	cbz	w8, 0x8e64 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x1c4>
-	b	0x8e48 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x1a8>
-	b.hs	0x8e64 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x1c4>
-	cbz	x10, 0x8e38 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x198>
-	bl	0x9e60 <_ZNSt3__16thread4joinEv@plt>
-	b	0x8e38 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x198>
-	cbnz	w9, 0x8e8c <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x1ec>
-	adrp	x2, 0x2000 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x1b4>
-	adrp	x3, 0x2000 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x1b8>
-	bl	0x5970 <_ZN4CamX11OfflineDumpC2EPNS_18OfflineDumpManagerE15OfflineDumpType+0x50>
-	b	0x9c20 <_ZNSt3__15mutex6unlockEv@plt>
-	b	0x8eb0 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x210>
-	b	0x8eb0 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x210>
-	bl	0x9c20 <_ZNSt3__15mutex6unlockEv@plt>
-	b	0x8f60 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x2c0>
-	cbz	x21, 0x8f1c <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x27c>
-	b.eq	0x8f2c <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x28c>
-	bl	0x9db0 <_ZNSt3__16threadD1Ev@plt>
-	b.ne	0x8efc <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x25c>
-	b	0x8f30 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x290>
-	cbnz	x11, 0x8f58 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x2b8>
-	b	0x9bf0 <_ZdlPv@plt>
-	b.eq	0x8fa0 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x300>
-	b	0x8fa4 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x304>
-	b.hs	0x90d0 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x430>
-	b.eq	0x8fd0 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x330>
-	b	0x8ff0 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x350>
-	b	0x8ff0 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x350>
-	b.ne	0x8ff0 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x350>
-	b.ne	0x8fd8 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x338>
-	b.lo	0x902c <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x38c>
-	bl	0x9bf0 <_ZdlPv@plt>
-	b.hi	0x9008 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x368>
-	b.eq	0x9044 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x3a4>
-	b.ne	0x904c <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x3ac>
-	b	0x9048 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x3a8>
-	b.eq	0x90b0 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x410>
-	bl	0x9bf0 <_ZdlPv@plt>
-	b.ne	0x9054 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x3b4>
-	b.eq	0x9084 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x3e4>
-	cbz	x0, 0x90c0 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x420>
-	cbnz	x11, 0x90d4 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x434>
-	b	0x9bf0 <_ZdlPv@plt>
-	b.ne	0x9070 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x3d0>
-	b	0x9084 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x3e4>
-	b.ne	0x9148 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x4a8>
-	b.ne	0x9478 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x7d8>
-	adrp	x26, 0xb000 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x4b8>
-	adrp	x28, 0x2000 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x498>
-	b	0x919c <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x4fc>
-	b.eq	0x9114 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x474>
-	bl	0x9bd0 <_ZNSt3__15mutex4lockEv@plt>
-	cbnz	x8, 0x91f0 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x550>
-	cbnz	w8, 0x91e8 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x548>
-	b.eq	0x91e8 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x548>
-	cbnz	x8, 0x91f0 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x550>
-	bl	0x9e70 <_ZNSt3__118condition_variable4waitERNS_11unique_lockINS_5mutexEEE@plt>
-	b.ne	0x91c8 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x528>
-	cbz	x8, 0x9250 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x5b0>
-	b.hs	0x946c <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x7cc>
-	b.lo	0x9250 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x5b0>
-	bl	0x9bf0 <_ZdlPv@plt>
-	b.lo	0x9474 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x7d4>
-	cbz	w9, 0x9260 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x5c0>
-	bl	0x9c20 <_ZNSt3__15mutex6unlockEv@plt>
-	b.eq	0x9190 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x4f0>
-	b.eq	0x9190 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x4f0>
-	bl	0x9d60 <_ZN4CamX18OfflineDumpManager11GetInstanceEv@plt>
-	cbnz	w10, 0x9298 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x5f8>
-	adrp	x3, 0x2000 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x5c0>
-	cbnz	w21, 0x9470 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x7d0>
-	cbz	w11, 0x9188 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x4e8>
-	bl	0x9c00 <_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_@plt>
-	b.ne	0x93bc <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x71c>
-	adrp	x1, 0x2000 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x638>
-	cbz	x0, 0x93e4 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x744>
-	adrp	x1, 0xa000 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x678>
-	b.eq	0x93a8 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x708>
-	adrp	x2, 0x2000 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x6c8>
-	adrp	x3, 0x2000 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x6cc>
-	tbnz	w15, #0, 0x9410 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x770>
-	b	0x941c <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x77c>
-	adrp	x2, 0x3000 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x704>
-	adrp	x3, 0x2000 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x704>
-	b	0x9454 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x7b4>
-	adrp	x2, 0x2000 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x730>
-	adrp	x3, 0x2000 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x734>
-	b	0x9454 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x7b4>
-	bl	0x9bd0 <_ZNSt3__15mutex4lockEv@plt>
-	bl	0x77f0 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj+0x480>
-	bl	0x9c20 <_ZNSt3__15mutex6unlockEv@plt>
-	tbz	w16, #0, 0x9188 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x4e8>
-	bl	0x9bf0 <_ZdlPv@plt>
-	b	0x9188 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x4e8>
-	b	0x9480 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x7e0>
-	tbz	w17, #0, 0x9494 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x7f4>
-	bl	0x9bf0 <_ZdlPv@plt>
-	bl	0x9ec0 <_ZNSt3__119__thread_local_dataEv@plt>
-	tbz	w10, #0, 0x94e0 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x840>
-	cbz	x20, 0x9500 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x860>
-	bl	0x9e10 <_ZNSt3__115__thread_structD1Ev@plt>
-	bl	0x9bf0 <_ZdlPv@plt>
-	bl	0x9bf0 <_ZdlPv@plt>
-	cbnz	x19, 0x952c <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x88c>
-	b	0x9550 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x8b0>
-	cbz	x21, 0x9548 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x8a8>
-	bl	0x9e10 <_ZNSt3__115__thread_structD1Ev@plt>
-	bl	0x9bf0 <_ZdlPv@plt>
-	bl	0x9bf0 <_ZdlPv@plt>
-	b.ne	0x9754 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0xab4>
-	b.ls	0x95e8 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x948>
-	b.eq	0x95d4 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x934>
-	b.ne	0x983c <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0xb9c>
-	b	0x9754 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0xab4>
-	b.hs	0x983c <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0xb9c>
-	cbnz	x1, 0x9840 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0xba0>
-	bl	0x9c90 <_Znwm@plt>
-	b.eq	0x9700 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0xa60>
-	b.le	0x9708 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0xa68>
-	b.lt	0x9708 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0xa68>
-	tbz	w15, #0, 0x9708 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0xa68>
-	b.ne	0x9724 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0xa84>
-	b.le	0x9724 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0xa84>
-	b.le	0x9780 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0xae0>
-	b.ne	0x96c4 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0xa24>
-	cbnz	x15, 0x9784 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0xae4>
-	b	0x9724 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0xa84>
-	b	0x9724 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0xa84>
-	b.ne	0x970c <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0xa6c>
-	cbz	x21, 0x9750 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0xab0>
-	cbnz	x11, 0x983c <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0xb9c>
-	bl	0x9bf0 <_ZdlPv@plt>
-	b	0x9754 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0xab4>
-	b.ls	0x97d8 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0xb38>
-	b.ge	0x9724 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0xa84>
-	tbz	w12, #5, 0x9808 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0xb68>
-	b.ge	0x9724 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0xa84>
-	tbz	w12, #4, 0x982c <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0xb8c>
-	b.ge	0x9724 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0xa84>
-	b	0x9724 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0xa84>
-	bl	0x6be8 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xf40>
+	adrp	x20, 0x9000 <_ZN4CamX18OfflineDumpManager11GetInstanceEv+0x18>
+	tbz	w8, #0, 0x6444 <_ZN4CamX18OfflineDumpManager11GetInstanceEv+0x2c>
+	adrp	x19, 0x9000 <_ZN4CamX18OfflineDumpManager11GetInstanceEv+0x38>
+	cbz	w0, 0x6434 <_ZN4CamX18OfflineDumpManager11GetInstanceEv+0x1c>
+	adrp	x0, 0x6000 <_ZN4CamX18OfflineDumpManager11GetInstanceEv+0x44>
+	adrp	x2, 0x8000 <_ZN4CamX18OfflineDumpManager11GetInstanceEv+0x50>
+	adrp	x0, 0x9000 <_ZN4CamX18OfflineDumpManager11GetInstanceEv+0x84>
+
+	cbnz	w8, 0x64e4 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x3c>
+	adrp	x2, 0x1000 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x8>
+	adrp	x3, 0x1000 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0xc>
+
+	adrp	x21, 0x9000 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x1c>
+	tbz	w8, #0, 0x655c <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x64>
+	cbnz	w9, 0x6544 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x4c>
+	adrp	x2, 0x1000 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x18>
+	adrp	x3, 0x1000 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x1c>
+	adrp	x20, 0x9000 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x70>
+	cbz	w0, 0x651c <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x24>
+	adrp	x0, 0x6000 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x7c>
+	adrp	x2, 0x8000 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x88>
+	b	0x651c <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x24>
+	adrp	x0, 0x9000 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xb0>
+	b.ne	0x6618 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x120>
+	b.ne	0x67c0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x2c8>
+	adrp	x22, 0x9000 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x130>
+	b	0x6664 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x16c>
+	bl	0x4250 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x160>
+	b.eq	0x65e8 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xf0>
+	bl	0x7720 <_ZNSt3__15mutex4lockEv@plt>
+	b.ne	0x66dc <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x1e4>
+	cbz	w8, 0x6694 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x19c>
+	bl	0x7760 <_ZNSt3__15mutex6unlockEv@plt>
+	cbz	w25, 0x65e8 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xf0>
+	b.eq	0x6658 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x160>
+	b.eq	0x6658 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x160>
+	tbz	w9, #0, 0x678c <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x294>
+	cbnz	w10, 0x6640 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x148>
+	adrp	x2, 0x1000 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x1ac>
+	adrp	x3, 0x1000 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x1b0>
+	b	0x6640 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x148>
+	cbnz	x8, 0x6718 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x220>
+	b.eq	0x6710 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x218>
+	cbnz	x8, 0x6718 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x220>
+	bl	0x79b0 <_ZNSt3__118condition_variable4waitERNS_11unique_lockINS_5mutexEEE@plt>
+	b.ne	0x66f0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x1f8>
+	cbz	x8, 0x677c <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x284>
+	b.lo	0x677c <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x284>
+	bl	0x7730 <_ZdlPv@plt>
+	cbnz	w8, 0x668c <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x194>
+	b	0x6694 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x19c>
+	cbnz	w8, 0x668c <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x194>
+	b	0x6694 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x19c>
+	cbz	w0, 0x66b0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x1b8>
+	adrp	x0, 0x6000 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x2a4>
+	adrp	x2, 0x8000 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x2b0>
+	b	0x66b0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x1b8>
+	adrp	x0, 0x9000 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x2dc>
+	b.lo	0x6884 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x38c>
+	b.ne	0x6bf8 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x700>
+	b.ls	0x69bc <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x4c4>
+	b.eq	0x6874 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x37c>
+	b	0x6bf8 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x700>
+	b.hs	0x6938 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x440>
+	bl	0x77a0 <_Znwm@plt>
+	b.ne	0x6960 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x468>
+	b.eq	0x6a6c <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x574>
+	b.ne	0x71f0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xcf8>
+	b.ls	0x6dbc <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x8c4>
+	b.eq	0x6928 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x430>
+	b	0x71f0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xcf8>
+	cbz	x25, 0x69e0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x4e8>
+	cbnz	x0, 0x7338 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xe40>
+	bl	0x77a0 <_Znwm@plt>
+	b	0x69e4 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x4ec>
+	b.ne	0x7180 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xc88>
+	b.ls	0x6c24 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x72c>
+	cbz	x23, 0x69ac <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x4b4>
+	b	0x7180 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xc88>
+	cbz	x26, 0x6abc <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x5c4>
+	cbnz	x15, 0x7338 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xe40>
+	bl	0x77a0 <_Znwm@plt>
+	b	0x6ac0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x5c8>
+	bl	0x77a0 <_Znwm@plt>
+	b.ne	0x6a28 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x530>
+	b.lt	0x6a94 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x59c>
+	b.ne	0x6e40 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x948>
+	cbz	x0, 0x6c08 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x710>
+	b	0x7730 <_ZdlPv@plt>
+	b.hs	0x6cf4 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x7fc>
+	cbz	x23, 0x7074 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xb7c>
+	b	0x68bc <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x3c4>
+	cbz	x26, 0x6de0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x8e8>
+	cbnz	x3, 0x7344 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xe4c>
+	bl	0x77a0 <_Znwm@plt>
+	b	0x6de4 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x8ec>
+	b.eq	0x6bb4 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x6bc>
+	b.ge	0x6bbc <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x6c4>
+	b.lt	0x6bbc <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x6c4>
+	tbz	w14, #0, 0x6bbc <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x6c4>
+	b.ne	0x6bd0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x6d8>
+	b.le	0x6bd0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x6d8>
+	b.le	0x7204 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xd0c>
+	b.ne	0x6b78 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x680>
+	cbnz	x5, 0x7208 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xd10>
+	b	0x6bd0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x6d8>
+	b	0x6be0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x6e8>
+	b.ne	0x6bc0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x6c8>
+	cbz	x24, 0x6bf8 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x700>
+	bl	0x7730 <_ZdlPv@plt>
+	cbnz	x9, 0x7338 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xe40>
+	bl	0x77a0 <_Znwm@plt>
+	b.eq	0x7164 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xc6c>
+	b.lo	0x6cd0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x7d8>
+	b.hs	0x6c94 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x79c>
+	b.hi	0x6cd0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x7d8>
+	b.ne	0x6cb4 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x7bc>
+	b.eq	0x6ce0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x7e8>
+	b.ne	0x6cd0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x7d8>
+	b	0x7168 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xc70>
+	cbnz	x15, 0x7338 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xe40>
+	bl	0x77a0 <_Znwm@plt>
+	b.eq	0x7194 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xc9c>
+	b.lo	0x6d98 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x8a0>
+	b.hs	0x6d5c <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x864>
+	b.lo	0x6d98 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x8a0>
+	b.ne	0x6d7c <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x884>
+	b.eq	0x6da8 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x8b0>
+	b.ne	0x6d98 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x8a0>
+	b	0x7198 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xca0>
+	cbz	x25, 0x7080 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xb88>
+	cbnz	x6, 0x7338 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xe40>
+	bl	0x77a0 <_Znwm@plt>
+	b	0x7084 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xb8c>
+	cbz	x21, 0x6e00 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x908>
+	bl	0x7730 <_ZdlPv@plt>
+	b.ne	0x6e40 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x948>
+	b	0x6a38 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x540>
+	b.eq	0x6a40 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x548>
+	b.ne	0x6e18 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x920>
+	b.hs	0x6e90 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x998>
+	b.eq	0x6eb8 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x9c0>
+	b	0x6e20 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x928>
+	cbz	x24, 0x6ec0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x9c8>
+	cbnz	x2, 0x732c <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xe34>
+	bl	0x77a0 <_Znwm@plt>
+	b	0x6ec4 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x9cc>
+	b	0x6e20 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x928>
+	b.eq	0x6fd4 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xadc>
+	b.ge	0x6fb0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xab8>
+	b.lt	0x6fb0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xab8>
+	tbz	w12, #0, 0x6fb0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xab8>
+	b.ne	0x6fc8 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xad0>
+	b.le	0x6fc8 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xad0>
+	b.le	0x6fe8 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xaf0>
+	b.ne	0x6f6c <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xa74>
+	cbz	x6, 0x6fc8 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xad0>
+	b.hi	0x6ff4 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xafc>
+	b	0x701c <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xb24>
+	b.ne	0x6fb8 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xac0>
+	cbz	x21, 0x6fe0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xae8>
+	bl	0x7730 <_ZdlPv@plt>
+	b	0x6e20 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x928>
+	b.ls	0x701c <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xb24>
+	b.ge	0x6fc8 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xad0>
+	tbz	w16, #5, 0x7040 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xb48>
+	b.ge	0x6fc8 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xad0>
+	tbz	w16, #4, 0x7064 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xb6c>
+	b.ge	0x6fc8 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xad0>
+	b	0x6fc8 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xad0>
+	b	0x68bc <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x3c4>
+	b.eq	0x715c <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xc64>
+	b.ge	0x71b4 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xcbc>
+	b.lt	0x71b4 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xcbc>
+	tbz	w16, #0, 0x71b4 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xcbc>
+	b.ne	0x71c8 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xcd0>
+	b.le	0x71c8 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xcd0>
+	b.le	0x72a0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xda8>
+	b.ne	0x7120 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xc28>
+	cbnz	x7, 0x72a4 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xdac>
+	b	0x71c8 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xcd0>
+	b	0x71d8 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xce0>
+	cbz	x25, 0x7180 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xc88>
+	bl	0x7730 <_ZdlPv@plt>
+	b	0x6c08 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x710>
+	cbz	x20, 0x68bc <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x3c4>
+	bl	0x7730 <_ZdlPv@plt>
+	b	0x68bc <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x3c4>
+	b.ne	0x71b8 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xcc0>
+	cbz	x21, 0x71f0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xcf8>
+	bl	0x7730 <_ZdlPv@plt>
+	b	0x6c08 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x710>
+	b.ls	0x7240 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xd48>
+	b.gt	0x6bd0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x6d8>
+	tbz	w17, #2, 0x7268 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xd70>
+	b.gt	0x6bd0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x6d8>
+	tbz	w17, #1, 0x728c <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xd94>
+	b.gt	0x6bd0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x6d8>
+	b	0x6bd0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0x6d8>
+	b.ls	0x72d4 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xddc>
+	b.ge	0x71c8 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xcd0>
+	tbz	w12, #5, 0x72f8 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xe00>
+	b.ge	0x71c8 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xcd0>
+	tbz	w12, #4, 0x731c <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xe24>
+	b.ge	0x71c8 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xcd0>
+	b	0x71c8 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xcd0>
+	adrp	x0, 0x1000 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xe1c>
+	bl	0x44b0 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x3c0>
+	adrp	x0, 0x1000 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xe28>
+	bl	0x44b0 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x3c0>
+	adrp	x0, 0x1000 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xe34>
+	bl	0x44b0 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj+0x3c0>
+	b	0x7368 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xe70>
+	bl	0x7730 <_ZdlPv@plt>
+	b	0x736c <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xe74>
+	b	0x7368 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xe70>
+	cbz	x21, 0x7378 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xe80>
+	bl	0x7730 <_ZdlPv@plt>
+	bl	0x79c0 <_ZNSt3__119__thread_local_dataEv@plt>
+	tbz	w10, #0, 0x73c0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xec8>
+	cbz	x20, 0x73e0 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xee8>
+	bl	0x7960 <_ZNSt3__115__thread_structD1Ev@plt>
+	bl	0x7730 <_ZdlPv@plt>
+	bl	0x7730 <_ZdlPv@plt>
+	cbnz	x19, 0x740c <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xf14>
+	b	0x7430 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xf38>
+	cbz	x21, 0x7428 <_ZN4CamX18OfflineDumpManager15GetDumpInstanceE15OfflineDumpType+0xf30>
+	bl	0x7960 <_ZNSt3__115__thread_structD1Ev@plt>
+	bl	0x7730 <_ZdlPv@plt>
+	bl	0x7730 <_ZdlPv@plt>
+
+	adrp	x16, 0x8000 <_ZSt9terminatev@plt+0x4>
+
+	adrp	x16, 0x8000 <_ZNSt3__15mutex4lockEv@plt+0x4>
+
+	adrp	x16, 0x8000 <_ZdlPv@plt+0x4>
+
+	adrp	x16, 0x8000 <_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_@plt+0x4>
+
+	adrp	x16, 0x8000 <_ZNSt3__15mutex6unlockEv@plt+0x4>
+
+	adrp	x16, 0x8000 <_Znwm@plt+0x4>
+
+	adrp	x16, 0x8000 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt+0x4>
+
+	adrp	x16, 0x8000 <_ZNSt3__118condition_variable10notify_oneEv@plt+0x4>
+
+	adrp	x16, 0x8000 <_ZNKSt3__121__basic_string_commonILb1EE20__throw_length_errorEv@plt+0x4>
+
+	adrp	x16, 0x8000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj@plt+0x4>
+
+	adrp	x16, 0x8000 <_ZNSt11logic_errorC2EPKc@plt+0x4>
+
+	adrp	x16, 0x8000 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj@plt+0x4>
+
+	adrp	x16, 0x8000 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE@plt+0x4>
+
+	adrp	x16, 0x8000 <_ZNSt3__16threadD1Ev@plt+0x4>
+
+	adrp	x16, 0x8000 <_ZNSt3__115__thread_structC1Ev@plt+0x4>
+
+	adrp	x16, 0x8000 <_ZNSt3__120__throw_system_errorEiPKc@plt+0x4>
+
+	adrp	x16, 0x8000 <_ZNSt3__115__thread_structD1Ev@plt+0x4>
+
+	adrp	x16, 0x8000 <_ZNSt3__15mutexD1Ev@plt+0x4>
+
+	adrp	x16, 0x8000 <_ZNSt3__118condition_variableD1Ev@plt+0x4>
+
+	adrp	x16, 0x8000 <_ZNSt3__118condition_variable10notify_allEv@plt+0x4>
+
+	adrp	x16, 0x8000 <_ZNSt3__16thread4joinEv@plt+0x4>
+
+	adrp	x16, 0x8000 <_ZNSt3__118condition_variable4waitERNS_11unique_lockINS_5mutexEEE@plt+0x4>
+
+	adrp	x16, 0x8000 <_ZNSt3__119__thread_local_dataEv@plt+0x4>
 
 
-	b	0x94a0 <_ZN4CamX18OfflineDumpManager21GetDumpInstanceHelperE15OfflineDumpType+0x800>
 
-	adrp	x16, 0xa000 <_ZSt9terminatev@plt+0x4>
-
-	adrp	x16, 0xa000 <_ZNSt3__15mutex4lockEv@plt+0x4>
-
-	adrp	x16, 0xa000 <_ZdlPv@plt+0x4>
-
-	adrp	x16, 0xa000 <_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_@plt+0x4>
-
-	adrp	x16, 0xa000 <_ZNSt3__15mutex6unlockEv@plt+0x4>
-
-	adrp	x16, 0xa000 <_Znwm@plt+0x4>
-
-	adrp	x16, 0xa000 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt+0x4>
-
-	adrp	x16, 0xa000 <_ZNSt11logic_errorC2EPKc@plt+0x4>
-
-	adrp	x16, 0xa000 <_ZNSt3__118condition_variable10notify_oneEv@plt+0x4>
-
-	adrp	x16, 0xa000 <_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6__initEPKcm@plt+0x4>
-
-	adrp	x16, 0xa000 <_ZN4CamX11OfflineDump15DataDumpGenericEPKcPKhj@plt+0x4>
-
-	adrp	x16, 0xa000 <_ZN4CamX18OfflineDumpManager11GetInstanceEv@plt+0x4>
-
-	adrp	x16, 0xa000 <_ZN4CamX11OfflineDump8DataDumpEPKcmPKhj@plt+0x4>
-
-	adrp	x16, 0xa000 <_ZN4CamX11OfflineDump16SetStartFrameNumEm@plt+0x4>
-
-	adrp	x16, 0xa000 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE@plt+0x4>
-
-	adrp	x16, 0xa000 <_ZNSt3__16threadD1Ev@plt+0x4>
-
-	adrp	x16, 0xa000 <_ZNSt3__115__thread_structC1Ev@plt+0x4>
-
-	adrp	x16, 0xa000 <_ZNSt3__120__throw_system_errorEiPKc@plt+0x4>
-
-	adrp	x16, 0xa000 <_ZNSt3__115__thread_structD1Ev@plt+0x4>
-
-	adrp	x16, 0xa000 <_ZNSt3__15mutexD1Ev@plt+0x4>
-
-	adrp	x16, 0xa000 <_ZNSt3__118condition_variableD1Ev@plt+0x4>
-
-	adrp	x16, 0xa000 <_ZNSt3__118condition_variable10notify_allEv@plt+0x4>
-
-	adrp	x16, 0xa000 <_ZNSt3__16thread4joinEv@plt+0x4>
-
-	adrp	x16, 0xa000 <_ZNSt3__118condition_variable4waitERNS_11unique_lockINS_5mutexEEE@plt+0x4>
-
-	adrp	x16, 0xa000 <_ZNSt3__119__thread_local_dataEv@plt+0x4>
-
-
-
- 	tbnz	x28, #39, 0x6c00 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0xf58>
- 	tbz	w19, #3, 0x6384 <_ZN4CamX11OfflineDump11GetSettingsEPFvPP17ChiExtendSettingsPP17ChiModifySettingsE+0x6dc>

@@ -1,21 +1,40 @@
 
 
 
-	bl	0x8320 <_ZNSt3__15mutex4lockEv@plt>
-	bl	0x8340 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>
-	bl	0x8340 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>
-	bl	0x8350 <_ZNSt3__15mutex6unlockEv@plt>
-	bl	0x8350 <_ZNSt3__15mutex6unlockEv@plt>
-	bl	0x8380 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
-	bl	0x8390 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt>
-	bl	0x83c0 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt>
-	bl	0x8410 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt>
+	bl	0x8630 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt>
+	bl	0x8660 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt>
+	bl	0x86b0 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt>
+	bl	0x8368 <_ZdaPv+0x10>
+	bl	0x86d0 <_ZNSt3__15mutex4lockEv@plt>
+	bl	0x86f0 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>
+	bl	0x86f0 <_ZN4CamX13OfflineLoggerC1E17OfflineLoggerType@plt>
+	bl	0x8700 <_ZNSt3__15mutex6unlockEv@plt>
+	bl	0x8700 <_ZNSt3__15mutex6unlockEv@plt>
+	bl	0x8730 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+	bl	0x8770 <_ZNSt11logic_errorC2EPKc@plt>
 
+	cbz	x0, 0x8268 <_Znwm+0x40>
+	cbz	w0, 0x8294 <_Znwm+0x6c>
+	b.ne	0x82b0 <_Znwm+0x88>
+	cbz	x20, 0x826c <_Znwm+0x44>
+	b	0x826c <_Znwm+0x44>
 
+	cbz	x0, 0x82f8 <_Znam+0x40>
+	cbz	w0, 0x8324 <_Znam+0x6c>
+	b.ne	0x8340 <_Znam+0x88>
+	cbz	x20, 0x82fc <_Znam+0x44>
+	b	0x82fc <_Znam+0x44>
 
+	cbz	x0, 0x8350 <_ZdlPv+0x8>
 
+	cbz	x0, 0x8360 <_ZdaPv+0x8>
+	b.ne	0x8404 <_ZdaPv+0xac>
 
+	adrp	x16, 0x9000 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt+0x4>
 
+	adrp	x16, 0x9000 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt+0x4>
+
+	adrp	x16, 0x9000 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt+0x4>
 
 	adrp	x16, 0x9000 <_ZNSt3__15mutex4lockEv@plt+0x4>
 
@@ -25,11 +44,7 @@
 
 	adrp	x16, 0x9000 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt+0x4>
 
-	adrp	x16, 0x9000 <_ZN4CamX13OfflineLogger14GetLogInfoMaskEv@plt+0x4>
-
-	adrp	x16, 0x9000 <_ZN4CamX13OfflineLogger21IsEnableOfflineloggerEv@plt+0x4>
-
-	adrp	x16, 0x9000 <_ZN4CamX13OfflineLogger6AddLogEPKcj@plt+0x4>
+	adrp	x16, 0x9000 <_ZNSt11logic_errorC2EPKc@plt+0x4>
 
 
 
